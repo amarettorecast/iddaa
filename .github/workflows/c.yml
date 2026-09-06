@@ -1,0 +1,88 @@
+name: Scrape Daily Odds (OddsHarvester)
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Kazınacak Tarih (YYYYMMDD) - Boş bırakılırsa bugünü alır'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-leagues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install OddsHarvester & Playwright Browsers
+        run: |
+          python -m pip install --upgrade pip
+          pip install oddsharvester
+          playwright install --with-deps chromium
+
+      - name: Scrape matches into separate JSON files
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: |
+          INPUT_DATE="${{ github.event.inputs.target_date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            TARGET_DATE="$INPUT_DATE"
+          else
+            TARGET_DATE=$(TZ="Europe/Rome" date +'%Y%m%d')
+          fi
+          echo "Hedef Tarih: $TARGET_DATE"
+          echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV
+
+          EH_MARKETS="european_handicap_-4,european_handicap_-3,european_handicap_-2,european_handicap_-1,european_handicap_+1,european_handicap_+2,european_handicap_+3,european_handicap_+4"
+          MARKETS="1x2,btts,double_chance,dnb,over_under,asian_handicap,$EH_MARKETS"
+
+          mkdir -p output
+          LEAGUES=("italy-serie-b" "spain-laliga2" "france-ligue-2")
+
+          PROXY_ARGS=()
+          if [ -n "$PROXY_URL" ]; then
+            PROXY_ARGS=(--proxy-url "$PROXY_URL")
+          fi
+
+          for league in "${LEAGUES[@]}"; do
+            echo "===================================================="
+            echo "Kazıma başlatılıyor: $league | Tarih: $TARGET_DATE"
+            echo "===================================================="
+
+            oddsharvester upcoming \
+              --sport football \
+              --league "$league" \
+              --date "$TARGET_DATE" \
+              --market "$MARKETS" \
+              --format json \
+              --output "output/${league}.json" \
+              --timezone "Europe/Rome" \
+              --headless \
+              "${PROXY_ARGS[@]}" || echo "Uyarı: $league için maç bulunamadı veya kazıma sırasında hata oluştu."
+          done
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          if compgen -G "output/*.json" > /dev/null; then
+            git add output/*.json
+            if git diff --staged --quiet; then
+              echo "Değişiklik veya yeni veri tespit edilmedi. Commit adımı atlanıyor."
+            else
+              git commit -m "chore(odds): update match odds for $TARGET_DATE [skip ci]"
+              git push
+            fi
+          else
+            echo "Kaydedilecek JSON dosyası bulunamadı, commit adımı atlanıyor."
+          fi
