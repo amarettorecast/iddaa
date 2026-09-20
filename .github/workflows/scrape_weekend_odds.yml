@@ -34,12 +34,10 @@ jobs:
         env:
           PROXY_URL: ${{ secrets.PROXY_URL }}
         run: |
-          # 1. Tarihleri kesin olarak YYYYMMDD formatında al
           INPUT_DATES="${{ github.event.inputs.target_dates }}"
           if [ -n "$INPUT_DATES" ]; then
             IFS=',' read -r -a DATES <<< "$INPUT_DATES"
           else
-            # Bugünü veya yaklaşan ilk Cuma, Cts, Pazar günlerini hesaplar
             FRIDAY=$(date -d "next Friday" +'%Y%m%d')
             SATURDAY=$(date -d "next Saturday" +'%Y%m%d')
             SUNDAY=$(date -d "next Sunday" +'%Y%m%d')
@@ -49,7 +47,10 @@ jobs:
           echo "Tarama yapılacak tarihler (YYYYMMDD): ${DATES[*]}"
           mkdir -p temp_raw
 
-          MARKETS="1x2,btts,over_under,correct_score,halftime_fulltime"
+          # Yalnızca kütüphanenin resmi olarak desteklediği marketler:
+          EH_MARKETS="european_handicap_-2,european_handicap_-1,european_handicap_+1,european_handicap_+2"
+          OU_MARKETS="over_under_1_5,over_under_2_5,over_under_3_5,over_under_4_5"
+          MARKETS="1x2,btts,double_chance,dnb,$OU_MARKETS,$EH_MARKETS"
 
           LEAGUES=(
             "netherlands-eerste-divisie"
@@ -130,6 +131,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Değişiklik yok."
           else
-            git commit -m "chore(odds): update weekend_odds.json [skip ci]"
+            git commit -m "chore(odds): update weekend_odds.json with supported markets [skip ci]"
             git push
           fi
