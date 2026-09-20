@@ -1,0 +1,121 @@
+name: Scrape Weekend Odds to Single JSON
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_dates:
+        description: 'Tarihler (Virgülle: YYYYMMDD,YYYYMMDD - Boşsa yaklaşan Cuma, Cts, Paz alınır)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install oddsharvester
+          playwright install --with-deps chromium
+
+      - name: Scrape All Matches and All Markets
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: |
+          INPUT_DATES="${{ github.event.inputs.target_dates }}"
+          if [ -n "$INPUT_DATES" ]; then
+            IFS=',' read -r -a DATES <<< "$INPUT_DATES"
+          else
+            FRIDAY=$(date -d "this Friday" +'%Y%m%d')
+            SATURDAY=$(date -d "this Saturday" +'%Y%m%d')
+            SUNDAY=$(date -d "this Sunday" +'%Y%m%d')
+            DATES=("$FRIDAY" "$SATURDAY" "$SUNDAY")
+          fi
+          
+          echo "Hedef Tarihler: ${DATES[*]}"
+          mkdir -p temp_raw
+
+          # "all" parametresi maçın açık olan tüm pazarlarını (1X2, Over/Under, BTTS, CS, HT/FT, Handikaplar vs.) çeker
+          MARKETS="all"
+          LEAGUES=(
+            "netherlands-eerste-divisie"
+            "germany-bundesliga"
+            "switzerland-super-league"
+            "austria-bundesliga"
+            "italy-serie-a"
+            "spain-laliga"
+          )
+
+          PROXY_ARGS=()
+          if [ -n "$PROXY_URL" ]; then
+            PROXY_ARGS=(--proxy-url "$PROXY_URL")
+          fi
+
+          for target_date in "${DATES[@]}"; do
+            target_date=$(echo "$target_date" | xargs)
+            for league in "${LEAGUES[@]}"; do
+              echo "----------------------------------------------------"
+              echo "Taranıyor: $league ($target_date) [Tüm Marketler]"
+              echo "----------------------------------------------------"
+              oddsharvester upcoming \
+                --sport football \
+                --league "$league" \
+                --date "$target_date" \
+                --market "$MARKETS" \
+                --format json \
+                --output "temp_raw/${league}_${target_date}.json" \
+                --timezone "Europe/Rome" \
+                --headless \
+                "${PROXY_ARGS[@]}" || echo "Uyarı: $league ($target_date) alınamadı."
+            done
+          done
+
+      - name: Merge JSONs into Single File
+        run: |
+          python - << 'EOF'
+          import glob, json, os
+
+          merged = []
+          for filepath in glob.glob("temp_raw/*.json"):
+              league_date = os.path.splitext(os.path.basename(filepath))[0]
+              try:
+                  with open(filepath, "r", encoding="utf-8") as f:
+                      data = json.load(f)
+                      matches = data if isinstance(data, list) else data.get("matches", [])
+                      for m in matches:
+                          m["_source"] = league_date
+                          merged.append(m)
+              except Exception as e:
+                  print(f"Hata: {filepath} okunamadı: {e}")
+
+          os.makedirs("output", exist_ok=True)
+          with open("output/weekend_odds.json", "w", encoding="utf-8") as f:
+              json.dump(merged, f, ensure_ascii=False, indent=2)
+
+          print(f"Toplam {len(merged)} maç tüm marketleriyle tek bir dosyada birleştirildi: output/weekend_odds.json")
+          EOF
+
+      - name: Commit and Push Single JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add output/weekend_odds.json
+          if git diff --staged --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "chore(odds): update weekend_odds.json with all markets [skip ci]"
+            git push
+          fi
