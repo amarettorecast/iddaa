@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       target_dates:
-        description: 'Tarihler (Virgülle YYYY-MM-DD,YYYY-MM-DD - Boşsa yaklaşan hafta sonu)'
+        description: 'Tarihler (Virgülle YYYYMMDD,YYYYMMDD - Boşsa yaklaşan hafta sonu)'
         required: false
         default: ''
 
@@ -34,22 +34,21 @@ jobs:
         env:
           PROXY_URL: ${{ secrets.PROXY_URL }}
         run: |
-          # 1. Tarihleri YYYY-MM-DD formatında al
+          # 1. Tarihleri kesin olarak YYYYMMDD formatında al
           INPUT_DATES="${{ github.event.inputs.target_dates }}"
           if [ -n "$INPUT_DATES" ]; then
             IFS=',' read -r -a DATES <<< "$INPUT_DATES"
           else
-            # Gelecek Cuma, Cts, Pazar günleri
-            FRIDAY=$(date -d "Friday" +'%Y-%m-%d')
-            SATURDAY=$(date -d "Saturday" +'%Y-%m-%d')
-            SUNDAY=$(date -d "Sunday" +'%Y-%m-%d')
+            # Bugünü veya yaklaşan ilk Cuma, Cts, Pazar günlerini hesaplar
+            FRIDAY=$(date -d "next Friday" +'%Y%m%d')
+            SATURDAY=$(date -d "next Saturday" +'%Y%m%d')
+            SUNDAY=$(date -d "next Sunday" +'%Y%m%d')
             DATES=("$FRIDAY" "$SATURDAY" "$SUNDAY")
           fi
           
-          echo "Tarama yapılacak tarihler: ${DATES[*]}"
+          echo "Tarama yapılacak tarihler (YYYYMMDD): ${DATES[*]}"
           mkdir -p temp_raw
 
-          # 2. Geçerli spesifik market listesi
           MARKETS="1x2,btts,over_under,correct_score,halftime_fulltime"
 
           LEAGUES=(
@@ -65,7 +64,7 @@ jobs:
           if [ -n "$PROXY_URL" ]; then
             PROXY_ARGS=(--proxy-url "$PROXY_URL")
           else
-            echo "UYARI: PROXY_URL tanımlı değil! GitHub IP'si engellenebilir."
+            echo "UYARI: PROXY_URL tanımlı değil!"
           fi
 
           for target_date in "${DATES[@]}"; do
@@ -75,7 +74,6 @@ jobs:
               echo "Taranıyor: $league ($target_date)"
               echo "----------------------------------------------------"
               
-              # Hata loglarını bastırmadan doğrudan çalıştır
               oddsharvester upcoming \
                 --sport football \
                 --league "$league" \
@@ -104,15 +102,13 @@ jobs:
           print(f"Toplam {len(files)} dosya taranıyor...")
 
           for filepath in files:
-              size = os.path.getsize(filepath)
-              if size == 0:
-                  print(f"Boş dosya atlandı: {filepath}")
+              if os.path.getsize(filepath) == 0:
                   continue
               try:
                   with open(filepath, "r", encoding="utf-8") as f:
                       data = json.load(f)
                       matches = data if isinstance(data, list) else data.get("matches", [])
-                      print(f"{filepath} içinden {len(matches)} maç okundu.")
+                      print(f"{filepath}: {len(matches)} maç bulundu.")
                       for m in matches:
                           merged.append(m)
               except Exception as e:
