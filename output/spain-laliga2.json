@@ -1,6 +1,6 @@
 [
     {
-        "scraped_date": "2026-10-03 04:52:23 UTC",
+        "scraped_date": "2026-10-03 11:56:48 UTC",
         "match_date": "2026-10-03 12:00:00 UTC",
         "season": null,
         "match_link": "https://www.oddsportal.com/football/h2h/albacete-UirAofN6/eibar-OEsEpExD/#42PuxcK6",
@@ -16,57 +16,70 @@
         "match_info": null,
         "1x2_market": [
             {
-                "1": "2.70",
-                "X": "3.25",
-                "2": "2.35",
+                "1": "2.45",
+                "X": "3.35",
+                "2": "2.55",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.70",
+                "1": "2.50",
                 "X": "3.50",
-                "2": "2.35",
+                "2": "2.55",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.70",
+                "1": "2.50",
                 "X": "3.50",
-                "2": "2.35",
+                "2": "2.55",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.85",
+                "1": "2.60",
                 "X": "3.40",
-                "2": "2.47",
+                "2": "2.70",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.80",
-                "X": "3.20",
-                "2": "2.45",
+                "1": "2.50",
+                "X": "3.25",
+                "2": "2.65",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.65",
-                "X": "3.10",
-                "2": "2.30",
+                "1": "2.55",
+                "X": "3.40",
+                "2": "2.55",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1",
+                    "X",
+                    "2"
+                ],
+                "submarket_name": "1X2"
+            },
+            {
+                "1": "2.45",
+                "X": "3.20",
+                "2": "2.45",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.65",
-                "X": "3.35",
-                "2": "2.35",
+                "1": "2.40",
+                "X": "3.45",
+                "2": "2.55",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
@@ -74,8 +87,8 @@
         ],
         "btts_market": [
             {
-                "btts_yes": "1.63",
-                "btts_no": "2.10",
+                "btts_yes": "1.55",
+                "btts_no": "2.25",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
@@ -95,22 +108,33 @@
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.70",
-                "btts_no": "2.05",
+                "btts_yes": "1.60",
+                "btts_no": "2.22",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.65",
-                "btts_no": "2.10",
+                "btts_yes": "1.60",
+                "btts_no": "2.20",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.60",
-                "btts_no": "2.05",
+                "btts_yes": "1.57",
+                "btts_no": "2.20",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "btts_yes",
+                    "btts_no"
+                ],
+                "submarket_name": "Both Teams to Score"
+            },
+            {
+                "btts_yes": "1.55",
+                "btts_no": "2.15",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
@@ -118,49 +142,62 @@
         ],
         "double_chance_market": [
             {
-                "1X": "1.50",
+                "1X": "1.43",
                 "12": "1.28",
-                "X2": "1.35",
+                "X2": "1.43",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.53",
+                "1X": "1.50",
                 "12": "1.29",
-                "X2": "1.40",
+                "X2": "1.50",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.50",
+                "1X": "1.47",
                 "12": "1.25",
-                "X2": "1.37",
+                "X2": "1.47",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.57",
-                "12": "1.31",
-                "X2": "1.45",
+                "1X": "1.60",
+                "12": "1.29",
+                "X2": "1.44",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.55",
-                "12": "1.33",
-                "X2": "1.43",
+                "1X": "1.47",
+                "12": "1.30",
+                "X2": "1.53",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.53",
-                "12": "1.31",
-                "X2": "1.41",
+                "1X": "1.47",
+                "12": "1.25",
+                "X2": "1.42",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1X",
+                    "12",
+                    "X2"
+                ],
+                "submarket_name": "Double Chance"
+            },
+            {
+                "1X": "1.49",
+                "12": "1.30",
+                "X2": "1.46",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
@@ -168,43 +205,43 @@
         ],
         "dnb_market": [
             {
-                "dnb_team1": "2.00",
-                "dnb_team2": "1.70",
+                "dnb_team1": "1.85",
+                "dnb_team2": "1.83",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "2.00",
-                "dnb_team2": "1.73",
+                "dnb_team1": "1.83",
+                "dnb_team2": "1.83",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.97",
-                "dnb_team2": "1.69",
+                "dnb_team1": "1.80",
+                "dnb_team2": "1.80",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "2.00",
-                "dnb_team2": "1.75",
+                "dnb_team1": "2.07",
+                "dnb_team2": "1.70",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.95",
-                "dnb_team2": "1.75",
+                "dnb_team1": "1.80",
+                "dnb_team2": "1.90",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "2.00",
-                "dnb_team2": "1.71",
+                "dnb_team1": "1.87",
+                "dnb_team2": "1.80",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
@@ -212,8 +249,8 @@
         ],
         "over_under_0_5_market": [
             {
-                "odds_over": "1.03",
-                "odds_under": "9.50",
+                "odds_over": "1.02",
+                "odds_under": "10.00",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
@@ -227,14 +264,14 @@
             },
             {
                 "odds_over": "1.03",
-                "odds_under": "13.00",
+                "odds_under": "12.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.06",
-                "odds_under": "8.25",
+                "odds_over": "1.05",
+                "odds_under": "9.00",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
@@ -244,18 +281,22 @@
                 "odds_under": "9.00",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.04",
-                "odds_under": "11.50",
+                "odds_over": "1.03",
+                "odds_under": "12.00",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.04",
-                "odds_under": "10.50",
+                "odds_over": "1.03",
+                "odds_under": "11.50",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
@@ -264,7 +305,7 @@
         "over_under_1_market": [
             {
                 "odds_over": "1.04",
-                "odds_under": "9.00",
+                "odds_under": "9.50",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1"
@@ -288,50 +329,50 @@
         ],
         "over_under_1_5_market": [
             {
-                "odds_over": "1.25",
-                "odds_under": "3.50",
+                "odds_over": "1.20",
+                "odds_under": "3.90",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.25",
-                "odds_under": "3.75",
+                "odds_over": "1.22",
+                "odds_under": "4.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.22",
-                "odds_under": "3.75",
+                "odds_over": "1.19",
+                "odds_under": "4.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.30",
-                "odds_under": "3.40",
+                "odds_over": "1.25",
+                "odds_under": "3.85",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.25",
-                "odds_under": "3.60",
+                "odds_over": "1.22",
+                "odds_under": "3.80",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.25",
-                "odds_under": "3.70",
+                "odds_over": "1.23",
+                "odds_under": "3.80",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.24",
-                "odds_under": "3.75",
+                "odds_over": "1.22",
+                "odds_under": "3.90",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
@@ -369,8 +410,8 @@
                 "submarket_name": "Over/Under +2"
             },
             {
-                "odds_over": "1.37",
-                "odds_under": "2.90",
+                "odds_over": "1.34",
+                "odds_under": "3.00",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
@@ -378,15 +419,15 @@
         ],
         "over_under_2_25_market": [
             {
-                "odds_over": "1.60",
-                "odds_under": "2.30",
+                "odds_over": "1.58",
+                "odds_under": "2.35",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
             },
             {
-                "odds_over": "1.57",
-                "odds_under": "2.30",
+                "odds_over": "1.55",
+                "odds_under": "2.35",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
@@ -394,8 +435,8 @@
         ],
         "over_under_2_5_market": [
             {
-                "odds_over": "1.80",
-                "odds_under": "1.88",
+                "odds_over": "1.70",
+                "odds_under": "1.95",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
@@ -408,36 +449,47 @@
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.74",
-                "odds_under": "1.94",
+                "odds_over": "1.77",
+                "odds_under": "1.97",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.90",
-                "odds_under": "1.87",
+                "odds_over": "1.75",
+                "odds_under": "2.05",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.80",
-                "odds_under": "1.90",
+                "odds_over": "1.75",
+                "odds_under": "1.95",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.82",
-                "odds_under": "1.88",
+                "odds_over": "1.72",
+                "odds_under": "1.97",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +2.5"
+            },
+            {
+                "odds_over": "1.77",
+                "odds_under": "1.93",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.78",
-                "odds_under": "1.94",
+                "odds_over": "1.74",
+                "odds_under": "1.98",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
@@ -445,15 +497,15 @@
         ],
         "over_under_2_75_market": [
             {
-                "odds_over": "2.03",
-                "odds_under": "1.78",
+                "odds_over": "2.00",
+                "odds_under": "1.80",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
             },
             {
-                "odds_over": "2.00",
-                "odds_under": "1.75",
+                "odds_over": "1.94",
+                "odds_under": "1.74",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
@@ -461,22 +513,22 @@
         ],
         "over_under_3_market": [
             {
-                "odds_over": "2.35",
-                "odds_under": "1.58",
+                "odds_over": "2.30",
+                "odds_under": "1.60",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
-                "odds_over": "2.35",
-                "odds_under": "1.55",
+                "odds_over": "2.30",
+                "odds_under": "1.57",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
-                "odds_over": "2.35",
-                "odds_under": "1.54",
+                "odds_over": "2.25",
+                "odds_under": "1.58",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
@@ -484,15 +536,15 @@
         ],
         "over_under_3_25_market": [
             {
-                "odds_over": "2.68",
-                "odds_under": "1.45",
+                "odds_over": "2.60",
+                "odds_under": "1.48",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
             },
             {
-                "odds_over": "2.68",
-                "odds_under": "1.42",
+                "odds_over": "2.60",
+                "odds_under": "1.45",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
@@ -500,50 +552,50 @@
         ],
         "over_under_3_5_market": [
             {
-                "odds_over": "3.15",
-                "odds_under": "1.30",
+                "odds_over": "2.85",
+                "odds_under": "1.35",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.00",
-                "odds_under": "1.36",
+                "odds_over": "2.75",
+                "odds_under": "1.40",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.00",
-                "odds_under": "1.33",
+                "odds_over": "2.75",
+                "odds_under": "1.37",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.15",
-                "odds_under": "1.34",
+                "odds_over": "2.77",
+                "odds_under": "1.44",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "2.85",
-                "odds_under": "1.37",
+                "odds_over": "2.75",
+                "odds_under": "1.40",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.00",
-                "odds_under": "1.34",
+                "odds_over": "2.90",
+                "odds_under": "1.37",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "2.95",
-                "odds_under": "1.36",
+                "odds_over": "2.80",
+                "odds_under": "1.38",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
@@ -551,15 +603,15 @@
         ],
         "over_under_3_75_market": [
             {
-                "odds_over": "3.55",
-                "odds_under": "1.27",
+                "odds_over": "3.45",
+                "odds_under": "1.30",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
             },
             {
-                "odds_over": "3.55",
-                "odds_under": "1.25",
+                "odds_over": "3.45",
+                "odds_under": "1.27",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
@@ -567,22 +619,22 @@
         ],
         "over_under_4_market": [
             {
-                "odds_over": "4.80",
+                "odds_over": "4.65",
                 "odds_under": "1.18",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4"
             },
             {
-                "odds_over": "4.80",
+                "odds_over": "4.65",
                 "odds_under": "1.15",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4"
             },
             {
-                "odds_over": "4.80",
-                "odds_under": "1.15",
+                "odds_over": "4.50",
+                "odds_under": "1.17",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4"
@@ -606,8 +658,8 @@
         ],
         "over_under_4_5_market": [
             {
-                "odds_over": "6.00",
-                "odds_under": "1.10",
+                "odds_over": "5.25",
+                "odds_under": "1.12",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
@@ -627,29 +679,29 @@
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "5.70",
-                "odds_under": "1.13",
+                "odds_over": "4.85",
+                "odds_under": "1.17",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "5.50",
-                "odds_under": "1.12",
+                "odds_over": "4.80",
+                "odds_under": "1.15",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "5.75",
-                "odds_under": "1.12",
+                "odds_over": "5.50",
+                "odds_under": "1.13",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "5.60",
-                "odds_under": "1.12",
+                "odds_over": "5.30",
+                "odds_under": "1.13",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
@@ -661,10 +713,6 @@
                 "odds_under": "1.10",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "odds_over",
-                    "odds_under"
-                ],
                 "submarket_name": "Over/Under +4.75"
             },
             {
@@ -672,16 +720,12 @@
                 "odds_under": "1.08",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "odds_over",
-                    "odds_under"
-                ],
                 "submarket_name": "Over/Under +4.75"
             }
         ],
         "over_under_5_market": [
             {
-                "odds_over": "10.50",
+                "odds_over": "10.00",
                 "odds_under": "1.04",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
@@ -690,35 +734,35 @@
         ],
         "over_under_5_5_market": [
             {
-                "odds_over": "9.00",
-                "odds_under": "1.03",
+                "odds_over": "10.00",
+                "odds_under": "1.02",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "13.00",
-                "odds_under": "1.04",
+                "odds_over": "11.00",
+                "odds_under": "1.05",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "13.00",
-                "odds_under": "1.03",
+                "odds_over": "11.00",
+                "odds_under": "1.04",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "9.75",
-                "odds_under": "1.04",
+                "odds_over": "8.25",
+                "odds_under": "1.06",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "12.00",
+                "odds_over": "11.50",
                 "odds_under": "1.04",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -727,28 +771,28 @@
         ],
         "over_under_6_5_market": [
             {
-                "odds_over": "26.00",
+                "odds_over": "23.00",
                 "odds_under": "1.01",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +6.5"
             },
             {
-                "odds_over": "26.00",
+                "odds_over": "23.00",
                 "odds_under": "1.01",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +6.5"
             },
             {
-                "odds_over": "13.50",
+                "odds_over": "12.50",
                 "odds_under": "1.02",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +6.5"
             },
             {
-                "odds_over": "26.00",
+                "odds_over": "23.00",
                 "odds_under": "-",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -771,64 +815,76 @@
                 "submarket_name": "Over/Under +7.5"
             }
         ],
+        "asian_handicap_-2_5_market": [
+            {
+                "team1_handicap": "9.50",
+                "team2_handicap": "1.03",
+                "bookmaker_name": "bet-at-home.de",
+                "period": "FullTime",
+                "submarket_name": "Asian Handicap -2.5"
+            }
+        ],
         "asian_handicap_-1_75_market": [
             {
-                "team1_handicap": "7.00",
-                "team2_handicap": "1.10",
+                "team1_handicap": "6.40",
+                "team2_handicap": "1.12",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "team1_handicap",
-                    "team2_handicap"
-                ],
                 "submarket_name": "Asian Handicap -1.75"
             },
             {
-                "team1_handicap": "7.00",
-                "team2_handicap": "1.08",
+                "team1_handicap": "6.40",
+                "team2_handicap": "1.10",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "team1_handicap",
-                    "team2_handicap"
-                ],
                 "submarket_name": "Asian Handicap -1.75"
             }
         ],
         "asian_handicap_-1_5_market": [
             {
-                "team1_handicap": "5.50",
-                "team2_handicap": "1.10",
+                "team1_handicap": "5.00",
+                "team2_handicap": "1.14",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
             },
             {
-                "team1_handicap": "5.75",
-                "team2_handicap": "1.14",
+                "team1_handicap": "4.80",
+                "team2_handicap": "1.18",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
             },
             {
-                "team1_handicap": "5.75",
-                "team2_handicap": "1.12",
+                "team1_handicap": "4.80",
+                "team2_handicap": "1.15",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap -1.5"
+            },
+            {
+                "team1_handicap": "5.10",
+                "team2_handicap": "1.12",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap -1.5"
             }
         ],
         "asian_handicap_-1_25_market": [
             {
-                "team1_handicap": "5.25",
-                "team2_handicap": "1.16",
+                "team1_handicap": "4.40",
+                "team2_handicap": "1.20",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.25"
             },
             {
-                "team1_handicap": "5.25",
-                "team2_handicap": "1.13",
+                "team1_handicap": "4.40",
+                "team2_handicap": "1.17",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.25"
@@ -836,39 +892,31 @@
         ],
         "asian_handicap_-1_market": [
             {
-                "team1_handicap": "7.00",
-                "team2_handicap": "1.10",
+                "team1_handicap": "6.40",
+                "team2_handicap": "1.12",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "team1_handicap",
-                    "team2_handicap"
-                ],
                 "submarket_name": "Asian Handicap -1"
             },
             {
-                "team1_handicap": "7.00",
-                "team2_handicap": "1.08",
+                "team1_handicap": "6.40",
+                "team2_handicap": "1.10",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "team1_handicap",
-                    "team2_handicap"
-                ],
                 "submarket_name": "Asian Handicap -1"
             }
         ],
         "asian_handicap_-0_75_market": [
             {
-                "team1_handicap": "3.45",
-                "team2_handicap": "1.30",
+                "team1_handicap": "3.00",
+                "team2_handicap": "1.38",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.75"
             },
             {
-                "team1_handicap": "3.45",
-                "team2_handicap": "1.27",
+                "team1_handicap": "3.00",
+                "team2_handicap": "1.35",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.75"
@@ -876,45 +924,56 @@
         ],
         "asian_handicap_-0_5_market": [
             {
-                "team1_handicap": "2.65",
-                "team2_handicap": "1.40",
+                "team1_handicap": "2.45",
+                "team2_handicap": "1.48",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "2.75",
-                "team2_handicap": "1.43",
+                "team1_handicap": "2.42",
+                "team2_handicap": "1.53",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "2.75",
-                "team2_handicap": "1.40",
+                "team1_handicap": "2.42",
+                "team2_handicap": "1.50",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "2.75",
-                "team2_handicap": "1.40",
+                "team1_handicap": "2.40",
+                "team2_handicap": "1.50",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap -0.5"
+            },
+            {
+                "team1_handicap": "2.50",
+                "team2_handicap": "1.42",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap -0.5"
             }
         ],
         "asian_handicap_-0_25_market": [
             {
-                "team1_handicap": "2.38",
-                "team2_handicap": "1.55",
+                "team1_handicap": "2.15",
+                "team2_handicap": "1.68",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.25"
             },
             {
-                "team1_handicap": "2.38",
-                "team2_handicap": "1.52",
+                "team1_handicap": "2.15",
+                "team2_handicap": "1.65",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.25"
@@ -922,15 +981,15 @@
         ],
         "asian_handicap_0_market": [
             {
-                "team1_handicap": "5.25",
-                "team2_handicap": "1.16",
+                "team1_handicap": "3.00",
+                "team2_handicap": "1.38",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap 0"
             },
             {
-                "team1_handicap": "5.25",
-                "team2_handicap": "1.13",
+                "team1_handicap": "3.00",
+                "team2_handicap": "1.35",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap 0"
@@ -938,15 +997,15 @@
         ],
         "asian_handicap_+0_25_market": [
             {
-                "team1_handicap": "1.75",
-                "team2_handicap": "2.05",
+                "team1_handicap": "1.63",
+                "team2_handicap": "2.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.25"
             },
             {
-                "team1_handicap": "1.72",
-                "team2_handicap": "2.02",
+                "team1_handicap": "1.60",
+                "team2_handicap": "2.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.25"
@@ -954,45 +1013,56 @@
         ],
         "asian_handicap_+0_5_market": [
             {
-                "team1_handicap": "1.53",
-                "team2_handicap": "2.30",
+                "team1_handicap": "1.45",
+                "team2_handicap": "2.50",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.58",
-                "team2_handicap": "2.35",
+                "team1_handicap": "1.48",
+                "team2_handicap": "2.60",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.55",
-                "team2_handicap": "2.35",
+                "team1_handicap": "1.45",
+                "team2_handicap": "2.60",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.50",
-                "team2_handicap": "2.40",
+                "team1_handicap": "1.45",
+                "team2_handicap": "2.55",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap +0.5"
+            },
+            {
+                "team1_handicap": "1.47",
+                "team2_handicap": "2.40",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap +0.5"
             }
         ],
         "asian_handicap_+0_75_market": [
             {
-                "team1_handicap": "1.43",
-                "team2_handicap": "2.75",
+                "team1_handicap": "1.35",
+                "team2_handicap": "3.10",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.75"
             },
             {
-                "team1_handicap": "1.40",
-                "team2_handicap": "2.75",
+                "team1_handicap": "1.32",
+                "team2_handicap": "3.10",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.75"
@@ -1000,31 +1070,42 @@
         ],
         "asian_handicap_+1_market": [
             {
-                "team1_handicap": "1.26",
-                "team2_handicap": "3.70",
+                "team1_handicap": "1.21",
+                "team2_handicap": "4.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1"
             },
             {
-                "team1_handicap": "1.23",
-                "team2_handicap": "3.70",
+                "team1_handicap": "1.18",
+                "team2_handicap": "4.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap +1"
+            },
+            {
+                "team1_handicap": "1.19",
+                "team2_handicap": "3.90",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap +1"
             }
         ],
         "asian_handicap_+1_25_market": [
             {
-                "team1_handicap": "1.22",
-                "team2_handicap": "4.15",
+                "team1_handicap": "1.18",
+                "team2_handicap": "4.65",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.25"
             },
             {
-                "team1_handicap": "1.19",
-                "team2_handicap": "4.15",
+                "team1_handicap": "1.15",
+                "team2_handicap": "4.65",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.25"
@@ -1032,33 +1113,86 @@
         ],
         "asian_handicap_+1_5_market": [
             {
-                "team1_handicap": "1.15",
-                "team2_handicap": "4.60",
+                "team1_handicap": "1.13",
+                "team2_handicap": "5.00",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.5"
             },
             {
-                "team1_handicap": "1.19",
-                "team2_handicap": "4.50",
+                "team1_handicap": "1.16",
+                "team2_handicap": "5.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.5"
             },
             {
-                "team1_handicap": "1.16",
-                "team2_handicap": "4.50",
+                "team1_handicap": "1.13",
+                "team2_handicap": "5.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.5"
+            },
+            {
+                "team1_handicap": "1.13",
+                "team2_handicap": "4.80",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "Asian Handicap +1.5"
+            }
+        ],
+        "asian_handicap_+1_75_market": [
+            {
+                "team1_handicap": "1.11",
+                "team2_handicap": "6.80",
+                "bookmaker_name": "bet365",
+                "period": "FullTime",
+                "submarket_name": "Asian Handicap +1.75"
+            },
+            {
+                "team1_handicap": "1.09",
+                "team2_handicap": "6.80",
+                "bookmaker_name": "Bet365.de",
+                "period": "FullTime",
+                "submarket_name": "Asian Handicap +1.75"
             }
         ],
         "european_handicap_-4_market": [],
         "european_handicap_-3_market": [
             {
-                "team1_handicap": "22.00",
-                "draw_handicap": "10.75",
+                "team1_handicap": "29.00",
+                "draw_handicap": "15.00",
                 "team2_handicap": "1.04",
+                "bookmaker_name": "bet365",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "draw_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "European Handicap -3"
+            },
+            {
+                "team1_handicap": "29.00",
+                "draw_handicap": "15.00",
+                "team2_handicap": "1.03",
+                "bookmaker_name": "Bet365.de",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "draw_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "European Handicap -3"
+            },
+            {
+                "team1_handicap": "19.50",
+                "draw_handicap": "10.50",
+                "team2_handicap": "1.05",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "blocked_outcomes": [
@@ -1071,40 +1205,35 @@
         ],
         "european_handicap_-2_market": [
             {
-                "team1_handicap": "13.00",
-                "draw_handicap": "8.00",
-                "team2_handicap": "1.14",
+                "team1_handicap": "11.00",
+                "draw_handicap": "7.50",
+                "team2_handicap": "1.17",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "13.00",
-                "draw_handicap": "8.00",
-                "team2_handicap": "1.11",
+                "team1_handicap": "11.00",
+                "draw_handicap": "7.50",
+                "team2_handicap": "1.13",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "13.00",
-                "draw_handicap": "7.10",
+                "team1_handicap": "12.50",
+                "draw_handicap": "7.20",
                 "team2_handicap": "1.13",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "13.00",
-                "draw_handicap": "7.50",
-                "team2_handicap": "1.15",
+                "team1_handicap": "12.00",
+                "draw_handicap": "7.25",
+                "team2_handicap": "1.17",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "team1_handicap",
-                    "draw_handicap",
-                    "team2_handicap"
-                ],
                 "submarket_name": "European Handicap -2"
             },
             {
@@ -1123,41 +1252,41 @@
         ],
         "european_handicap_-1_market": [
             {
-                "team1_handicap": "5.50",
-                "draw_handicap": "4.75",
-                "team2_handicap": "1.44",
+                "team1_handicap": "5.00",
+                "draw_handicap": "4.50",
+                "team2_handicap": "1.50",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "5.50",
-                "draw_handicap": "4.75",
-                "team2_handicap": "1.41",
+                "team1_handicap": "5.00",
+                "draw_handicap": "4.50",
+                "team2_handicap": "1.47",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
                 "team1_handicap": "5.80",
-                "draw_handicap": "4.30",
-                "team2_handicap": "1.44",
+                "draw_handicap": "4.45",
+                "team2_handicap": "1.42",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "5.75",
-                "draw_handicap": "4.60",
-                "team2_handicap": "1.43",
+                "team1_handicap": "4.80",
+                "draw_handicap": "4.30",
+                "team2_handicap": "1.53",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "5.50",
-                "draw_handicap": "4.50",
-                "team2_handicap": "1.41",
+                "team1_handicap": "5.00",
+                "draw_handicap": "4.33",
+                "team2_handicap": "1.46",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
@@ -1165,41 +1294,54 @@
         ],
         "european_handicap_+1_market": [
             {
-                "team1_handicap": "1.53",
-                "draw_handicap": "4.33",
-                "team2_handicap": "4.50",
+                "team1_handicap": "1.44",
+                "draw_handicap": "4.50",
+                "team2_handicap": "5.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
             },
             {
-                "team1_handicap": "1.50",
-                "draw_handicap": "4.33",
-                "team2_handicap": "4.50",
+                "team1_handicap": "1.41",
+                "draw_handicap": "4.50",
+                "team2_handicap": "5.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
             },
             {
-                "team1_handicap": "1.55",
+                "team1_handicap": "1.60",
                 "draw_handicap": "4.05",
-                "team2_handicap": "4.80",
+                "team2_handicap": "4.45",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
             },
             {
-                "team1_handicap": "1.55",
-                "draw_handicap": "4.20",
-                "team2_handicap": "4.70",
+                "team1_handicap": "1.47",
+                "draw_handicap": "4.50",
+                "team2_handicap": "5.25",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
             },
             {
-                "team1_handicap": "1.53",
-                "draw_handicap": "4.00",
-                "team2_handicap": "4.60",
+                "team1_handicap": "1.47",
+                "draw_handicap": "4.30",
+                "team2_handicap": "4.80",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "draw_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "European Handicap +1"
+            },
+            {
+                "team1_handicap": "1.49",
+                "draw_handicap": "4.20",
+                "team2_handicap": "4.80",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
@@ -1207,41 +1349,46 @@
         ],
         "european_handicap_+2_market": [
             {
-                "team1_handicap": "1.18",
-                "draw_handicap": "7.00",
-                "team2_handicap": "11.00",
+                "team1_handicap": "1.17",
+                "draw_handicap": "7.50",
+                "team2_handicap": "13.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.15",
-                "draw_handicap": "7.00",
-                "team2_handicap": "11.00",
+                "team1_handicap": "1.13",
+                "draw_handicap": "7.50",
+                "team2_handicap": "13.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.18",
-                "draw_handicap": "6.40",
-                "team2_handicap": "10.50",
+                "team1_handicap": "1.20",
+                "draw_handicap": "6.20",
+                "team2_handicap": "9.50",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.17",
-                "draw_handicap": "7.00",
-                "team2_handicap": "11.00",
+                "team1_handicap": "1.15",
+                "draw_handicap": "7.25",
+                "team2_handicap": "12.00",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "draw_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.17",
-                "draw_handicap": "7.00",
-                "team2_handicap": "10.00",
+                "team1_handicap": "1.16",
+                "draw_handicap": "7.25",
+                "team2_handicap": "11.00",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
@@ -1249,25 +1396,25 @@
         ],
         "european_handicap_+3_market": [
             {
-                "team1_handicap": "1.05",
-                "draw_handicap": "15.00",
-                "team2_handicap": "26.00",
+                "team1_handicap": "1.04",
+                "draw_handicap": "17.00",
+                "team2_handicap": "29.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +3"
             },
             {
-                "team1_handicap": "1.04",
-                "draw_handicap": "15.00",
-                "team2_handicap": "26.00",
+                "team1_handicap": "1.03",
+                "draw_handicap": "17.00",
+                "team2_handicap": "29.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +3"
             },
             {
-                "team1_handicap": "1.05",
-                "draw_handicap": "10.25",
-                "team2_handicap": "20.00",
+                "team1_handicap": "1.06",
+                "draw_handicap": "10.00",
+                "team2_handicap": "18.00",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +3"
@@ -1276,7 +1423,7 @@
         "european_handicap_+4_market": []
     },
     {
-        "scraped_date": "2026-10-03 04:52:23 UTC",
+        "scraped_date": "2026-10-03 11:56:48 UTC",
         "match_date": "2026-10-03 14:15:00 UTC",
         "season": null,
         "match_link": "https://www.oddsportal.com/football/h2h/almeria-nF2Vy2D0/burgos-cf-vTxTEFi6/#CSSmzykJ",
@@ -1293,42 +1440,55 @@
         "1x2_market": [
             {
                 "1": "1.50",
-                "X": "3.90",
-                "2": "5.50",
+                "X": "3.80",
+                "2": "6.00",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "1.56",
+                "1": "1.53",
                 "X": "4.10",
-                "2": "5.00",
+                "2": "5.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "1.56",
+                "1": "1.53",
                 "X": "4.10",
-                "2": "5.00",
+                "2": "5.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "1.62",
+                "1": "1.60",
                 "X": "4.00",
-                "2": "5.60",
+                "2": "5.70",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
                 "1": "1.60",
-                "X": "3.70",
-                "2": "5.25",
+                "X": "3.80",
+                "2": "5.50",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "submarket_name": "1X2"
+            },
+            {
+                "1": "1.55",
+                "X": "4.00",
+                "2": "5.40",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1",
+                    "X",
+                    "2"
+                ],
                 "submarket_name": "1X2"
             },
             {
@@ -1340,9 +1500,9 @@
                 "submarket_name": "1X2"
             },
             {
-                "1": "1.56",
-                "X": "3.90",
-                "2": "5.00",
+                "1": "1.52",
+                "X": "3.95",
+                "2": "5.30",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
@@ -1350,8 +1510,8 @@
         ],
         "btts_market": [
             {
-                "btts_yes": "1.88",
-                "btts_no": "1.80",
+                "btts_yes": "1.85",
+                "btts_no": "1.83",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
@@ -1371,21 +1531,32 @@
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.87",
-                "btts_no": "1.83",
+                "btts_yes": "1.88",
+                "btts_no": "1.82",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.95",
-                "btts_no": "1.75",
+                "btts_yes": "1.90",
+                "btts_no": "1.80",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.87",
+                "btts_yes": "1.85",
+                "btts_no": "1.82",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "btts_yes",
+                    "btts_no"
+                ],
+                "submarket_name": "Both Teams to Score"
+            },
+            {
+                "btts_yes": "1.85",
                 "btts_no": "1.75",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -1394,9 +1565,9 @@
         ],
         "double_chance_market": [
             {
-                "1X": "1.12",
+                "1X": "1.11",
                 "12": "1.20",
-                "X2": "2.15",
+                "X2": "2.25",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
@@ -1420,7 +1591,7 @@
             {
                 "1X": "1.16",
                 "12": "1.24",
-                "X2": "2.37",
+                "X2": "2.40",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
@@ -1434,9 +1605,22 @@
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.15",
+                "1X": "1.12",
+                "12": "1.20",
+                "X2": "2.30",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1X",
+                    "12",
+                    "X2"
+                ],
+                "submarket_name": "Double Chance"
+            },
+            {
+                "1X": "1.14",
                 "12": "1.24",
-                "X2": "2.25",
+                "X2": "2.30",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
@@ -1444,8 +1628,8 @@
         ],
         "dnb_market": [
             {
-                "dnb_team1": "1.20",
-                "dnb_team2": "3.95",
+                "dnb_team1": "1.18",
+                "dnb_team2": "4.20",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
@@ -1466,7 +1650,7 @@
             },
             {
                 "dnb_team1": "1.23",
-                "dnb_team2": "3.90",
+                "dnb_team2": "3.95",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
@@ -1495,15 +1679,15 @@
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.05",
-                "odds_under": "11.00",
+                "odds_over": "1.04",
+                "odds_under": "13.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.04",
-                "odds_under": "11.00",
+                "odds_over": "1.03",
+                "odds_under": "13.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
@@ -1548,15 +1732,15 @@
         ],
         "over_under_1_25_market": [
             {
-                "odds_over": "1.18",
-                "odds_under": "4.65",
+                "odds_over": "1.17",
+                "odds_under": "5.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.25"
             },
             {
-                "odds_over": "1.15",
-                "odds_under": "4.65",
+                "odds_over": "1.14",
+                "odds_under": "5.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.25"
@@ -1565,21 +1749,21 @@
         "over_under_1_5_market": [
             {
                 "odds_over": "1.25",
-                "odds_under": "3.45",
+                "odds_under": "3.50",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.29",
-                "odds_under": "3.50",
+                "odds_over": "1.25",
+                "odds_under": "3.75",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.25",
-                "odds_under": "3.50",
+                "odds_over": "1.22",
+                "odds_under": "3.75",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
@@ -1599,15 +1783,15 @@
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.28",
-                "odds_under": "3.40",
+                "odds_over": "1.27",
+                "odds_under": "3.50",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.28",
-                "odds_under": "3.40",
+                "odds_over": "1.26",
+                "odds_under": "3.55",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
@@ -1615,15 +1799,15 @@
         ],
         "over_under_1_75_market": [
             {
-                "odds_over": "1.38",
-                "odds_under": "3.00",
+                "odds_over": "1.33",
+                "odds_under": "3.30",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.75"
             },
             {
-                "odds_over": "1.35",
-                "odds_under": "3.00",
+                "odds_over": "1.30",
+                "odds_under": "3.30",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.75"
@@ -1631,22 +1815,22 @@
         ],
         "over_under_2_market": [
             {
-                "odds_over": "1.48",
-                "odds_under": "2.60",
+                "odds_over": "1.43",
+                "odds_under": "2.75",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
             },
             {
-                "odds_over": "1.45",
-                "odds_under": "2.60",
+                "odds_over": "1.40",
+                "odds_under": "2.75",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
             },
             {
-                "odds_over": "1.44",
-                "odds_under": "2.60",
+                "odds_over": "1.41",
+                "odds_under": "2.70",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
@@ -1654,15 +1838,15 @@
         ],
         "over_under_2_25_market": [
             {
-                "odds_over": "1.70",
-                "odds_under": "2.10",
+                "odds_over": "1.63",
+                "odds_under": "2.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
             },
             {
-                "odds_over": "1.67",
-                "odds_under": "2.10",
+                "odds_over": "1.60",
+                "odds_under": "2.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
@@ -1670,22 +1854,22 @@
         ],
         "over_under_2_5_market": [
             {
-                "odds_over": "1.88",
-                "odds_under": "1.80",
+                "odds_over": "1.80",
+                "odds_under": "1.88",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.95",
-                "odds_under": "1.85",
+                "odds_over": "1.85",
+                "odds_under": "1.95",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.89",
-                "odds_under": "1.79",
+                "odds_over": "1.82",
+                "odds_under": "1.92",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
@@ -1698,22 +1882,33 @@
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.90",
-                "odds_under": "1.80",
+                "odds_over": "1.85",
+                "odds_under": "1.85",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.90",
-                "odds_under": "1.80",
+                "odds_over": "1.80",
+                "odds_under": "1.85",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +2.5"
+            },
+            {
+                "odds_over": "1.85",
+                "odds_under": "1.85",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "1.88",
-                "odds_under": "1.84",
+                "odds_over": "1.86",
+                "odds_under": "1.86",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
@@ -1721,15 +1916,15 @@
         ],
         "over_under_2_75_market": [
             {
-                "odds_over": "2.20",
-                "odds_under": "1.65",
+                "odds_over": "2.08",
+                "odds_under": "1.73",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
             },
             {
-                "odds_over": "2.20",
-                "odds_under": "1.62",
+                "odds_over": "2.05",
+                "odds_under": "1.70",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
@@ -1737,22 +1932,22 @@
         ],
         "over_under_3_market": [
             {
-                "odds_over": "2.68",
-                "odds_under": "1.45",
+                "odds_over": "2.42",
+                "odds_under": "1.53",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
-                "odds_over": "2.68",
-                "odds_under": "1.42",
+                "odds_over": "2.42",
+                "odds_under": "1.50",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
-                "odds_over": "2.60",
-                "odds_under": "1.45",
+                "odds_over": "2.50",
+                "odds_under": "1.48",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
@@ -1760,15 +1955,15 @@
         ],
         "over_under_3_25_market": [
             {
-                "odds_over": "3.00",
-                "odds_under": "1.38",
+                "odds_over": "2.75",
+                "odds_under": "1.43",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
             },
             {
-                "odds_over": "3.00",
-                "odds_under": "1.35",
+                "odds_over": "2.75",
+                "odds_under": "1.40",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
@@ -1776,22 +1971,22 @@
         ],
         "over_under_3_5_market": [
             {
-                "odds_over": "3.25",
-                "odds_under": "1.28",
+                "odds_over": "3.00",
+                "odds_under": "1.33",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.40",
-                "odds_under": "1.30",
+                "odds_over": "3.25",
+                "odds_under": "1.33",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.40",
-                "odds_under": "1.27",
+                "odds_over": "3.25",
+                "odds_under": "1.30",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
@@ -1804,22 +1999,22 @@
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.20",
-                "odds_under": "1.30",
+                "odds_over": "3.05",
+                "odds_under": "1.33",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.25",
-                "odds_under": "1.31",
+                "odds_over": "3.10",
+                "odds_under": "1.32",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.25",
-                "odds_under": "1.30",
+                "odds_over": "3.10",
+                "odds_under": "1.32",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
@@ -1827,15 +2022,15 @@
         ],
         "over_under_3_75_market": [
             {
-                "odds_over": "4.10",
-                "odds_under": "1.23",
+                "odds_over": "3.80",
+                "odds_under": "1.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
             },
             {
-                "odds_over": "4.10",
-                "odds_under": "1.20",
+                "odds_over": "3.80",
+                "odds_under": "1.22",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
@@ -1843,22 +2038,22 @@
         ],
         "over_under_4_market": [
             {
-                "odds_over": "5.75",
-                "odds_under": "1.14",
+                "odds_over": "5.25",
+                "odds_under": "1.16",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4"
             },
             {
-                "odds_over": "5.75",
-                "odds_under": "1.12",
+                "odds_over": "5.25",
+                "odds_under": "1.13",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4"
             },
             {
-                "odds_over": "5.50",
-                "odds_under": "1.12",
+                "odds_over": "5.20",
+                "odds_under": "1.13",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4"
@@ -1866,15 +2061,15 @@
         ],
         "over_under_4_25_market": [
             {
-                "odds_over": "6.00",
-                "odds_under": "1.13",
+                "odds_over": "5.75",
+                "odds_under": "1.14",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.25"
             },
             {
-                "odds_over": "6.00",
-                "odds_under": "1.10",
+                "odds_over": "5.75",
+                "odds_under": "1.12",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.25"
@@ -1889,43 +2084,43 @@
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "6.50",
-                "odds_under": "1.11",
+                "odds_over": "6.00",
+                "odds_under": "1.13",
                 "bookmaker_name": "bet365",
-                "period": "FullTime",
-                "submarket_name": "Over/Under +4.5"
-            },
-            {
-                "odds_over": "6.50",
-                "odds_under": "1.09",
-                "bookmaker_name": "Bet365.de",
-                "period": "FullTime",
-                "submarket_name": "Over/Under +4.5"
-            },
-            {
-                "odds_over": "5.50",
-                "odds_under": "1.14",
-                "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
                 "odds_over": "6.00",
                 "odds_under": "1.10",
+                "bookmaker_name": "Bet365.de",
+                "period": "FullTime",
+                "submarket_name": "Over/Under +4.5"
+            },
+            {
+                "odds_over": "5.60",
+                "odds_under": "1.14",
+                "bookmaker_name": "Betano.de",
+                "period": "FullTime",
+                "submarket_name": "Over/Under +4.5"
+            },
+            {
+                "odds_over": "5.50",
+                "odds_under": "1.12",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "6.25",
+                "odds_over": "6.00",
                 "odds_under": "1.11",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "6.25",
-                "odds_under": "1.09",
+                "odds_over": "6.00",
+                "odds_under": "1.10",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
@@ -1979,7 +2174,7 @@
                 "submarket_name": "Over/Under +5"
             },
             {
-                "odds_over": "12.50",
+                "odds_over": "12.00",
                 "odds_under": "1.03",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
@@ -1988,22 +2183,22 @@
         ],
         "over_under_5_5_market": [
             {
-                "odds_over": "10.00",
-                "odds_under": "1.02",
+                "odds_over": "11.00",
+                "odds_under": "1.01",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "15.00",
-                "odds_under": "1.03",
+                "odds_over": "13.00",
+                "odds_under": "1.04",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "15.00",
-                "odds_under": "1.02",
+                "odds_over": "13.00",
+                "odds_under": "1.03",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
@@ -2016,7 +2211,7 @@
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "13.00",
+                "odds_over": "12.50",
                 "odds_under": "1.03",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -2025,14 +2220,14 @@
         ],
         "over_under_6_5_market": [
             {
-                "odds_over": "29.00",
+                "odds_over": "26.00",
                 "odds_under": "1.01",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +6.5"
             },
             {
-                "odds_over": "29.00",
+                "odds_over": "26.00",
                 "odds_under": "1.01",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
@@ -2059,10 +2254,6 @@
                 "odds_under": "-",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "odds_over",
-                    "odds_under"
-                ],
                 "submarket_name": "Over/Under +7.5"
             },
             {
@@ -2070,36 +2261,28 @@
                 "odds_under": "-",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "odds_over",
-                    "odds_under"
-                ],
                 "submarket_name": "Over/Under +7.5"
             }
         ],
         "asian_handicap_-3_5_market": [
             {
                 "team1_handicap": "9.00",
-                "team2_handicap": "1.01",
+                "team2_handicap": "1.03",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "team1_handicap",
-                    "team2_handicap"
-                ],
                 "submarket_name": "Asian Handicap -3.5"
             }
         ],
         "asian_handicap_-2_75_market": [
             {
-                "team1_handicap": "6.80",
+                "team1_handicap": "6.60",
                 "team2_handicap": "1.11",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2.75"
             },
             {
-                "team1_handicap": "6.80",
+                "team1_handicap": "6.60",
                 "team2_handicap": "1.09",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
@@ -2108,38 +2291,49 @@
         ],
         "asian_handicap_-2_5_market": [
             {
-                "team1_handicap": "5.00",
-                "team2_handicap": "1.13",
+                "team1_handicap": "4.80",
+                "team2_handicap": "1.15",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2.5"
             },
             {
-                "team1_handicap": "5.25",
-                "team2_handicap": "1.16",
+                "team1_handicap": "5.00",
+                "team2_handicap": "1.17",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2.5"
             },
             {
-                "team1_handicap": "5.25",
-                "team2_handicap": "1.13",
+                "team1_handicap": "5.00",
+                "team2_handicap": "1.14",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap -2.5"
+            },
+            {
+                "team1_handicap": "5.10",
+                "team2_handicap": "1.12",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap -2.5"
             }
         ],
         "asian_handicap_-2_25_market": [
             {
-                "team1_handicap": "4.65",
-                "team2_handicap": "1.18",
+                "team1_handicap": "4.50",
+                "team2_handicap": "1.19",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2.25"
             },
             {
-                "team1_handicap": "4.65",
-                "team2_handicap": "1.15",
+                "team1_handicap": "4.50",
+                "team2_handicap": "1.16",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2.25"
@@ -2147,14 +2341,14 @@
         ],
         "asian_handicap_-2_market": [
             {
-                "team1_handicap": "6.80",
+                "team1_handicap": "6.60",
                 "team2_handicap": "1.11",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2"
             },
             {
-                "team1_handicap": "6.80",
+                "team1_handicap": "6.60",
                 "team2_handicap": "1.09",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
@@ -2180,21 +2374,21 @@
         "asian_handicap_-1_5_market": [
             {
                 "team1_handicap": "2.60",
-                "team2_handicap": "1.40",
+                "team2_handicap": "1.45",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
             },
             {
-                "team1_handicap": "2.60",
-                "team2_handicap": "1.48",
+                "team1_handicap": "2.50",
+                "team2_handicap": "1.50",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
             },
             {
-                "team1_handicap": "2.60",
-                "team2_handicap": "1.45",
+                "team1_handicap": "2.50",
+                "team2_handicap": "1.47",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
@@ -2205,19 +2399,30 @@
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
+            },
+            {
+                "team1_handicap": "2.55",
+                "team2_handicap": "1.45",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "Asian Handicap -1.5"
             }
         ],
         "asian_handicap_-1_25_market": [
             {
-                "team1_handicap": "2.30",
-                "team2_handicap": "1.60",
+                "team1_handicap": "2.25",
+                "team2_handicap": "1.63",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.25"
             },
             {
-                "team1_handicap": "2.30",
-                "team2_handicap": "1.57",
+                "team1_handicap": "2.25",
+                "team2_handicap": "1.60",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.25"
@@ -2241,15 +2446,15 @@
         ],
         "asian_handicap_-0_75_market": [
             {
-                "team1_handicap": "1.73",
-                "team2_handicap": "2.08",
+                "team1_handicap": "1.70",
+                "team2_handicap": "2.10",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.75"
             },
             {
-                "team1_handicap": "1.70",
-                "team2_handicap": "2.05",
+                "team1_handicap": "1.67",
+                "team2_handicap": "2.10",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.75"
@@ -2257,22 +2462,22 @@
         ],
         "asian_handicap_-0_5_market": [
             {
-                "team1_handicap": "1.55",
-                "team2_handicap": "2.25",
+                "team1_handicap": "1.53",
+                "team2_handicap": "2.30",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "1.58",
-                "team2_handicap": "2.35",
+                "team1_handicap": "1.55",
+                "team2_handicap": "2.38",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "1.55",
-                "team2_handicap": "2.35",
+                "team1_handicap": "1.52",
+                "team2_handicap": "2.38",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
@@ -2282,6 +2487,17 @@
                 "team2_handicap": "2.30",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap -0.5"
+            },
+            {
+                "team1_handicap": "1.52",
+                "team2_handicap": "2.30",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap -0.5"
             }
         ],
@@ -2303,9 +2519,23 @@
         ],
         "asian_handicap_0_market": [
             {
-                "team1_handicap": "9.00",
-                "team2_handicap": "1.01",
-                "bookmaker_name": "bet-at-home.de",
+                "team1_handicap": "4.10",
+                "team2_handicap": "1.23",
+                "bookmaker_name": "bet365",
+                "period": "FullTime",
+                "submarket_name": "Asian Handicap 0"
+            },
+            {
+                "team1_handicap": "4.10",
+                "team2_handicap": "1.20",
+                "bookmaker_name": "Bet365.de",
+                "period": "FullTime",
+                "submarket_name": "Asian Handicap 0"
+            },
+            {
+                "team1_handicap": "4.20",
+                "team2_handicap": "1.17",
+                "bookmaker_name": "Neobet",
                 "period": "FullTime",
                 "blocked_outcomes": [
                     "team1_handicap",
@@ -2332,7 +2562,7 @@
         ],
         "asian_handicap_+0_5_market": [
             {
-                "team1_handicap": "1.14",
+                "team1_handicap": "1.13",
                 "team2_handicap": "5.00",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
@@ -2350,6 +2580,17 @@
                 "team2_handicap": "5.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap +0.5"
+            },
+            {
+                "team1_handicap": "1.12",
+                "team2_handicap": "5.20",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap +0.5"
             }
         ],
@@ -2385,7 +2626,7 @@
         "european_handicap_-4_market": [
             {
                 "team1_handicap": "18.50",
-                "draw_handicap": "10.75",
+                "draw_handicap": "10.50",
                 "team2_handicap": "1.05",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
@@ -2410,9 +2651,9 @@
                 "submarket_name": "European Handicap -3"
             },
             {
-                "team1_handicap": "10.50",
-                "draw_handicap": "7.00",
-                "team2_handicap": "1.16",
+                "team1_handicap": "10.25",
+                "draw_handicap": "6.90",
+                "team2_handicap": "1.17",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -3"
@@ -2436,7 +2677,7 @@
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "5.10",
+                "team1_handicap": "5.00",
                 "draw_handicap": "4.50",
                 "team2_handicap": "1.47",
                 "bookmaker_name": "Betano.de",
@@ -2452,9 +2693,9 @@
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "5.00",
-                "draw_handicap": "4.60",
-                "team2_handicap": "1.44",
+                "team1_handicap": "4.80",
+                "draw_handicap": "4.50",
+                "team2_handicap": "1.46",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
@@ -2478,16 +2719,16 @@
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "2.62",
-                "draw_handicap": "3.45",
-                "team2_handicap": "2.32",
+                "team1_handicap": "2.57",
+                "draw_handicap": "3.50",
+                "team2_handicap": "2.35",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
                 "team1_handicap": "2.65",
-                "draw_handicap": "3.45",
+                "draw_handicap": "3.50",
                 "team2_handicap": "2.35",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
@@ -2495,8 +2736,21 @@
             },
             {
                 "team1_handicap": "2.55",
+                "draw_handicap": "3.50",
+                "team2_handicap": "2.30",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "draw_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "European Handicap -1"
+            },
+            {
+                "team1_handicap": "2.55",
                 "draw_handicap": "3.40",
-                "team2_handicap": "2.25",
+                "team2_handicap": "2.30",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
@@ -2536,7 +2790,7 @@
                 "submarket_name": "European Handicap +1"
             },
             {
-                "team1_handicap": "1.15",
+                "team1_handicap": "1.14",
                 "draw_handicap": "7.00",
                 "team2_handicap": "12.50",
                 "bookmaker_name": "Oddset.de",
@@ -2579,7 +2833,7 @@
         "european_handicap_+4_market": []
     },
     {
-        "scraped_date": "2026-10-03 04:52:23 UTC",
+        "scraped_date": "2026-10-03 11:56:48 UTC",
         "match_date": "2026-10-03 16:30:00 UTC",
         "season": null,
         "match_link": "https://www.oddsportal.com/football/h2h/cadiz-hdWjLJUJ/leganes-Mi0rXQg7/#vZKZcvsQ",
@@ -2595,57 +2849,70 @@
         "match_info": null,
         "1x2_market": [
             {
-                "1": "2.85",
-                "X": "2.90",
-                "2": "2.45",
+                "1": "2.65",
+                "X": "2.95",
+                "2": "2.55",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.82",
+                "1": "2.65",
                 "X": "3.20",
-                "2": "2.45",
+                "2": "2.57",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.82",
+                "1": "2.65",
                 "X": "3.20",
-                "2": "2.45",
+                "2": "2.57",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.90",
+                "1": "2.80",
                 "X": "3.20",
-                "2": "2.55",
+                "2": "2.65",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.85",
-                "X": "3.00",
-                "2": "2.50",
+                "1": "2.75",
+                "X": "2.95",
+                "2": "2.65",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
                 "1": "2.70",
+                "X": "3.10",
+                "2": "2.55",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1",
+                    "X",
+                    "2"
+                ],
+                "submarket_name": "1X2"
+            },
+            {
+                "1": "2.60",
                 "X": "2.95",
-                "2": "2.35",
+                "2": "2.45",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.80",
-                "X": "3.10",
-                "2": "2.40",
+                "1": "2.70",
+                "X": "3.00",
+                "2": "2.50",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
@@ -2653,8 +2920,8 @@
         ],
         "btts_market": [
             {
-                "btts_yes": "1.88",
-                "btts_no": "1.83",
+                "btts_yes": "1.80",
+                "btts_no": "1.88",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
@@ -2674,8 +2941,8 @@
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.90",
-                "btts_no": "1.80",
+                "btts_yes": "1.88",
+                "btts_no": "1.82",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
@@ -2689,6 +2956,17 @@
             },
             {
                 "btts_yes": "1.85",
+                "btts_no": "1.80",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "btts_yes",
+                    "btts_no"
+                ],
+                "submarket_name": "Both Teams to Score"
+            },
+            {
+                "btts_yes": "1.85",
                 "btts_no": "1.75",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -2697,49 +2975,62 @@
         ],
         "double_chance_market": [
             {
-                "1X": "1.45",
+                "1X": "1.40",
                 "12": "1.33",
-                "X2": "1.35",
+                "X2": "1.38",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.50",
+                "1X": "1.44",
                 "12": "1.36",
-                "X2": "1.40",
+                "X2": "1.44",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.47",
+                "1X": "1.41",
                 "12": "1.33",
-                "X2": "1.37",
+                "X2": "1.41",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.55",
-                "12": "1.33",
-                "X2": "1.44",
+                "1X": "1.50",
+                "12": "1.34",
+                "X2": "1.47",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.53",
+                "1X": "1.47",
                 "12": "1.35",
-                "X2": "1.43",
+                "X2": "1.45",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.51",
-                "12": "1.34",
+                "1X": "1.45",
+                "12": "1.32",
                 "X2": "1.40",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1X",
+                    "12",
+                    "X2"
+                ],
+                "submarket_name": "Double Chance"
+            },
+            {
+                "1X": "1.47",
+                "12": "1.34",
+                "X2": "1.43",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
@@ -2747,43 +3038,43 @@
         ],
         "dnb_market": [
             {
-                "dnb_team1": "2.00",
-                "dnb_team2": "1.70",
+                "dnb_team1": "1.88",
+                "dnb_team2": "1.80",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "2.00",
-                "dnb_team2": "1.73",
+                "dnb_team1": "1.83",
+                "dnb_team2": "1.83",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.97",
-                "dnb_team2": "1.69",
+                "dnb_team1": "1.80",
+                "dnb_team2": "1.80",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "2.00",
-                "dnb_team2": "1.75",
+                "dnb_team1": "1.91",
+                "dnb_team2": "1.82",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.95",
-                "dnb_team2": "1.75",
+                "dnb_team1": "1.90",
+                "dnb_team2": "1.80",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.98",
-                "dnb_team2": "1.72",
+                "dnb_team1": "1.90",
+                "dnb_team2": "1.78",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
@@ -2791,22 +3082,22 @@
         ],
         "over_under_0_5_market": [
             {
-                "odds_over": "1.05",
-                "odds_under": "7.75",
+                "odds_over": "1.06",
+                "odds_under": "7.50",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.08",
-                "odds_under": "8.00",
+                "odds_over": "1.07",
+                "odds_under": "9.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.07",
-                "odds_under": "8.00",
+                "odds_over": "1.06",
+                "odds_under": "9.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
@@ -2827,13 +3118,13 @@
             },
             {
                 "odds_over": "1.07",
-                "odds_under": "8.25",
+                "odds_under": "8.00",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.06",
+                "odds_over": "1.07",
                 "odds_under": "7.50",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
@@ -2842,15 +3133,15 @@
         ],
         "over_under_1_market": [
             {
-                "odds_over": "1.12",
-                "odds_under": "6.40",
+                "odds_over": "1.11",
+                "odds_under": "6.60",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1"
             },
             {
-                "odds_over": "1.10",
-                "odds_under": "6.40",
+                "odds_over": "1.09",
+                "odds_under": "6.60",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1"
@@ -2865,15 +3156,15 @@
         ],
         "over_under_1_25_market": [
             {
-                "odds_over": "1.26",
-                "odds_under": "3.70",
+                "odds_over": "1.24",
+                "odds_under": "3.90",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.25"
             },
             {
-                "odds_over": "1.23",
-                "odds_under": "3.70",
+                "odds_over": "1.21",
+                "odds_under": "3.90",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.25"
@@ -2881,22 +3172,22 @@
         ],
         "over_under_1_5_market": [
             {
-                "odds_over": "1.38",
-                "odds_under": "2.75",
+                "odds_over": "1.35",
+                "odds_under": "2.90",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.40",
-                "odds_under": "2.75",
+                "odds_over": "1.36",
+                "odds_under": "3.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.37",
-                "odds_under": "2.75",
+                "odds_over": "1.33",
+                "odds_under": "3.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
@@ -2916,8 +3207,8 @@
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.39",
-                "odds_under": "2.80",
+                "odds_over": "1.40",
+                "odds_under": "2.75",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
@@ -2932,15 +3223,15 @@
         ],
         "over_under_1_75_market": [
             {
-                "odds_over": "1.50",
-                "odds_under": "2.50",
+                "odds_over": "1.48",
+                "odds_under": "2.60",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.75"
             },
             {
-                "odds_over": "1.47",
-                "odds_under": "2.50",
+                "odds_over": "1.45",
+                "odds_under": "2.60",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.75"
@@ -2948,21 +3239,21 @@
         ],
         "over_under_2_market": [
             {
-                "odds_over": "1.68",
-                "odds_under": "2.15",
+                "odds_over": "1.65",
+                "odds_under": "2.20",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
             },
             {
-                "odds_over": "1.65",
-                "odds_under": "2.15",
+                "odds_over": "1.62",
+                "odds_under": "2.20",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
             },
             {
-                "odds_over": "1.66",
+                "odds_over": "1.64",
                 "odds_under": "2.10",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
@@ -2971,15 +3262,15 @@
         ],
         "over_under_2_25_market": [
             {
-                "odds_over": "2.00",
-                "odds_under": "1.80",
+                "odds_over": "1.95",
+                "odds_under": "1.85",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
             },
             {
-                "odds_over": "1.94",
-                "odds_under": "1.74",
+                "odds_over": "1.89",
+                "odds_under": "1.79",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
@@ -2987,22 +3278,22 @@
         ],
         "over_under_2_5_market": [
             {
-                "odds_over": "2.20",
-                "odds_under": "1.58",
+                "odds_over": "2.15",
+                "odds_under": "1.60",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.25",
-                "odds_under": "1.62",
+                "odds_over": "2.20",
+                "odds_under": "1.65",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.25",
-                "odds_under": "1.58",
+                "odds_over": "2.20",
+                "odds_under": "1.62",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
@@ -3022,8 +3313,19 @@
                 "submarket_name": "Over/Under +2.5"
             },
             {
+                "odds_over": "2.20",
+                "odds_under": "1.57",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +2.5"
+            },
+            {
                 "odds_over": "2.25",
-                "odds_under": "1.58",
+                "odds_under": "1.57",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
@@ -3038,15 +3340,15 @@
         ],
         "over_under_2_75_market": [
             {
-                "odds_over": "2.68",
-                "odds_under": "1.45",
+                "odds_over": "2.50",
+                "odds_under": "1.50",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
             },
             {
-                "odds_over": "2.68",
-                "odds_under": "1.42",
+                "odds_over": "2.50",
+                "odds_under": "1.47",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
@@ -3054,22 +3356,22 @@
         ],
         "over_under_3_market": [
             {
-                "odds_over": "3.45",
-                "odds_under": "1.30",
+                "odds_over": "3.30",
+                "odds_under": "1.33",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
-                "odds_over": "3.45",
-                "odds_under": "1.27",
+                "odds_over": "3.30",
+                "odds_under": "1.30",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
                 "odds_over": "3.30",
-                "odds_under": "1.29",
+                "odds_under": "1.30",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
@@ -3077,15 +3379,15 @@
         ],
         "over_under_3_25_market": [
             {
-                "odds_over": "3.70",
-                "odds_under": "1.26",
+                "odds_over": "3.55",
+                "odds_under": "1.27",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
             },
             {
-                "odds_over": "3.70",
-                "odds_under": "1.23",
+                "odds_over": "3.55",
+                "odds_under": "1.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
@@ -3093,8 +3395,8 @@
         ],
         "over_under_3_5_market": [
             {
-                "odds_over": "4.20",
-                "odds_under": "1.18",
+                "odds_over": "3.95",
+                "odds_under": "1.20",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
@@ -3115,7 +3417,7 @@
             },
             {
                 "odds_over": "4.00",
-                "odds_under": "1.23",
+                "odds_under": "1.24",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
@@ -3144,15 +3446,15 @@
         ],
         "over_under_3_75_market": [
             {
-                "odds_over": "5.50",
-                "odds_under": "1.15",
+                "odds_over": "5.25",
+                "odds_under": "1.16",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
             },
             {
-                "odds_over": "5.50",
-                "odds_under": "1.12",
+                "odds_over": "5.25",
+                "odds_under": "1.13",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
@@ -3169,28 +3471,28 @@
         ],
         "over_under_4_5_market": [
             {
-                "odds_over": "7.75",
-                "odds_under": "1.05",
+                "odds_over": "7.00",
+                "odds_under": "1.07",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "10.00",
-                "odds_under": "1.06",
+                "odds_over": "9.00",
+                "odds_under": "1.07",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "10.00",
-                "odds_under": "1.05",
+                "odds_over": "9.00",
+                "odds_under": "1.06",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "7.50",
+                "odds_over": "7.40",
                 "odds_under": "1.08",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
@@ -3233,22 +3535,18 @@
                 "odds_under": "1.01",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
-                "blocked_outcomes": [
-                    "odds_over",
-                    "odds_under"
-                ],
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "21.00",
-                "odds_under": "1.01",
+                "odds_over": "19.00",
+                "odds_under": "1.02",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "21.00",
-                "odds_under": "1.01",
+                "odds_over": "19.00",
+                "odds_under": "1.02",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
@@ -3261,7 +3559,7 @@
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "19.50",
+                "odds_over": "20.00",
                 "odds_under": "1.01",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -3293,22 +3591,22 @@
         ],
         "asian_handicap_-1_5_market": [
             {
-                "team1_handicap": "6.00",
-                "team2_handicap": "1.09",
+                "team1_handicap": "5.75",
+                "team2_handicap": "1.10",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
             },
             {
-                "team1_handicap": "6.25",
-                "team2_handicap": "1.12",
+                "team1_handicap": "5.75",
+                "team2_handicap": "1.14",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
             },
             {
-                "team1_handicap": "6.25",
-                "team2_handicap": "1.10",
+                "team1_handicap": "5.75",
+                "team2_handicap": "1.12",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
@@ -3316,15 +3614,15 @@
         ],
         "asian_handicap_-1_25_market": [
             {
-                "team1_handicap": "5.75",
-                "team2_handicap": "1.14",
+                "team1_handicap": "5.25",
+                "team2_handicap": "1.16",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.25"
             },
             {
-                "team1_handicap": "5.75",
-                "team2_handicap": "1.12",
+                "team1_handicap": "5.25",
+                "team2_handicap": "1.13",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.25"
@@ -3332,22 +3630,22 @@
         ],
         "asian_handicap_-1_market": [
             {
-                "team1_handicap": "6.00",
-                "team2_handicap": "1.09",
+                "team1_handicap": "5.75",
+                "team2_handicap": "1.10",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1"
             },
             {
-                "team1_handicap": "6.25",
-                "team2_handicap": "1.12",
+                "team1_handicap": "5.75",
+                "team2_handicap": "1.14",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1"
             },
             {
-                "team1_handicap": "6.25",
-                "team2_handicap": "1.10",
+                "team1_handicap": "5.75",
+                "team2_handicap": "1.12",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1"
@@ -3355,15 +3653,15 @@
         ],
         "asian_handicap_-0_75_market": [
             {
-                "team1_handicap": "3.55",
-                "team2_handicap": "1.27",
+                "team1_handicap": "3.30",
+                "team2_handicap": "1.33",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.75"
             },
             {
-                "team1_handicap": "3.55",
-                "team2_handicap": "1.25",
+                "team1_handicap": "3.30",
+                "team2_handicap": "1.30",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.75"
@@ -3371,45 +3669,56 @@
         ],
         "asian_handicap_-0_5_market": [
             {
-                "team1_handicap": "2.75",
-                "team2_handicap": "1.38",
+                "team1_handicap": "2.60",
+                "team2_handicap": "1.43",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "2.75",
-                "team2_handicap": "1.43",
+                "team1_handicap": "2.60",
+                "team2_handicap": "1.48",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "2.75",
-                "team2_handicap": "1.40",
+                "team1_handicap": "2.60",
+                "team2_handicap": "1.45",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "2.75",
-                "team2_handicap": "1.40",
+                "team1_handicap": "2.65",
+                "team2_handicap": "1.43",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap -0.5"
+            },
+            {
+                "team1_handicap": "2.65",
+                "team2_handicap": "1.40",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap -0.5"
             }
         ],
         "asian_handicap_-0_25_market": [
             {
-                "team1_handicap": "2.38",
-                "team2_handicap": "1.55",
+                "team1_handicap": "2.25",
+                "team2_handicap": "1.63",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.25"
             },
             {
-                "team1_handicap": "2.38",
-                "team2_handicap": "1.52",
+                "team1_handicap": "2.25",
+                "team2_handicap": "1.60",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.25"
@@ -3433,15 +3742,15 @@
         ],
         "asian_handicap_+0_25_market": [
             {
-                "team1_handicap": "1.70",
-                "team2_handicap": "2.10",
+                "team1_handicap": "1.63",
+                "team2_handicap": "2.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.25"
             },
             {
-                "team1_handicap": "1.67",
-                "team2_handicap": "2.10",
+                "team1_handicap": "1.60",
+                "team2_handicap": "2.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.25"
@@ -3449,45 +3758,56 @@
         ],
         "asian_handicap_+0_5_market": [
             {
-                "team1_handicap": "1.50",
-                "team2_handicap": "2.40",
+                "team1_handicap": "1.43",
+                "team2_handicap": "2.50",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.53",
-                "team2_handicap": "2.42",
+                "team1_handicap": "1.48",
+                "team2_handicap": "2.60",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.50",
-                "team2_handicap": "2.42",
+                "team1_handicap": "1.45",
+                "team2_handicap": "2.60",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.50",
-                "team2_handicap": "2.40",
+                "team1_handicap": "1.45",
+                "team2_handicap": "2.55",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap +0.5"
+            },
+            {
+                "team1_handicap": "1.45",
+                "team2_handicap": "2.50",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap +0.5"
             }
         ],
         "asian_handicap_+0_75_market": [
             {
-                "team1_handicap": "1.38",
-                "team2_handicap": "3.00",
+                "team1_handicap": "1.33",
+                "team2_handicap": "3.30",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.75"
             },
             {
-                "team1_handicap": "1.35",
-                "team2_handicap": "3.00",
+                "team1_handicap": "1.30",
+                "team2_handicap": "3.30",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.75"
@@ -3495,31 +3815,42 @@
         ],
         "asian_handicap_+1_market": [
             {
-                "team1_handicap": "1.21",
-                "team2_handicap": "4.25",
+                "team1_handicap": "1.19",
+                "team2_handicap": "4.50",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1"
             },
             {
-                "team1_handicap": "1.18",
-                "team2_handicap": "4.25",
+                "team1_handicap": "1.16",
+                "team2_handicap": "4.50",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap +1"
+            },
+            {
+                "team1_handicap": "1.15",
+                "team2_handicap": "4.50",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap +1"
             }
         ],
         "asian_handicap_+1_25_market": [
             {
-                "team1_handicap": "1.18",
-                "team2_handicap": "4.80",
+                "team1_handicap": "1.16",
+                "team2_handicap": "5.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.25"
             },
             {
-                "team1_handicap": "1.15",
-                "team2_handicap": "4.80",
+                "team1_handicap": "1.13",
+                "team2_handicap": "5.25",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.25"
@@ -3527,24 +3858,35 @@
         ],
         "asian_handicap_+1_5_market": [
             {
-                "team1_handicap": "1.12",
-                "team2_handicap": "5.00",
+                "team1_handicap": "1.11",
+                "team2_handicap": "5.50",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.5"
             },
             {
-                "team1_handicap": "1.15",
-                "team2_handicap": "5.50",
+                "team1_handicap": "1.14",
+                "team2_handicap": "5.75",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.5"
             },
             {
                 "team1_handicap": "1.12",
-                "team2_handicap": "5.50",
+                "team2_handicap": "5.75",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap +1.5"
+            },
+            {
+                "team1_handicap": "1.09",
+                "team2_handicap": "5.50",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap +1.5"
             }
         ],
@@ -3616,25 +3958,25 @@
         ],
         "european_handicap_-2_market": [
             {
-                "team1_handicap": "17.00",
-                "draw_handicap": "8.50",
-                "team2_handicap": "1.11",
+                "team1_handicap": "15.00",
+                "draw_handicap": "8.00",
+                "team2_handicap": "1.13",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "17.00",
-                "draw_handicap": "8.50",
-                "team2_handicap": "1.09",
+                "team1_handicap": "15.00",
+                "draw_handicap": "8.00",
+                "team2_handicap": "1.10",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "14.50",
-                "draw_handicap": "7.30",
-                "team2_handicap": "1.12",
+                "team1_handicap": "14.00",
+                "draw_handicap": "7.10",
+                "team2_handicap": "1.13",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
@@ -3655,41 +3997,41 @@
         ],
         "european_handicap_-1_market": [
             {
-                "team1_handicap": "6.50",
-                "draw_handicap": "4.50",
-                "team2_handicap": "1.40",
+                "team1_handicap": "6.00",
+                "draw_handicap": "4.33",
+                "team2_handicap": "1.44",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "6.50",
-                "draw_handicap": "4.50",
-                "team2_handicap": "1.37",
+                "team1_handicap": "6.00",
+                "draw_handicap": "4.33",
+                "team2_handicap": "1.41",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "6.20",
-                "draw_handicap": "4.20",
-                "team2_handicap": "1.42",
+                "team1_handicap": "5.90",
+                "draw_handicap": "4.10",
+                "team2_handicap": "1.45",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "6.50",
-                "draw_handicap": "4.30",
-                "team2_handicap": "1.43",
+                "team1_handicap": "6.00",
+                "draw_handicap": "4.20",
+                "team2_handicap": "1.45",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "6.25",
-                "draw_handicap": "4.20",
-                "team2_handicap": "1.40",
+                "team1_handicap": "5.75",
+                "draw_handicap": "4.10",
+                "team2_handicap": "1.43",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
@@ -3697,41 +4039,54 @@
         ],
         "european_handicap_+1_market": [
             {
+                "team1_handicap": "1.44",
+                "draw_handicap": "4.33",
+                "team2_handicap": "6.00",
+                "bookmaker_name": "bet365",
+                "period": "FullTime",
+                "submarket_name": "European Handicap +1"
+            },
+            {
+                "team1_handicap": "1.41",
+                "draw_handicap": "4.33",
+                "team2_handicap": "6.00",
+                "bookmaker_name": "Bet365.de",
+                "period": "FullTime",
+                "submarket_name": "European Handicap +1"
+            },
+            {
                 "team1_handicap": "1.50",
                 "draw_handicap": "4.00",
                 "team2_handicap": "5.50",
-                "bookmaker_name": "bet365",
+                "bookmaker_name": "Betano.de",
                 "period": "FullTime",
+                "submarket_name": "European Handicap +1"
+            },
+            {
+                "team1_handicap": "1.50",
+                "draw_handicap": "4.10",
+                "team2_handicap": "5.75",
+                "bookmaker_name": "Interwetten.de",
+                "period": "FullTime",
+                "submarket_name": "European Handicap +1"
+            },
+            {
+                "team1_handicap": "1.45",
+                "draw_handicap": "4.10",
+                "team2_handicap": "5.50",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "draw_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "European Handicap +1"
             },
             {
                 "team1_handicap": "1.47",
                 "draw_handicap": "4.00",
                 "team2_handicap": "5.50",
-                "bookmaker_name": "Bet365.de",
-                "period": "FullTime",
-                "submarket_name": "European Handicap +1"
-            },
-            {
-                "team1_handicap": "1.53",
-                "draw_handicap": "3.90",
-                "team2_handicap": "5.20",
-                "bookmaker_name": "Betano.de",
-                "period": "FullTime",
-                "submarket_name": "European Handicap +1"
-            },
-            {
-                "team1_handicap": "1.53",
-                "draw_handicap": "4.00",
-                "team2_handicap": "5.25",
-                "bookmaker_name": "Interwetten.de",
-                "period": "FullTime",
-                "submarket_name": "European Handicap +1"
-            },
-            {
-                "team1_handicap": "1.51",
-                "draw_handicap": "3.90",
-                "team2_handicap": "5.00",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
@@ -3739,41 +4094,41 @@
         ],
         "european_handicap_+2_market": [
             {
-                "team1_handicap": "1.14",
-                "draw_handicap": "7.50",
+                "team1_handicap": "1.13",
+                "draw_handicap": "8.00",
                 "team2_handicap": "15.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.11",
-                "draw_handicap": "7.50",
+                "team1_handicap": "1.10",
+                "draw_handicap": "8.00",
                 "team2_handicap": "15.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.16",
-                "draw_handicap": "6.60",
-                "team2_handicap": "12.00",
+                "team1_handicap": "1.14",
+                "draw_handicap": "6.80",
+                "team2_handicap": "13.00",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.15",
-                "draw_handicap": "7.25",
-                "team2_handicap": "14.00",
+                "team1_handicap": "1.12",
+                "draw_handicap": "7.75",
+                "team2_handicap": "15.00",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.14",
-                "draw_handicap": "7.25",
-                "team2_handicap": "12.00",
+                "team1_handicap": "1.13",
+                "draw_handicap": "7.75",
+                "team2_handicap": "13.00",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
@@ -3782,24 +4137,24 @@
         "european_handicap_+3_market": [
             {
                 "team1_handicap": "1.03",
-                "draw_handicap": "17.00",
-                "team2_handicap": "34.00",
+                "draw_handicap": "19.00",
+                "team2_handicap": "41.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +3"
             },
             {
                 "team1_handicap": "1.02",
-                "draw_handicap": "17.00",
-                "team2_handicap": "34.00",
+                "draw_handicap": "19.00",
+                "team2_handicap": "41.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +3"
             },
             {
-                "team1_handicap": "1.04",
-                "draw_handicap": "10.75",
-                "team2_handicap": "23.00",
+                "team1_handicap": "1.03",
+                "draw_handicap": "11.00",
+                "team2_handicap": "24.00",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +3"
@@ -3808,7 +4163,7 @@
         "european_handicap_+4_market": []
     },
     {
-        "scraped_date": "2026-10-03 04:57:50 UTC",
+        "scraped_date": "2026-10-03 12:02:06 UTC",
         "match_date": "2026-10-03 16:30:00 UTC",
         "season": null,
         "match_link": "https://www.oddsportal.com/football/h2h/fc-andorra-O6ucWgAa/sabadell-lnS2YNhJ/#xM26SEkA",
@@ -3824,57 +4179,70 @@
         "match_info": null,
         "1x2_market": [
             {
-                "1": "2.00",
-                "X": "2.95",
-                "2": "3.75",
+                "1": "1.88",
+                "X": "3.05",
+                "2": "4.10",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.01",
-                "X": "3.25",
-                "2": "3.75",
+                "1": "1.91",
+                "X": "3.20",
+                "2": "4.33",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.01",
-                "X": "3.25",
-                "2": "3.75",
+                "1": "1.91",
+                "X": "3.20",
+                "2": "4.33",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.15",
-                "X": "3.20",
-                "2": "3.70",
+                "1": "2.00",
+                "X": "3.30",
+                "2": "4.10",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.15",
+                "1": "1.97",
                 "X": "3.05",
-                "2": "3.55",
+                "2": "4.10",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "1.98",
+                "1": "1.90",
+                "X": "3.20",
+                "2": "4.10",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1",
+                    "X",
+                    "2"
+                ],
+                "submarket_name": "1X2"
+            },
+            {
+                "1": "1.87",
                 "X": "3.00",
-                "2": "3.30",
+                "2": "3.80",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
             },
             {
-                "1": "2.05",
-                "X": "3.05",
-                "2": "3.50",
+                "1": "1.88",
+                "X": "3.20",
+                "2": "4.00",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "1X2"
@@ -3882,43 +4250,54 @@
         ],
         "btts_market": [
             {
-                "btts_yes": "1.80",
-                "btts_no": "1.90",
+                "btts_yes": "1.95",
+                "btts_no": "1.78",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.91",
-                "btts_no": "1.80",
+                "btts_yes": "2.00",
+                "btts_no": "1.73",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.87",
-                "btts_no": "1.77",
+                "btts_yes": "1.97",
+                "btts_no": "1.69",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.75",
-                "btts_no": "1.95",
+                "btts_yes": "1.95",
+                "btts_no": "1.75",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.90",
-                "btts_no": "1.80",
+                "btts_yes": "1.95",
+                "btts_no": "1.75",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
             },
             {
-                "btts_yes": "1.82",
-                "btts_no": "1.78",
+                "btts_yes": "1.95",
+                "btts_no": "1.75",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "btts_yes",
+                    "btts_no"
+                ],
+                "submarket_name": "Both Teams to Score"
+            },
+            {
+                "btts_yes": "1.93",
+                "btts_no": "1.68",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Both Teams to Score"
@@ -3926,49 +4305,62 @@
         ],
         "double_chance_market": [
             {
-                "1X": "1.20",
+                "1X": "1.18",
                 "12": "1.30",
-                "X2": "1.70",
+                "X2": "1.75",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.22",
-                "12": "1.33",
+                "1X": "1.20",
+                "12": "1.36",
                 "X2": "1.80",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.19",
-                "12": "1.30",
+                "1X": "1.17",
+                "12": "1.33",
                 "X2": "1.77",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.30",
-                "12": "1.33",
-                "X2": "1.75",
+                "1X": "1.26",
+                "12": "1.32",
+                "X2": "1.85",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.25",
+                "1X": "1.22",
                 "12": "1.33",
-                "X2": "1.75",
+                "X2": "1.83",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
             },
             {
-                "1X": "1.24",
-                "12": "1.32",
-                "X2": "1.78",
+                "1X": "1.19",
+                "12": "1.30",
+                "X2": "1.80",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "1X",
+                    "12",
+                    "X2"
+                ],
+                "submarket_name": "Double Chance"
+            },
+            {
+                "1X": "1.22",
+                "12": "1.33",
+                "X2": "1.80",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Double Chance"
@@ -3976,43 +4368,43 @@
         ],
         "dnb_market": [
             {
-                "dnb_team1": "1.40",
-                "dnb_team2": "2.65",
+                "dnb_team1": "1.35",
+                "dnb_team2": "2.80",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.40",
-                "dnb_team2": "2.75",
+                "dnb_team1": "1.36",
+                "dnb_team2": "3.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.37",
-                "dnb_team2": "2.75",
+                "dnb_team1": "1.33",
+                "dnb_team2": "3.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.50",
-                "dnb_team2": "2.50",
+                "dnb_team1": "1.40",
+                "dnb_team2": "2.80",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.43",
-                "dnb_team2": "2.65",
+                "dnb_team1": "1.37",
+                "dnb_team2": "2.85",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
             },
             {
-                "dnb_team1": "1.40",
-                "dnb_team2": "2.70",
+                "dnb_team1": "1.36",
+                "dnb_team2": "2.85",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Draw No Bet"
@@ -4020,29 +4412,29 @@
         ],
         "over_under_0_5_market": [
             {
-                "odds_over": "1.04",
-                "odds_under": "8.50",
+                "odds_over": "1.06",
+                "odds_under": "7.50",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.07",
-                "odds_under": "9.00",
+                "odds_over": "1.08",
+                "odds_under": "8.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.06",
-                "odds_under": "9.00",
+                "odds_over": "1.07",
+                "odds_under": "8.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.08",
-                "odds_under": "7.50",
+                "odds_over": "1.09",
+                "odds_under": "6.90",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
@@ -4055,15 +4447,15 @@
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.06",
-                "odds_under": "8.75",
+                "odds_over": "1.07",
+                "odds_under": "7.75",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
             },
             {
-                "odds_over": "1.06",
-                "odds_under": "7.75",
+                "odds_over": "1.07",
+                "odds_under": "7.50",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +0.5"
@@ -4071,22 +4463,22 @@
         ],
         "over_under_1_market": [
             {
-                "odds_over": "1.10",
-                "odds_under": "7.00",
+                "odds_over": "1.12",
+                "odds_under": "6.40",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1"
             },
             {
-                "odds_over": "1.08",
-                "odds_under": "7.00",
+                "odds_over": "1.10",
+                "odds_under": "6.40",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1"
             },
             {
-                "odds_over": "1.09",
-                "odds_under": "6.50",
+                "odds_over": "1.10",
+                "odds_under": "6.00",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1"
@@ -4094,15 +4486,15 @@
         ],
         "over_under_1_25_market": [
             {
-                "odds_over": "1.23",
-                "odds_under": "4.00",
+                "odds_over": "1.25",
+                "odds_under": "3.80",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.25"
             },
             {
-                "odds_over": "1.20",
-                "odds_under": "4.00",
+                "odds_over": "1.22",
+                "odds_under": "3.80",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.25"
@@ -4110,50 +4502,50 @@
         ],
         "over_under_1_5_market": [
             {
-                "odds_over": "1.30",
-                "odds_under": "3.10",
+                "odds_over": "1.35",
+                "odds_under": "2.85",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.33",
-                "odds_under": "3.25",
+                "odds_over": "1.36",
+                "odds_under": "3.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.30",
-                "odds_under": "3.25",
+                "odds_over": "1.33",
+                "odds_under": "3.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.35",
-                "odds_under": "3.15",
+                "odds_over": "1.42",
+                "odds_under": "2.80",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.35",
-                "odds_under": "2.95",
+                "odds_over": "1.40",
+                "odds_under": "2.75",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.34",
-                "odds_under": "3.00",
+                "odds_over": "1.40",
+                "odds_under": "2.75",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
             },
             {
-                "odds_over": "1.34",
-                "odds_under": "3.05",
+                "odds_over": "1.38",
+                "odds_under": "2.85",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.5"
@@ -4161,15 +4553,15 @@
         ],
         "over_under_1_75_market": [
             {
-                "odds_over": "1.45",
-                "odds_under": "2.68",
+                "odds_over": "1.50",
+                "odds_under": "2.50",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.75"
             },
             {
-                "odds_over": "1.42",
-                "odds_under": "2.68",
+                "odds_over": "1.47",
+                "odds_under": "2.50",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +1.75"
@@ -4177,22 +4569,22 @@
         ],
         "over_under_2_market": [
             {
-                "odds_over": "1.60",
-                "odds_under": "2.30",
+                "odds_over": "1.65",
+                "odds_under": "2.20",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
             },
             {
-                "odds_over": "1.57",
-                "odds_under": "2.30",
+                "odds_over": "1.62",
+                "odds_under": "2.20",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
             },
             {
-                "odds_over": "1.56",
-                "odds_under": "2.25",
+                "odds_over": "1.64",
+                "odds_under": "2.10",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2"
@@ -4200,15 +4592,15 @@
         ],
         "over_under_2_25_market": [
             {
-                "odds_over": "1.88",
-                "odds_under": "1.93",
+                "odds_over": "1.98",
+                "odds_under": "1.83",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
             },
             {
-                "odds_over": "1.82",
-                "odds_under": "1.87",
+                "odds_over": "1.92",
+                "odds_under": "1.77",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.25"
@@ -4216,50 +4608,61 @@
         ],
         "over_under_2_5_market": [
             {
-                "odds_over": "2.05",
-                "odds_under": "1.70",
+                "odds_over": "2.20",
+                "odds_under": "1.58",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.10",
-                "odds_under": "1.70",
+                "odds_over": "2.25",
+                "odds_under": "1.62",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.10",
-                "odds_under": "1.67",
+                "odds_over": "2.25",
+                "odds_under": "1.58",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.05",
-                "odds_under": "1.75",
+                "odds_over": "2.25",
+                "odds_under": "1.62",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.10",
-                "odds_under": "1.65",
+                "odds_over": "2.20",
+                "odds_under": "1.60",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.10",
-                "odds_under": "1.66",
+                "odds_over": "2.15",
+                "odds_under": "1.60",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +2.5"
+            },
+            {
+                "odds_over": "2.25",
+                "odds_under": "1.58",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
             },
             {
-                "odds_over": "2.10",
-                "odds_under": "1.66",
+                "odds_over": "2.20",
+                "odds_under": "1.60",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.5"
@@ -4267,15 +4670,15 @@
         ],
         "over_under_2_75_market": [
             {
-                "odds_over": "2.42",
-                "odds_under": "1.53",
+                "odds_over": "2.60",
+                "odds_under": "1.48",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
             },
             {
-                "odds_over": "2.42",
-                "odds_under": "1.50",
+                "odds_over": "2.60",
+                "odds_under": "1.45",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +2.75"
@@ -4283,22 +4686,22 @@
         ],
         "over_under_3_market": [
             {
-                "odds_over": "3.10",
-                "odds_under": "1.35",
+                "odds_over": "3.30",
+                "odds_under": "1.33",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
-                "odds_over": "3.10",
-                "odds_under": "1.32",
+                "odds_over": "3.30",
+                "odds_under": "1.30",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
             },
             {
-                "odds_over": "3.00",
-                "odds_under": "1.35",
+                "odds_over": "3.30",
+                "odds_under": "1.29",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3"
@@ -4306,15 +4709,15 @@
         ],
         "over_under_3_25_market": [
             {
-                "odds_over": "3.45",
-                "odds_under": "1.30",
+                "odds_over": "3.70",
+                "odds_under": "1.26",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
             },
             {
-                "odds_over": "3.45",
-                "odds_under": "1.27",
+                "odds_over": "3.70",
+                "odds_under": "1.23",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.25"
@@ -4322,50 +4725,50 @@
         ],
         "over_under_3_5_market": [
             {
-                "odds_over": "3.70",
-                "odds_under": "1.23",
+                "odds_over": "3.95",
+                "odds_under": "1.20",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.75",
-                "odds_under": "1.25",
+                "odds_over": "4.00",
+                "odds_under": "1.22",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.75",
-                "odds_under": "1.22",
+                "odds_over": "4.00",
+                "odds_under": "1.19",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.45",
-                "odds_under": "1.30",
+                "odds_over": "4.00",
+                "odds_under": "1.24",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.60",
-                "odds_under": "1.25",
+                "odds_over": "3.80",
+                "odds_under": "1.22",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.70",
-                "odds_under": "1.24",
+                "odds_over": "4.10",
+                "odds_under": "1.21",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
             },
             {
-                "odds_over": "3.70",
-                "odds_under": "1.24",
+                "odds_over": "4.00",
+                "odds_under": "1.21",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.5"
@@ -4373,15 +4776,15 @@
         ],
         "over_under_3_75_market": [
             {
-                "odds_over": "4.80",
-                "odds_under": "1.18",
+                "odds_over": "5.25",
+                "odds_under": "1.16",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
             },
             {
-                "odds_over": "4.80",
-                "odds_under": "1.15",
+                "odds_over": "5.25",
+                "odds_under": "1.13",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +3.75"
@@ -4393,6 +4796,10 @@
                 "odds_under": "1.10",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
                 "submarket_name": "Over/Under +4"
             },
             {
@@ -4400,11 +4807,15 @@
                 "odds_under": "1.08",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
                 "submarket_name": "Over/Under +4"
             },
             {
-                "odds_over": "6.75",
-                "odds_under": "1.08",
+                "odds_over": "7.50",
+                "odds_under": "1.06",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4"
@@ -4412,8 +4823,8 @@
         ],
         "over_under_4_25_market": [
             {
-                "odds_over": "7.00",
-                "odds_under": "1.10",
+                "odds_over": "6.80",
+                "odds_under": "1.11",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "blocked_outcomes": [
@@ -4423,8 +4834,8 @@
                 "submarket_name": "Over/Under +4.25"
             },
             {
-                "odds_over": "7.00",
-                "odds_under": "1.08",
+                "odds_over": "6.80",
+                "odds_under": "1.09",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "blocked_outcomes": [
@@ -4436,29 +4847,29 @@
         ],
         "over_under_4_5_market": [
             {
-                "odds_over": "7.00",
-                "odds_under": "1.07",
+                "odds_over": "7.75",
+                "odds_under": "1.05",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "8.00",
-                "odds_under": "1.08",
+                "odds_over": "9.00",
+                "odds_under": "1.07",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "8.00",
-                "odds_under": "1.07",
+                "odds_over": "9.00",
+                "odds_under": "1.06",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "6.40",
-                "odds_under": "1.11",
+                "odds_over": "7.40",
+                "odds_under": "1.08",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
@@ -4471,15 +4882,15 @@
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "7.50",
-                "odds_under": "1.08",
+                "odds_over": "8.75",
+                "odds_under": "1.06",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
             },
             {
-                "odds_over": "7.50",
-                "odds_under": "1.06",
+                "odds_over": "8.50",
+                "odds_under": "1.05",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +4.5"
@@ -4487,7 +4898,7 @@
         ],
         "over_under_5_market": [
             {
-                "odds_over": "16.00",
+                "odds_over": "19.00",
                 "odds_under": "1.02",
                 "bookmaker_name": "Winamax.de",
                 "period": "FullTime",
@@ -4496,7 +4907,7 @@
         ],
         "over_under_5_5_market": [
             {
-                "odds_over": "11.00",
+                "odds_over": "12.00",
                 "odds_under": "1.01",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
@@ -4517,15 +4928,15 @@
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "10.50",
-                "odds_under": "1.04",
+                "odds_over": "12.00",
+                "odds_under": "1.03",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
             },
             {
-                "odds_over": "16.00",
-                "odds_under": "1.02",
+                "odds_over": "19.00",
+                "odds_under": "1.01",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "Over/Under +5.5"
@@ -4551,10 +4962,14 @@
                 "odds_under": "1.01",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
                 "submarket_name": "Over/Under +6.5"
             },
             {
-                "odds_over": "34.00",
+                "odds_over": "41.00",
                 "odds_under": "-",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -4563,17 +4978,41 @@
         ],
         "asian_handicap_-2_5_market": [
             {
-                "team1_handicap": "7.50",
-                "team2_handicap": "1.05",
+                "team1_handicap": "7.75",
+                "team2_handicap": "1.04",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2.5"
             }
         ],
+        "asian_handicap_-2_25_market": [
+            {
+                "team1_handicap": "7.00",
+                "team2_handicap": "1.10",
+                "bookmaker_name": "bet365",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "Asian Handicap -2.25"
+            },
+            {
+                "team1_handicap": "7.00",
+                "team2_handicap": "1.08",
+                "bookmaker_name": "Bet365.de",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "Asian Handicap -2.25"
+            }
+        ],
         "asian_handicap_-2_market": [
             {
-                "team1_handicap": "7.50",
-                "team2_handicap": "1.05",
+                "team1_handicap": "7.75",
+                "team2_handicap": "1.04",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -2"
@@ -4581,15 +5020,15 @@
         ],
         "asian_handicap_-1_75_market": [
             {
-                "team1_handicap": "4.50",
-                "team2_handicap": "1.19",
+                "team1_handicap": "4.65",
+                "team2_handicap": "1.18",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.75"
             },
             {
-                "team1_handicap": "4.50",
-                "team2_handicap": "1.16",
+                "team1_handicap": "4.65",
+                "team2_handicap": "1.15",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.75"
@@ -4616,6 +5055,17 @@
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1.5"
+            },
+            {
+                "team1_handicap": "3.50",
+                "team2_handicap": "1.24",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "Asian Handicap -1.5"
             }
         ],
         "asian_handicap_-1_25_market": [
@@ -4636,15 +5086,15 @@
         ],
         "asian_handicap_-1_market": [
             {
-                "team1_handicap": "4.50",
-                "team2_handicap": "1.19",
+                "team1_handicap": "4.65",
+                "team2_handicap": "1.18",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1"
             },
             {
-                "team1_handicap": "4.50",
-                "team2_handicap": "1.16",
+                "team1_handicap": "4.65",
+                "team2_handicap": "1.15",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -1"
@@ -4668,8 +5118,8 @@
         ],
         "asian_handicap_-0_5_market": [
             {
-                "team1_handicap": "1.95",
-                "team2_handicap": "1.75",
+                "team1_handicap": "1.90",
+                "team2_handicap": "1.80",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap -0.5"
@@ -4689,10 +5139,21 @@
                 "submarket_name": "Asian Handicap -0.5"
             },
             {
-                "team1_handicap": "1.95",
-                "team2_handicap": "1.75",
+                "team1_handicap": "1.90",
+                "team2_handicap": "1.80",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap -0.5"
+            },
+            {
+                "team1_handicap": "1.87",
+                "team2_handicap": "1.80",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap -0.5"
             }
         ],
@@ -4746,24 +5207,35 @@
         ],
         "asian_handicap_+0_5_market": [
             {
-                "team1_handicap": "1.25",
-                "team2_handicap": "3.65",
+                "team1_handicap": "1.20",
+                "team2_handicap": "3.90",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.24",
-                "team2_handicap": "3.90",
+                "team1_handicap": "1.23",
+                "team2_handicap": "4.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +0.5"
             },
             {
-                "team1_handicap": "1.21",
-                "team2_handicap": "3.90",
+                "team1_handicap": "1.20",
+                "team2_handicap": "4.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
+                "submarket_name": "Asian Handicap +0.5"
+            },
+            {
+                "team1_handicap": "1.19",
+                "team2_handicap": "3.90",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "team2_handicap"
+                ],
                 "submarket_name": "Asian Handicap +0.5"
             }
         ],
@@ -4810,7 +5282,7 @@
         "asian_handicap_+1_5_market": [
             {
                 "team1_handicap": "1.03",
-                "team2_handicap": "8.50",
+                "team2_handicap": "9.50",
                 "bookmaker_name": "bet-at-home.de",
                 "period": "FullTime",
                 "submarket_name": "Asian Handicap +1.5"
@@ -4821,7 +5293,7 @@
             {
                 "team1_handicap": "21.00",
                 "draw_handicap": "12.00",
-                "team2_handicap": "1.08",
+                "team2_handicap": "1.07",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -3"
@@ -4829,15 +5301,15 @@
             {
                 "team1_handicap": "21.00",
                 "draw_handicap": "12.00",
-                "team2_handicap": "1.07",
+                "team2_handicap": "1.06",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -3"
             },
             {
-                "team1_handicap": "18.00",
-                "draw_handicap": "9.50",
-                "team2_handicap": "1.06",
+                "team1_handicap": "17.00",
+                "draw_handicap": "9.00",
+                "team2_handicap": "1.08",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -3"
@@ -4845,25 +5317,25 @@
         ],
         "european_handicap_-2_market": [
             {
-                "team1_handicap": "8.00",
+                "team1_handicap": "9.00",
                 "draw_handicap": "5.50",
-                "team2_handicap": "1.29",
+                "team2_handicap": "1.25",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "8.00",
+                "team1_handicap": "9.00",
                 "draw_handicap": "5.50",
-                "team2_handicap": "1.25",
+                "team2_handicap": "1.22",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "9.00",
-                "draw_handicap": "5.70",
-                "team2_handicap": "1.23",
+                "team1_handicap": "8.25",
+                "draw_handicap": "5.40",
+                "team2_handicap": "1.26",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -2"
@@ -4877,8 +5349,8 @@
                 "submarket_name": "European Handicap -2"
             },
             {
-                "team1_handicap": "7.75",
-                "draw_handicap": "5.75",
+                "team1_handicap": "8.00",
+                "draw_handicap": "5.50",
                 "team2_handicap": "1.25",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
@@ -4887,41 +5359,54 @@
         ],
         "european_handicap_-1_market": [
             {
-                "team1_handicap": "3.50",
-                "draw_handicap": "3.75",
+                "team1_handicap": "3.75",
+                "draw_handicap": "3.60",
                 "team2_handicap": "1.83",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "3.50",
-                "draw_handicap": "3.75",
+                "team1_handicap": "3.75",
+                "draw_handicap": "3.60",
                 "team2_handicap": "1.80",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
-                "team1_handicap": "4.10",
-                "draw_handicap": "3.65",
-                "team2_handicap": "1.72",
+                "team1_handicap": "3.75",
+                "draw_handicap": "3.50",
+                "team2_handicap": "1.83",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
                 "team1_handicap": "3.65",
-                "draw_handicap": "3.65",
-                "team2_handicap": "1.80",
+                "draw_handicap": "3.60",
+                "team2_handicap": "1.83",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
             },
             {
                 "team1_handicap": "3.60",
-                "draw_handicap": "3.50",
-                "team2_handicap": "1.78",
+                "draw_handicap": "3.60",
+                "team2_handicap": "1.80",
+                "bookmaker_name": "Neobet",
+                "period": "FullTime",
+                "blocked_outcomes": [
+                    "team1_handicap",
+                    "draw_handicap",
+                    "team2_handicap"
+                ],
+                "submarket_name": "European Handicap -1"
+            },
+            {
+                "team1_handicap": "3.60",
+                "draw_handicap": "3.40",
+                "team2_handicap": "1.80",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap -1"
@@ -4945,9 +5430,9 @@
                 "submarket_name": "European Handicap +1"
             },
             {
-                "team1_handicap": "1.29",
-                "draw_handicap": "4.85",
-                "team2_handicap": "8.25",
+                "team1_handicap": "1.25",
+                "draw_handicap": "5.10",
+                "team2_handicap": "9.75",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
@@ -4955,15 +5440,15 @@
             {
                 "team1_handicap": "1.25",
                 "draw_handicap": "5.50",
-                "team2_handicap": "10.00",
+                "team2_handicap": "11.00",
                 "bookmaker_name": "Interwetten.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
             },
             {
-                "team1_handicap": "1.24",
-                "draw_handicap": "5.25",
-                "team2_handicap": "9.00",
+                "team1_handicap": "1.22",
+                "draw_handicap": "5.50",
+                "team2_handicap": "10.00",
                 "bookmaker_name": "Oddset.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +1"
@@ -4973,7 +5458,7 @@
             {
                 "team1_handicap": "1.05",
                 "draw_handicap": "13.00",
-                "team2_handicap": "26.00",
+                "team2_handicap": "29.00",
                 "bookmaker_name": "bet365",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
@@ -4981,15 +5466,15 @@
             {
                 "team1_handicap": "1.04",
                 "draw_handicap": "13.00",
-                "team2_handicap": "26.00",
+                "team2_handicap": "29.00",
                 "bookmaker_name": "Bet365.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
             },
             {
-                "team1_handicap": "1.08",
-                "draw_handicap": "8.50",
-                "team2_handicap": "18.50",
+                "team1_handicap": "1.06",
+                "draw_handicap": "9.25",
+                "team2_handicap": "22.00",
                 "bookmaker_name": "Betano.de",
                 "period": "FullTime",
                 "submarket_name": "European Handicap +2"
