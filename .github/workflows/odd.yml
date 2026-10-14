@@ -1,0 +1,447 @@
+name: Manual Daily League Odds (AI Optimized)
+
+on:
+  workflow_dispatch:
+    inputs:
+      league_choice:
+        description: 'Çekilecek Ligi Seçin'
+        required: true
+        type: choice
+        default: 'france-ligue-2,italy-serie-b,spain-laliga2 | Üçü Birden (Ligue 2 + Serie B + LaLiga 2)'
+        options:
+          - 'france-ligue-2,italy-serie-b,spain-laliga2 | Üçü Birden (Ligue 2 + Serie B + LaLiga 2)'
+          - 'france-ligue-2 | Fransa - Ligue 2'
+          - 'italy-serie-b | İtalya - Serie B'
+          - 'spain-laliga2 | İspanya - LaLiga 2'
+          - 'england-championship | İngiltere - Championship'
+          - 'germany-2-bundesliga | Almanya - 2. Bundesliga'
+          - 'turkey-1-lig | Türkiye - 1. Lig'
+          - 'turkey-super-lig | Türkiye - Süper Lig'
+          - 'netherlands-eerste-divisie | Hollanda - Eerste Divisie'
+          - 'portugal-liga-portugal-2 | Portekiz - Liga Portugal 2'
+          - 'england-premier-league | İngiltere - Premier League'
+          - 'spain-laliga | İspanya - LaLiga'
+          - 'italy-serie-a | İtalya - Serie A'
+          - 'germany-bundesliga | Almanya - Bundesliga'
+          - 'france-ligue-1 | Fransa - Ligue 1'
+      custom_leagues:
+        description: 'Menüde olmayan özel lig kodu (Doluysa üstteki menü yerine bu geçerli olur)'
+        required: false
+        default: ''
+        type: string
+      target_date:
+        description: 'Tarih (YYYYMMDD). Boş bırakılırsa otomatik BUGÜN çekilir'
+        required: false
+        default: ''
+        type: string
+      markets:
+        description: 'Bahis Market Paketi Seçin'
+        required: true
+        type: choice
+        default: '1x2,over_under_2_5,btts,draw_no_bet'
+        options:
+          - '1x2,over_under_2_5,btts,draw_no_bet'
+          - '1x2,over_under,btts,asian_handicap'
+          - '1x2,double_chance,draw_no_bet'
+          - '1x2'
+      include_started:
+        description: 'Bugün başlamış veya bitmiş maçlar da dahil edilsin mi?'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-daily-league:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo kodlarını çek
+        uses: actions/checkout@v4
+
+      - name: Python 3.12 kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: OddsHarvester ve Playwright kurulumu
+        run: |
+          pip install --upgrade pip
+          pip install oddsharvester
+          playwright install --with-deps chromium
+
+      - name: Seçilen ligin bugünkü maçlarını Proxy ile çek
+        id: scrape
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+          LEAGUE_CHOICE: ${{ inputs.league_choice }}
+          CUSTOM_LEAGUES: ${{ inputs.custom_leagues }}
+          INPUT_DATE: ${{ inputs.target_date }}
+          MARKETS: ${{ inputs.markets }}
+          INCLUDE_STARTED: ${{ inputs.include_started }}
+        run: |
+          mkdir -p raw_data matches
+
+          # Özel lig alanı doldurulduysa onu kullan, boşsa açılır menüdeki "|" öncesi kodu al
+          if [ -n "$CUSTOM_LEAGUES" ]; then
+            LEAGUES=$(echo "$CUSTOM_LEAGUES" | tr -d ' ')
+          else
+            LEAGUES=$(echo "$LEAGUE_CHOICE" | cut -d'|' -f1 | tr -d ' ')
+          fi
+
+          # Tarih boş bırakıldıysa Türkiye saatine göre bugünün tarihini al (YYYYMMDD)
+          if [ -z "$INPUT_DATE" ]; then
+            TARGET_DATE=$(TZ="Europe/Istanbul" date +%Y%m%d)
+          else
+            TARGET_DATE="$INPUT_DATE"
+          fi
+
+          echo "Hedef Lig(ler): $LEAGUES"
+          echo "Hedef Tarih: $TARGET_DATE (Europe/Istanbul)"
+          echo "target_date=$TARGET_DATE" >> $GITHUB_OUTPUT
+          echo "selected_leagues=$LEAGUES" >> $GITHUB_OUTPUT
+
+          ARGS=(
+            -s football
+            -l "$LEAGUES"
+            -d "$TARGET_DATE"
+            -m "$MARKETS"
+            --odds-history
+            --timezone "Europe/Istanbul"
+            -f json
+            -o raw_data/all_matches
+            --headless
+          )
+
+          if [ "$INCLUDE_STARTED" = "true" ]; then
+            ARGS+=(--include-started)
+          fi
+
+          if [ -n "$PROXY_URL" ]; then
+            ARGS+=(--proxies "$PROXY_URL")
+          else
+            echo "Uyarı: PROXY_URL tanımlanmamış, doğrudan bağlantı kullanılıyor..."
+          fi
+
+          if oddsharvester upcoming "${ARGS[@]}"; then
+            echo "has_matches=true" >> $GITHUB_OUTPUT
+          else
+            if [ -f "raw_data/all_matches.json" ]; then
+              echo "has_matches=true" >> $GITHUB_OUTPUT
+            else
+              echo "::warning::Seçilen lig(ler)de ($LEAGUES) $TARGET_DATE tarihinde maç bulunamadı."
+              echo "has_matches=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Yapay Zeka (LLM) için optimize et ve her maçı ayrı JSON yap
+        if: steps.scrape.outputs.has_matches == 'true'
+        env:
+          TARGET_DATE: ${{ steps.scrape.outputs.target_date }}
+        run: |
+          python3 - << 'EOF'
+          import json
+          import os
+          import re
+          import statistics
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          raw_file = Path("raw_data/all_matches.json")
+          if not raw_file.exists():
+              print("Çekilen maç dosyası bulunamadı.")
+              exit(0)
+
+          with open(raw_file, "r", encoding="utf-8") as f:
+              matches = json.load(f)
+
+          if not isinstance(matches, list):
+              matches = [matches]
+
+          if not matches:
+              print("Maç listesi boş.")
+              exit(0)
+
+          def slugify(text):
+              text = str(text or "unknown").lower().strip()
+              text = re.sub(r"[^\w\s-]", "", text)
+              return re.sub(r"[-\s]+", "_", text)
+
+          def to_float(val):
+              if val is None or val == "-" or val == "":
+                  return None
+              try:
+                  f_val = float(str(val).strip())
+                  return f_val if f_val > 1.0 else None
+              except (ValueError, TypeError):
+                  return None
+
+          def extract_opening_odd(history_block):
+              if not isinstance(history_block, dict):
+                  return None
+              op = history_block.get("opening_odds")
+              if isinstance(op, (int, float, str)):
+                  return to_float(op)
+              if isinstance(op, dict):
+                  return to_float(op.get("odds") or op.get("value") or op.get("price"))
+              hist = history_block.get("odds_history")
+              if isinstance(hist, list) and hist:
+                  first = hist[0]
+                  if isinstance(first, dict):
+                      return to_float(first.get("odds") or first.get("value"))
+              return None
+
+          META_KEYS = {"bookmaker_name", "period", "odds_history_data", "blocked_outcomes"}
+
+          def analyze_market(market_name, rows):
+              if not isinstance(rows, list) or not rows:
+                  return None
+
+              outcome_keys = []
+              for r in rows:
+                  if isinstance(r, dict):
+                      for k in r.keys():
+                          if k not in META_KEYS and k not in outcome_keys:
+                              outcome_keys.append(k)
+
+              if not outcome_keys:
+                  return None
+
+              current_odds = {k: [] for k in outcome_keys}
+              opening_odds = {k: [] for k in outcome_keys}
+              blocked_counts = {k: 0 for k in outcome_keys}
+
+              for r in rows:
+                  if not isinstance(r, dict):
+                      continue
+                  bm = r.get("bookmaker_name", "Unknown")
+                  blocked = r.get("blocked_outcomes") or []
+                  for b_out in blocked:
+                      if b_out in blocked_counts:
+                          blocked_counts[b_out] += 1
+
+                  hist_list = r.get("odds_history_data") or []
+
+                  for idx, k in enumerate(outcome_keys):
+                      val = to_float(r.get(k))
+                      if val and k not in blocked:
+                          current_odds[k].append((val, bm))
+
+                      if isinstance(hist_list, list) and idx < len(hist_list):
+                          op_val = extract_opening_odd(hist_list[idx])
+                          if op_val:
+                              opening_odds[k].append(op_val)
+
+              outcomes_summary = {}
+              raw_implied_sum = 0.0
+
+              for k in outcome_keys:
+                  pairs = current_odds[k]
+                  if not pairs:
+                      continue
+                  vals = [p[0] for p in pairs]
+                  avg_val = statistics.mean(vals)
+                  max_val, max_bm = max(pairs, key=lambda x: x[0])
+                  min_val, _ = min(pairs, key=lambda x: x[0])
+                  stdev_val = statistics.stdev(vals) if len(vals) > 1 else 0.0
+
+                  raw_prob = 1.0 / avg_val
+                  raw_implied_sum += raw_prob
+
+                  op_vals = opening_odds[k]
+                  op_avg = statistics.mean(op_vals) if op_vals else None
+                  change_pct = ((avg_val - op_avg) / op_avg * 100.0) if op_avg else None
+
+                  trend = "STABLE"
+                  if change_pct is not None:
+                      if change_pct <= -5.0:
+                          trend = "DROPPING_SHARP"
+                      elif change_pct <= -2.5:
+                          trend = "DROPPING"
+                      elif change_pct >= 5.0:
+                          trend = "DRIFTING_UP"
+
+                  outcomes_summary[k] = {
+                      "avg_odds": round(avg_val, 3),
+                      "max_odds": round(max_val, 2),
+                      "max_bookmaker": max_bm,
+                      "min_odds": round(min_val, 2),
+                      "std_dev": round(stdev_val, 3),
+                      "opening_avg_odds": round(op_avg, 3) if op_avg else None,
+                      "movement_pct": round(change_pct, 2) if change_pct is not None else None,
+                      "trend": trend,
+                      "blocked_by_bookmakers": blocked_counts[k],
+                      "_raw_prob": raw_prob
+                  }
+
+              if not outcomes_summary or raw_implied_sum <= 0:
+                  return None
+
+              overround_pct = (raw_implied_sum - 1.0) * 100.0
+              signals = {"dropping_odds": [], "value_bets": [], "blocked_alerts": []}
+
+              for k, data in outcomes_summary.items():
+                  fair_prob = (data.pop("_raw_prob") / raw_implied_sum)
+                  fair_odds = 1.0 / fair_prob if fair_prob > 0 else None
+                  data["fair_probability_pct"] = round(fair_prob * 100.0, 2)
+                  data["fair_odds"] = round(fair_odds, 3) if fair_odds else None
+
+                  if fair_odds and data["max_odds"] > fair_odds:
+                      ev_pct = ((data["max_odds"] / fair_odds) - 1.0) * 100.0
+                      if ev_pct >= 1.5:
+                          signals["value_bets"].append({
+                              "market": market_name,
+                              "outcome": k,
+                              "bookmaker": data["max_bookmaker"],
+                              "offered_odds": data["max_odds"],
+                              "fair_odds": data["fair_odds"],
+                              "edge_ev_pct": round(ev_pct, 2)
+                          })
+
+                  if data["movement_pct"] is not None and data["movement_pct"] <= -4.0:
+                      signals["dropping_odds"].append({
+                          "market": market_name,
+                          "outcome": k,
+                          "opening_avg": data["opening_avg_odds"],
+                          "current_avg": data["avg_odds"],
+                          "drop_pct": data["movement_pct"]
+                      })
+
+                  if data["blocked_by_bookmakers"] >= 2:
+                      signals["blocked_alerts"].append({
+                          "market": market_name,
+                          "outcome": k,
+                          "blocked_count": data["blocked_by_bookmakers"]
+                      })
+
+              return {
+                  "bookmaker_sample_size": max(len(current_odds[k]) for k in outcome_keys),
+                  "market_margin_pct": round(overround_pct, 2),
+                  "outcomes": outcomes_summary,
+                  "_signals": signals
+              }
+
+          target_date_env = os.environ.get("TARGET_DATE", "today")
+          output_base = Path("matches") / target_date_env
+          daily_index = []
+
+          for idx, match in enumerate(matches, start=1):
+              league_raw = match.get("league") or match.get("tournament") or "general"
+              home_raw = match.get("home_team") or match.get("home") or f"home_{idx}"
+              away_raw = match.get("away_team") or match.get("away") or f"away_{idx}"
+              kickoff_raw = str(match.get("kickoff_utc") or match.get("match_date") or match.get("date") or "")
+
+              league_slug = slugify(league_raw)
+              home_slug = slugify(home_raw)
+              away_slug = slugify(away_raw)
+
+              markets_analytics = {}
+              all_dropping = []
+              all_value = []
+              all_blocked = []
+
+              for key, val in match.items():
+                  if key.endswith("_market") and isinstance(val, list):
+                      clean_m_name = key.replace("_market", "")
+                      analyzed = analyze_market(clean_m_name, val)
+                      if analyzed:
+                          sigs = analyzed.pop("_signals")
+                          all_dropping.extend(sigs["dropping_odds"])
+                          all_value.extend(sigs["value_bets"])
+                          all_blocked.extend(sigs["blocked_alerts"])
+                          markets_analytics[clean_m_name] = analyzed
+
+              prompt_lines = [
+                  f"MATCH: {home_raw} vs {away_raw} ({league_raw}) | Kickoff: {kickoff_raw}"
+              ]
+              for m_name, m_data in markets_analytics.items():
+                  out_strs = []
+                  for out_k, out_v in m_data["outcomes"].items():
+                      mov = f", Δ:{out_v['movement_pct']}%" if out_v["movement_pct"] is not None else ""
+                      out_strs.append(
+                          f"{out_k}: Avg {out_v['avg_odds']} (Max {out_v['max_odds']} @{out_v['max_bookmaker']}, FairProb {out_v['fair_probability_pct']}%{mov})"
+                      )
+                  prompt_lines.append(f"- Market [{m_name}] (Margin {m_data['market_margin_pct']}%): " + " | ".join(out_strs))
+
+              if all_dropping:
+                  drops_txt = ", ".join([f"{d['market']}:{d['outcome']} ({d['drop_pct']}%)" for d in all_dropping])
+                  prompt_lines.append(f"- SHARP MONEY / DROPPING ODDS: {drops_txt}")
+              if all_value:
+                  val_txt = ", ".join([f"{v['market']}:{v['outcome']} @{v['offered_odds']} ({v['bookmaker']}, +{v['edge_ev_pct']}% EV)" for v in all_value])
+                  prompt_lines.append(f"- VALUE BET (+EV) SIGNALS: {val_txt}")
+
+              ai_optimized_match = {
+                  "schema_version": "2.0-ai-optimized",
+                  "generated_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "match_metadata": {
+                      "match_id": f"{target_date_env}_{home_slug}_vs_{away_slug}",
+                      "sport": match.get("sport", "football"),
+                      "country": match.get("country"),
+                      "league": league_raw,
+                      "home_team": home_raw,
+                      "away_team": away_raw,
+                      "kickoff_time": kickoff_raw,
+                      "venue": match.get("venue"),
+                      "match_url": match.get("match_url") or match.get("url")
+                  },
+                  "ai_signals": {
+                      "has_sharp_movement": len(all_dropping) > 0,
+                      "has_value_bet": len(all_value) > 0,
+                      "has_blocked_odds": len(all_blocked) > 0,
+                      "dropping_odds_alerts": all_dropping,
+                      "value_bet_opportunities": all_value,
+                      "blocked_outcomes_alerts": all_blocked
+                  },
+                  "markets_analytics": markets_analytics,
+                  "ai_prompt_context": "\n".join(prompt_lines)
+              }
+
+              league_dir = output_base / league_slug
+              league_dir.mkdir(parents=True, exist_ok=True)
+              filepath = league_dir / f"{home_slug}_vs_{away_slug}.json"
+
+              with open(filepath, "w", encoding="utf-8") as out_f:
+                  json.dump(ai_optimized_match, out_f, ensure_ascii=False, indent=2)
+
+              daily_index.append({
+                  "file": str(filepath),
+                  "league": league_raw,
+                  "match": f"{home_raw} vs {away_raw}",
+                  "kickoff": kickoff_raw,
+                  "sharp_drops_count": len(all_dropping),
+                  "value_bets_count": len(all_value),
+                  "dropping_odds": all_dropping,
+                  "value_bets": all_value
+              })
+
+          index_path = output_base / "daily_ai_index.json"
+          with open(index_path, "w", encoding="utf-8") as idx_f:
+              json.dump({
+                  "date": target_date_env,
+                  "generated_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "total_matches": len(daily_index),
+                  "matches": daily_index
+              }, idx_f, ensure_ascii=False, indent=2)
+
+          print(f"{len(daily_index)} maç AI analizi için optimize edildi ve '{output_base}' dizinine kaydedildi.")
+          EOF
+
+      - name: JSON dosyalarını Artifact olarak yükle
+        if: steps.scrape.outputs.has_matches == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: odds-${{ steps.scrape.outputs.target_date }}
+          path: matches/${{ steps.scrape.outputs.target_date }}/
+          retention-days: 14
+
+      - name: Maç dosyalarını repoya kaydet (Commit & Push)
+        if: steps.scrape.outputs.has_matches == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add matches/
+          git diff --staged --quiet || git commit -m "chore(odds): add matches for ${{ steps.scrape.outputs.selected_leagues }} (${{ steps.scrape.outputs.target_date }}) [skip ci]"
+          git push
