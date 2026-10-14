@@ -65,7 +65,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
 
       - name: OddsHarvester ve Playwright kurulumu
         run: |
@@ -85,14 +84,12 @@ jobs:
         run: |
           mkdir -p raw_data matches
 
-          # Özel lig alanı doldurulduysa onu kullan, boşsa açılır menüdeki "|" öncesi kodu al
           if [ -n "$CUSTOM_LEAGUES" ]; then
             LEAGUES=$(echo "$CUSTOM_LEAGUES" | tr -d ' ')
           else
             LEAGUES=$(echo "$LEAGUE_CHOICE" | cut -d'|' -f1 | tr -d ' ')
           fi
 
-          # Tarih boş bırakıldıysa Türkiye saatine göre bugünün tarihini al (YYYYMMDD)
           if [ -z "$INPUT_DATE" ]; then
             TARGET_DATE=$(TZ="Europe/Istanbul" date +%Y%m%d)
           else
