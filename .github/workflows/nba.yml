@@ -1,0 +1,68 @@
+name: NBA Odds Harvester (Manuel - Tüm Oranlar)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  harvest-nba-odds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu Klonla
+        uses: actions/checkout@v4
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Bağımlılıkları ve Playwright Tarayıcısını Yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install .
+          playwright install --with-deps chromium
+
+      - name: NBA Tüm Oranlarını Çek (Moneyline, Handikap, Alt/Üst)
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+          HTTP_PROXY: ${{ secrets.PROXY_URL }}
+          HTTPS_PROXY: ${{ secrets.PROXY_URL }}
+        run: |
+          TODAY=$(date +%Y%m%d)
+          mkdir -p data
+
+          # Çekilecek tüm bahis türleri
+          MARKETS=("moneyline" "handicap" "over-under")
+
+          for MARKET in "${MARKETS[@]}"; do
+            echo "----------------------------------------"
+            echo "Çekiliyor: $MARKET"
+            echo "----------------------------------------"
+            
+            oddsharvester upcoming \
+              -s basketball \
+              -l "usa/nba" \
+              -m "$MARKET" \
+              -d "$TODAY" \
+              --headless \
+              -f json \
+              -o "data/nba_${MARKET}_${TODAY}.json" || echo "$MARKET verisi bulunamadı veya çekilemedi."
+          done
+
+      - name: Değişiklikleri Commit ve Push Et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add data/
+          
+          if git diff --staged --quiet; then
+            echo "Yeni veri veya değişiklik bulunamadı, commit atılmadı."
+          else
+            git commit -m "chore: NBA tüm oranlar güncellendi ($(date +'%Y-%m-%d %H:%M:%S'))"
+            git push
+          fi
