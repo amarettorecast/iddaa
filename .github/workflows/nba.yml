@@ -72,7 +72,7 @@ jobs:
           # moneyline, 1x2, over_under (tüm alt/üst baremlerini açar), asian_handicap (tüm handikap baremlerini açar)
           oddsharvester upcoming \
             -s basketball \
-            -l usa-nba \
+            -l nba \
             -m moneyline,1x2,over_under,asian_handicap \
             --kickoff-within-hours "${HOURS}" \
             --timezone UTC \
