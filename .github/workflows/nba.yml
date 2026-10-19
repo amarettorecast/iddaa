@@ -73,7 +73,7 @@ jobs:
           oddsharvester upcoming \
             -s basketball \
             -l nba \
-            -m moneyline,1x2,over_under,asian_handicap \
+            -m home_away,1x2,over_under,asian_handicap \
             --kickoff-within-hours "${HOURS}" \
             --timezone UTC \
             -c 3 \
