@@ -1,68 +1,117 @@
-name: NBA Odds Harvester (Manuel - Tüm Oranlar)
+name: NBA Daily Odds Harvester & AI Optimizer
 
 on:
-  workflow_dispatch:
+  schedule:
+    # Her gün 16:00 UTC'de (Türkiye saatiyle 19:00 - ABD akşam maçları öncesi) çalışır
+    - cron: '0 16 * * *'
+  workflow_dispatch: # İstenildiğinde GitHub arayüzünden manuel tetikleme imkanı
+    inputs:
+      hours_window:
+        description: 'Kaç saat içindeki NBA maçları çekilsin?'
+        required: false
+        default: '24'
 
 permissions:
-  contents: write
+  contents: write # Çekilen verileri depoya commit ve push edebilmek için zorunlu
 
 jobs:
-  harvest-nba-odds:
+  scrape-and-optimize-nba:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    env:
+      # OddsHarvester yerel ortam değişkenleri (GitHub Secrets üzerinden beslenir)
+      OH_PROXY_URL: ${{ secrets.PROXY_URL }}
+      OH_PROXY_USER: ${{ secrets.PROXY_USER }}
+      OH_PROXY_PASS: ${{ secrets.PROXY_PASS }}
 
     steps:
-      - name: Depoyu Klonla
+      - name: Depoyu Klonla (Checkout)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: Python Kurulumu
+      - name: Python 3.12 Kurulumu
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-          # cache: 'pip' kaldırıldı (hata veren satır)
+          python-version: '3.12'
+          cache: 'pip'
 
-      - name: OddsHarvester ve Playwright Tarayıcısını Yükle
+      - name: OddsHarvester ve Playwright Tarayıcısını Kur
         run: |
-          python -m pip install --upgrade pip
-          # Paketi doğrudan OddsHarvester deposundan yükler
-          pip install git+https://github.com/jordantete/OddsHarvester.git
+          pip install --upgrade pip
+          pip install oddsharvester
           playwright install --with-deps chromium
 
-      - name: NBA Tüm Oranlarını Çek (Moneyline, Handikap, Alt/Üst)
-        env:
-          PROXY_URL: ${{ secrets.PROXY_URL }}
-          HTTP_PROXY: ${{ secrets.PROXY_URL }}
-          HTTPS_PROXY: ${{ secrets.PROXY_URL }}
+      - name: Tarih ve Klasör Yapısını Hazırla
+        id: date_setup
         run: |
-          TODAY=$(date +%Y%m%d)
-          mkdir -p data
+          TODAY=$(date -u +"%Y-%m-%d")
+          OUTPUT_DIR="data/nba/${TODAY}"
+          mkdir -p "${OUTPUT_DIR}"
+          echo "today=${TODAY}" >> $GITHUB_OUTPUT
+          echo "output_dir=${OUTPUT_DIR}" >> $GITHUB_OUTPUT
 
-          MARKETS=("moneyline" "handicap" "over-under")
-
-          for MARKET in "${MARKETS[@]}"; do
-            echo "----------------------------------------"
-            echo "Çekiliyor: $MARKET"
-            echo "----------------------------------------"
-            
-            oddsharvester upcoming \
-              -s basketball \
-              -l "usa/nba" \
-              -m "$MARKET" \
-              -d "$TODAY" \
-              --headless \
-              -f json \
-              -o "data/nba_${MARKET}_${TODAY}.json" || echo "$MARKET verisi bulunamadı veya atlandı."
-          done
-
-      - name: Değişiklikleri Commit ve Push Et
+      - name: NBA Günlük Maçlarının Tüm Oranlarını Çek
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git add data/
-          
+          HOURS="${{ github.event.inputs.hours_window || '24' }}"
+          RAW_FILE="${{ steps.date_setup.outputs.output_dir }}/nba_raw_odds.json"
+
+          # Tek komutta proxy doğrulaması + tüm NBA marketlerinin (şemsiye marketler dahil) çekimi
+          PROXY_ARGS=()
+          if [ -n "$OH_PROXY_URL" ]; then
+            PROXY_ARGS+=(--proxy-url "$OH_PROXY_URL")
+          fi
+          if [ -n "$OH_PROXY_USER" ]; then
+            PROXY_ARGS+=(--proxy-user "$OH_PROXY_USER")
+          fi
+          if [ -n "$OH_PROXY_PASS" ]; then
+            PROXY_ARGS+=(--proxy-pass "$OH_PROXY_PASS")
+          fi
+
+          # Basketbol için desteklenen tüm marketler:
+          # moneyline, 1x2, over_under (tüm alt/üst baremlerini açar), asian_handicap (tüm handikap baremlerini açar)
+          oddsharvester upcoming \
+            -s basketball \
+            -l usa-nba \
+            -m moneyline,1x2,over_under,asian_handicap \
+            --kickoff-within-hours "${HOURS}" \
+            --timezone UTC \
+            -c 3 \
+            -f json \
+            -o "${RAW_FILE}" \
+            --headless \
+            "${PROXY_ARGS[@]}" || echo "Uyarı: Belirtilen zaman diliminde maç bulunamadı veya kısmi çıkış yapıldı."
+
+      - name: Verileri Yapay Zeka (LLM) Analizi İçin Optimize Et
+        run: |
+          OUT_DIR="${{ steps.date_setup.outputs.output_dir }}"
+          TODAY="${{ steps.date_setup.outputs.today }}"
+
+          python scripts/optimize_for_ai.py \
+            "${OUT_DIR}/nba_raw_odds.json" \
+            "${OUT_DIR}/nba_ai_optimized.json" \
+            "${OUT_DIR}/nba_ai_prompt_ready.md" \
+            "${TODAY}"
+
+          # Her zaman en güncel veriye sabit bir yoldan erişebilmek için 'latest' kopyası oluştur
+          if [ -f "${OUT_DIR}/nba_ai_optimized.json" ]; then
+            mkdir -p data/nba/latest
+            cp "${OUT_DIR}/nba_ai_optimized.json" data/nba/latest/nba_ai_optimized.json
+            cp "${OUT_DIR}/nba_ai_prompt_ready.md" data/nba/latest/nba_ai_prompt_ready.md
+          fi
+
+      - name: Verileri GitHub Deposuna Commit ve Push Et
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/nba/
+
           if git diff --staged --quiet; then
-            echo "Yeni veri veya değişiklik bulunamadı, commit atılmadı."
+            echo "Commit edilecek yeni veri yok (Bugün NBA maçı bulunmuyor olabilir)."
           else
-            git commit -m "chore: NBA tüm oranlar güncellendi ($(date +'%Y-%m-%d %H:%M:%S'))"
-            git push
+            git commit -m "data(nba): ${{ steps.date_setup.outputs.today }} NBA oranları ve AI analiz paketi [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
