@@ -1,205 +1,205 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "match_count": 10,
   "matches": [
     {
       "away_team": "Boston Celtics",
-      "home_team": "Detroit Pistons",
       "venue": "Little Caesars Arena",
+      "home_team": "Detroit Pistons",
       "match_date": "2026-10-20 19:00:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.929,
-              "max_odd": 2.0,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.043,
-              "fair_prob_pct": 49.14
+              "avg_odd": 1.992,
+              "max_odd": 2.01,
+              "best_bookie": "bet365",
+              "std_dev": 0.019,
+              "fair_prob_pct": 47.48
             },
             "2": {
-              "avg_odd": 1.864,
-              "max_odd": 1.92,
+              "avg_odd": 1.801,
+              "max_odd": 1.84,
               "best_bookie": "Winamax.de",
-              "std_dev": 0.046,
-              "fair_prob_pct": 50.86
+              "std_dev": 0.031,
+              "fair_prob_pct": 52.52
             }
           },
-          "market_margin_pct": 5.49,
-          "balance_diff": 1.72
+          "market_margin_pct": 5.73,
+          "balance_diff": 5.04
         }
       },
       "totals_summary": {
-        "main_line": "over_under_games_221_5",
+        "main_line": "over_under_games_220_5",
         "main_line_data": {
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.842,
-              "max_odd": 1.85,
-              "best_bookie": "bet-at-home.de",
-              "std_dev": 0.013,
-              "fair_prob_pct": 51.0
+              "avg_odd": 1.903,
+              "max_odd": 1.95,
+              "best_bookie": "Interwetten",
+              "std_dev": 0.028,
+              "fair_prob_pct": 49.72
             },
             "odds_under": {
-              "avg_odd": 1.917,
-              "max_odd": 1.97,
-              "best_bookie": "bet365",
-              "std_dev": 0.041,
-              "fair_prob_pct": 49.0
+              "avg_odd": 1.882,
+              "max_odd": 1.93,
+              "best_bookie": "Betano.de",
+              "std_dev": 0.033,
+              "fair_prob_pct": 50.28
             }
           },
-          "market_margin_pct": 6.45,
-          "balance_diff": 2.0
+          "market_margin_pct": 5.68,
+          "balance_diff": 0.56
         },
         "key_alternate_lines": {
-          "over_under_games_221_5": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.842,
-                "max_odd": 1.85,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.013,
-                "fair_prob_pct": 51.0
-              },
-              "odds_under": {
-                "avg_odd": 1.917,
-                "max_odd": 1.97,
-                "best_bookie": "bet365",
-                "std_dev": 0.041,
-                "fair_prob_pct": 49.0
-              }
-            },
-            "market_margin_pct": 6.45,
-            "balance_diff": 2.0
-          },
-          "over_under_games_222_5": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.932,
-                "max_odd": 1.96,
-                "best_bookie": "bet365",
-                "std_dev": 0.026,
-                "fair_prob_pct": 48.75
-              },
-              "odds_under": {
-                "avg_odd": 1.838,
-                "max_odd": 1.87,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.026,
-                "fair_prob_pct": 51.25
-              }
-            },
-            "market_margin_pct": 6.17,
-            "balance_diff": 2.5
-          },
           "over_under_games_220_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.807,
-                "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.067,
-                "fair_prob_pct": 51.93
+                "avg_odd": 1.903,
+                "max_odd": 1.95,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.028,
+                "fair_prob_pct": 49.72
               },
               "odds_under": {
-                "avg_odd": 1.952,
-                "max_odd": 2.0,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.053,
-                "fair_prob_pct": 48.07
+                "avg_odd": 1.882,
+                "max_odd": 1.93,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.033,
+                "fair_prob_pct": 50.28
               }
             },
-            "market_margin_pct": 6.57,
-            "balance_diff": 3.86
-          },
-          "over_under_games_223_5": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.952,
-                "max_odd": 2.0,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.053,
-                "fair_prob_pct": 48.07
-              },
-              "odds_under": {
-                "avg_odd": 1.807,
-                "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.067,
-                "fair_prob_pct": 51.93
-              }
-            },
-            "market_margin_pct": 6.57,
-            "balance_diff": 3.86
+            "market_margin_pct": 5.68,
+            "balance_diff": 0.56
           },
           "over_under_games_219_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.705,
-                "max_odd": 1.72,
+                "avg_odd": 1.857,
+                "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.01,
-                "fair_prob_pct": 54.8
+                "std_dev": 0.038,
+                "fair_prob_pct": 51.2
               },
               "odds_under": {
-                "avg_odd": 2.067,
-                "max_odd": 2.1,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.024,
-                "fair_prob_pct": 45.2
+                "avg_odd": 1.948,
+                "max_odd": 2.0,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.039,
+                "fair_prob_pct": 48.8
               }
             },
-            "market_margin_pct": 7.03,
-            "balance_diff": 9.6
+            "market_margin_pct": 5.18,
+            "balance_diff": 2.4
           },
-          "over_under_games_224_5": {
-            "bookmaker_count": 4,
+          "over_under_games_221_5": {
+            "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.067,
-                "max_odd": 2.1,
+                "avg_odd": 1.96,
+                "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.024,
-                "fair_prob_pct": 45.2
+                "std_dev": 0.056,
+                "fair_prob_pct": 48.31
               },
               "odds_under": {
-                "avg_odd": 1.705,
-                "max_odd": 1.72,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.01,
-                "fair_prob_pct": 54.8
+                "avg_odd": 1.832,
+                "max_odd": 1.91,
+                "best_bookie": "bet365",
+                "std_dev": 0.053,
+                "fair_prob_pct": 51.69
               }
             },
-            "market_margin_pct": 7.03,
-            "balance_diff": 9.6
+            "market_margin_pct": 5.61,
+            "balance_diff": 3.38
           },
           "over_under_games_218_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.655,
-                "max_odd": 1.7,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.037,
-                "fair_prob_pct": 56.58
+                "avg_odd": 1.77,
+                "max_odd": 1.8,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.024,
+                "fair_prob_pct": 53.45
               },
               "odds_under": {
-                "avg_odd": 2.157,
-                "max_odd": 2.25,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.083,
-                "fair_prob_pct": 43.42
+                "avg_odd": 2.032,
+                "max_odd": 2.1,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.054,
+                "fair_prob_pct": 46.55
               }
             },
-            "market_margin_pct": 6.78,
-            "balance_diff": 13.16
+            "market_margin_pct": 5.71,
+            "balance_diff": 6.9
+          },
+          "over_under_games_222_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 2.048,
+                "max_odd": 2.15,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.087,
+                "fair_prob_pct": 46.32
+              },
+              "odds_under": {
+                "avg_odd": 1.767,
+                "max_odd": 1.86,
+                "best_bookie": "bet365",
+                "std_dev": 0.068,
+                "fair_prob_pct": 53.68
+              }
+            },
+            "market_margin_pct": 5.42,
+            "balance_diff": 7.36
+          },
+          "over_under_games_223_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 2.088,
+                "max_odd": 2.2,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.155,
+                "fair_prob_pct": 45.43
+              },
+              "odds_under": {
+                "avg_odd": 1.738,
+                "max_odd": 1.91,
+                "best_bookie": "bet365",
+                "std_dev": 0.12,
+                "fair_prob_pct": 54.57
+              }
+            },
+            "market_margin_pct": 5.43,
+            "balance_diff": 9.14
+          },
+          "over_under_games_217_5": {
+            "bookmaker_count": 4,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.698,
+                "max_odd": 1.72,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 55.58
+              },
+              "odds_under": {
+                "avg_odd": 2.125,
+                "max_odd": 2.2,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.065,
+                "fair_prob_pct": 44.42
+              }
+            },
+            "market_margin_pct": 5.95,
+            "balance_diff": 11.16
           }
         }
       },
@@ -209,372 +209,372 @@
           "bookmaker_count": 6,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.853,
-              "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.045,
-              "fair_prob_pct": 50.72
+              "avg_odd": 1.898,
+              "max_odd": 1.93,
+              "best_bookie": "Betano.de",
+              "std_dev": 0.021,
+              "fair_prob_pct": 49.96
             },
             "handicap_team_2": {
-              "avg_odd": 1.907,
-              "max_odd": 1.95,
-              "best_bookie": "bet-at-home.de",
-              "std_dev": 0.034,
-              "fair_prob_pct": 49.28
+              "avg_odd": 1.895,
+              "max_odd": 1.92,
+              "best_bookie": "bet365",
+              "std_dev": 0.018,
+              "fair_prob_pct": 50.04
             }
           },
-          "market_margin_pct": 6.4,
-          "balance_diff": 1.44
+          "market_margin_pct": 5.46,
+          "balance_diff": 0.08
         },
         "key_alternate_lines": {
           "asian_handicap_games_+1_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.853,
-                "max_odd": 1.91,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.045,
-                "fair_prob_pct": 50.72
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.907,
-                "max_odd": 1.95,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.034,
-                "fair_prob_pct": 49.28
-              }
-            },
-            "market_margin_pct": 6.4,
-            "balance_diff": 1.44
-          },
-          "asian_handicap_games_-1_5_games": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 2.007,
-                "max_odd": 2.07,
+                "avg_odd": 1.898,
+                "max_odd": 1.93,
                 "best_bookie": "Betano.de",
-                "std_dev": 0.046,
-                "fair_prob_pct": 46.69
+                "std_dev": 0.021,
+                "fair_prob_pct": 49.96
               },
               "handicap_team_2": {
-                "avg_odd": 1.758,
-                "max_odd": 1.83,
+                "avg_odd": 1.895,
+                "max_odd": 1.92,
                 "best_bookie": "bet365",
-                "std_dev": 0.049,
-                "fair_prob_pct": 53.31
+                "std_dev": 0.018,
+                "fair_prob_pct": 50.04
               }
             },
-            "market_margin_pct": 6.71,
-            "balance_diff": 6.62
+            "market_margin_pct": 5.46,
+            "balance_diff": 0.08
           },
           "asian_handicap_games_+2_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.745,
-                "max_odd": 1.8,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.053,
-                "fair_prob_pct": 53.57
+                "avg_odd": 1.8,
+                "max_odd": 1.82,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.016,
+                "fair_prob_pct": 52.48
               },
               "handicap_team_2": {
-                "avg_odd": 2.013,
-                "max_odd": 2.1,
+                "avg_odd": 1.988,
+                "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.075,
-                "fair_prob_pct": 46.43
+                "std_dev": 0.025,
+                "fair_prob_pct": 47.52
               }
             },
-            "market_margin_pct": 6.98,
-            "balance_diff": 7.14
+            "market_margin_pct": 5.86,
+            "balance_diff": 4.96
           },
-          "asian_handicap_games_-2_5_games": {
+          "asian_handicap_games_-1_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.092,
-                "max_odd": 2.2,
+                "avg_odd": 2.07,
+                "max_odd": 2.15,
                 "best_bookie": "Betano.de",
-                "std_dev": 0.106,
-                "fair_prob_pct": 45.02
+                "std_dev": 0.076,
+                "fair_prob_pct": 45.74
               },
               "handicap_team_2": {
-                "avg_odd": 1.713,
+                "avg_odd": 1.745,
                 "max_odd": 1.83,
-                "best_bookie": "Bet365.de",
-                "std_dev": 0.084,
-                "fair_prob_pct": 54.98
+                "best_bookie": "bet365",
+                "std_dev": 0.056,
+                "fair_prob_pct": 54.26
               }
             },
-            "market_margin_pct": 6.18,
-            "balance_diff": 9.96
+            "market_margin_pct": 5.62,
+            "balance_diff": 8.52
           },
           "asian_handicap_games_+3_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.663,
+                "avg_odd": 1.705,
                 "max_odd": 1.72,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.057,
-                "fair_prob_pct": 56.25
+                "best_bookie": "Betano.de",
+                "std_dev": 0.019,
+                "fair_prob_pct": 55.39
               },
               "handicap_team_2": {
-                "avg_odd": 2.138,
-                "max_odd": 2.25,
+                "avg_odd": 2.117,
+                "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.103,
-                "fair_prob_pct": 43.75
+                "std_dev": 0.047,
+                "fair_prob_pct": 44.61
               }
             },
-            "market_margin_pct": 6.9,
-            "balance_diff": 12.5
+            "market_margin_pct": 5.89,
+            "balance_diff": 10.78
+          },
+          "asian_handicap_games_-2_5_games": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 2.15,
+                "max_odd": 2.3,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.141,
+                "fair_prob_pct": 44.11
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.697,
+                "max_odd": 1.83,
+                "best_bookie": "Bet365.de",
+                "std_dev": 0.093,
+                "fair_prob_pct": 55.89
+              }
+            },
+            "market_margin_pct": 5.44,
+            "balance_diff": 11.78
           },
           "asian_handicap_games_+4_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.605,
+                "avg_odd": 1.625,
                 "max_odd": 1.65,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.042,
-                "fair_prob_pct": 58.26
+                "best_bookie": "Betano.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 58.06
               },
               "handicap_team_2": {
-                "avg_odd": 2.24,
+                "avg_odd": 2.25,
                 "max_odd": 2.3,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.069,
-                "fair_prob_pct": 41.74
+                "best_bookie": "Interwetten",
+                "std_dev": 0.041,
+                "fair_prob_pct": 41.94
               }
             },
-            "market_margin_pct": 6.95,
-            "balance_diff": 16.52
+            "market_margin_pct": 5.98,
+            "balance_diff": 16.12
           },
-          "asian_handicap_games_-3_5_games": {
+          "asian_handicap_games_+5_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.288,
-                "max_odd": 2.35,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.063,
-                "fair_prob_pct": 40.92
+                "avg_odd": 1.545,
+                "max_odd": 1.57,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.019,
+                "fair_prob_pct": 60.72
               },
               "handicap_team_2": {
-                "avg_odd": 1.585,
-                "max_odd": 1.6,
+                "avg_odd": 2.388,
+                "max_odd": 2.45,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.024,
-                "fair_prob_pct": 59.08
+                "std_dev": 0.063,
+                "fair_prob_pct": 39.28
               }
             },
-            "market_margin_pct": 6.8,
-            "balance_diff": 18.16
+            "market_margin_pct": 6.6,
+            "balance_diff": 21.44
           }
         }
       }
     },
     {
       "away_team": "Philadelphia 76ers",
-      "home_team": "New York Knicks",
       "venue": "Madison Square Garden",
+      "home_team": "New York Knicks",
       "match_date": "2026-10-20 23:00:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.516,
-              "max_odd": 1.53,
-              "best_bookie": "bet-at-home.de",
-              "std_dev": 0.023,
-              "fair_prob_pct": 62.57
+              "avg_odd": 1.534,
+              "max_odd": 1.56,
+              "best_bookie": "Winamax.de",
+              "std_dev": 0.022,
+              "fair_prob_pct": 61.93
             },
             "2": {
-              "avg_odd": 2.534,
-              "max_odd": 2.6,
+              "avg_odd": 2.495,
+              "max_odd": 2.55,
               "best_bookie": "Winamax.de",
-              "std_dev": 0.067,
-              "fair_prob_pct": 37.43
+              "std_dev": 0.041,
+              "fair_prob_pct": 38.07
             }
           },
-          "market_margin_pct": 5.43,
-          "balance_diff": 25.14
+          "market_margin_pct": 5.27,
+          "balance_diff": 23.86
         }
       },
       "totals_summary": {
-        "main_line": "over_under_games_231_5",
+        "main_line": "over_under_games_232_5",
         "main_line_data": {
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.883,
-              "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
+              "avg_odd": 1.93,
+              "max_odd": 1.95,
+              "best_bookie": "bet365",
               "std_dev": 0.023,
-              "fair_prob_pct": 50.03
+              "fair_prob_pct": 49.17
             },
             "odds_under": {
-              "avg_odd": 1.885,
-              "max_odd": 1.92,
-              "best_bookie": "bet365",
-              "std_dev": 0.03,
-              "fair_prob_pct": 49.97
+              "avg_odd": 1.867,
+              "max_odd": 1.9,
+              "best_bookie": "Betano.de",
+              "std_dev": 0.024,
+              "fair_prob_pct": 50.83
             }
           },
-          "market_margin_pct": 6.16,
-          "balance_diff": 0.06
+          "market_margin_pct": 5.38,
+          "balance_diff": 1.66
         },
         "key_alternate_lines": {
-          "over_under_games_231_5": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.883,
-                "max_odd": 1.91,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.023,
-                "fair_prob_pct": 50.03
-              },
-              "odds_under": {
-                "avg_odd": 1.885,
-                "max_odd": 1.92,
-                "best_bookie": "bet365",
-                "std_dev": 0.03,
-                "fair_prob_pct": 49.97
-              }
-            },
-            "market_margin_pct": 6.16,
-            "balance_diff": 0.06
-          },
           "over_under_games_232_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.935,
-                "max_odd": 1.98,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.039,
-                "fair_prob_pct": 48.63
+                "avg_odd": 1.93,
+                "max_odd": 1.95,
+                "best_bookie": "bet365",
+                "std_dev": 0.023,
+                "fair_prob_pct": 49.17
               },
               "odds_under": {
-                "avg_odd": 1.832,
-                "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.059,
-                "fair_prob_pct": 51.37
+                "avg_odd": 1.867,
+                "max_odd": 1.9,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.024,
+                "fair_prob_pct": 50.83
               }
             },
-            "market_margin_pct": 6.26,
-            "balance_diff": 2.74
+            "market_margin_pct": 5.38,
+            "balance_diff": 1.66
+          },
+          "over_under_games_231_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.862,
+                "max_odd": 1.92,
+                "best_bookie": "bet365",
+                "std_dev": 0.034,
+                "fair_prob_pct": 50.96
+              },
+              "odds_under": {
+                "avg_odd": 1.935,
+                "max_odd": 1.98,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.037,
+                "fair_prob_pct": 49.04
+              }
+            },
+            "market_margin_pct": 5.39,
+            "balance_diff": 1.92
           },
           "over_under_games_230_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.825,
+                "avg_odd": 1.8,
                 "max_odd": 1.89,
                 "best_bookie": "bet365",
-                "std_dev": 0.051,
-                "fair_prob_pct": 51.62
+                "std_dev": 0.062,
+                "fair_prob_pct": 52.72
               },
               "odds_under": {
-                "avg_odd": 1.947,
-                "max_odd": 2.0,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.039,
-                "fair_prob_pct": 48.38
+                "avg_odd": 2.007,
+                "max_odd": 2.07,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.076,
+                "fair_prob_pct": 47.28
               }
             },
-            "market_margin_pct": 6.16,
-            "balance_diff": 3.24
-          },
-          "over_under_games_229_5": {
-            "bookmaker_count": 4,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.738,
-                "max_odd": 1.78,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 54.02
-              },
-              "odds_under": {
-                "avg_odd": 2.042,
-                "max_odd": 2.05,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.015,
-                "fair_prob_pct": 45.98
-              }
-            },
-            "market_margin_pct": 6.51,
-            "balance_diff": 8.04
+            "market_margin_pct": 5.38,
+            "balance_diff": 5.44
           },
           "over_under_games_233_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.042,
+                "avg_odd": 2.013,
                 "max_odd": 2.05,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.015,
-                "fair_prob_pct": 45.98
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.025,
+                "fair_prob_pct": 47.23
               },
               "odds_under": {
-                "avg_odd": 1.738,
-                "max_odd": 1.78,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 54.02
+                "avg_odd": 1.802,
+                "max_odd": 1.83,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 52.77
               }
             },
-            "market_margin_pct": 6.51,
-            "balance_diff": 8.04
+            "market_margin_pct": 5.17,
+            "balance_diff": 5.54
           },
-          "over_under_games_228_5": {
+          "over_under_games_234_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.685,
-                "max_odd": 1.72,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.031,
-                "fair_prob_pct": 55.77
+                "avg_odd": 2.105,
+                "max_odd": 2.15,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.033,
+                "fair_prob_pct": 45.04
               },
               "odds_under": {
-                "avg_odd": 2.125,
-                "max_odd": 2.2,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.065,
-                "fair_prob_pct": 44.23
+                "avg_odd": 1.725,
+                "max_odd": 1.75,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 54.96
               }
             },
-            "market_margin_pct": 6.41,
-            "balance_diff": 11.54
+            "market_margin_pct": 5.48,
+            "balance_diff": 9.92
           },
-          "over_under_games_234_5": {
-            "bookmaker_count": 3,
+          "over_under_games_229_5": {
+            "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.133,
-                "max_odd": 2.18,
+                "avg_odd": 1.712,
+                "max_odd": 1.75,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.042,
-                "fair_prob_pct": 44.1
+                "std_dev": 0.025,
+                "fair_prob_pct": 55.61
               },
               "odds_under": {
-                "avg_odd": 1.683,
-                "max_odd": 1.7,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 55.9
+                "avg_odd": 2.145,
+                "max_odd": 2.18,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.033,
+                "fair_prob_pct": 44.39
               }
             },
-            "market_margin_pct": 6.3,
-            "balance_diff": 11.8
+            "market_margin_pct": 5.03,
+            "balance_diff": 11.22
+          },
+          "over_under_games_235_5": {
+            "bookmaker_count": 4,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 2.208,
+                "max_odd": 2.25,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.03,
+                "fair_prob_pct": 43.02
+              },
+              "odds_under": {
+                "avg_odd": 1.667,
+                "max_odd": 1.7,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.024,
+                "fair_prob_pct": 56.98
+              }
+            },
+            "market_margin_pct": 5.28,
+            "balance_diff": 13.96
           }
         }
       },
@@ -584,200 +584,200 @@
           "bookmaker_count": 6,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.858,
-              "max_odd": 1.89,
-              "best_bookie": "bet365",
-              "std_dev": 0.02,
-              "fair_prob_pct": 50.56
+              "avg_odd": 1.887,
+              "max_odd": 1.91,
+              "best_bookie": "Oddset.de",
+              "std_dev": 0.018,
+              "fair_prob_pct": 50.26
             },
             "handicap_team_2": {
-              "avg_odd": 1.9,
-              "max_odd": 1.95,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.036,
-              "fair_prob_pct": 49.44
+              "avg_odd": 1.907,
+              "max_odd": 1.93,
+              "best_bookie": "bet365",
+              "std_dev": 0.021,
+              "fair_prob_pct": 49.74
             }
           },
-          "market_margin_pct": 6.45,
-          "balance_diff": 1.12
+          "market_margin_pct": 5.43,
+          "balance_diff": 0.52
         },
         "key_alternate_lines": {
           "asian_handicap_games_-4_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.858,
-                "max_odd": 1.89,
-                "best_bookie": "bet365",
-                "std_dev": 0.02,
-                "fair_prob_pct": 50.56
+                "avg_odd": 1.887,
+                "max_odd": 1.91,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.018,
+                "fair_prob_pct": 50.26
               },
               "handicap_team_2": {
-                "avg_odd": 1.9,
-                "max_odd": 1.95,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.036,
-                "fair_prob_pct": 49.44
+                "avg_odd": 1.907,
+                "max_odd": 1.93,
+                "best_bookie": "bet365",
+                "std_dev": 0.021,
+                "fair_prob_pct": 49.74
               }
             },
-            "market_margin_pct": 6.45,
-            "balance_diff": 1.12
+            "market_margin_pct": 5.43,
+            "balance_diff": 0.52
           },
           "asian_handicap_games_-5_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.943,
-                "max_odd": 2.0,
+                "avg_odd": 1.972,
+                "max_odd": 2.05,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.033,
-                "fair_prob_pct": 48.34
+                "std_dev": 0.055,
+                "fair_prob_pct": 48.02
               },
               "handicap_team_2": {
-                "avg_odd": 1.818,
+                "avg_odd": 1.822,
                 "max_odd": 1.88,
                 "best_bookie": "bet365",
-                "std_dev": 0.045,
-                "fair_prob_pct": 51.66
+                "std_dev": 0.037,
+                "fair_prob_pct": 51.98
               }
             },
-            "market_margin_pct": 6.47,
-            "balance_diff": 3.32
+            "market_margin_pct": 5.59,
+            "balance_diff": 3.96
           },
           "asian_handicap_games_-3_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.75,
-                "max_odd": 1.75,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 53.64
+                "avg_odd": 1.778,
+                "max_odd": 1.8,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.021,
+                "fair_prob_pct": 53.25
               },
               "handicap_team_2": {
                 "avg_odd": 2.025,
-                "max_odd": 2.1,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.065,
-                "fair_prob_pct": 46.36
+                "max_odd": 2.05,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 46.75
               }
             },
-            "market_margin_pct": 6.53,
-            "balance_diff": 7.28
+            "market_margin_pct": 5.63,
+            "balance_diff": 6.5
           },
           "asian_handicap_games_-6_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.1,
-                "max_odd": 2.15,
+                "avg_odd": 2.143,
+                "max_odd": 2.2,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.041,
-                "fair_prob_pct": 44.62
+                "std_dev": 0.043,
+                "fair_prob_pct": 44.31
               },
               "handicap_team_2": {
-                "avg_odd": 1.692,
+                "avg_odd": 1.705,
                 "max_odd": 1.72,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.03,
-                "fair_prob_pct": 55.38
+                "best_bookie": "Betano.de",
+                "std_dev": 0.01,
+                "fair_prob_pct": 55.69
               }
             },
-            "market_margin_pct": 6.72,
-            "balance_diff": 10.76
+            "market_margin_pct": 5.31,
+            "balance_diff": 11.38
           },
           "asian_handicap_games_-2_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.667,
-                "max_odd": 1.68,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.013,
-                "fair_prob_pct": 56.38
+                "avg_odd": 1.695,
+                "max_odd": 1.7,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.01,
+                "fair_prob_pct": 56.14
               },
               "handicap_team_2": {
-                "avg_odd": 2.155,
-                "max_odd": 2.25,
+                "avg_odd": 2.17,
+                "max_odd": 2.2,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.067,
-                "fair_prob_pct": 43.62
+                "std_dev": 0.024,
+                "fair_prob_pct": 43.86
               }
             },
-            "market_margin_pct": 6.39,
-            "balance_diff": 12.76
+            "market_margin_pct": 5.08,
+            "balance_diff": 12.28
           },
           "asian_handicap_games_-7_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.22,
-                "max_odd": 2.35,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.106,
-                "fair_prob_pct": 42.34
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.63,
-                "max_odd": 1.65,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.014,
-                "fair_prob_pct": 57.66
-              }
-            },
-            "market_margin_pct": 6.39,
-            "balance_diff": 15.32
-          },
-          "asian_handicap_games_-1_5_games": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.59,
-                "max_odd": 1.6,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.01,
-                "fair_prob_pct": 59.37
-              },
-              "handicap_team_2": {
-                "avg_odd": 2.323,
+                "avg_odd": 2.305,
                 "max_odd": 2.4,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.093,
-                "fair_prob_pct": 40.63
+                "std_dev": 0.067,
+                "fair_prob_pct": 41.12
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.61,
+                "max_odd": 1.65,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.027,
+                "fair_prob_pct": 58.88
               }
             },
-            "market_margin_pct": 5.94,
-            "balance_diff": 18.74
+            "market_margin_pct": 5.5,
+            "balance_diff": 17.76
+          },
+          "asian_handicap_games_-1_5_games": {
+            "bookmaker_count": 4,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.6,
+                "max_odd": 1.62,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.016,
+                "fair_prob_pct": 59.15
+              },
+              "handicap_team_2": {
+                "avg_odd": 2.317,
+                "max_odd": 2.35,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.024,
+                "fair_prob_pct": 40.85
+              }
+            },
+            "market_margin_pct": 5.66,
+            "balance_diff": 18.3
           }
         }
       }
     },
     {
       "away_team": "Oklahoma City Thunder",
-      "home_team": "San Antonio Spurs",
       "venue": "Frost Bank Center",
+      "home_team": "San Antonio Spurs",
       "match_date": "2026-10-21 01:30:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.722,
-              "max_odd": 1.75,
-              "best_bookie": "bet-at-home.de",
-              "std_dev": 0.032,
-              "fair_prob_pct": 55.09
+              "avg_odd": 1.835,
+              "max_odd": 1.88,
+              "best_bookie": "Winamax.de",
+              "std_dev": 0.04,
+              "fair_prob_pct": 51.62
             },
             "2": {
-              "avg_odd": 2.112,
-              "max_odd": 2.15,
-              "best_bookie": "Winamax.de",
-              "std_dev": 0.028,
-              "fair_prob_pct": 44.91
+              "avg_odd": 1.958,
+              "max_odd": 1.98,
+              "best_bookie": "Betano.de",
+              "std_dev": 0.021,
+              "fair_prob_pct": 48.38
             }
           },
-          "market_margin_pct": 5.42,
-          "balance_diff": 10.18
+          "market_margin_pct": 5.57,
+          "balance_diff": 3.24
         }
       },
       "totals_summary": {
@@ -786,545 +786,545 @@
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.885,
+              "avg_odd": 1.898,
               "max_odd": 1.92,
               "best_bookie": "bet365",
-              "std_dev": 0.03,
-              "fair_prob_pct": 49.97
+              "std_dev": 0.016,
+              "fair_prob_pct": 50.0
             },
             "odds_under": {
-              "avg_odd": 1.883,
+              "avg_odd": 1.898,
               "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.023,
-              "fair_prob_pct": 50.03
+              "best_bookie": "Betano.de",
+              "std_dev": 0.015,
+              "fair_prob_pct": 50.0
             }
           },
-          "market_margin_pct": 6.16,
-          "balance_diff": 0.06
+          "market_margin_pct": 5.37,
+          "balance_diff": 0.0
         },
         "key_alternate_lines": {
           "over_under_games_231_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.885,
+                "avg_odd": 1.898,
                 "max_odd": 1.92,
                 "best_bookie": "bet365",
-                "std_dev": 0.03,
-                "fair_prob_pct": 49.97
+                "std_dev": 0.016,
+                "fair_prob_pct": 50.0
               },
               "odds_under": {
-                "avg_odd": 1.883,
+                "avg_odd": 1.898,
                 "max_odd": 1.91,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.023,
-                "fair_prob_pct": 50.03
+                "best_bookie": "Betano.de",
+                "std_dev": 0.015,
+                "fair_prob_pct": 50.0
               }
             },
-            "market_margin_pct": 6.16,
-            "balance_diff": 0.06
+            "market_margin_pct": 5.37,
+            "balance_diff": 0.0
+          },
+          "over_under_games_232_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.943,
+                "max_odd": 2.0,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.047,
+                "fair_prob_pct": 48.87
+              },
+              "odds_under": {
+                "avg_odd": 1.857,
+                "max_odd": 1.91,
+                "best_bookie": "bet365",
+                "std_dev": 0.03,
+                "fair_prob_pct": 51.13
+              }
+            },
+            "market_margin_pct": 5.32,
+            "balance_diff": 2.26
           },
           "over_under_games_230_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.823,
+                "avg_odd": 1.847,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.059,
-                "fair_prob_pct": 51.53
+                "std_dev": 0.039,
+                "fair_prob_pct": 51.38
               },
               "odds_under": {
-                "avg_odd": 1.938,
+                "avg_odd": 1.952,
                 "max_odd": 2.0,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.044,
-                "fair_prob_pct": 48.47
+                "best_bookie": "Betano.de",
+                "std_dev": 0.053,
+                "fair_prob_pct": 48.62
               }
             },
-            "market_margin_pct": 6.45,
-            "balance_diff": 3.06
-          },
-          "over_under_games_232_5": {
-            "bookmaker_count": 4,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.94,
-                "max_odd": 1.98,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.034,
-                "fair_prob_pct": 48.4
-              },
-              "odds_under": {
-                "avg_odd": 1.82,
-                "max_odd": 1.85,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.024,
-                "fair_prob_pct": 51.6
-              }
-            },
-            "market_margin_pct": 6.49,
-            "balance_diff": 3.2
+            "market_margin_pct": 5.37,
+            "balance_diff": 2.76
           },
           "over_under_games_229_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.777,
+                "avg_odd": 1.807,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.091,
-                "fair_prob_pct": 53.01
+                "std_dev": 0.067,
+                "fair_prob_pct": 52.5
               },
               "odds_under": {
-                "avg_odd": 2.005,
+                "avg_odd": 1.997,
                 "max_odd": 2.1,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.092,
-                "fair_prob_pct": 46.99
+                "best_bookie": "Betano.de",
+                "std_dev": 0.089,
+                "fair_prob_pct": 47.5
               }
             },
-            "market_margin_pct": 6.15,
-            "balance_diff": 6.02
+            "market_margin_pct": 5.42,
+            "balance_diff": 5.0
           },
           "over_under_games_233_5": {
-            "bookmaker_count": 4,
+            "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.042,
-                "max_odd": 2.05,
+                "avg_odd": 2.003,
+                "max_odd": 2.1,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.015,
-                "fair_prob_pct": 45.98
+                "std_dev": 0.094,
+                "fair_prob_pct": 47.43
               },
               "odds_under": {
-                "avg_odd": 1.738,
-                "max_odd": 1.78,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 54.02
+                "avg_odd": 1.807,
+                "max_odd": 1.92,
+                "best_bookie": "bet365",
+                "std_dev": 0.076,
+                "fair_prob_pct": 52.57
               }
             },
-            "market_margin_pct": 6.51,
-            "balance_diff": 8.04
+            "market_margin_pct": 5.27,
+            "balance_diff": 5.14
           },
           "over_under_games_234_5": {
-            "bookmaker_count": 3,
+            "bookmaker_count": 5,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.14,
+                "avg_odd": 2.106,
                 "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.017,
-                "fair_prob_pct": 44.13
+                "std_dev": 0.098,
+                "fair_prob_pct": 45.18
               },
               "odds_under": {
-                "avg_odd": 1.69,
-                "max_odd": 1.72,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.026,
-                "fair_prob_pct": 55.87
+                "avg_odd": 1.736,
+                "max_odd": 1.88,
+                "best_bookie": "bet365",
+                "std_dev": 0.082,
+                "fair_prob_pct": 54.82
               }
             },
-            "market_margin_pct": 5.9,
-            "balance_diff": 11.74
+            "market_margin_pct": 5.09,
+            "balance_diff": 9.64
           },
           "over_under_games_228_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
                 "avg_odd": 1.682,
-                "max_odd": 1.7,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.024,
-                "fair_prob_pct": 55.9
+                "max_odd": 1.73,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.039,
+                "fair_prob_pct": 56.05
               },
               "odds_under": {
-                "avg_odd": 2.132,
-                "max_odd": 2.18,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.057,
-                "fair_prob_pct": 44.1
+                "avg_odd": 2.145,
+                "max_odd": 2.2,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.053,
+                "fair_prob_pct": 43.95
               }
             },
-            "market_margin_pct": 6.36,
-            "balance_diff": 11.8
+            "market_margin_pct": 6.07,
+            "balance_diff": 12.1
           }
         }
       },
       "spread_summary": {
-        "main_line": "asian_handicap_games_-2_5_games",
+        "main_line": "asian_handicap_games_-1_5_games",
         "main_line_data": {
           "bookmaker_count": 6,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.9,
-              "max_odd": 1.93,
+              "avg_odd": 1.937,
+              "max_odd": 1.96,
               "best_bookie": "bet365",
-              "std_dev": 0.02,
-              "fair_prob_pct": 49.47
+              "std_dev": 0.022,
+              "fair_prob_pct": 48.96
             },
             "handicap_team_2": {
-              "avg_odd": 1.86,
+              "avg_odd": 1.858,
               "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.038,
-              "fair_prob_pct": 50.53
+              "best_bookie": "Betano.de",
+              "std_dev": 0.03,
+              "fair_prob_pct": 51.04
             }
           },
-          "market_margin_pct": 6.4,
-          "balance_diff": 1.06
+          "market_margin_pct": 5.45,
+          "balance_diff": 2.08
         },
         "key_alternate_lines": {
-          "asian_handicap_games_-2_5_games": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.9,
-                "max_odd": 1.93,
-                "best_bookie": "bet365",
-                "std_dev": 0.02,
-                "fair_prob_pct": 49.47
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.86,
-                "max_odd": 1.91,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.038,
-                "fair_prob_pct": 50.53
-              }
-            },
-            "market_margin_pct": 6.4,
-            "balance_diff": 1.06
-          },
           "asian_handicap_games_-1_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.81,
-                "max_odd": 1.87,
+                "avg_odd": 1.937,
+                "max_odd": 1.96,
                 "best_bookie": "bet365",
-                "std_dev": 0.042,
-                "fair_prob_pct": 52.01
+                "std_dev": 0.022,
+                "fair_prob_pct": 48.96
               },
               "handicap_team_2": {
-                "avg_odd": 1.962,
-                "max_odd": 2.0,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.032,
-                "fair_prob_pct": 47.99
+                "avg_odd": 1.858,
+                "max_odd": 1.91,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.03,
+                "fair_prob_pct": 51.04
               }
             },
-            "market_margin_pct": 6.22,
-            "balance_diff": 4.02
+            "market_margin_pct": 5.45,
+            "balance_diff": 2.08
           },
-          "asian_handicap_games_-3_5_games": {
-            "bookmaker_count": 4,
+          "asian_handicap_games_-2_5_games": {
+            "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.007,
-                "max_odd": 2.1,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.065,
-                "fair_prob_pct": 46.58
+                "avg_odd": 2.017,
+                "max_odd": 2.05,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.039,
+                "fair_prob_pct": 47.05
               },
               "handicap_team_2": {
-                "avg_odd": 1.75,
-                "max_odd": 1.75,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 53.42
+                "avg_odd": 1.792,
+                "max_odd": 1.84,
+                "best_bookie": "bet365",
+                "std_dev": 0.043,
+                "fair_prob_pct": 52.95
               }
             },
-            "market_margin_pct": 6.97,
-            "balance_diff": 6.84
-          },
-          "asian_handicap_games_-4_5_games": {
-            "bookmaker_count": 4,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 2.15,
-                "max_odd": 2.25,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.071,
-                "fair_prob_pct": 43.67
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.667,
-                "max_odd": 1.68,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.013,
-                "fair_prob_pct": 56.33
-              }
-            },
-            "market_margin_pct": 6.5,
-            "balance_diff": 12.66
+            "market_margin_pct": 5.38,
+            "balance_diff": 5.9
           },
           "asian_handicap_games_+1_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.647,
-                "max_odd": 1.67,
+                "avg_odd": 1.75,
+                "max_odd": 1.78,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.021,
-                "fair_prob_pct": 57.0
+                "std_dev": 0.024,
+                "fair_prob_pct": 54.15
               },
               "handicap_team_2": {
-                "avg_odd": 2.183,
-                "max_odd": 2.25,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.062,
-                "fair_prob_pct": 43.0
+                "avg_odd": 2.067,
+                "max_odd": 2.12,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.035,
+                "fair_prob_pct": 45.85
               }
             },
-            "market_margin_pct": 6.52,
-            "balance_diff": 14.0
+            "market_margin_pct": 5.52,
+            "balance_diff": 8.3
           },
-          "asian_handicap_games_-5_5_games": {
+          "asian_handicap_games_-3_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.28,
-                "max_odd": 2.45,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.115,
-                "fair_prob_pct": 41.09
+                "avg_odd": 2.175,
+                "max_odd": 2.2,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 43.65
               },
               "handicap_team_2": {
-                "avg_odd": 1.59,
-                "max_odd": 1.6,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.02,
-                "fair_prob_pct": 58.91
+                "avg_odd": 1.685,
+                "max_odd": 1.72,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.04,
+                "fair_prob_pct": 56.35
               }
             },
-            "market_margin_pct": 6.75,
-            "balance_diff": 17.82
+            "market_margin_pct": 5.32,
+            "balance_diff": 12.7
           },
           "asian_handicap_games_+2_5_games": {
+            "bookmaker_count": 4,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.667,
+                "max_odd": 1.72,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.035,
+                "fair_prob_pct": 56.95
+              },
+              "handicap_team_2": {
+                "avg_odd": 2.205,
+                "max_odd": 2.27,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.049,
+                "fair_prob_pct": 43.05
+              }
+            },
+            "market_margin_pct": 5.34,
+            "balance_diff": 13.9
+          },
+          "asian_handicap_games_-4_5_games": {
+            "bookmaker_count": 4,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 2.33,
+                "max_odd": 2.4,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.057,
+                "fair_prob_pct": 40.79
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.605,
+                "max_odd": 1.65,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.037,
+                "fair_prob_pct": 59.21
+              }
+            },
+            "market_margin_pct": 5.22,
+            "balance_diff": 18.42
+          },
+          "asian_handicap_games_+3_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.573,
-                "max_odd": 1.59,
+                "avg_odd": 1.597,
+                "max_odd": 1.62,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.021,
-                "fair_prob_pct": 59.97
+                "std_dev": 0.025,
+                "fair_prob_pct": 59.61
               },
               "handicap_team_2": {
                 "avg_odd": 2.357,
-                "max_odd": 2.4,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.04,
-                "fair_prob_pct": 40.03
+                "max_odd": 2.42,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.06,
+                "fair_prob_pct": 40.39
               }
             },
-            "market_margin_pct": 6.0,
-            "balance_diff": 19.94
+            "market_margin_pct": 5.04,
+            "balance_diff": 19.22
           }
         }
       }
     },
     {
       "away_team": "Atlanta Hawks",
-      "home_team": "Orlando Magic",
       "venue": "Kia Center",
+      "home_team": "Orlando Magic",
       "match_date": "2026-10-21 23:00:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.686,
-              "max_odd": 1.72,
+              "avg_odd": 1.705,
+              "max_odd": 1.75,
               "best_bookie": "Oddset.de",
-              "std_dev": 0.02,
-              "fair_prob_pct": 56.11
+              "std_dev": 0.033,
+              "fair_prob_pct": 55.58
             },
             "2": {
-              "avg_odd": 2.155,
+              "avg_odd": 2.133,
               "max_odd": 2.22,
               "best_bookie": "bet365",
-              "std_dev": 0.053,
-              "fair_prob_pct": 43.89
+              "std_dev": 0.058,
+              "fair_prob_pct": 44.42
             }
           },
-          "market_margin_pct": 5.72,
-          "balance_diff": 12.22
+          "market_margin_pct": 5.53,
+          "balance_diff": 11.16
         }
       },
       "totals_summary": {
-        "main_line": "over_under_games_234_5",
+        "main_line": "over_under_games_235_5",
         "main_line_data": {
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.882,
-              "max_odd": 1.93,
+              "avg_odd": 1.862,
+              "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.027,
-              "fair_prob_pct": 50.01
+              "std_dev": 0.044,
+              "fair_prob_pct": 50.54
             },
             "odds_under": {
-              "avg_odd": 1.883,
+              "avg_odd": 1.903,
               "max_odd": 1.95,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.039,
-              "fair_prob_pct": 49.99
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.028,
+              "fair_prob_pct": 49.46
             }
           },
-          "market_margin_pct": 6.24,
-          "balance_diff": 0.02
+          "market_margin_pct": 6.25,
+          "balance_diff": 1.08
         },
         "key_alternate_lines": {
-          "over_under_games_234_5": {
+          "over_under_games_235_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.882,
-                "max_odd": 1.93,
+                "avg_odd": 1.862,
+                "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.027,
-                "fair_prob_pct": 50.01
+                "std_dev": 0.044,
+                "fair_prob_pct": 50.54
               },
               "odds_under": {
-                "avg_odd": 1.883,
-                "max_odd": 1.95,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.039,
-                "fair_prob_pct": 49.99
-              }
-            },
-            "market_margin_pct": 6.24,
-            "balance_diff": 0.02
-          },
-          "over_under_games_235_5": {
-            "bookmaker_count": 4,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.938,
+                "avg_odd": 1.903,
                 "max_odd": 1.95,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 48.43
-              },
-              "odds_under": {
-                "avg_odd": 1.82,
-                "max_odd": 1.87,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.039,
-                "fair_prob_pct": 51.57
+                "std_dev": 0.028,
+                "fair_prob_pct": 49.46
               }
             },
-            "market_margin_pct": 6.54,
-            "balance_diff": 3.14
-          },
-          "over_under_games_233_5": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.818,
-                "max_odd": 1.87,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.044,
-                "fair_prob_pct": 51.69
-              },
-              "odds_under": {
-                "avg_odd": 1.945,
-                "max_odd": 1.96,
-                "best_bookie": "bet365",
-                "std_dev": 0.012,
-                "fair_prob_pct": 48.31
-              }
-            },
-            "market_margin_pct": 6.42,
-            "balance_diff": 3.38
+            "market_margin_pct": 6.25,
+            "balance_diff": 1.08
           },
           "over_under_games_236_5": {
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.04,
-                "max_odd": 2.05,
+                "avg_odd": 1.913,
+                "max_odd": 1.93,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.017,
-                "fair_prob_pct": 45.79
+                "std_dev": 0.015,
+                "fair_prob_pct": 48.8
               },
               "odds_under": {
-                "avg_odd": 1.723,
-                "max_odd": 1.75,
+                "avg_odd": 1.823,
+                "max_odd": 1.85,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.025,
-                "fair_prob_pct": 54.21
+                "fair_prob_pct": 51.2
               }
             },
-            "market_margin_pct": 7.06,
-            "balance_diff": 8.42
+            "market_margin_pct": 7.13,
+            "balance_diff": 2.4
+          },
+          "over_under_games_234_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.822,
+                "max_odd": 1.89,
+                "best_bookie": "bet365",
+                "std_dev": 0.058,
+                "fair_prob_pct": 51.63
+              },
+              "odds_under": {
+                "avg_odd": 1.945,
+                "max_odd": 2.0,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.036,
+                "fair_prob_pct": 48.37
+              }
+            },
+            "market_margin_pct": 6.3,
+            "balance_diff": 3.26
+          },
+          "over_under_games_237_5": {
+            "bookmaker_count": 3,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.983,
+                "max_odd": 2.0,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 47.12
+              },
+              "odds_under": {
+                "avg_odd": 1.767,
+                "max_odd": 1.8,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 52.88
+              }
+            },
+            "market_margin_pct": 7.02,
+            "balance_diff": 5.76
+          },
+          "over_under_games_233_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.777,
+                "max_odd": 1.87,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.085,
+                "fair_prob_pct": 53.04
+              },
+              "odds_under": {
+                "avg_odd": 2.007,
+                "max_odd": 2.1,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.069,
+                "fair_prob_pct": 46.96
+              }
+            },
+            "market_margin_pct": 6.1,
+            "balance_diff": 6.08
+          },
+          "over_under_games_238_5": {
+            "bookmaker_count": 2,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 2.1,
+                "max_odd": 2.1,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 44.74
+              },
+              "odds_under": {
+                "avg_odd": 1.7,
+                "max_odd": 1.73,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.042,
+                "fair_prob_pct": 55.26
+              }
+            },
+            "market_margin_pct": 6.44,
+            "balance_diff": 10.52
           },
           "over_under_games_232_5": {
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.717,
-                "max_odd": 1.73,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.015,
-                "fair_prob_pct": 54.3
-              },
-              "odds_under": {
-                "avg_odd": 2.04,
-                "max_odd": 2.05,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.017,
-                "fair_prob_pct": 45.7
-              }
-            },
-            "market_margin_pct": 7.26,
-            "balance_diff": 8.6
-          },
-          "over_under_games_231_5": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.673,
+                "avg_odd": 1.667,
                 "max_odd": 1.7,
                 "best_bookie": "Interwetten",
-                "std_dev": 0.025,
-                "fair_prob_pct": 55.66
+                "std_dev": 0.029,
+                "fair_prob_pct": 56.33
               },
               "odds_under": {
-                "avg_odd": 2.1,
-                "max_odd": 2.15,
+                "avg_odd": 2.15,
+                "max_odd": 2.25,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.05,
-                "fair_prob_pct": 44.34
+                "std_dev": 0.1,
+                "fair_prob_pct": 43.67
               }
             },
-            "market_margin_pct": 7.39,
-            "balance_diff": 11.32
-          },
-          "over_under_games_237_5": {
-            "bookmaker_count": 2,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 2.11,
-                "max_odd": 2.12,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.014,
-                "fair_prob_pct": 44.25
-              },
-              "odds_under": {
-                "avg_odd": 1.675,
-                "max_odd": 1.7,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 55.75
-              }
-            },
-            "market_margin_pct": 7.09,
-            "balance_diff": 11.5
+            "market_margin_pct": 6.5,
+            "balance_diff": 12.66
           }
         }
       },
@@ -1334,200 +1334,200 @@
           "bookmaker_count": 6,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.87,
+              "avg_odd": 1.885,
               "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.033,
-              "fair_prob_pct": 50.11
+              "std_dev": 0.025,
+              "fair_prob_pct": 49.91
             },
             "handicap_team_2": {
               "avg_odd": 1.878,
               "max_odd": 1.91,
               "best_bookie": "bet365",
               "std_dev": 0.027,
-              "fair_prob_pct": 49.89
+              "fair_prob_pct": 50.09
             }
           },
-          "market_margin_pct": 6.72,
-          "balance_diff": 0.22
+          "market_margin_pct": 6.3,
+          "balance_diff": 0.18
         },
         "key_alternate_lines": {
           "asian_handicap_games_-2_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.87,
+                "avg_odd": 1.885,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.033,
-                "fair_prob_pct": 50.11
+                "std_dev": 0.025,
+                "fair_prob_pct": 49.91
               },
               "handicap_team_2": {
                 "avg_odd": 1.878,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
                 "std_dev": 0.027,
-                "fair_prob_pct": 49.89
+                "fair_prob_pct": 50.09
               }
             },
-            "market_margin_pct": 6.72,
-            "balance_diff": 0.22
+            "market_margin_pct": 6.3,
+            "balance_diff": 0.18
           },
           "asian_handicap_games_-3_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.953,
-                "max_odd": 2.0,
+                "avg_odd": 1.967,
+                "max_odd": 2.05,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.026,
-                "fair_prob_pct": 48.07
+                "std_dev": 0.045,
+                "fair_prob_pct": 47.82
               },
               "handicap_team_2": {
-                "avg_odd": 1.808,
+                "avg_odd": 1.803,
                 "max_odd": 1.87,
                 "best_bookie": "bet365",
-                "std_dev": 0.056,
-                "fair_prob_pct": 51.93
+                "std_dev": 0.06,
+                "fair_prob_pct": 52.18
               }
             },
-            "market_margin_pct": 6.51,
-            "balance_diff": 3.86
+            "market_margin_pct": 6.3,
+            "balance_diff": 4.36
           },
           "asian_handicap_games_-1_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.75,
-                "max_odd": 1.75,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 53.05
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.977,
-                "max_odd": 2.0,
+                "avg_odd": 1.777,
+                "max_odd": 1.8,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.025,
-                "fair_prob_pct": 46.95
+                "fair_prob_pct": 52.32
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.95,
+                "max_odd": 1.95,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 47.68
               }
             },
-            "market_margin_pct": 7.72,
-            "balance_diff": 6.1
+            "market_margin_pct": 7.56,
+            "balance_diff": 4.64
           },
           "asian_handicap_games_-4_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.057,
-                "max_odd": 2.07,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 45.25
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.7,
-                "max_odd": 1.7,
+                "avg_odd": 2.1,
+                "max_odd": 2.1,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.0,
-                "fair_prob_pct": 54.75
-              }
-            },
-            "market_margin_pct": 7.44,
-            "balance_diff": 9.5
-          },
-          "asian_handicap_games_-5_5_games": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 2.217,
-                "max_odd": 2.25,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 42.02
+                "fair_prob_pct": 44.34
               },
               "handicap_team_2": {
-                "avg_odd": 1.607,
-                "max_odd": 1.62,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 57.98
+                "avg_odd": 1.673,
+                "max_odd": 1.7,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.025,
+                "fair_prob_pct": 55.66
               }
             },
-            "market_margin_pct": 7.33,
-            "balance_diff": 15.96
+            "market_margin_pct": 7.39,
+            "balance_diff": 11.32
           },
           "asian_handicap_games_+1_5_games": {
             "bookmaker_count": 2,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.59,
-                "max_odd": 1.6,
+                "avg_odd": 1.61,
+                "max_odd": 1.62,
                 "best_bookie": "Betano.de",
                 "std_dev": 0.014,
-                "fair_prob_pct": 58.7
+                "fair_prob_pct": 58.18
               },
               "handicap_team_2": {
-                "avg_odd": 2.26,
+                "avg_odd": 2.24,
                 "max_odd": 2.3,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.057,
-                "fair_prob_pct": 41.3
+                "std_dev": 0.085,
+                "fair_prob_pct": 41.82
               }
             },
-            "market_margin_pct": 7.14,
-            "balance_diff": 17.4
+            "market_margin_pct": 6.75,
+            "balance_diff": 16.36
+          },
+          "asian_handicap_games_-5_5_games": {
+            "bookmaker_count": 3,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 2.24,
+                "max_odd": 2.3,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.053,
+                "fair_prob_pct": 41.56
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.593,
+                "max_odd": 1.6,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.012,
+                "fair_prob_pct": 58.44
+              }
+            },
+            "market_margin_pct": 7.42,
+            "balance_diff": 16.88
           },
           "asian_handicap_games_-6_5_games": {
             "bookmaker_count": 2,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.375,
+                "avg_odd": 2.4,
                 "max_odd": 2.4,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 39.34
+                "std_dev": 0.0,
+                "fair_prob_pct": 39.01
               },
               "handicap_team_2": {
-                "avg_odd": 1.54,
+                "avg_odd": 1.535,
                 "max_odd": 1.55,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.014,
-                "fair_prob_pct": 60.66
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 60.99
               }
             },
-            "market_margin_pct": 7.04,
-            "balance_diff": 21.32
+            "market_margin_pct": 6.81,
+            "balance_diff": 21.98
           }
         }
       }
     },
     {
       "away_team": "Milwaukee Bucks",
-      "home_team": "Washington Wizards",
       "venue": "Capital One Arena",
+      "home_team": "Washington Wizards",
       "match_date": "2026-10-21 23:00:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.486,
+              "avg_odd": 1.485,
               "max_odd": 1.5,
-              "best_bookie": "bet365",
-              "std_dev": 0.018,
-              "fair_prob_pct": 63.69
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.019,
+              "fair_prob_pct": 63.83
             },
             "2": {
-              "avg_odd": 2.606,
+              "avg_odd": 2.621,
               "max_odd": 2.65,
-              "best_bookie": "bet365",
-              "std_dev": 0.056,
-              "fair_prob_pct": 36.31
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.042,
+              "fair_prob_pct": 36.17
             }
           },
-          "market_margin_pct": 5.67,
-          "balance_diff": 27.38
+          "market_margin_pct": 5.49,
+          "balance_diff": 27.66
         }
       },
       "totals_summary": {
@@ -1536,44 +1536,44 @@
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.887,
+              "avg_odd": 1.89,
               "max_odd": 1.93,
               "best_bookie": "bet365",
               "std_dev": 0.033,
-              "fair_prob_pct": 49.81
+              "fair_prob_pct": 49.83
             },
             "odds_under": {
-              "avg_odd": 1.873,
+              "avg_odd": 1.877,
               "max_odd": 1.91,
               "best_bookie": "Oddset.de",
-              "std_dev": 0.023,
-              "fair_prob_pct": 50.19
+              "std_dev": 0.025,
+              "fair_prob_pct": 50.17
             }
           },
-          "market_margin_pct": 6.38,
-          "balance_diff": 0.38
+          "market_margin_pct": 6.19,
+          "balance_diff": 0.34
         },
         "key_alternate_lines": {
           "over_under_games_238_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.887,
+                "avg_odd": 1.89,
                 "max_odd": 1.93,
                 "best_bookie": "bet365",
                 "std_dev": 0.033,
-                "fair_prob_pct": 49.81
+                "fair_prob_pct": 49.83
               },
               "odds_under": {
-                "avg_odd": 1.873,
+                "avg_odd": 1.877,
                 "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.023,
-                "fair_prob_pct": 50.19
+                "std_dev": 0.025,
+                "fair_prob_pct": 50.17
               }
             },
-            "market_margin_pct": 6.38,
-            "balance_diff": 0.38
+            "market_margin_pct": 6.19,
+            "balance_diff": 0.34
           },
           "over_under_games_239_5": {
             "bookmaker_count": 4,
@@ -1583,60 +1583,60 @@
                 "max_odd": 1.95,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.024,
-                "fair_prob_pct": 48.48
+                "fair_prob_pct": 48.58
               },
               "odds_under": {
-                "avg_odd": 1.818,
+                "avg_odd": 1.825,
                 "max_odd": 1.87,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 51.52
+                "std_dev": 0.033,
+                "fair_prob_pct": 51.42
               }
             },
-            "market_margin_pct": 6.77,
-            "balance_diff": 3.04
+            "market_margin_pct": 6.55,
+            "balance_diff": 2.84
           },
           "over_under_games_237_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.822,
+                "avg_odd": 1.827,
                 "max_odd": 1.88,
                 "best_bookie": "bet365",
-                "std_dev": 0.053,
-                "fair_prob_pct": 51.54
+                "std_dev": 0.052,
+                "fair_prob_pct": 51.44
               },
               "odds_under": {
-                "avg_odd": 1.938,
+                "avg_odd": 1.935,
                 "max_odd": 1.95,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.02,
-                "fair_prob_pct": 48.46
+                "fair_prob_pct": 48.56
               }
             },
-            "market_margin_pct": 6.48,
-            "balance_diff": 3.08
+            "market_margin_pct": 6.41,
+            "balance_diff": 2.88
           },
           "over_under_games_236_5": {
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.717,
-                "max_odd": 1.73,
+                "avg_odd": 1.723,
+                "max_odd": 1.75,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.015,
-                "fair_prob_pct": 54.3
+                "std_dev": 0.025,
+                "fair_prob_pct": 54.21
               },
               "odds_under": {
                 "avg_odd": 2.04,
                 "max_odd": 2.05,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.017,
-                "fair_prob_pct": 45.7
+                "fair_prob_pct": 45.79
               }
             },
-            "market_margin_pct": 7.26,
-            "balance_diff": 8.6
+            "market_margin_pct": 7.06,
+            "balance_diff": 8.42
           },
           "over_under_games_240_5": {
             "bookmaker_count": 3,
@@ -1663,43 +1663,43 @@
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.677,
+                "avg_odd": 1.69,
                 "max_odd": 1.7,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.025,
-                "fair_prob_pct": 55.48
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.017,
+                "fair_prob_pct": 55.49
               },
               "odds_under": {
-                "avg_odd": 2.09,
-                "max_odd": 2.12,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.036,
-                "fair_prob_pct": 44.52
+                "avg_odd": 2.107,
+                "max_odd": 2.15,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.051,
+                "fair_prob_pct": 44.51
               }
             },
-            "market_margin_pct": 7.48,
-            "balance_diff": 10.96
+            "market_margin_pct": 6.63,
+            "balance_diff": 10.98
           },
           "over_under_games_241_5": {
             "bookmaker_count": 2,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.125,
+                "avg_odd": 2.135,
                 "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 44.08
+                "std_dev": 0.021,
+                "fair_prob_pct": 43.96
               },
               "odds_under": {
                 "avg_odd": 1.675,
-                "max_odd": 1.68,
+                "max_odd": 1.7,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.007,
-                "fair_prob_pct": 55.92
+                "std_dev": 0.035,
+                "fair_prob_pct": 56.04
               }
             },
-            "market_margin_pct": 6.76,
-            "balance_diff": 11.84
+            "market_margin_pct": 6.54,
+            "balance_diff": 12.08
           }
         }
       },
@@ -1709,200 +1709,200 @@
           "bookmaker_count": 6,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.905,
+              "avg_odd": 1.897,
               "max_odd": 1.95,
               "best_bookie": "Oddset.de",
-              "std_dev": 0.026,
-              "fair_prob_pct": 49.2
+              "std_dev": 0.034,
+              "fair_prob_pct": 49.53
             },
             "handicap_team_2": {
-              "avg_odd": 1.845,
+              "avg_odd": 1.862,
               "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.045,
-              "fair_prob_pct": 50.8
+              "std_dev": 0.036,
+              "fair_prob_pct": 50.47
             }
           },
-          "market_margin_pct": 6.69,
-          "balance_diff": 1.6
+          "market_margin_pct": 6.42,
+          "balance_diff": 0.94
         },
         "key_alternate_lines": {
           "asian_handicap_games_-5_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.905,
+                "avg_odd": 1.897,
                 "max_odd": 1.95,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.026,
-                "fair_prob_pct": 49.2
+                "std_dev": 0.034,
+                "fair_prob_pct": 49.53
               },
               "handicap_team_2": {
-                "avg_odd": 1.845,
+                "avg_odd": 1.862,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.045,
-                "fair_prob_pct": 50.8
+                "std_dev": 0.036,
+                "fair_prob_pct": 50.47
               }
             },
-            "market_margin_pct": 6.69,
-            "balance_diff": 1.6
-          },
-          "asian_handicap_games_-4_5_games": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.8,
-                "max_odd": 1.8,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 51.7
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.927,
-                "max_odd": 1.95,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 48.3
-              }
-            },
-            "market_margin_pct": 7.45,
-            "balance_diff": 3.4
+            "market_margin_pct": 6.42,
+            "balance_diff": 0.94
           },
           "asian_handicap_games_-6_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.975,
+                "avg_odd": 1.96,
                 "max_odd": 2.05,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.076,
-                "fair_prob_pct": 47.61
+                "best_bookie": "Interwetten",
+                "std_dev": 0.064,
+                "fair_prob_pct": 47.98
               },
               "handicap_team_2": {
-                "avg_odd": 1.795,
+                "avg_odd": 1.808,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.098,
-                "fair_prob_pct": 52.39
+                "std_dev": 0.085,
+                "fair_prob_pct": 52.02
               }
             },
-            "market_margin_pct": 6.34,
-            "balance_diff": 4.78
+            "market_margin_pct": 6.33,
+            "balance_diff": 4.04
+          },
+          "asian_handicap_games_-4_5_games": {
+            "bookmaker_count": 3,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.783,
+                "max_odd": 1.8,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 52.15
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.943,
+                "max_odd": 1.98,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.04,
+                "fair_prob_pct": 47.85
+              }
+            },
+            "market_margin_pct": 7.55,
+            "balance_diff": 4.3
           },
           "asian_handicap_games_-3_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.7,
+                "avg_odd": 1.69,
                 "max_odd": 1.7,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 54.67
+                "std_dev": 0.017,
+                "fair_prob_pct": 55.21
               },
               "handicap_team_2": {
-                "avg_odd": 2.05,
-                "max_odd": 2.05,
+                "avg_odd": 2.083,
+                "max_odd": 2.1,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 45.33
+                "std_dev": 0.029,
+                "fair_prob_pct": 44.79
               }
             },
-            "market_margin_pct": 7.6,
-            "balance_diff": 9.34
+            "market_margin_pct": 7.18,
+            "balance_diff": 10.42
           },
           "asian_handicap_games_-7_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.167,
+                "avg_odd": 2.15,
                 "max_odd": 2.2,
                 "best_bookie": "Interwetten",
-                "std_dev": 0.029,
-                "fair_prob_pct": 42.88
+                "std_dev": 0.05,
+                "fair_prob_pct": 43.42
               },
               "handicap_team_2": {
-                "avg_odd": 1.627,
-                "max_odd": 1.65,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 57.12
+                "avg_odd": 1.65,
+                "max_odd": 1.68,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.044,
+                "fair_prob_pct": 56.58
               }
             },
-            "market_margin_pct": 7.61,
-            "balance_diff": 14.24
-          },
-          "asian_handicap_games_-2_5_games": {
-            "bookmaker_count": 2,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.625,
-                "max_odd": 1.63,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.007,
-                "fair_prob_pct": 57.4
-              },
-              "handicap_team_2": {
-                "avg_odd": 2.19,
-                "max_odd": 2.2,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.014,
-                "fair_prob_pct": 42.6
-              }
-            },
-            "market_margin_pct": 7.2,
-            "balance_diff": 14.8
+            "market_margin_pct": 7.12,
+            "balance_diff": 13.16
           },
           "asian_handicap_games_-8_5_games": {
             "bookmaker_count": 2,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.3,
-                "max_odd": 2.3,
+                "avg_odd": 2.235,
+                "max_odd": 2.25,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 40.41
+                "std_dev": 0.021,
+                "fair_prob_pct": 41.72
               },
               "handicap_team_2": {
-                "avg_odd": 1.56,
-                "max_odd": 1.57,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.014,
-                "fair_prob_pct": 59.59
+                "avg_odd": 1.6,
+                "max_odd": 1.6,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 58.28
               }
             },
-            "market_margin_pct": 7.58,
-            "balance_diff": 19.18
+            "market_margin_pct": 7.24,
+            "balance_diff": 16.56
+          },
+          "asian_handicap_games_-2_5_games": {
+            "bookmaker_count": 2,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.6,
+                "max_odd": 1.6,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 58.28
+              },
+              "handicap_team_2": {
+                "avg_odd": 2.235,
+                "max_odd": 2.25,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 41.72
+              }
+            },
+            "market_margin_pct": 7.24,
+            "balance_diff": 16.56
           }
         }
       }
     },
     {
       "away_team": "Charlotte Hornets",
-      "home_team": "Brooklyn Nets",
       "venue": "Barclays Center",
+      "home_team": "Brooklyn Nets",
       "match_date": "2026-10-21 23:30:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.876,
-              "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.03,
-              "fair_prob_pct": 50.4
+              "avg_odd": 1.643,
+              "max_odd": 1.66,
+              "best_bookie": "bet365",
+              "std_dev": 0.017,
+              "fair_prob_pct": 57.56
             },
             "2": {
-              "avg_odd": 1.906,
-              "max_odd": 1.94,
-              "best_bookie": "Winamax.de",
-              "std_dev": 0.021,
-              "fair_prob_pct": 49.6
+              "avg_odd": 2.228,
+              "max_odd": 2.26,
+              "best_bookie": "bet365",
+              "std_dev": 0.04,
+              "fair_prob_pct": 42.44
             }
           },
-          "market_margin_pct": 5.77,
-          "balance_diff": 0.8
+          "market_margin_pct": 5.75,
+          "balance_diff": 15.12
         }
       },
       "totals_summary": {
@@ -1911,86 +1911,86 @@
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.887,
-              "max_odd": 1.91,
-              "best_bookie": "bet365",
-              "std_dev": 0.024,
-              "fair_prob_pct": 49.81
+              "avg_odd": 1.91,
+              "max_odd": 1.95,
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.034,
+              "fair_prob_pct": 49.27
             },
             "odds_under": {
-              "avg_odd": 1.873,
+              "avg_odd": 1.855,
               "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.029,
-              "fair_prob_pct": 50.19
+              "std_dev": 0.038,
+              "fair_prob_pct": 50.73
             }
           },
-          "market_margin_pct": 6.38,
-          "balance_diff": 0.38
+          "market_margin_pct": 6.26,
+          "balance_diff": 1.46
         },
         "key_alternate_lines": {
           "over_under_games_220_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.887,
-                "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.024,
-                "fair_prob_pct": 49.81
+                "avg_odd": 1.91,
+                "max_odd": 1.95,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.034,
+                "fair_prob_pct": 49.27
               },
               "odds_under": {
-                "avg_odd": 1.873,
+                "avg_odd": 1.855,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.029,
-                "fair_prob_pct": 50.19
+                "std_dev": 0.038,
+                "fair_prob_pct": 50.73
               }
             },
-            "market_margin_pct": 6.38,
-            "balance_diff": 0.38
+            "market_margin_pct": 6.26,
+            "balance_diff": 1.46
           },
           "over_under_games_219_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.84,
-                "max_odd": 1.91,
+                "avg_odd": 1.835,
+                "max_odd": 1.87,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.052,
-                "fair_prob_pct": 50.96
+                "std_dev": 0.031,
+                "fair_prob_pct": 51.16
               },
               "odds_under": {
-                "avg_odd": 1.912,
-                "max_odd": 1.93,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.013,
-                "fair_prob_pct": 49.04
+                "avg_odd": 1.922,
+                "max_odd": 1.95,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.022,
+                "fair_prob_pct": 48.84
               }
             },
-            "market_margin_pct": 6.65,
-            "balance_diff": 1.92
+            "market_margin_pct": 6.53,
+            "balance_diff": 2.32
           },
           "over_under_games_221_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.938,
-                "max_odd": 2.0,
+                "avg_odd": 1.952,
+                "max_odd": 2.05,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.044,
-                "fair_prob_pct": 48.57
+                "std_dev": 0.061,
+                "fair_prob_pct": 48.21
               },
               "odds_under": {
-                "avg_odd": 1.83,
+                "avg_odd": 1.817,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.062,
-                "fair_prob_pct": 51.43
+                "std_dev": 0.074,
+                "fair_prob_pct": 51.79
               }
             },
-            "market_margin_pct": 6.24,
-            "balance_diff": 2.86
+            "market_margin_pct": 6.27,
+            "balance_diff": 3.58
           },
           "over_under_games_222_5": {
             "bookmaker_count": 5,
@@ -2017,267 +2017,267 @@
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.723,
-                "max_odd": 1.75,
+                "avg_odd": 1.76,
+                "max_odd": 1.78,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 54.0
+                "std_dev": 0.017,
+                "fair_prob_pct": 52.98
               },
               "odds_under": {
-                "avg_odd": 2.023,
-                "max_odd": 2.05,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.025,
-                "fair_prob_pct": 46.0
+                "avg_odd": 1.983,
+                "max_odd": 2.0,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 47.02
               }
             },
-            "market_margin_pct": 7.47,
-            "balance_diff": 8.0
+            "market_margin_pct": 7.25,
+            "balance_diff": 5.96
           },
           "over_under_games_223_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 2.078,
-                "max_odd": 2.2,
+                "avg_odd": 2.09,
+                "max_odd": 2.25,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.128,
-                "fair_prob_pct": 45.4
+                "std_dev": 0.145,
+                "fair_prob_pct": 45.17
               },
               "odds_under": {
-                "avg_odd": 1.728,
+                "avg_odd": 1.722,
                 "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.124,
-                "fair_prob_pct": 54.6
+                "std_dev": 0.128,
+                "fair_prob_pct": 54.83
               }
             },
-            "market_margin_pct": 5.99,
-            "balance_diff": 9.2
+            "market_margin_pct": 5.92,
+            "balance_diff": 9.66
           },
           "over_under_games_217_5": {
             "bookmaker_count": 2,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.685,
-                "max_odd": 1.7,
+                "avg_odd": 1.7,
+                "max_odd": 1.73,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.021,
-                "fair_prob_pct": 55.19
+                "std_dev": 0.042,
+                "fair_prob_pct": 55.26
               },
               "odds_under": {
-                "avg_odd": 2.075,
+                "avg_odd": 2.1,
                 "max_odd": 2.1,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 44.81
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 44.74
               }
             },
-            "market_margin_pct": 7.54,
-            "balance_diff": 10.38
+            "market_margin_pct": 6.44,
+            "balance_diff": 10.52
           }
         }
       },
       "spread_summary": {
-        "main_line": "asian_handicap_games_-1_5_games",
+        "main_line": "asian_handicap_games_-3_0_games",
         "main_line_data": {
-          "bookmaker_count": 6,
+          "bookmaker_count": 2,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.962,
-              "max_odd": 2.05,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.045,
-              "fair_prob_pct": 47.87
+              "avg_odd": 1.91,
+              "max_odd": 1.93,
+              "best_bookie": "bet365",
+              "std_dev": 0.028,
+              "fair_prob_pct": 49.54
             },
             "handicap_team_2": {
-              "avg_odd": 1.802,
-              "max_odd": 1.87,
+              "avg_odd": 1.875,
+              "max_odd": 1.89,
               "best_bookie": "bet365",
-              "std_dev": 0.043,
-              "fair_prob_pct": 52.13
+              "std_dev": 0.021,
+              "fair_prob_pct": 50.46
             }
           },
-          "market_margin_pct": 6.46,
-          "balance_diff": 4.26
+          "market_margin_pct": 5.69,
+          "balance_diff": 0.92
         },
         "key_alternate_lines": {
+          "asian_handicap_games_-3_0_games": {
+            "bookmaker_count": 2,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.91,
+                "max_odd": 1.93,
+                "best_bookie": "bet365",
+                "std_dev": 0.028,
+                "fair_prob_pct": 49.54
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.875,
+                "max_odd": 1.89,
+                "best_bookie": "bet365",
+                "std_dev": 0.021,
+                "fair_prob_pct": 50.46
+              }
+            },
+            "market_margin_pct": 5.69,
+            "balance_diff": 0.92
+          },
+          "asian_handicap_games_-3_5_games": {
+            "bookmaker_count": 4,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.922,
+                "max_odd": 1.98,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.043,
+                "fair_prob_pct": 48.88
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.838,
+                "max_odd": 1.85,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.025,
+                "fair_prob_pct": 51.12
+              }
+            },
+            "market_margin_pct": 6.44,
+            "balance_diff": 2.24
+          },
+          "asian_handicap_games_-2_5_games": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.832,
+                "max_odd": 1.88,
+                "best_bookie": "bet365",
+                "std_dev": 0.037,
+                "fair_prob_pct": 51.37
+              },
+              "handicap_team_2": {
+                "avg_odd": 1.935,
+                "max_odd": 1.98,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.031,
+                "fair_prob_pct": 48.63
+              }
+            },
+            "market_margin_pct": 6.26,
+            "balance_diff": 2.74
+          },
           "asian_handicap_games_-1_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.962,
-                "max_odd": 2.05,
+                "avg_odd": 1.777,
+                "max_odd": 1.87,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.045,
-                "fair_prob_pct": 47.87
+                "std_dev": 0.085,
+                "fair_prob_pct": 53.08
               },
               "handicap_team_2": {
-                "avg_odd": 1.802,
-                "max_odd": 1.87,
-                "best_bookie": "bet365",
-                "std_dev": 0.043,
-                "fair_prob_pct": 52.13
+                "avg_odd": 2.01,
+                "max_odd": 2.1,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.072,
+                "fair_prob_pct": 46.92
               }
             },
-            "market_margin_pct": 6.46,
-            "balance_diff": 4.26
+            "market_margin_pct": 6.03,
+            "balance_diff": 6.16
           },
-          "asian_handicap_games_+1_5_games": {
-            "bookmaker_count": 6,
+          "asian_handicap_games_-4_5_games": {
+            "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.797,
-                "max_odd": 1.84,
-                "best_bookie": "bet365",
-                "std_dev": 0.03,
-                "fair_prob_pct": 52.36
+                "avg_odd": 1.993,
+                "max_odd": 2.05,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.051,
+                "fair_prob_pct": 46.75
               },
               "handicap_team_2": {
-                "avg_odd": 1.975,
-                "max_odd": 2.05,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.04,
-                "fair_prob_pct": 47.64
+                "avg_odd": 1.75,
+                "max_odd": 1.75,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 53.25
               }
             },
-            "market_margin_pct": 6.28,
-            "balance_diff": 4.72
+            "market_margin_pct": 7.32,
+            "balance_diff": 6.5
           },
           "asian_handicap_games_+2_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.792,
+                "avg_odd": 1.722,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.101,
-                "fair_prob_pct": 52.53
+                "std_dev": 0.194,
+                "fair_prob_pct": 55.43
               },
               "handicap_team_2": {
-                "avg_odd": 1.983,
-                "max_odd": 2.07,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.085,
-                "fair_prob_pct": 47.47
+                "avg_odd": 2.142,
+                "max_odd": 2.6,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.313,
+                "fair_prob_pct": 44.57
               }
             },
-            "market_margin_pct": 6.23,
-            "balance_diff": 5.06
+            "market_margin_pct": 4.76,
+            "balance_diff": 10.86
           },
-          "asian_handicap_games_+3_5_games": {
+          "asian_handicap_games_+1_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.752,
-                "max_odd": 1.91,
+                "avg_odd": 1.705,
+                "max_odd": 1.84,
                 "best_bookie": "bet365",
-                "std_dev": 0.16,
-                "fair_prob_pct": 53.89
+                "std_dev": 0.139,
+                "fair_prob_pct": 55.52
               },
               "handicap_team_2": {
-                "avg_odd": 2.048,
-                "max_odd": 2.2,
+                "avg_odd": 2.128,
+                "max_odd": 2.4,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.167,
-                "fair_prob_pct": 46.11
+                "std_dev": 0.187,
+                "fair_prob_pct": 44.48
               }
             },
-            "market_margin_pct": 5.91,
-            "balance_diff": 7.78
-          },
-          "asian_handicap_games_+4_5_games": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.723,
-                "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.19,
-                "fair_prob_pct": 55.11
-              },
-              "handicap_team_2": {
-                "avg_odd": 2.115,
-                "max_odd": 2.35,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.24,
-                "fair_prob_pct": 44.89
-              }
-            },
-            "market_margin_pct": 5.32,
-            "balance_diff": 10.22
-          },
-          "asian_handicap_games_-2_5_games": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 2.073,
-                "max_odd": 2.1,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 44.81
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.683,
-                "max_odd": 1.7,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 55.19
-              }
-            },
-            "market_margin_pct": 7.66,
-            "balance_diff": 10.38
-          },
-          "asian_handicap_games_-3_5_games": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 2.217,
-                "max_odd": 2.25,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 42.02
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.607,
-                "max_odd": 1.62,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 57.98
-              }
-            },
-            "market_margin_pct": 7.33,
-            "balance_diff": 15.96
+            "market_margin_pct": 5.64,
+            "balance_diff": 11.04
           }
         }
       }
     },
     {
       "away_team": "Chicago Bulls",
-      "home_team": "Toronto Raptors",
       "venue": "Scotiabank Arena",
+      "home_team": "Toronto Raptors",
       "match_date": "2026-10-21 23:30:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.231,
+              "avg_odd": 1.238,
               "max_odd": 1.25,
-              "best_bookie": "Interwetten",
-              "std_dev": 0.016,
-              "fair_prob_pct": 76.49
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.015,
+              "fair_prob_pct": 76.37
             },
             "2": {
-              "avg_odd": 4.006,
+              "avg_odd": 4.0,
               "max_odd": 4.25,
               "best_bookie": "bet365",
-              "std_dev": 0.188,
-              "fair_prob_pct": 23.51
+              "std_dev": 0.189,
+              "fair_prob_pct": 23.63
             }
           },
-          "market_margin_pct": 6.2,
-          "balance_diff": 52.98
+          "market_margin_pct": 5.78,
+          "balance_diff": 52.74
         }
       },
       "totals_summary": {
@@ -2286,65 +2286,65 @@
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.885,
-              "max_odd": 1.93,
+              "avg_odd": 1.882,
+              "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.032,
-              "fair_prob_pct": 49.89
+              "std_dev": 0.029,
+              "fair_prob_pct": 50.04
             },
             "odds_under": {
-              "avg_odd": 1.877,
+              "avg_odd": 1.885,
               "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.022,
-              "fair_prob_pct": 50.11
+              "best_bookie": "bet365",
+              "std_dev": 0.025,
+              "fair_prob_pct": 49.96
             }
           },
-          "market_margin_pct": 6.33,
-          "balance_diff": 0.22
+          "market_margin_pct": 6.19,
+          "balance_diff": 0.08
         },
         "key_alternate_lines": {
           "over_under_games_236_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.885,
-                "max_odd": 1.93,
+                "avg_odd": 1.882,
+                "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.032,
-                "fair_prob_pct": 49.89
+                "std_dev": 0.029,
+                "fair_prob_pct": 50.04
               },
               "odds_under": {
-                "avg_odd": 1.877,
+                "avg_odd": 1.885,
                 "max_odd": 1.91,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.022,
-                "fair_prob_pct": 50.11
+                "best_bookie": "bet365",
+                "std_dev": 0.025,
+                "fair_prob_pct": 49.96
               }
             },
-            "market_margin_pct": 6.33,
-            "balance_diff": 0.22
+            "market_margin_pct": 6.19,
+            "balance_diff": 0.08
           },
           "over_under_games_235_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.835,
+                "avg_odd": 1.83,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.061,
-                "fair_prob_pct": 51.26
+                "std_dev": 0.062,
+                "fair_prob_pct": 51.43
               },
               "odds_under": {
-                "avg_odd": 1.93,
-                "max_odd": 1.95,
+                "avg_odd": 1.938,
+                "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.033,
-                "fair_prob_pct": 48.74
+                "std_dev": 0.044,
+                "fair_prob_pct": 48.57
               }
             },
-            "market_margin_pct": 6.31,
-            "balance_diff": 2.52
+            "market_margin_pct": 6.24,
+            "balance_diff": 2.86
           },
           "over_under_games_237_5": {
             "bookmaker_count": 3,
@@ -2354,18 +2354,39 @@
                 "max_odd": 1.95,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.025,
-                "fair_prob_pct": 48.2
+                "fair_prob_pct": 48.34
               },
               "odds_under": {
-                "avg_odd": 1.793,
-                "max_odd": 1.8,
+                "avg_odd": 1.803,
+                "max_odd": 1.83,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 51.8
+                "std_dev": 0.025,
+                "fair_prob_pct": 51.66
               }
             },
-            "market_margin_pct": 7.67,
-            "balance_diff": 3.6
+            "market_margin_pct": 7.36,
+            "balance_diff": 3.32
+          },
+          "over_under_games_238_5": {
+            "bookmaker_count": 3,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 2.04,
+                "max_odd": 2.05,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.017,
+                "fair_prob_pct": 45.79
+              },
+              "odds_under": {
+                "avg_odd": 1.723,
+                "max_odd": 1.75,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.025,
+                "fair_prob_pct": 54.21
+              }
+            },
+            "market_margin_pct": 7.06,
+            "balance_diff": 8.42
           },
           "over_under_games_234_5": {
             "bookmaker_count": 3,
@@ -2383,27 +2404,6 @@
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.017,
                 "fair_prob_pct": 45.7
-              }
-            },
-            "market_margin_pct": 7.26,
-            "balance_diff": 8.6
-          },
-          "over_under_games_238_5": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 2.04,
-                "max_odd": 2.05,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.017,
-                "fair_prob_pct": 45.7
-              },
-              "odds_under": {
-                "avg_odd": 1.717,
-                "max_odd": 1.73,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.015,
-                "fair_prob_pct": 54.3
               }
             },
             "market_margin_pct": 7.26,
@@ -2438,18 +2438,18 @@
                 "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.021,
-                "fair_prob_pct": 43.82
+                "fair_prob_pct": 43.96
               },
               "odds_under": {
-                "avg_odd": 1.665,
-                "max_odd": 1.68,
+                "avg_odd": 1.675,
+                "max_odd": 1.7,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.021,
-                "fair_prob_pct": 56.18
+                "std_dev": 0.035,
+                "fair_prob_pct": 56.04
               }
             },
-            "market_margin_pct": 6.9,
-            "balance_diff": 12.36
+            "market_margin_pct": 6.54,
+            "balance_diff": 12.08
           }
         }
       },
@@ -2459,21 +2459,21 @@
           "bookmaker_count": 6,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.877,
+              "avg_odd": 1.882,
               "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.027,
+              "std_dev": 0.024,
               "fair_prob_pct": 49.95
             },
             "handicap_team_2": {
-              "avg_odd": 1.873,
+              "avg_odd": 1.878,
               "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.029,
+              "std_dev": 0.027,
               "fair_prob_pct": 50.05
             }
           },
-          "market_margin_pct": 6.67,
+          "market_margin_pct": 6.38,
           "balance_diff": 0.1
         },
         "key_alternate_lines": {
@@ -2481,43 +2481,43 @@
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.877,
+                "avg_odd": 1.882,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.027,
+                "std_dev": 0.024,
                 "fair_prob_pct": 49.95
               },
               "handicap_team_2": {
-                "avg_odd": 1.873,
+                "avg_odd": 1.878,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.029,
+                "std_dev": 0.027,
                 "fair_prob_pct": 50.05
               }
             },
-            "market_margin_pct": 6.67,
+            "market_margin_pct": 6.38,
             "balance_diff": 0.1
           },
           "asian_handicap_games_-8_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.8,
+                "avg_odd": 1.805,
                 "max_odd": 1.87,
                 "best_bookie": "bet365",
-                "std_dev": 0.056,
-                "fair_prob_pct": 52.17
+                "std_dev": 0.052,
+                "fair_prob_pct": 52.1
               },
               "handicap_team_2": {
                 "avg_odd": 1.963,
                 "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.029,
-                "fair_prob_pct": 47.83
+                "fair_prob_pct": 47.9
               }
             },
-            "market_margin_pct": 6.5,
-            "balance_diff": 4.34
+            "market_margin_pct": 6.34,
+            "balance_diff": 4.2
           },
           "asian_handicap_games_-10_5_games": {
             "bookmaker_count": 3,
@@ -2527,220 +2527,220 @@
                 "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.029,
-                "fair_prob_pct": 46.88
+                "fair_prob_pct": 47.02
               },
               "handicap_team_2": {
-                "avg_odd": 1.75,
-                "max_odd": 1.75,
+                "avg_odd": 1.76,
+                "max_odd": 1.78,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 53.12
+                "std_dev": 0.017,
+                "fair_prob_pct": 52.98
               }
             },
-            "market_margin_pct": 7.57,
-            "balance_diff": 6.24
+            "market_margin_pct": 7.25,
+            "balance_diff": 5.96
           },
           "asian_handicap_games_-7_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.657,
-                "max_odd": 1.67,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 55.98
+                "avg_odd": 1.667,
+                "max_odd": 1.68,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.015,
+                "fair_prob_pct": 56.02
               },
               "handicap_team_2": {
-                "avg_odd": 2.107,
-                "max_odd": 2.12,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 44.02
+                "avg_odd": 2.123,
+                "max_odd": 2.15,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.025,
+                "fair_prob_pct": 43.98
               }
             },
-            "market_margin_pct": 7.81,
-            "balance_diff": 11.96
+            "market_margin_pct": 7.09,
+            "balance_diff": 12.04
           },
           "asian_handicap_games_-11_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.117,
+                "avg_odd": 2.133,
                 "max_odd": 2.15,
-                "best_bookie": "Betano.de",
+                "best_bookie": "bet-at-home.de",
                 "std_dev": 0.029,
-                "fair_prob_pct": 43.8
+                "fair_prob_pct": 43.62
               },
               "handicap_team_2": {
                 "avg_odd": 1.65,
                 "max_odd": 1.65,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.0,
-                "fair_prob_pct": 56.2
+                "fair_prob_pct": 56.38
               }
             },
-            "market_margin_pct": 7.84,
-            "balance_diff": 12.4
+            "market_margin_pct": 7.49,
+            "balance_diff": 12.76
           },
           "asian_handicap_games_-6_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.583,
+                "avg_odd": 1.59,
                 "max_odd": 1.6,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.015,
-                "fair_prob_pct": 58.59
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.017,
+                "fair_prob_pct": 58.49
               },
               "handicap_team_2": {
                 "avg_odd": 2.24,
                 "max_odd": 2.27,
                 "best_bookie": "Betano.de",
                 "std_dev": 0.036,
-                "fair_prob_pct": 41.41
+                "fair_prob_pct": 41.51
               }
             },
-            "market_margin_pct": 7.81,
-            "balance_diff": 17.18
+            "market_margin_pct": 7.54,
+            "balance_diff": 16.98
           },
           "asian_handicap_games_-12_5_games": {
             "bookmaker_count": 2,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.26,
-                "max_odd": 2.27,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.014,
-                "fair_prob_pct": 41.07
+                "avg_odd": 2.285,
+                "max_odd": 2.3,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 40.96
               },
               "handicap_team_2": {
-                "avg_odd": 1.575,
-                "max_odd": 1.58,
+                "avg_odd": 1.585,
+                "max_odd": 1.6,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.007,
-                "fair_prob_pct": 58.93
+                "std_dev": 0.021,
+                "fair_prob_pct": 59.04
               }
             },
-            "market_margin_pct": 7.74,
-            "balance_diff": 17.86
+            "market_margin_pct": 6.86,
+            "balance_diff": 18.08
           }
         }
       }
     },
     {
       "away_team": "Minnesota Timberwolves",
-      "home_team": "Miami Heat",
       "venue": "Kaseya Center",
+      "home_team": "Miami Heat",
       "match_date": "2026-10-21 23:30:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.849,
-              "max_odd": 1.88,
+              "avg_odd": 1.841,
+              "max_odd": 1.86,
               "best_bookie": "Winamax.de",
-              "std_dev": 0.018,
-              "fair_prob_pct": 51.19
+              "std_dev": 0.02,
+              "fair_prob_pct": 51.39
             },
             "2": {
-              "avg_odd": 1.939,
+              "avg_odd": 1.946,
               "max_odd": 1.98,
               "best_bookie": "Oddset.de",
-              "std_dev": 0.028,
-              "fair_prob_pct": 48.81
+              "std_dev": 0.026,
+              "fair_prob_pct": 48.61
             }
           },
-          "market_margin_pct": 5.66,
-          "balance_diff": 2.38
+          "market_margin_pct": 5.71,
+          "balance_diff": 2.78
         }
       },
       "totals_summary": {
-        "main_line": "over_under_games_242_5",
+        "main_line": "over_under_games_243_5",
         "main_line_data": {
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.855,
-              "max_odd": 1.91,
-              "best_bookie": "bet365",
-              "std_dev": 0.038,
-              "fair_prob_pct": 50.63
+              "avg_odd": 1.912,
+              "max_odd": 1.95,
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.023,
+              "fair_prob_pct": 49.24
             },
             "odds_under": {
-              "avg_odd": 1.902,
-              "max_odd": 1.95,
+              "avg_odd": 1.855,
+              "max_odd": 1.91,
               "best_bookie": "Oddset.de",
-              "std_dev": 0.028,
-              "fair_prob_pct": 49.37
+              "std_dev": 0.048,
+              "fair_prob_pct": 50.76
             }
           },
-          "market_margin_pct": 6.48,
-          "balance_diff": 1.26
+          "market_margin_pct": 6.21,
+          "balance_diff": 1.52
         },
         "key_alternate_lines": {
-          "over_under_games_242_5": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.855,
-                "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.038,
-                "fair_prob_pct": 50.63
-              },
-              "odds_under": {
-                "avg_odd": 1.902,
-                "max_odd": 1.95,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.028,
-                "fair_prob_pct": 49.37
-              }
-            },
-            "market_margin_pct": 6.48,
-            "balance_diff": 1.26
-          },
           "over_under_games_243_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.905,
-                "max_odd": 1.93,
+                "avg_odd": 1.912,
+                "max_odd": 1.95,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.02,
-                "fair_prob_pct": 49.36
+                "std_dev": 0.023,
+                "fair_prob_pct": 49.24
               },
               "odds_under": {
-                "avg_odd": 1.857,
+                "avg_odd": 1.855,
                 "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.05,
-                "fair_prob_pct": 50.64
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.048,
+                "fair_prob_pct": 50.76
               }
             },
-            "market_margin_pct": 6.34,
-            "balance_diff": 1.28
+            "market_margin_pct": 6.21,
+            "balance_diff": 1.52
+          },
+          "over_under_games_242_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.842,
+                "max_odd": 1.87,
+                "best_bookie": "bet365",
+                "std_dev": 0.027,
+                "fair_prob_pct": 51.06
+              },
+              "odds_under": {
+                "avg_odd": 1.922,
+                "max_odd": 1.95,
+                "best_bookie": "bet365",
+                "std_dev": 0.028,
+                "fair_prob_pct": 48.94
+              }
+            },
+            "market_margin_pct": 6.32,
+            "balance_diff": 2.12
           },
           "over_under_games_241_5": {
             "bookmaker_count": 4,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.805,
+                "avg_odd": 1.81,
                 "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.071,
-                "fair_prob_pct": 51.96
+                "std_dev": 0.07,
+                "fair_prob_pct": 51.89
               },
               "odds_under": {
                 "avg_odd": 1.952,
                 "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.037,
-                "fair_prob_pct": 48.04
+                "fair_prob_pct": 48.11
               }
             },
-            "market_margin_pct": 6.63,
-            "balance_diff": 3.92
+            "market_margin_pct": 6.48,
+            "balance_diff": 3.78
           },
           "over_under_games_240_5": {
             "bookmaker_count": 5,
@@ -2771,60 +2771,60 @@
                 "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.029,
-                "fair_prob_pct": 46.88
+                "fair_prob_pct": 47.02
               },
               "odds_under": {
-                "avg_odd": 1.75,
-                "max_odd": 1.75,
+                "avg_odd": 1.76,
+                "max_odd": 1.78,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 53.12
+                "std_dev": 0.017,
+                "fair_prob_pct": 52.98
               }
             },
-            "market_margin_pct": 7.57,
-            "balance_diff": 6.24
+            "market_margin_pct": 7.25,
+            "balance_diff": 5.96
           },
           "over_under_games_239_5": {
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.737,
+                "avg_odd": 1.747,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.15,
-                "fair_prob_pct": 54.37
+                "std_dev": 0.142,
+                "fair_prob_pct": 54.23
               },
               "odds_under": {
                 "avg_odd": 2.07,
                 "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.139,
-                "fair_prob_pct": 45.63
+                "fair_prob_pct": 45.77
               }
             },
-            "market_margin_pct": 5.88,
-            "balance_diff": 8.74
+            "market_margin_pct": 5.55,
+            "balance_diff": 8.46
           },
           "over_under_games_245_5": {
-            "bookmaker_count": 2,
+            "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
                 "avg_odd": 2.1,
-                "max_odd": 2.1,
+                "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 44.37
+                "std_dev": 0.05,
+                "fair_prob_pct": 44.59
               },
               "odds_under": {
-                "avg_odd": 1.675,
-                "max_odd": 1.68,
+                "avg_odd": 1.69,
+                "max_odd": 1.7,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.007,
-                "fair_prob_pct": 55.63
+                "std_dev": 0.017,
+                "fair_prob_pct": 55.41
               }
             },
-            "market_margin_pct": 7.32,
-            "balance_diff": 11.26
+            "market_margin_pct": 6.79,
+            "balance_diff": 10.82
           }
         }
       },
@@ -2835,21 +2835,21 @@
           "outcomes": {
             "handicap_team_1": {
               "avg_odd": 1.923,
-              "max_odd": 1.98,
+              "max_odd": 1.95,
               "best_bookie": "Oddset.de",
-              "std_dev": 0.031,
-              "fair_prob_pct": 48.76
+              "std_dev": 0.02,
+              "fair_prob_pct": 48.87
             },
             "handicap_team_2": {
-              "avg_odd": 1.83,
+              "avg_odd": 1.838,
               "max_odd": 1.88,
               "best_bookie": "bet365",
-              "std_dev": 0.035,
-              "fair_prob_pct": 51.24
+              "std_dev": 0.034,
+              "fair_prob_pct": 51.13
             }
           },
-          "market_margin_pct": 6.65,
-          "balance_diff": 2.48
+          "market_margin_pct": 6.41,
+          "balance_diff": 2.26
         },
         "key_alternate_lines": {
           "asian_handicap_games_-1_5_games": {
@@ -2857,63 +2857,63 @@
             "outcomes": {
               "handicap_team_1": {
                 "avg_odd": 1.923,
-                "max_odd": 1.98,
+                "max_odd": 1.95,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.031,
-                "fair_prob_pct": 48.76
+                "std_dev": 0.02,
+                "fair_prob_pct": 48.87
               },
               "handicap_team_2": {
-                "avg_odd": 1.83,
+                "avg_odd": 1.838,
                 "max_odd": 1.88,
                 "best_bookie": "bet365",
-                "std_dev": 0.035,
-                "fair_prob_pct": 51.24
+                "std_dev": 0.034,
+                "fair_prob_pct": 51.13
               }
             },
-            "market_margin_pct": 6.65,
-            "balance_diff": 2.48
+            "market_margin_pct": 6.41,
+            "balance_diff": 2.26
           },
           "asian_handicap_games_+1_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.743,
+                "avg_odd": 1.75,
                 "max_odd": 1.75,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 53.15
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 53.25
               },
               "handicap_team_2": {
-                "avg_odd": 1.977,
-                "max_odd": 2.0,
+                "avg_odd": 1.993,
+                "max_odd": 2.05,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 46.85
+                "std_dev": 0.051,
+                "fair_prob_pct": 46.75
               }
             },
-            "market_margin_pct": 7.95,
-            "balance_diff": 6.3
+            "market_margin_pct": 7.32,
+            "balance_diff": 6.5
           },
           "asian_handicap_games_-2_5_games": {
             "bookmaker_count": 4,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.002,
+                "avg_odd": 2.015,
                 "max_odd": 2.05,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.066,
-                "fair_prob_pct": 46.67
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.07,
+                "fair_prob_pct": 46.69
               },
               "handicap_team_2": {
-                "avg_odd": 1.752,
+                "avg_odd": 1.765,
                 "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.105,
-                "fair_prob_pct": 53.33
+                "std_dev": 0.099,
+                "fair_prob_pct": 53.31
               }
             },
-            "market_margin_pct": 7.03,
-            "balance_diff": 6.66
+            "market_margin_pct": 6.29,
+            "balance_diff": 6.62
           },
           "asian_handicap_games_-3_5_games": {
             "bookmaker_count": 5,
@@ -2923,39 +2923,39 @@
                 "max_odd": 2.2,
                 "best_bookie": "Interwetten",
                 "std_dev": 0.159,
-                "fair_prob_pct": 45.56
+                "fair_prob_pct": 45.62
               },
               "handicap_team_2": {
-                "avg_odd": 1.726,
+                "avg_odd": 1.73,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.151,
-                "fair_prob_pct": 54.44
+                "std_dev": 0.148,
+                "fair_prob_pct": 54.38
               }
             },
-            "market_margin_pct": 6.43,
-            "balance_diff": 8.88
+            "market_margin_pct": 6.3,
+            "balance_diff": 8.76
           },
           "asian_handicap_games_+2_5_games": {
             "bookmaker_count": 2,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.65,
+                "avg_odd": 1.66,
                 "max_odd": 1.67,
                 "best_bookie": "Betano.de",
-                "std_dev": 0.028,
-                "fair_prob_pct": 56.29
+                "std_dev": 0.014,
+                "fair_prob_pct": 56.43
               },
               "handicap_team_2": {
-                "avg_odd": 2.125,
-                "max_odd": 2.15,
+                "avg_odd": 2.15,
+                "max_odd": 2.2,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 43.71
+                "std_dev": 0.071,
+                "fair_prob_pct": 43.57
               }
             },
-            "market_margin_pct": 7.66,
-            "balance_diff": 12.58
+            "market_margin_pct": 6.75,
+            "balance_diff": 12.86
           },
           "asian_handicap_games_+3_5_games": {
             "bookmaker_count": 2,
@@ -2965,18 +2965,18 @@
                 "max_odd": 1.6,
                 "best_bookie": "Betano.de",
                 "std_dev": 0.014,
-                "fair_prob_pct": 58.43
+                "fair_prob_pct": 58.97
               },
               "handicap_team_2": {
-                "avg_odd": 2.235,
-                "max_odd": 2.25,
+                "avg_odd": 2.285,
+                "max_odd": 2.35,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.021,
-                "fair_prob_pct": 41.57
+                "std_dev": 0.092,
+                "fair_prob_pct": 41.03
               }
             },
-            "market_margin_pct": 7.64,
-            "balance_diff": 16.86
+            "market_margin_pct": 6.66,
+            "balance_diff": 17.94
           },
           "asian_handicap_games_-4_5_games": {
             "bookmaker_count": 3,
@@ -2986,26 +2986,26 @@
                 "max_odd": 2.32,
                 "best_bookie": "Betano.de",
                 "std_dev": 0.012,
-                "fair_prob_pct": 40.19
+                "fair_prob_pct": 40.34
               },
               "handicap_team_2": {
-                "avg_odd": 1.55,
-                "max_odd": 1.55,
+                "avg_odd": 1.56,
+                "max_odd": 1.58,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 59.81
+                "std_dev": 0.017,
+                "fair_prob_pct": 59.66
               }
             },
-            "market_margin_pct": 7.86,
-            "balance_diff": 19.62
+            "market_margin_pct": 7.45,
+            "balance_diff": 19.32
           }
         }
       }
     },
     {
       "away_team": "Indiana Pacers",
-      "home_team": "New Orleans Pelicans",
       "venue": "Smoothie King Center",
+      "home_team": "New Orleans Pelicans",
       "match_date": "2026-10-22 00:00:00 UTC",
       "core_markets": {
         "home_away": {
@@ -3016,18 +3016,18 @@
               "max_odd": 2.35,
               "best_bookie": "Oddset.de",
               "std_dev": 0.047,
-              "fair_prob_pct": 41.12
+              "fair_prob_pct": 41.18
             },
             "2": {
-              "avg_odd": 1.609,
+              "avg_odd": 1.613,
               "max_odd": 1.63,
-              "best_bookie": "bet365",
-              "std_dev": 0.026,
-              "fair_prob_pct": 58.88
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.027,
+              "fair_prob_pct": 58.82
             }
           },
-          "market_margin_pct": 5.55,
-          "balance_diff": 17.76
+          "market_margin_pct": 5.4,
+          "balance_diff": 17.64
         }
       },
       "totals_summary": {
@@ -3036,65 +3036,65 @@
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.87,
-              "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.028,
-              "fair_prob_pct": 50.31
+              "avg_odd": 1.89,
+              "max_odd": 1.92,
+              "best_bookie": "bet365",
+              "std_dev": 0.025,
+              "fair_prob_pct": 49.87
             },
             "odds_under": {
-              "avg_odd": 1.893,
-              "max_odd": 1.95,
-              "best_bookie": "bet365",
-              "std_dev": 0.045,
-              "fair_prob_pct": 49.69
+              "avg_odd": 1.88,
+              "max_odd": 1.91,
+              "best_bookie": "Oddset.de",
+              "std_dev": 0.027,
+              "fair_prob_pct": 50.13
             }
           },
-          "market_margin_pct": 6.3,
-          "balance_diff": 0.62
+          "market_margin_pct": 6.1,
+          "balance_diff": 0.26
         },
         "key_alternate_lines": {
           "over_under_games_240_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.87,
-                "max_odd": 1.91,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.028,
-                "fair_prob_pct": 50.31
+                "avg_odd": 1.89,
+                "max_odd": 1.92,
+                "best_bookie": "bet365",
+                "std_dev": 0.025,
+                "fair_prob_pct": 49.87
               },
               "odds_under": {
-                "avg_odd": 1.893,
-                "max_odd": 1.95,
-                "best_bookie": "bet365",
-                "std_dev": 0.045,
-                "fair_prob_pct": 49.69
+                "avg_odd": 1.88,
+                "max_odd": 1.91,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.027,
+                "fair_prob_pct": 50.13
               }
             },
-            "market_margin_pct": 6.3,
-            "balance_diff": 0.62
+            "market_margin_pct": 6.1,
+            "balance_diff": 0.26
           },
           "over_under_games_239_5": {
             "bookmaker_count": 5,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.824,
+                "avg_odd": 1.826,
                 "max_odd": 1.87,
                 "best_bookie": "bet365",
                 "std_dev": 0.029,
-                "fair_prob_pct": 51.36
+                "fair_prob_pct": 51.38
               },
               "odds_under": {
-                "avg_odd": 1.926,
+                "avg_odd": 1.93,
                 "max_odd": 1.95,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.023,
-                "fair_prob_pct": 48.64
+                "std_dev": 0.021,
+                "fair_prob_pct": 48.62
               }
             },
-            "market_margin_pct": 6.75,
-            "balance_diff": 2.72
+            "market_margin_pct": 6.58,
+            "balance_diff": 2.76
           },
           "over_under_games_241_5": {
             "bookmaker_count": 6,
@@ -3142,64 +3142,64 @@
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.998,
+                "avg_odd": 2.007,
                 "max_odd": 2.15,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.117,
-                "fair_prob_pct": 47.25
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.127,
+                "fair_prob_pct": 47.14
               },
               "odds_under": {
                 "avg_odd": 1.79,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
                 "std_dev": 0.119,
-                "fair_prob_pct": 52.75
+                "fair_prob_pct": 52.86
               }
             },
-            "market_margin_pct": 5.92,
-            "balance_diff": 5.5
+            "market_margin_pct": 5.69,
+            "balance_diff": 5.72
           },
           "over_under_games_238_5": {
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.727,
+                "avg_odd": 1.723,
                 "max_odd": 1.75,
-                "best_bookie": "Betano.de",
+                "best_bookie": "bet-at-home.de",
                 "std_dev": 0.025,
-                "fair_prob_pct": 54.07
+                "fair_prob_pct": 54.21
               },
               "odds_under": {
-                "avg_odd": 2.033,
+                "avg_odd": 2.04,
                 "max_odd": 2.05,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 45.93
+                "std_dev": 0.017,
+                "fair_prob_pct": 45.79
               }
             },
-            "market_margin_pct": 7.09,
-            "balance_diff": 8.14
+            "market_margin_pct": 7.06,
+            "balance_diff": 8.42
           },
           "over_under_games_237_5": {
             "bookmaker_count": 2,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.66,
-                "max_odd": 1.67,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.014,
-                "fair_prob_pct": 56.14
+                "avg_odd": 1.685,
+                "max_odd": 1.7,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 55.77
               },
               "odds_under": {
                 "avg_odd": 2.125,
                 "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.035,
-                "fair_prob_pct": 43.86
+                "fair_prob_pct": 44.23
               }
             },
-            "market_margin_pct": 7.3,
-            "balance_diff": 12.28
+            "market_margin_pct": 6.41,
+            "balance_diff": 11.54
           }
         }
       },
@@ -3209,44 +3209,44 @@
           "bookmaker_count": 6,
           "outcomes": {
             "handicap_team_1": {
-              "avg_odd": 1.877,
-              "max_odd": 1.92,
+              "avg_odd": 1.887,
+              "max_odd": 1.93,
               "best_bookie": "bet365",
-              "std_dev": 0.032,
-              "fair_prob_pct": 49.97
+              "std_dev": 0.033,
+              "fair_prob_pct": 49.81
             },
             "handicap_team_2": {
-              "avg_odd": 1.875,
+              "avg_odd": 1.873,
               "max_odd": 1.91,
               "best_bookie": "Oddset.de",
-              "std_dev": 0.025,
-              "fair_prob_pct": 50.03
+              "std_dev": 0.023,
+              "fair_prob_pct": 50.19
             }
           },
-          "market_margin_pct": 6.61,
-          "balance_diff": 0.06
+          "market_margin_pct": 6.38,
+          "balance_diff": 0.38
         },
         "key_alternate_lines": {
           "asian_handicap_games_+3_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.877,
-                "max_odd": 1.92,
+                "avg_odd": 1.887,
+                "max_odd": 1.93,
                 "best_bookie": "bet365",
-                "std_dev": 0.032,
-                "fair_prob_pct": 49.97
+                "std_dev": 0.033,
+                "fair_prob_pct": 49.81
               },
               "handicap_team_2": {
-                "avg_odd": 1.875,
+                "avg_odd": 1.873,
                 "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 50.03
+                "std_dev": 0.023,
+                "fair_prob_pct": 50.19
               }
             },
-            "market_margin_pct": 6.61,
-            "balance_diff": 0.06
+            "market_margin_pct": 6.38,
+            "balance_diff": 0.38
           },
           "asian_handicap_games_+4_5_games": {
             "bookmaker_count": 6,
@@ -3256,18 +3256,18 @@
                 "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
                 "std_dev": 0.066,
-                "fair_prob_pct": 51.7
+                "fair_prob_pct": 51.82
               },
               "handicap_team_2": {
-                "avg_odd": 1.943,
-                "max_odd": 1.98,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 48.3
+                "avg_odd": 1.952,
+                "max_odd": 2.0,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.034,
+                "fair_prob_pct": 48.18
               }
             },
-            "market_margin_pct": 6.56,
-            "balance_diff": 3.4
+            "market_margin_pct": 6.33,
+            "balance_diff": 3.64
           },
           "asian_handicap_games_+2_5_games": {
             "bookmaker_count": 3,
@@ -3290,47 +3290,47 @@
             "market_margin_pct": 7.66,
             "balance_diff": 5.56
           },
-          "asian_handicap_games_+5_5_games": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.683,
-                "max_odd": 1.7,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.015,
-                "fair_prob_pct": 55.31
-              },
-              "handicap_team_2": {
-                "avg_odd": 2.083,
-                "max_odd": 2.1,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 44.69
-              }
-            },
-            "market_margin_pct": 7.43,
-            "balance_diff": 10.62
-          },
           "asian_handicap_games_+1_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.1,
-                "max_odd": 2.1,
+                "avg_odd": 2.107,
+                "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 44.25
+                "std_dev": 0.04,
+                "fair_prob_pct": 44.17
               },
               "handicap_team_2": {
+                "avg_odd": 1.667,
+                "max_odd": 1.7,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 55.83
+              }
+            },
+            "market_margin_pct": 7.45,
+            "balance_diff": 11.66
+          },
+          "asian_handicap_games_+5_5_games": {
+            "bookmaker_count": 3,
+            "outcomes": {
+              "handicap_team_1": {
                 "avg_odd": 1.667,
                 "max_odd": 1.68,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.015,
-                "fair_prob_pct": 55.75
+                "fair_prob_pct": 55.95
+              },
+              "handicap_team_2": {
+                "avg_odd": 2.117,
+                "max_odd": 2.15,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.029,
+                "fair_prob_pct": 44.05
               }
             },
-            "market_margin_pct": 7.61,
-            "balance_diff": 11.5
+            "market_margin_pct": 7.22,
+            "balance_diff": 11.9
           },
           "asian_handicap_games_+6_5_games": {
             "bookmaker_count": 2,
@@ -3340,132 +3340,132 @@
                 "max_odd": 1.6,
                 "best_bookie": "bet-at-home.de",
                 "std_dev": 0.0,
-                "fair_prob_pct": 58.01
+                "fair_prob_pct": 58.28
               },
               "handicap_team_2": {
-                "avg_odd": 2.21,
-                "max_odd": 2.22,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.014,
-                "fair_prob_pct": 41.99
+                "avg_odd": 2.235,
+                "max_odd": 2.25,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 41.72
               }
             },
-            "market_margin_pct": 7.75,
-            "balance_diff": 16.02
+            "market_margin_pct": 7.24,
+            "balance_diff": 16.56
           },
           "asian_handicap_games_-1_5_games": {
             "bookmaker_count": 2,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.375,
+                "avg_odd": 2.36,
                 "max_odd": 2.4,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 39.1
+                "std_dev": 0.057,
+                "fair_prob_pct": 39.64
               },
               "handicap_team_2": {
-                "avg_odd": 1.525,
+                "avg_odd": 1.55,
                 "max_odd": 1.55,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.035,
-                "fair_prob_pct": 60.9
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 60.36
               }
             },
-            "market_margin_pct": 7.68,
-            "balance_diff": 21.8
+            "market_margin_pct": 6.89,
+            "balance_diff": 20.72
           }
         }
       }
     },
     {
       "away_team": "Utah Jazz",
-      "home_team": "Memphis Grizzlies",
       "venue": "FedExForum",
+      "home_team": "Memphis Grizzlies",
       "match_date": "2026-10-22 00:00:00 UTC",
       "core_markets": {
         "home_away": {
           "bookmaker_count": 8,
           "outcomes": {
             "1": {
-              "avg_odd": 1.85,
-              "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.039,
-              "fair_prob_pct": 51.14
+              "avg_odd": 1.839,
+              "max_odd": 1.86,
+              "best_bookie": "Winamax.de",
+              "std_dev": 0.02,
+              "fair_prob_pct": 51.44
             },
             "2": {
-              "avg_odd": 1.936,
-              "max_odd": 1.99,
-              "best_bookie": "bet365",
-              "std_dev": 0.04,
-              "fair_prob_pct": 48.86
+              "avg_odd": 1.948,
+              "max_odd": 1.98,
+              "best_bookie": "Oddset.de",
+              "std_dev": 0.024,
+              "fair_prob_pct": 48.56
             }
           },
           "market_margin_pct": 5.71,
-          "balance_diff": 2.28
+          "balance_diff": 2.88
         }
       },
       "totals_summary": {
-        "main_line": "over_under_games_242_5",
+        "main_line": "over_under_games_241_5",
         "main_line_data": {
           "bookmaker_count": 6,
           "outcomes": {
             "odds_over": {
-              "avg_odd": 1.893,
-              "max_odd": 1.93,
+              "avg_odd": 1.862,
+              "max_odd": 1.91,
               "best_bookie": "bet365",
-              "std_dev": 0.029,
-              "fair_prob_pct": 49.63
+              "std_dev": 0.044,
+              "fair_prob_pct": 50.51
             },
             "odds_under": {
-              "avg_odd": 1.865,
-              "max_odd": 1.91,
-              "best_bookie": "Oddset.de",
-              "std_dev": 0.025,
-              "fair_prob_pct": 50.37
+              "avg_odd": 1.9,
+              "max_odd": 1.93,
+              "best_bookie": "bet-at-home.de",
+              "std_dev": 0.022,
+              "fair_prob_pct": 49.49
             }
           },
-          "market_margin_pct": 6.45,
-          "balance_diff": 0.74
+          "market_margin_pct": 6.34,
+          "balance_diff": 1.02
         },
         "key_alternate_lines": {
-          "over_under_games_242_5": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.893,
-                "max_odd": 1.93,
-                "best_bookie": "bet365",
-                "std_dev": 0.029,
-                "fair_prob_pct": 49.63
-              },
-              "odds_under": {
-                "avg_odd": 1.865,
-                "max_odd": 1.91,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.025,
-                "fair_prob_pct": 50.37
-              }
-            },
-            "market_margin_pct": 6.45,
-            "balance_diff": 0.74
-          },
           "over_under_games_241_5": {
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.847,
+                "avg_odd": 1.862,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
                 "std_dev": 0.044,
-                "fair_prob_pct": 50.94
+                "fair_prob_pct": 50.51
               },
               "odds_under": {
+                "avg_odd": 1.9,
+                "max_odd": 1.93,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.022,
+                "fair_prob_pct": 49.49
+              }
+            },
+            "market_margin_pct": 6.34,
+            "balance_diff": 1.02
+          },
+          "over_under_games_242_5": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "odds_over": {
                 "avg_odd": 1.918,
                 "max_odd": 1.95,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.031,
+                "best_bookie": "bet365",
+                "std_dev": 0.019,
                 "fair_prob_pct": 49.06
+              },
+              "odds_under": {
+                "avg_odd": 1.847,
+                "max_odd": 1.91,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.039,
+                "fair_prob_pct": 50.94
               }
             },
             "market_margin_pct": 6.28,
@@ -3475,64 +3475,85 @@
             "bookmaker_count": 6,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.923,
-                "max_odd": 1.95,
+                "avg_odd": 1.937,
+                "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.033,
-                "fair_prob_pct": 48.86
+                "std_dev": 0.049,
+                "fair_prob_pct": 48.55
               },
               "odds_under": {
-                "avg_odd": 1.837,
+                "avg_odd": 1.828,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.069,
-                "fair_prob_pct": 51.14
+                "std_dev": 0.077,
+                "fair_prob_pct": 51.45
               }
             },
-            "market_margin_pct": 6.44,
-            "balance_diff": 2.28
-          },
-          "over_under_games_244_5": {
-            "bookmaker_count": 5,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.98,
-                "max_odd": 2.05,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.084,
-                "fair_prob_pct": 47.42
-              },
-              "odds_under": {
-                "avg_odd": 1.786,
-                "max_odd": 1.91,
-                "best_bookie": "bet365",
-                "std_dev": 0.097,
-                "fair_prob_pct": 52.58
-              }
-            },
-            "market_margin_pct": 6.5,
-            "balance_diff": 5.16
+            "market_margin_pct": 6.33,
+            "balance_diff": 2.9
           },
           "over_under_games_240_5": {
             "bookmaker_count": 3,
             "outcomes": {
               "odds_over": {
-                "avg_odd": 1.733,
-                "max_odd": 1.75,
+                "avg_odd": 1.76,
+                "max_odd": 1.78,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 53.98
+                "std_dev": 0.017,
+                "fair_prob_pct": 52.9
               },
               "odds_under": {
-                "avg_odd": 2.033,
-                "max_odd": 2.05,
+                "avg_odd": 1.977,
+                "max_odd": 2.0,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.029,
-                "fair_prob_pct": 46.02
+                "std_dev": 0.025,
+                "fair_prob_pct": 47.1
               }
             },
-            "market_margin_pct": 6.89,
-            "balance_diff": 7.96
+            "market_margin_pct": 7.4,
+            "balance_diff": 5.8
+          },
+          "over_under_games_244_5": {
+            "bookmaker_count": 5,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 2.0,
+                "max_odd": 2.1,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.103,
+                "fair_prob_pct": 47.03
+              },
+              "odds_under": {
+                "avg_odd": 1.776,
+                "max_odd": 1.91,
+                "best_bookie": "bet365",
+                "std_dev": 0.105,
+                "fair_prob_pct": 52.97
+              }
+            },
+            "market_margin_pct": 6.31,
+            "balance_diff": 5.94
+          },
+          "over_under_games_239_5": {
+            "bookmaker_count": 2,
+            "outcomes": {
+              "odds_over": {
+                "avg_odd": 1.715,
+                "max_odd": 1.73,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.021,
+                "fair_prob_pct": 54.57
+              },
+              "odds_under": {
+                "avg_odd": 2.06,
+                "max_odd": 2.07,
+                "best_bookie": "Betano.de",
+                "std_dev": 0.014,
+                "fair_prob_pct": 45.43
+              }
+            },
+            "market_margin_pct": 6.85,
+            "balance_diff": 9.14
           },
           "over_under_games_238_5": {
             "bookmaker_count": 3,
@@ -3542,39 +3563,18 @@
                 "max_odd": 1.91,
                 "best_bookie": "Oddset.de",
                 "std_dev": 0.159,
-                "fair_prob_pct": 54.91
+                "fair_prob_pct": 54.84
               },
               "odds_under": {
-                "avg_odd": 2.103,
+                "avg_odd": 2.097,
                 "max_odd": 2.2,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.167,
-                "fair_prob_pct": 45.09
+                "std_dev": 0.162,
+                "fair_prob_pct": 45.16
               }
             },
-            "market_margin_pct": 5.45,
-            "balance_diff": 9.82
-          },
-          "over_under_games_239_5": {
-            "bookmaker_count": 2,
-            "outcomes": {
-              "odds_over": {
-                "avg_odd": 1.685,
-                "max_odd": 1.7,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.021,
-                "fair_prob_pct": 55.48
-              },
-              "odds_under": {
-                "avg_odd": 2.1,
-                "max_odd": 2.1,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 44.52
-              }
-            },
-            "market_margin_pct": 6.97,
-            "balance_diff": 10.96
+            "market_margin_pct": 5.59,
+            "balance_diff": 9.68
           }
         }
       },
@@ -3627,127 +3627,127 @@
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.928,
-                "max_odd": 1.95,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.027,
-                "fair_prob_pct": 48.63
+                "avg_odd": 1.923,
+                "max_odd": 1.98,
+                "best_bookie": "Oddset.de",
+                "std_dev": 0.032,
+                "fair_prob_pct": 48.87
               },
               "handicap_team_2": {
-                "avg_odd": 1.825,
+                "avg_odd": 1.838,
                 "max_odd": 1.89,
                 "best_bookie": "bet365",
-                "std_dev": 0.056,
-                "fair_prob_pct": 51.37
+                "std_dev": 0.035,
+                "fair_prob_pct": 51.13
               }
             },
-            "market_margin_pct": 6.66,
-            "balance_diff": 2.74
-          },
-          "asian_handicap_games_+1_5_games": {
-            "bookmaker_count": 6,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.79,
-                "max_odd": 1.85,
-                "best_bookie": "bet365",
-                "std_dev": 0.046,
-                "fair_prob_pct": 52.37
-              },
-              "handicap_team_2": {
-                "avg_odd": 1.968,
-                "max_odd": 2.0,
-                "best_bookie": "Oddset.de",
-                "std_dev": 0.021,
-                "fair_prob_pct": 47.63
-              }
-            },
-            "market_margin_pct": 6.68,
-            "balance_diff": 4.74
+            "market_margin_pct": 6.41,
+            "balance_diff": 2.26
           },
           "asian_handicap_games_+2_5_games": {
             "bookmaker_count": 6,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 1.792,
+                "avg_odd": 1.783,
                 "max_odd": 1.91,
                 "best_bookie": "bet365",
-                "std_dev": 0.105,
-                "fair_prob_pct": 52.49
+                "std_dev": 0.116,
+                "fair_prob_pct": 52.77
               },
               "handicap_team_2": {
-                "avg_odd": 1.98,
-                "max_odd": 2.1,
+                "avg_odd": 1.992,
+                "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.098,
-                "fair_prob_pct": 47.51
+                "std_dev": 0.115,
+                "fair_prob_pct": 47.23
               }
             },
-            "market_margin_pct": 6.31,
-            "balance_diff": 4.98
+            "market_margin_pct": 6.29,
+            "balance_diff": 5.54
+          },
+          "asian_handicap_games_+1_5_games": {
+            "bookmaker_count": 6,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.778,
+                "max_odd": 1.85,
+                "best_bookie": "bet365",
+                "std_dev": 0.06,
+                "fair_prob_pct": 53.0
+              },
+              "handicap_team_2": {
+                "avg_odd": 2.005,
+                "max_odd": 2.05,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.039,
+                "fair_prob_pct": 47.0
+              }
+            },
+            "market_margin_pct": 6.12,
+            "balance_diff": 6.0
           },
           "asian_handicap_games_-2_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.057,
-                "max_odd": 2.07,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 45.25
+                "avg_odd": 2.04,
+                "max_odd": 2.05,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.017,
+                "fair_prob_pct": 45.79
               },
               "handicap_team_2": {
-                "avg_odd": 1.7,
-                "max_odd": 1.7,
+                "avg_odd": 1.723,
+                "max_odd": 1.75,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 54.75
+                "std_dev": 0.025,
+                "fair_prob_pct": 54.21
               }
             },
-            "market_margin_pct": 7.44,
-            "balance_diff": 9.5
-          },
-          "asian_handicap_games_+3_5_games": {
-            "bookmaker_count": 3,
-            "outcomes": {
-              "handicap_team_1": {
-                "avg_odd": 1.617,
-                "max_odd": 1.65,
-                "best_bookie": "Interwetten",
-                "std_dev": 0.029,
-                "fair_prob_pct": 57.53
-              },
-              "handicap_team_2": {
-                "avg_odd": 2.19,
-                "max_odd": 2.25,
-                "best_bookie": "bet-at-home.de",
-                "std_dev": 0.079,
-                "fair_prob_pct": 42.47
-              }
-            },
-            "market_margin_pct": 7.51,
-            "balance_diff": 15.06
+            "market_margin_pct": 7.06,
+            "balance_diff": 8.42
           },
           "asian_handicap_games_-3_5_games": {
             "bookmaker_count": 3,
             "outcomes": {
               "handicap_team_1": {
-                "avg_odd": 2.2,
-                "max_odd": 2.2,
+                "avg_odd": 2.133,
+                "max_odd": 2.15,
                 "best_bookie": "bet-at-home.de",
-                "std_dev": 0.0,
-                "fair_prob_pct": 42.21
+                "std_dev": 0.029,
+                "fair_prob_pct": 43.62
               },
               "handicap_team_2": {
-                "avg_odd": 1.607,
-                "max_odd": 1.62,
-                "best_bookie": "Betano.de",
-                "std_dev": 0.012,
-                "fair_prob_pct": 57.79
+                "avg_odd": 1.65,
+                "max_odd": 1.65,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.0,
+                "fair_prob_pct": 56.38
               }
             },
-            "market_margin_pct": 7.68,
-            "balance_diff": 15.58
+            "market_margin_pct": 7.49,
+            "balance_diff": 12.76
+          },
+          "asian_handicap_games_+3_5_games": {
+            "bookmaker_count": 3,
+            "outcomes": {
+              "handicap_team_1": {
+                "avg_odd": 1.59,
+                "max_odd": 1.65,
+                "best_bookie": "Interwetten",
+                "std_dev": 0.053,
+                "fair_prob_pct": 58.49
+              },
+              "handicap_team_2": {
+                "avg_odd": 2.24,
+                "max_odd": 2.35,
+                "best_bookie": "bet-at-home.de",
+                "std_dev": 0.128,
+                "fair_prob_pct": 41.51
+              }
+            },
+            "market_margin_pct": 7.54,
+            "balance_diff": 16.98
           }
         }
       }
