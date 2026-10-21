@@ -1,0 +1,2921 @@
+[
+    {
+        "scraped_date": "2026-10-21 06:46:02 UTC",
+        "match_date": "2026-10-21 23:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/atlanta-hawks-xAO4gBas/orlando-magic-QZMS36Dn/#O8V0aGHF",
+        "home_team": "Orlando Magic",
+        "away_team": "Atlanta Hawks",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Kia Center",
+        "venue_town": "Orlando, FL",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.68",
+                "2": "2.24",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.70",
+                "2": "2.18",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.67",
+                "2": "2.24",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.70",
+                "2": "2.20",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_233_5_market": [
+            {
+                "odds_over": "1.86",
+                "odds_under": "1.96",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +233.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +233.5"
+            }
+        ],
+        "over_under_games_234_5_market": [
+            {
+                "odds_over": "1.89",
+                "odds_under": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +234.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +234.5"
+            }
+        ],
+        "over_under_games_235_5_market": [
+            {
+                "odds_over": "1.92",
+                "odds_under": "1.90",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +235.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +235.5"
+            }
+        ],
+        "over_under_games_236_5_market": [
+            {
+                "odds_over": "1.93",
+                "odds_under": "1.89",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +236.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +236.5"
+            }
+        ],
+        "asian_handicap_games_-3_5_games_market": [
+            {
+                "handicap_team_1": "1.96",
+                "handicap_team_2": "1.86",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -3.5"
+            },
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -3.5"
+            }
+        ],
+        "asian_handicap_games_-2_5_games_market": [
+            {
+                "handicap_team_1": "1.89",
+                "handicap_team_2": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -2.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -2.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:02 UTC",
+        "match_date": "2026-10-21 23:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/milwaukee-bucks-QTBEW6rC/washington-wizards-W6vGWPsn/#GGm8cfnS",
+        "home_team": "Washington Wizards",
+        "away_team": "Milwaukee Bucks",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Capital One Arena",
+        "venue_town": "Washington, DC",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.54",
+                "2": "2.54",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.55",
+                "2": "2.50",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.55",
+                "2": "2.50",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.57",
+                "2": "2.46",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_237_5_market": [
+            {
+                "odds_over": "1.88",
+                "odds_under": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +237.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +237.5"
+            }
+        ],
+        "over_under_games_238_5_market": [
+            {
+                "odds_over": "1.92",
+                "odds_under": "1.90",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +238.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +238.5"
+            }
+        ],
+        "over_under_games_239_5_market": [
+            {
+                "odds_over": "1.93",
+                "odds_under": "1.88",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +239.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +239.5"
+            }
+        ],
+        "asian_handicap_games_-6_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -6.5"
+            },
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -6.5"
+            }
+        ],
+        "asian_handicap_games_-5_5_games_market": [
+            {
+                "handicap_team_1": "1.93",
+                "handicap_team_2": "1.89",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -5.5"
+            },
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -5.5"
+            }
+        ],
+        "asian_handicap_games_-4_5_games_market": [
+            {
+                "handicap_team_1": "1.90",
+                "handicap_team_2": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -4.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -4.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:02 UTC",
+        "match_date": "2026-10-21 23:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/brooklyn-nets-bsAMUpDO/charlotte-hornets-xftMikUg/#KCxnjCv2",
+        "home_team": "Brooklyn Nets",
+        "away_team": "Charlotte Hornets",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Barclays Center",
+        "venue_town": "New York, NY",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.78",
+                "2": "2.09",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.80",
+                "2": "2.05",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.80",
+                "2": "2.05",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.76",
+                "2": "2.12",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_218_5_market": [
+            {
+                "odds_over": "1.90",
+                "odds_under": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +218.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +218.5"
+            }
+        ],
+        "over_under_games_219_5_market": [
+            {
+                "odds_over": "1.90",
+                "odds_under": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +219.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +219.5"
+            }
+        ],
+        "over_under_games_220_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +220.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +220.5"
+            }
+        ],
+        "over_under_games_221_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +221.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +221.5"
+            }
+        ],
+        "over_under_games_222_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +222.5"
+            }
+        ],
+        "over_under_games_223_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +223.5"
+            }
+        ],
+        "over_under_games_225_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +225.5"
+            }
+        ],
+        "over_under_games_226_5_market": [
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +226.5"
+            }
+        ],
+        "asian_handicap_games_-3_5_games_market": [
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -3.5"
+            },
+            {
+                "handicap_team_1": "1.98",
+                "handicap_team_2": "1.85",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -3.5"
+            }
+        ],
+        "asian_handicap_games_-3_0_games_market": [
+            {
+                "handicap_team_1": "1.93",
+                "handicap_team_2": "1.89",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -3"
+            }
+        ],
+        "asian_handicap_games_-2_5_games_market": [
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -2.5"
+            },
+            {
+                "handicap_team_1": "1.98",
+                "handicap_team_2": "1.85",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -2.5"
+            }
+        ],
+        "asian_handicap_games_-1_5_games_market": [
+            {
+                "handicap_team_1": "1.86",
+                "handicap_team_2": "1.96",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -1.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -1.5"
+            }
+        ],
+        "asian_handicap_games_+1_5_games_market": [
+            {
+                "handicap_team_1": "1.84",
+                "handicap_team_2": "1.99",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +1.5"
+            },
+            {
+                "handicap_team_1": "1.83",
+                "handicap_team_2": "2.00",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +1.5"
+            }
+        ],
+        "asian_handicap_games_+2_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +2.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +2.5"
+            }
+        ],
+        "asian_handicap_games_+3_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +3.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +3.5"
+            }
+        ],
+        "asian_handicap_games_+4_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +4.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +4.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:16 UTC",
+        "match_date": "2026-10-21 23:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/chicago-bulls-bPjc49q0/toronto-raptors-CxtbCMdU/#CnZwhY9k",
+        "home_team": "Toronto Raptors",
+        "away_team": "Chicago Bulls",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Scotiabank Arena",
+        "venue_town": "Toronto, ON",
+        "venue_country": "Canada",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.22",
+                "2": "4.50",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.22",
+                "2": "4.40",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.23",
+                "2": "4.30",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.22",
+                "2": "4.50",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_235_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +235.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +235.5"
+            }
+        ],
+        "over_under_games_236_5_market": [
+            {
+                "odds_over": "1.89",
+                "odds_under": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +236.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +236.5"
+            }
+        ],
+        "asian_handicap_games_-9_5_games_market": [
+            {
+                "handicap_team_1": "1.90",
+                "handicap_team_2": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -9.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -9.5"
+            }
+        ],
+        "asian_handicap_games_-8_5_games_market": [
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -8.5"
+            },
+            {
+                "handicap_team_1": "1.85",
+                "handicap_team_2": "1.98",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -8.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:16 UTC",
+        "match_date": "2026-10-21 23:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/miami-heat-CQ7AXnT5/minnesota-timberwolves-KjBIVQcI/#p2lSBos3",
+        "home_team": "Miami Heat",
+        "away_team": "Minnesota Timberwolves",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Kaseya Center",
+        "venue_town": "Miami, FL",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.82",
+                "2": "2.02",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.83",
+                "2": "2.00",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.83",
+                "2": "2.00",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.85",
+                "2": "2.00",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_235_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +235.5"
+            }
+        ],
+        "over_under_games_240_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +240.5"
+            }
+        ],
+        "over_under_games_241_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +241.5"
+            }
+        ],
+        "over_under_games_242_5_market": [
+            {
+                "odds_over": "1.90",
+                "odds_under": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +242.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +242.5"
+            }
+        ],
+        "over_under_games_243_5_market": [
+            {
+                "odds_over": "1.93",
+                "odds_under": "1.89",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +243.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +243.5"
+            }
+        ],
+        "asian_handicap_games_-3_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -3.5"
+            }
+        ],
+        "asian_handicap_games_-2_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -2.5"
+            }
+        ],
+        "asian_handicap_games_-1_5_games_market": [
+            {
+                "handicap_team_1": "1.90",
+                "handicap_team_2": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -1.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -1.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:20 UTC",
+        "match_date": "2026-10-22 00:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/indiana-pacers-YPohMUTt/new-orleans-pelicans-U3yc9SkP/#nJUXDFW8",
+        "home_team": "New Orleans Pelicans",
+        "away_team": "Indiana Pacers",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Smoothie King Center",
+        "venue_town": "New Orleans, LA",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "2.28",
+                "2": "1.65",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.25",
+                "2": "1.67",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.30",
+                "2": "1.64",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.30",
+                "2": "1.65",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_239_5_market": [
+            {
+                "odds_over": "1.89",
+                "odds_under": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +239.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +239.5"
+            }
+        ],
+        "over_under_games_240_5_market": [
+            {
+                "odds_over": "1.92",
+                "odds_under": "1.90",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +240.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +240.5"
+            }
+        ],
+        "over_under_games_241_5_market": [
+            {
+                "odds_over": "1.96",
+                "odds_under": "1.86",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +241.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +241.5"
+            }
+        ],
+        "over_under_games_242_5_market": [
+            {
+                "odds_over": "1.88",
+                "odds_under": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +242.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +242.5"
+            }
+        ],
+        "over_under_games_243_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +243.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +243.5"
+            }
+        ],
+        "asian_handicap_games_+3_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +3.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +3.5"
+            }
+        ],
+        "asian_handicap_games_+4_5_games_market": [
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +4.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +4.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:28 UTC",
+        "match_date": "2026-10-22 00:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/memphis-grizzlies-U1I5YSDa/utah-jazz-hGuCX5Su/#KWSuCg1L",
+        "home_team": "Memphis Grizzlies",
+        "away_team": "Utah Jazz",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "FedExForum",
+        "venue_town": "Memphis, TN",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.85",
+                "2": "1.98",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.85",
+                "2": "1.98",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.83",
+                "2": "2.00",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.83",
+                "2": "2.02",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_238_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +238.5"
+            }
+        ],
+        "over_under_games_239_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +239.5"
+            }
+        ],
+        "over_under_games_240_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +240.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +240.5"
+            }
+        ],
+        "over_under_games_241_5_market": [
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +241.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +241.5"
+            }
+        ],
+        "over_under_games_242_5_market": [
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +242.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +242.5"
+            }
+        ],
+        "over_under_games_243_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +243.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +243.5"
+            }
+        ],
+        "over_under_games_244_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +244.5"
+            }
+        ],
+        "asian_handicap_games_-1_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -1.5"
+            },
+            {
+                "handicap_team_1": "1.98",
+                "handicap_team_2": "1.85",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -1.5"
+            }
+        ],
+        "asian_handicap_games_+1_5_games_market": [
+            {
+                "handicap_team_1": "1.85",
+                "handicap_team_2": "1.98",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +1.5"
+            },
+            {
+                "handicap_team_1": "1.83",
+                "handicap_team_2": "2.00",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +1.5"
+            }
+        ],
+        "asian_handicap_games_+2_0_games_market": [
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +2"
+            }
+        ],
+        "asian_handicap_games_+2_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +2.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +2.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:29 UTC",
+        "match_date": "2026-10-22 00:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/dallas-mavericks-YouS3mEC/houston-rockets-Sr9PQALP/#U5EB6XOr",
+        "home_team": "Houston Rockets",
+        "away_team": "Dallas Mavericks",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Toyota Center",
+        "venue_town": "Houston, TX",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.27",
+                "2": "3.90",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.28",
+                "2": "3.75",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.27",
+                "2": "3.85",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.30",
+                "2": "3.70",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_226_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +226.5"
+            }
+        ],
+        "over_under_games_227_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +227.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +227.5"
+            }
+        ],
+        "over_under_games_228_5_market": [
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +228.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +228.5"
+            }
+        ],
+        "over_under_games_229_5_market": [
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +229.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +229.5"
+            }
+        ],
+        "over_under_games_230_5_market": [
+            {
+                "odds_over": "1.90",
+                "odds_under": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +230.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +230.5"
+            }
+        ],
+        "asian_handicap_games_-8_5_games_market": [
+            {
+                "handicap_team_1": "1.89",
+                "handicap_team_2": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -8.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -8.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:31 UTC",
+        "match_date": "2026-10-22 02:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/golden-state-warriors-SxUtXqch/los-angeles-lakers-ngegZ8bg/#WInzAPBF",
+        "home_team": "Los Angeles Lakers",
+        "away_team": "Golden State Warriors",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Crypto.com Arena",
+        "venue_town": "Los Angeles, CA",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.45",
+                "2": "2.80",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.45",
+                "2": "2.80",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.45",
+                "2": "2.80",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.48",
+                "2": "2.80",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_228_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +228.5"
+            }
+        ],
+        "over_under_games_229_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +229.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +229.5"
+            }
+        ],
+        "over_under_games_230_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +230.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +230.5"
+            }
+        ],
+        "over_under_games_231_5_market": [
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +231.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +231.5"
+            }
+        ],
+        "over_under_games_232_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +232.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +232.5"
+            }
+        ],
+        "over_under_games_233_5_market": [
+            {
+                "odds_over": "1.90",
+                "odds_under": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +233.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +233.5"
+            }
+        ],
+        "over_under_games_234_5_market": [
+            {
+                "odds_over": "1.88",
+                "odds_under": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +234.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +234.5"
+            }
+        ],
+        "over_under_games_235_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +235.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +235.5"
+            }
+        ],
+        "asian_handicap_games_-8_5_games_market": [
+            {
+                "handicap_team_1": "1.92",
+                "handicap_team_2": "1.90",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -8.5"
+            },
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -8.5"
+            }
+        ],
+        "asian_handicap_games_-7_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -7.5"
+            },
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -7.5"
+            }
+        ],
+        "asian_handicap_games_-6_5_games_market": [
+            {
+                "handicap_team_1": "1.90",
+                "handicap_team_2": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -6.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -6.5"
+            }
+        ],
+        "asian_handicap_games_-5_5_games_market": [
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -5.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -5.5"
+            }
+        ],
+        "asian_handicap_games_-4_5_games_market": [
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -4.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:42 UTC",
+        "match_date": "2026-10-22 02:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/phoenix-suns-M1Gy2pra/portland-trail-blazers-4Awl14c5/#xWHJ4Bge",
+        "home_team": "Portland Trail Blazers",
+        "away_team": "Phoenix Suns",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Moda Center",
+        "venue_town": "Portland, OR",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.68",
+                "2": "2.23",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.70",
+                "2": "2.18",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.70",
+                "2": "2.20",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.70",
+                "2": "2.20",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_231_5_market": [
+            {
+                "odds_over": "1.90",
+                "odds_under": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +231.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +231.5"
+            }
+        ],
+        "over_under_games_232_5_market": [
+            {
+                "odds_over": "1.89",
+                "odds_under": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +232.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +232.5"
+            }
+        ],
+        "over_under_games_233_5_market": [
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +233.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +233.5"
+            }
+        ],
+        "over_under_games_234_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +234.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +234.5"
+            }
+        ],
+        "over_under_games_235_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +235.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +235.5"
+            }
+        ],
+        "asian_handicap_games_-4_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -4.5"
+            },
+            {
+                "handicap_team_1": "1.95",
+                "handicap_team_2": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -4.5"
+            }
+        ],
+        "asian_handicap_games_-3_5_games_market": [
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -3.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -3.5"
+            }
+        ],
+        "asian_handicap_games_-2_5_games_market": [
+            {
+                "handicap_team_1": "1.88",
+                "handicap_team_2": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -2.5"
+            },
+            {
+                "handicap_team_1": "1.91",
+                "handicap_team_2": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -2.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:43 UTC",
+        "match_date": "2026-10-22 02:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/los-angeles-clippers-vPeTYlqm/sacramento-kings-CvwE1OCB/#AqGR2kO7",
+        "home_team": "Los Angeles Clippers",
+        "away_team": "Sacramento Kings",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Intuit Dome",
+        "venue_town": "Inglewood, CA",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.50",
+                "2": "2.65",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.50",
+                "2": "2.65",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.50",
+                "2": "2.64",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.53",
+                "2": "2.60",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_228_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +228.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +228.5"
+            }
+        ],
+        "over_under_games_229_5_market": [
+            {
+                "odds_over": "1.96",
+                "odds_under": "1.86",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +229.5"
+            },
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +229.5"
+            }
+        ],
+        "over_under_games_230_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +230.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +230.5"
+            }
+        ],
+        "asian_handicap_games_-5_5_games_market": [
+            {
+                "handicap_team_1": "1.93",
+                "handicap_team_2": "1.89",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -5.5"
+            },
+            {
+                "handicap_team_1": "1.98",
+                "handicap_team_2": "1.85",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -5.5"
+            }
+        ],
+        "asian_handicap_games_-4_5_games_market": [
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -4.5"
+            },
+            {
+                "handicap_team_1": "1.85",
+                "handicap_team_2": "1.98",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -4.5"
+            }
+        ],
+        "asian_handicap_games_-3_5_games_market": [
+            {
+                "handicap_team_1": "1.85",
+                "handicap_team_2": "1.98",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -3.5"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-10-21 06:46:51 UTC",
+        "match_date": "2026-10-21 01:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/oklahoma-city-thunder-0fHFHEWD/san-antonio-spurs-IwmkErSH/#h81tlrkd",
+        "home_team": "San Antonio Spurs",
+        "away_team": "Oklahoma City Thunder",
+        "league_name": "NBA",
+        "home_score": "104",
+        "away_score": "116",
+        "partial_results": "(28:34, 16:31, 36:28, 24:23)",
+        "venue": "Frost Bank Center",
+        "venue_town": "San Antonio, TX",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.97",
+                "2": "1.85",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.05",
+                "2": "1.87",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.98",
+                "2": "1.84",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.96",
+                "2": "1.89",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ],
+        "1x2_market": [],
+        "over_under_games_220_5_market": [
+            {
+                "odds_over": "1.40",
+                "odds_under": "2.85",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +220.5"
+            }
+        ],
+        "over_under_games_221_5_market": [
+            {
+                "odds_over": "1.42",
+                "odds_under": "2.75",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +221.5"
+            }
+        ],
+        "over_under_games_222_5_market": [
+            {
+                "odds_over": "1.48",
+                "odds_under": "2.60",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +222.5"
+            }
+        ],
+        "over_under_games_223_5_market": [
+            {
+                "odds_over": "1.50",
+                "odds_under": "2.50",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +223.5"
+            }
+        ],
+        "over_under_games_224_5_market": [
+            {
+                "odds_over": "1.55",
+                "odds_under": "2.40",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +224.5"
+            }
+        ],
+        "over_under_games_225_5_market": [
+            {
+                "odds_over": "1.60",
+                "odds_under": "2.25",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +225.5"
+            }
+        ],
+        "over_under_games_226_5_market": [
+            {
+                "odds_over": "1.65",
+                "odds_under": "2.18",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +226.5"
+            }
+        ],
+        "over_under_games_227_5_market": [
+            {
+                "odds_over": "1.72",
+                "odds_under": "2.05",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +227.5"
+            }
+        ],
+        "over_under_games_228_5_market": [
+            {
+                "odds_over": "1.78",
+                "odds_under": "2.00",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +228.5"
+            }
+        ],
+        "over_under_games_229_5_market": [
+            {
+                "odds_over": "1.92",
+                "odds_under": "1.90",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +229.5"
+            },
+            {
+                "odds_over": "1.87",
+                "odds_under": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +229.5"
+            }
+        ],
+        "over_under_games_230_5_market": [
+            {
+                "odds_over": "1.95",
+                "odds_under": "1.87",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +230.5"
+            },
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.85",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +230.5"
+            }
+        ],
+        "over_under_games_231_5_market": [
+            {
+                "odds_over": "1.92",
+                "odds_under": "1.90",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +231.5"
+            },
+            {
+                "odds_over": "2.00",
+                "odds_under": "1.78",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +231.5"
+            }
+        ],
+        "over_under_games_232_5_market": [
+            {
+                "odds_over": "1.91",
+                "odds_under": "1.91",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +232.5"
+            },
+            {
+                "odds_over": "2.10",
+                "odds_under": "1.70",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +232.5"
+            }
+        ],
+        "over_under_games_233_5_market": [
+            {
+                "odds_over": "1.90",
+                "odds_under": "1.92",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +233.5"
+            },
+            {
+                "odds_over": "2.18",
+                "odds_under": "1.65",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +233.5"
+            }
+        ],
+        "over_under_games_234_5_market": [
+            {
+                "odds_over": "2.25",
+                "odds_under": "1.60",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +234.5"
+            }
+        ],
+        "over_under_games_235_5_market": [
+            {
+                "odds_over": "2.40",
+                "odds_under": "1.55",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +235.5"
+            }
+        ],
+        "over_under_games_236_5_market": [
+            {
+                "odds_over": "2.50",
+                "odds_under": "1.50",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +236.5"
+            }
+        ],
+        "over_under_games_237_5_market": [
+            {
+                "odds_over": "2.60",
+                "odds_under": "1.48",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +237.5"
+            }
+        ],
+        "over_under_games_238_5_market": [
+            {
+                "odds_over": "2.75",
+                "odds_under": "1.42",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +238.5"
+            }
+        ],
+        "over_under_games_239_5_market": [
+            {
+                "odds_over": "2.85",
+                "odds_under": "1.40",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +239.5"
+            }
+        ],
+        "over_under_games_240_5_market": [
+            {
+                "odds_over": "3.00",
+                "odds_under": "1.36",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Over/Under +240.5"
+            }
+        ],
+        "over_under_games_241_5_market": [
+            {
+                "odds_over": "3.00",
+                "odds_under": "1.36",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +241.5"
+            }
+        ],
+        "over_under_games_242_5_market": [
+            {
+                "odds_over": "3.00",
+                "odds_under": "1.40",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +242.5"
+            }
+        ],
+        "over_under_games_243_5_market": [
+            {
+                "odds_over": "3.20",
+                "odds_under": "1.36",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "odds_over",
+                    "odds_under"
+                ],
+                "submarket_name": "Over/Under +243.5"
+            }
+        ],
+        "asian_handicap_games_-13_5_games_market": [
+            {
+                "handicap_team_1": "5.00",
+                "handicap_team_2": "1.18",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -13.5"
+            }
+        ],
+        "asian_handicap_games_-12_5_games_market": [
+            {
+                "handicap_team_1": "4.40",
+                "handicap_team_2": "1.20",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -12.5"
+            }
+        ],
+        "asian_handicap_games_-11_5_games_market": [
+            {
+                "handicap_team_1": "4.10",
+                "handicap_team_2": "1.22",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -11.5"
+            }
+        ],
+        "asian_handicap_games_-10_5_games_market": [
+            {
+                "handicap_team_1": "4.60",
+                "handicap_team_2": "1.18",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -10.5"
+            }
+        ],
+        "asian_handicap_games_-9_5_games_market": [
+            {
+                "handicap_team_1": "4.20",
+                "handicap_team_2": "1.21",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -9.5"
+            }
+        ],
+        "asian_handicap_games_-8_5_games_market": [
+            {
+                "handicap_team_1": "3.70",
+                "handicap_team_2": "1.26",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -8.5"
+            }
+        ],
+        "asian_handicap_games_-7_5_games_market": [
+            {
+                "handicap_team_1": "3.40",
+                "handicap_team_2": "1.30",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -7.5"
+            }
+        ],
+        "asian_handicap_games_-6_5_games_market": [
+            {
+                "handicap_team_1": "3.00",
+                "handicap_team_2": "1.36",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -6.5"
+            }
+        ],
+        "asian_handicap_games_-5_5_games_market": [
+            {
+                "handicap_team_1": "2.75",
+                "handicap_team_2": "1.42",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -5.5"
+            }
+        ],
+        "asian_handicap_games_-4_5_games_market": [
+            {
+                "handicap_team_1": "2.54",
+                "handicap_team_2": "1.50",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -4.5"
+            }
+        ],
+        "asian_handicap_games_-3_5_games_market": [
+            {
+                "handicap_team_1": "2.35",
+                "handicap_team_2": "1.57",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -3.5"
+            }
+        ],
+        "asian_handicap_games_-2_5_games_market": [
+            {
+                "handicap_team_1": "1.99",
+                "handicap_team_2": "1.84",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -2.5"
+            },
+            {
+                "handicap_team_1": "2.18",
+                "handicap_team_2": "1.65",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -2.5"
+            }
+        ],
+        "asian_handicap_games_-1_5_games_market": [
+            {
+                "handicap_team_1": "1.93",
+                "handicap_team_2": "1.89",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap -1.5"
+            },
+            {
+                "handicap_team_1": "2.05",
+                "handicap_team_2": "1.72",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap -1.5"
+            }
+        ],
+        "asian_handicap_games_+1_5_games_market": [
+            {
+                "handicap_team_1": "1.89",
+                "handicap_team_2": "1.93",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +1.5"
+            },
+            {
+                "handicap_team_1": "1.87",
+                "handicap_team_2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +1.5"
+            }
+        ],
+        "asian_handicap_games_+2_5_games_market": [
+            {
+                "handicap_team_1": "1.78",
+                "handicap_team_2": "2.00",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +2.5"
+            }
+        ],
+        "asian_handicap_games_+3_5_games_market": [
+            {
+                "handicap_team_1": "1.65",
+                "handicap_team_2": "2.18",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +3.5"
+            }
+        ],
+        "asian_handicap_games_+4_5_games_market": [
+            {
+                "handicap_team_1": "1.57",
+                "handicap_team_2": "2.35",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +4.5"
+            }
+        ],
+        "asian_handicap_games_+5_5_games_market": [
+            {
+                "handicap_team_1": "1.48",
+                "handicap_team_2": "2.55",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +5.5"
+            }
+        ],
+        "asian_handicap_games_+6_5_games_market": [
+            {
+                "handicap_team_1": "1.42",
+                "handicap_team_2": "2.75",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +6.5"
+            }
+        ],
+        "asian_handicap_games_+7_5_games_market": [
+            {
+                "handicap_team_1": "1.36",
+                "handicap_team_2": "3.00",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +7.5"
+            }
+        ],
+        "asian_handicap_games_+8_5_games_market": [
+            {
+                "handicap_team_1": "1.30",
+                "handicap_team_2": "3.40",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +8.5"
+            }
+        ],
+        "asian_handicap_games_+9_5_games_market": [
+            {
+                "handicap_team_1": "1.25",
+                "handicap_team_2": "3.75",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +9.5"
+            }
+        ],
+        "asian_handicap_games_+10_5_games_market": [
+            {
+                "handicap_team_1": "1.21",
+                "handicap_team_2": "4.20",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +10.5"
+            }
+        ],
+        "asian_handicap_games_+11_5_games_market": [
+            {
+                "handicap_team_1": "1.18",
+                "handicap_team_2": "4.60",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Asian Handicap +11.5"
+            }
+        ],
+        "asian_handicap_games_+12_5_games_market": [
+            {
+                "handicap_team_1": "1.17",
+                "handicap_team_2": "4.75",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "blocked_outcomes": [
+                    "handicap_team_1",
+                    "handicap_team_2"
+                ],
+                "submarket_name": "Asian Handicap +12.5"
+            }
+        ]
+    }
+]
