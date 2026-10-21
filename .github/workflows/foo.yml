@@ -17,7 +17,6 @@ permissions:
 jobs:
   scrape-and-optimize-football:
     runs-on: ubuntu-latest
-    # 16 lig ve 3 şemsiye market (tüm baremler) hafta sonu yoğunluğunda uzun sürebileceği için 90 dk
     timeout-minutes: 90
     env:
       OH_PROXY_URL: ${{ secrets.PROXY_URL }}
@@ -66,8 +65,6 @@ jobs:
             PROXY_ARGS+=(--proxy-pass "$OH_PROXY_PASS")
           fi
 
-          # HIGH_VARIANCE_LEAGUES listesi (OddsHarvester yerleşik slug doğrulamasına takılmamak için
-          # doğrudan OddsPortal 'football/<ülke>/<lig>' path formatı kullanılmıştır)
           LEAGUES=(
             # Hollanda & Belçika
             "football/netherlands/eerste-divisie"
@@ -92,15 +89,35 @@ jobs:
             "football/usa/mls"
           )
 
-          # Diziyi virgülle ayrılmış tek bir metne dönüştür
           LEAGUE_LIST=$(IFS=, ; echo "${LEAGUES[*]}")
 
-          # Futbol için desteklenen tüm marketler (Şemsiye marketler dahil):
-          # 1x2, btts, double_chance, draw_no_bet, over_under, european_handicap, asian_handicap
+          # Desteklenen tüm futbol marketleri:
+          # - Temel: 1x2, btts, double_chance, dnb
+          # - Şemsiye (tüm baremleri tek seferde açar): over_under, asian_handicap
+          # - Avrupa Handikap (8 barem açıkça tanımlı): european_handicap_-4 ... +4
+          MARKETS=(
+            "1x2"
+            "btts"
+            "double_chance"
+            "dnb"
+            "over_under"
+            "asian_handicap"
+            "european_handicap_-4"
+            "european_handicap_-3"
+            "european_handicap_-2"
+            "european_handicap_-1"
+            "european_handicap_+1"
+            "european_handicap_+2"
+            "european_handicap_+3"
+            "european_handicap_+4"
+          )
+
+          MARKET_LIST=$(IFS=, ; echo "${MARKETS[*]}")
+
           oddsharvester upcoming \
             -s football \
             -l "${LEAGUE_LIST}" \
-            -m 1x2,btts,double_chance,draw_no_bet,over_under,european_handicap,asian_handicap \
+            -m "${MARKET_LIST}" \
             --kickoff-within-hours "${HOURS}" \
             --timezone UTC \
             -c 3 \
