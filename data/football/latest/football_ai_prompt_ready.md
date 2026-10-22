@@ -3,45 +3,45 @@
 > **AI Analiz Yönergesi:** Aşağıdaki veriler tüm bahis bürolarının oran ortalamalarını (`avg_odd`), piyasadaki en yüksek oranı (`max_odd`), büro kar marjından arındırılmış gerçek kazanma olasılığını (`fair_prob_pct`) ve bürolar arası standart sapmayı (`std_dev`) içerir. `std_dev` yüksekse bürolar arasında görüş ayrılığı vardır; `max_odd` ile `avg_odd` arasındaki fark açıksa 'Value Bet' (Değerli Oran) fırsatı mevcuttur.
 
 ## 🏀 G.A. Eagles vs Telstar (Başlangıç: `2026-10-23 18:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.2)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %5.65)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.595 | **1.62** (BetMGM.us) | **%59.03** | 0.019 |
-| **X** | 4.3 | **4.5** (Fanatics) | **%21.9** | 0.183 |
-| **2** | 4.938 | **5.25** (bet365.us) | **%19.07** | 0.239 |
+| **1** | 1.6 | **1.62** (BetMGM.us) | **%59.16** | 0.016 |
+| **X** | 4.275 | **4.4** (BetMGM.us) | **%22.14** | 0.096 |
+| **2** | 5.062 | **5.25** (bet365.us) | **%18.7** | 0.239 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %7.93)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %7.63)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.472 | **1.5** (bet365.us) | **%62.94** | 0.026 |
-| **btts_no** | 2.5 | **2.55** (DraftKings) | **%37.06** | 0.041 |
+| **btts_yes** | 1.47 | **1.5** (bet365.us) | **%63.2** | 0.032 |
+| **btts_no** | 2.525 | **2.6** (DraftKings) | **%36.8** | 0.065 |
 
-### Market: `double_chance` (Büro Sayısı: 4 | Marj: %111.82)
+### Market: `double_chance` (Büro Sayısı: 4 | Marj: %111.7)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.172 | **1.19** (BetMGM.us) | **%40.28** | 0.017 |
-| **12** | 1.215 | **1.22** (bet365.us) | **%38.86** | 0.006 |
-| **X2** | 2.263 | **2.3** (bet365.us) | **%20.86** | 0.048 |
+| **1X** | 1.167 | **1.19** (BetMGM.us) | **%40.48** | 0.017 |
+| **12** | 1.215 | **1.22** (bet365.us) | **%38.88** | 0.006 |
+| **X2** | 2.288 | **2.35** (Fanatics) | **%20.65** | 0.048 |
 
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.66)
+### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.75)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.232 | **1.26** (BetMGM.us) | **%75.39** | 0.028 |
-| **dnb_team2** | 3.775 | **4.0** (bet365.us) | **%24.61** | 0.263 |
+| **dnb_team1** | 1.228 | **1.26** (BetMGM.us) | **%75.58** | 0.025 |
+| **dnb_team2** | 3.8 | **4.0** (bet365.us) | **%24.42** | 0.245 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-1` | team1_handicap | 1.92 | 1.98 (bet365.us) | %48.32 | 0.085 |
-| ⭐ `asian_handicap_-1` | team2_handicap | 1.795 | 1.83 (bet365.us) | %51.68 | 0.049 |
-| `asian_handicap_-0_75` | team1_handicap | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
-| `asian_handicap_-0_75` | team2_handicap | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
-| `asian_handicap_-1_25` | team1_handicap | 2.175 | 2.2 (bet365.us) | %42.76 | 0.035 |
-| `asian_handicap_-1_25` | team2_handicap | 1.625 | 1.65 (bet365.us) | %57.24 | 0.035 |
-| `asian_handicap_-0_5` | team1_handicap | 1.565 | 1.6 (bet365.us) | %59.24 | 0.026 |
-| `asian_handicap_-0_5` | team2_handicap | 2.275 | 2.3 (bet365.us) | %40.76 | 0.029 |
-| `asian_handicap_-1_5` | team1_handicap | 2.367 | 2.42 (bet365.us) | %39.1 | 0.079 |
-| `asian_handicap_-1_5` | team2_handicap | 1.52 | 1.57 (BetMGM.us) | %60.9 | 0.039 |
+| ⭐ `asian_handicap_-1` | team1_handicap | 1.94 | 1.98 (bet365.us) | %48.34 | 0.057 |
+| ⭐ `asian_handicap_-1` | team2_handicap | 1.815 | 1.83 (bet365.us) | %51.66 | 0.021 |
+| `asian_handicap_-0_75` | team1_handicap | 1.705 | 1.73 (bet365.us) | %54.77 | 0.035 |
+| `asian_handicap_-0_75` | team2_handicap | 2.065 | 2.08 (bet365.us) | %45.23 | 0.021 |
+| `asian_handicap_-1_25` | team1_handicap | 2.175 | 2.2 (bet365.us) | %42.91 | 0.035 |
+| `asian_handicap_-1_25` | team2_handicap | 1.635 | 1.65 (bet365.us) | %57.09 | 0.021 |
+| `asian_handicap_-0_5` | team1_handicap | 1.56 | 1.6 (bet365.us) | %59.46 | 0.034 |
+| `asian_handicap_-0_5` | team2_handicap | 2.288 | 2.35 (Fanatics) | %40.54 | 0.048 |
+| `asian_handicap_-1_5` | team1_handicap | 2.367 | 2.42 (bet365.us) | %39.23 | 0.079 |
+| `asian_handicap_-1_5` | team2_handicap | 1.528 | 1.57 (BetMGM.us) | %60.77 | 0.031 |
 | `asian_handicap_-0_25` | team1_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `asian_handicap_-0_25` | team2_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `asian_handicap_-1_75` | team1_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
@@ -50,18 +50,18 @@
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.84 | 1.88 (bet365.us) | %50.74 | 0.057 |
-| ⭐ `over_under_3_25` | odds_under | 1.895 | 1.93 (bet365.us) | %49.26 | 0.049 |
-| `over_under_3_5` | odds_over | 2.013 | 2.05 (BetMGM.us) | %45.9 | 0.025 |
-| `over_under_3_5` | odds_under | 1.708 | 1.73 (bet365.us) | %54.1 | 0.021 |
-| `over_under_3` | odds_over | 1.625 | 1.65 (bet365.us) | %57.24 | 0.035 |
-| `over_under_3` | odds_under | 2.175 | 2.2 (bet365.us) | %42.76 | 0.035 |
+| ⭐ `over_under_3_25` | odds_over | 1.855 | 1.88 (bet365.us) | %50.53 | 0.035 |
+| ⭐ `over_under_3_25` | odds_under | 1.895 | 1.93 (bet365.us) | %49.47 | 0.049 |
+| `over_under_3_5` | odds_over | 2.025 | 2.05 (BetMGM.us) | %45.75 | 0.029 |
+| `over_under_3_5` | odds_under | 1.708 | 1.73 (bet365.us) | %54.25 | 0.021 |
+| `over_under_3` | odds_over | 1.635 | 1.65 (bet365.us) | %57.09 | 0.021 |
+| `over_under_3` | odds_under | 2.175 | 2.2 (bet365.us) | %42.91 | 0.035 |
 | `over_under_3_75` | odds_over | 2.225 | 2.35 (bet365.us) | %41.68 | 0.177 |
 | `over_under_3_75` | odds_under | 1.59 | 1.6 (DraftKings) | %58.32 | 0.014 |
 | `over_under_2_75` | odds_over | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `over_under_2_75` | odds_under | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `over_under_2_5` | odds_over | 1.415 | 1.44 (bet365.us) | %65.51 | 0.017 |
-| `over_under_2_5` | odds_under | 2.688 | 2.7 (bet365.us) | %34.49 | 0.025 |
+| `over_under_2_5` | odds_over | 1.417 | 1.44 (bet365.us) | %65.48 | 0.017 |
+| `over_under_2_5` | odds_under | 2.688 | 2.7 (bet365.us) | %34.52 | 0.025 |
 | `over_under_4` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
 | `over_under_4` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 
@@ -74,11 +74,11 @@
 | **X** | 4.232 | **4.33** (BetMGM.us) | **%22.38** | 0.104 |
 | **2** | 4.625 | **4.75** (bet365.us) | **%20.47** | 0.144 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.89)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %7.91)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.51 | **1.52** (Fanatics) | **%61.38** | 0.01 |
-| **btts_no** | 2.4 | **2.5** (bet365.us) | **%38.62** | 0.087 |
+| **btts_yes** | 1.503 | **1.51** (BetMGM.us) | **%61.66** | 0.006 |
+| **btts_no** | 2.417 | **2.5** (bet365.us) | **%38.34** | 0.076 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.35)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -98,8 +98,8 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_-0_75` | team1_handicap | 1.77 | 1.8 (bet365.us) | %52.42 | 0.042 |
 | ⭐ `asian_handicap_-0_75` | team2_handicap | 1.95 | 2.0 (bet365.us) | %47.58 | 0.071 |
-| `asian_handicap_-1` | team1_handicap | 2.025 | 2.05 (bet365.us) | %45.86 | 0.035 |
-| `asian_handicap_-1` | team2_handicap | 1.715 | 1.75 (bet365.us) | %54.14 | 0.049 |
+| `asian_handicap_-1` | team1_handicap | 2.025 | 2.05 (bet365.us) | %45.71 | 0.035 |
+| `asian_handicap_-1` | team2_handicap | 1.705 | 1.75 (bet365.us) | %54.29 | 0.064 |
 | `asian_handicap_-0_5` | team1_handicap | 1.607 | 1.65 (bet365.us) | %57.51 | 0.03 |
 | `asian_handicap_-0_5` | team2_handicap | 2.175 | 2.2 (bet365.us) | %42.49 | 0.029 |
 | `asian_handicap_-1_25` | team1_handicap | 2.25 | 2.35 (bet365.us) | %41.02 | 0.141 |
@@ -160,14 +160,14 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 1.84 | 1.88 (bet365.us) | %50.74 | 0.057 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.895 | 1.93 (bet365.us) | %49.26 | 0.049 |
-| `asian_handicap_-0_25` | team1_handicap | 2.1 | 2.15 (bet365.us) | %44.15 | 0.071 |
-| `asian_handicap_-0_25` | team2_handicap | 1.66 | 1.68 (bet365.us) | %55.85 | 0.028 |
-| `asian_handicap_+0_25` | team1_handicap | 1.625 | 1.65 (bet365.us) | %56.95 | 0.035 |
-| `asian_handicap_+0_25` | team2_handicap | 2.15 | 2.2 (bet365.us) | %43.05 | 0.071 |
-| `asian_handicap_-0_5` | team1_handicap | 2.368 | 2.42 (bet365.us) | %39.06 | 0.035 |
-| `asian_handicap_-0_5` | team2_handicap | 1.518 | 1.53 (bet365.us) | %60.94 | 0.01 |
+| ⭐ `asian_handicap_0` | team1_handicap | 1.855 | 1.88 (bet365.us) | %50.33 | 0.035 |
+| ⭐ `asian_handicap_0` | team2_handicap | 1.88 | 1.93 (bet365.us) | %49.67 | 0.071 |
+| `asian_handicap_-0_25` | team1_handicap | 2.125 | 2.15 (bet365.us) | %43.71 | 0.035 |
+| `asian_handicap_-0_25` | team2_handicap | 1.65 | 1.68 (bet365.us) | %56.29 | 0.042 |
+| `asian_handicap_+0_25` | team1_handicap | 1.635 | 1.65 (bet365.us) | %56.8 | 0.021 |
+| `asian_handicap_+0_25` | team2_handicap | 2.15 | 2.2 (bet365.us) | %43.2 | 0.071 |
+| `asian_handicap_-0_5` | team1_handicap | 2.368 | 2.42 (bet365.us) | %39.02 | 0.035 |
+| `asian_handicap_-0_5` | team2_handicap | 1.515 | 1.53 (bet365.us) | %60.98 | 0.013 |
 | `asian_handicap_+0_5` | team1_handicap | 1.493 | 1.5 (bet365.us) | %61.97 | 0.012 |
 | `asian_handicap_+0_5` | team2_handicap | 2.433 | 2.5 (bet365.us) | %38.03 | 0.058 |
 | `asian_handicap_-0_75` | team1_handicap | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
@@ -188,8 +188,8 @@
 | `over_under_2_75` | odds_under | 2.2 | 2.3 (bet365.us) | %42.11 | 0.141 |
 | `over_under_3_75` | odds_over | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
 | `over_under_3_75` | odds_under | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `over_under_2_5` | odds_over | 1.47 | 1.5 (bet365.us) | %63.09 | 0.022 |
-| `over_under_2_5` | odds_under | 2.513 | 2.55 (DraftKings) | %36.91 | 0.025 |
+| `over_under_2_5` | odds_over | 1.465 | 1.5 (bet365.us) | %63.28 | 0.029 |
+| `over_under_2_5` | odds_under | 2.525 | 2.55 (DraftKings) | %36.72 | 0.029 |
 | `over_under_2_25` | odds_over | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 | `over_under_2_25` | odds_under | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 
@@ -202,11 +202,11 @@
 | **X** | 3.812 | **3.9** (BetMGM.us) | **%24.66** | 0.063 |
 | **2** | 2.025 | **2.05** (bet365.us) | **%46.42** | 0.029 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.32)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %8.38)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.422 | **1.44** (bet365.us) | **%64.92** | 0.017 |
-| **btts_no** | 2.632 | **2.75** (DraftKings) | **%35.08** | 0.085 |
+| **btts_yes** | 1.417 | **1.44** (bet365.us) | **%65.12** | 0.017 |
+| **btts_no** | 2.645 | **2.75** (DraftKings) | **%34.88** | 0.071 |
 
 ### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.84)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -215,19 +215,19 @@
 | **12** | 1.25 | **1.25** (bet365.us) | **%37.59** | 0.0 |
 | **X2** | 1.328 | **1.35** (BetMGM.us) | **%35.38** | 0.017 |
 
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.86)
+### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.76)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 2.382 | **2.45** (DraftKings) | **%38.92** | 0.062 |
-| **dnb_team2** | 1.518 | **1.53** (bet365.us) | **%61.08** | 0.015 |
+| **dnb_team1** | 2.395 | **2.5** (DraftKings) | **%38.75** | 0.082 |
+| **dnb_team2** | 1.515 | **1.53** (bet365.us) | **%61.25** | 0.017 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+0_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_+0_5` | team1_handicap | 1.755 | 1.8 (bet365.us) | %52.57 | 0.034 |
 | ⭐ `asian_handicap_+0_5` | team2_handicap | 1.945 | 2.0 (bet365.us) | %47.43 | 0.053 |
-| `asian_handicap_+0_25` | team1_handicap | 2.0 | 2.05 (bet365.us) | %46.38 | 0.071 |
-| `asian_handicap_+0_25` | team2_handicap | 1.73 | 1.75 (bet365.us) | %53.62 | 0.028 |
+| `asian_handicap_+0_25` | team1_handicap | 2.025 | 2.05 (bet365.us) | %45.86 | 0.035 |
+| `asian_handicap_+0_25` | team2_handicap | 1.715 | 1.75 (bet365.us) | %54.14 | 0.049 |
 | `asian_handicap_+0_75` | team1_handicap | 1.6 | 1.63 (bet365.us) | %58.17 | 0.042 |
 | `asian_handicap_+0_75` | team2_handicap | 2.225 | 2.25 (bet365.us) | %41.83 | 0.035 |
 | `asian_handicap_0` | team1_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
@@ -246,8 +246,8 @@
 | ⭐ `over_under_3_25` | odds_under | 1.825 | 1.85 (bet365.us) | %51.07 | 0.035 |
 | `over_under_3` | odds_over | 1.68 | 1.7 (bet365.us) | %55.26 | 0.028 |
 | `over_under_3` | odds_under | 2.075 | 2.1 (bet365.us) | %44.74 | 0.035 |
-| `over_under_3_5` | odds_over | 2.1 | 2.1 (bet365.us) | %44.0 | 0.0 |
-| `over_under_3_5` | odds_under | 1.65 | 1.67 (bet365.us) | %56.0 | 0.014 |
+| `over_under_3_5` | odds_over | 2.087 | 2.1 (bet365.us) | %44.23 | 0.025 |
+| `over_under_3_5` | odds_under | 1.655 | 1.67 (bet365.us) | %55.77 | 0.013 |
 | `over_under_2_75` | odds_over | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
 | `over_under_2_75` | odds_under | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
 | `over_under_3_75` | odds_over | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
@@ -323,76 +323,76 @@
 
 ---
 ## 🏀 PSV vs Feyenoord (Başlangıç: `2026-10-25 13:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.56)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.05)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.988 | **2.0** (bet365.us) | **%47.21** | 0.025 |
-| **X** | 4.1 | **4.1** (bet365.us) | **%22.89** | 0.0 |
-| **2** | 3.138 | **3.25** (bet365.us) | **%29.91** | 0.111 |
+| **1** | 2.013 | **2.05** (Fanatics) | **%46.84** | 0.025 |
+| **X** | 4.125 | **4.2** (DraftKings) | **%22.86** | 0.05 |
+| **2** | 3.112 | **3.25** (bet365.us) | **%30.3** | 0.103 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.23)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %8.2)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.285 | **1.3** (bet365.us) | **%71.9** | 0.024 |
-| **btts_no** | 3.288 | **3.4** (bet365.us) | **%28.1** | 0.144 |
+| **btts_yes** | 1.28 | **1.3** (bet365.us) | **%72.2** | 0.022 |
+| **btts_no** | 3.325 | **3.4** (bet365.us) | **%27.8** | 0.087 |
 
-### Market: `double_chance` (Büro Sayısı: 4 | Marj: %113.68)
+### Market: `double_chance` (Büro Sayısı: 4 | Marj: %113.46)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.333 | **1.35** (BetMGM.us) | **%35.11** | 0.013 |
-| **12** | 1.218 | **1.22** (bet365.us) | **%38.42** | 0.005 |
-| **X2** | 1.768 | **1.8** (bet365.us) | **%26.47** | 0.025 |
+| **1X** | 1.338 | **1.35** (BetMGM.us) | **%35.01** | 0.015 |
+| **12** | 1.22 | **1.23** (Fanatics) | **%38.4** | 0.008 |
+| **X2** | 1.762 | **1.8** (bet365.us) | **%26.59** | 0.029 |
 
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.8)
+### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.67)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.512 | **1.52** (BetMGM.us) | **%61.35** | 0.01 |
-| **dnb_team2** | 2.4 | **2.5** (bet365.us) | **%38.65** | 0.071 |
+| **dnb_team1** | 1.52 | **1.55** (Fanatics) | **%61.11** | 0.022 |
+| **dnb_team2** | 2.388 | **2.5** (bet365.us) | **%38.89** | 0.085 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_5` | team1_handicap | 1.932 | 2.0 (bet365.us) | %47.78 | 0.047 |
-| ⭐ `asian_handicap_-0_5` | team2_handicap | 1.768 | 1.8 (bet365.us) | %52.22 | 0.025 |
-| `asian_handicap_-0_25` | team1_handicap | 1.73 | 1.75 (bet365.us) | %53.31 | 0.028 |
-| `asian_handicap_-0_25` | team2_handicap | 1.975 | 2.05 (bet365.us) | %46.69 | 0.106 |
-| `asian_handicap_-0_75` | team1_handicap | 2.2 | 2.25 (bet365.us) | %42.11 | 0.071 |
-| `asian_handicap_-0_75` | team2_handicap | 1.6 | 1.63 (bet365.us) | %57.89 | 0.042 |
+| ⭐ `asian_handicap_-0_5` | team1_handicap | 1.945 | 2.0 (bet365.us) | %47.53 | 0.042 |
+| ⭐ `asian_handicap_-0_5` | team2_handicap | 1.762 | 1.8 (bet365.us) | %52.47 | 0.029 |
+| `asian_handicap_-0_25` | team1_handicap | 1.745 | 1.75 (bet365.us) | %53.09 | 0.007 |
+| `asian_handicap_-0_25` | team2_handicap | 1.975 | 2.05 (bet365.us) | %46.91 | 0.106 |
+| `asian_handicap_-0_75` | team1_handicap | 2.225 | 2.25 (bet365.us) | %41.83 | 0.035 |
+| `asian_handicap_-0_75` | team2_handicap | 1.6 | 1.63 (bet365.us) | %58.17 | 0.042 |
 | `asian_handicap_0` | team1_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `asian_handicap_0` | team2_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `asian_handicap_-1` | team1_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `asian_handicap_-1` | team2_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
 | `asian_handicap_+0_25` | team1_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `asian_handicap_+0_25` | team2_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.343 | 1.35 (bet365.us) | %68.47 | 0.012 |
-| `asian_handicap_+0_5` | team2_handicap | 2.917 | 3.1 (bet365.us) | %31.53 | 0.176 |
+| `asian_handicap_+0_5` | team1_handicap | 1.353 | 1.36 (DraftKings) | %68.31 | 0.006 |
+| `asian_handicap_+0_5` | team2_handicap | 2.917 | 3.1 (bet365.us) | %31.69 | 0.161 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_75`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_75` | odds_over | 1.875 | 1.95 (bet365.us) | %49.32 | 0.106 |
-| ⭐ `over_under_3_75` | odds_under | 1.825 | 1.85 (bet365.us) | %50.68 | 0.035 |
-| `over_under_3_5` | odds_over | 1.705 | 1.73 (bet365.us) | %53.98 | 0.021 |
-| `over_under_3_5` | odds_under | 2.0 | 2.0 (bet365.us) | %46.02 | 0.0 |
-| `over_under_4` | odds_over | 2.125 | 2.2 (bet365.us) | %43.48 | 0.106 |
-| `over_under_4` | odds_under | 1.635 | 1.65 (bet365.us) | %56.52 | 0.021 |
+| ⭐ `over_under_3_75` | odds_over | 1.89 | 1.95 (bet365.us) | %49.33 | 0.085 |
+| ⭐ `over_under_3_75` | odds_under | 1.84 | 1.85 (bet365.us) | %50.67 | 0.014 |
+| `over_under_3_5` | odds_over | 1.695 | 1.73 (bet365.us) | %54.44 | 0.039 |
+| `over_under_3_5` | odds_under | 2.025 | 2.1 (Fanatics) | %45.56 | 0.05 |
+| `over_under_4` | odds_over | 2.125 | 2.2 (bet365.us) | %43.63 | 0.106 |
+| `over_under_4` | odds_under | 1.645 | 1.65 (bet365.us) | %56.37 | 0.007 |
 | `over_under_3_25` | odds_over | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
 | `over_under_3_25` | odds_under | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
 | `over_under_4_25` | odds_over | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `over_under_4_25` | odds_under | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `over_under_4_5` | odds_over | 2.583 | 2.63 (bet365.us) | %35.63 | 0.057 |
-| `over_under_4_5` | odds_under | 1.43 | 1.44 (bet365.us) | %64.37 | 0.014 |
+| `over_under_4_5` | odds_over | 2.57 | 2.63 (bet365.us) | %35.94 | 0.057 |
+| `over_under_4_5` | odds_under | 1.442 | 1.45 (DraftKings) | %64.06 | 0.01 |
 | `over_under_3` | odds_over | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `over_under_3` | odds_under | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 
 ---
 ## 🏀 Nijmegen vs Groningen (Başlangıç: `2026-10-25 13:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.53)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.21)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.263 | **2.3** (bet365.us) | **%41.48** | 0.025 |
-| **X** | 3.875 | **4.0** (Fanatics) | **%24.22** | 0.096 |
-| **2** | 2.737 | **2.8** (bet365.us) | **%34.3** | 0.063 |
+| **1** | 2.275 | **2.3** (bet365.us) | **%41.38** | 0.029 |
+| **X** | 3.888 | **4.0** (Fanatics) | **%24.22** | 0.085 |
+| **2** | 2.737 | **2.8** (bet365.us) | **%34.4** | 0.063 |
 
 ### Market: `btts` (Büro Sayısı: 3 | Marj: %8.17)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -413,19 +413,19 @@
 | **dnb_team1** | 1.69 | **1.73** (bet365.us) | **%54.41** | 0.036 |
 | **dnb_team2** | 2.017 | **2.05** (Fanatics) | **%45.59** | 0.029 |
 
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.975 | 2.05 (bet365.us) | %46.69 | 0.106 |
-| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.73 | 1.75 (bet365.us) | %53.31 | 0.028 |
-| `asian_handicap_0` | team1_handicap | 1.73 | 1.78 (bet365.us) | %53.49 | 0.071 |
-| `asian_handicap_0` | team2_handicap | 1.99 | 2.03 (bet365.us) | %46.51 | 0.057 |
-| `asian_handicap_-0_5` | team1_handicap | 2.2 | 2.35 (bet365.us) | %42.0 | 0.1 |
-| `asian_handicap_-0_5` | team2_handicap | 1.593 | 1.62 (Fanatics) | %58.0 | 0.022 |
+| ⭐ `asian_handicap_0` | team1_handicap | 1.745 | 1.78 (bet365.us) | %53.28 | 0.049 |
+| ⭐ `asian_handicap_0` | team2_handicap | 1.99 | 2.03 (bet365.us) | %46.72 | 0.057 |
+| `asian_handicap_-0_25` | team1_handicap | 2.0 | 2.05 (bet365.us) | %46.38 | 0.071 |
+| `asian_handicap_-0_25` | team2_handicap | 1.73 | 1.75 (bet365.us) | %53.62 | 0.028 |
+| `asian_handicap_-0_5` | team1_handicap | 2.212 | 2.35 (bet365.us) | %41.9 | 0.095 |
+| `asian_handicap_-0_5` | team2_handicap | 1.595 | 1.62 (Fanatics) | %58.1 | 0.019 |
 | `asian_handicap_+0_25` | team1_handicap | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
 | `asian_handicap_+0_25` | team2_handicap | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.437 | 1.45 (bet365.us) | %64.05 | 0.012 |
-| `asian_handicap_+0_5` | team2_handicap | 2.56 | 2.68 (bet365.us) | %35.95 | 0.115 |
+| `asian_handicap_+0_5` | team1_handicap | 1.44 | 1.45 (bet365.us) | %64.15 | 0.01 |
+| `asian_handicap_+0_5` | team2_handicap | 2.577 | 2.68 (bet365.us) | %35.85 | 0.093 |
 | `asian_handicap_-0_75` | team1_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `asian_handicap_+0_75` | team1_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
@@ -436,97 +436,97 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `over_under_3_25` | odds_over | 1.805 | 1.85 (bet365.us) | %51.35 | 0.064 |
 | ⭐ `over_under_3_25` | odds_under | 1.905 | 1.95 (bet365.us) | %48.65 | 0.064 |
-| `over_under_3_5` | odds_over | 1.975 | 2.0 (bet365.us) | %46.55 | 0.029 |
-| `over_under_3_5` | odds_under | 1.72 | 1.74 (Fanatics) | %53.45 | 0.018 |
-| `over_under_3` | odds_over | 1.6 | 1.65 (bet365.us) | %57.62 | 0.071 |
-| `over_under_3` | odds_under | 2.175 | 2.2 (bet365.us) | %42.38 | 0.035 |
+| `over_under_3_5` | odds_over | 2.0 | 2.0 (bet365.us) | %46.12 | 0.0 |
+| `over_under_3_5` | odds_under | 1.712 | 1.73 (bet365.us) | %53.88 | 0.013 |
+| `over_under_3` | odds_over | 1.61 | 1.65 (bet365.us) | %57.74 | 0.057 |
+| `over_under_3` | odds_under | 2.2 | 2.2 (bet365.us) | %42.26 | 0.0 |
 | `over_under_3_75` | odds_over | 2.25 | 2.35 (bet365.us) | %41.02 | 0.141 |
 | `over_under_3_75` | odds_under | 1.565 | 1.58 (bet365.us) | %58.98 | 0.021 |
 | `over_under_2_75` | odds_over | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `over_under_2_75` | odds_under | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
+| `over_under_2_5` | odds_over | 1.41 | 1.44 (bet365.us) | %65.69 | 0.022 |
+| `over_under_2_5` | odds_under | 2.7 | 2.75 (DraftKings) | %34.31 | 0.041 |
 | `over_under_4` | odds_over | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `over_under_4` | odds_under | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
-| `over_under_2_5` | odds_over | 1.4 | 1.44 (bet365.us) | %65.85 | 0.032 |
-| `over_under_2_5` | odds_under | 2.7 | 2.75 (Fanatics) | %34.15 | 0.041 |
 
 ---
 ## 🏀 Sparta Rotterdam vs Ajax (Başlangıç: `2026-10-25 15:45:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.25)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.31)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 4.888 | **5.0** (bet365.us) | **%19.25** | 0.131 |
-| **X** | 4.525 | **4.6** (BetMGM.us) | **%20.8** | 0.05 |
-| **2** | 1.57 | **1.6** (BetMGM.us) | **%59.95** | 0.024 |
+| **1** | 5.062 | **5.25** (bet365.us) | **%18.58** | 0.125 |
+| **X** | 4.737 | **4.75** (bet365.us) | **%19.86** | 0.025 |
+| **2** | 1.528 | **1.55** (BetMGM.us) | **%61.56** | 0.026 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.24)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %8.39)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.43 | **1.44** (bet365.us) | **%64.6** | 0.017 |
-| **btts_no** | 2.61 | **2.63** (bet365.us) | **%35.4** | 0.017 |
+| **btts_yes** | 1.43 | **1.45** (Fanatics) | **%64.52** | 0.026 |
+| **btts_no** | 2.6 | **2.75** (bet365.us) | **%35.48** | 0.132 |
 
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.37)
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.33)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 2.317 | **2.35** (Fanatics) | **%20.32** | 0.029 |
-| **12** | 1.187 | **1.19** (BetMGM.us) | **%39.67** | 0.006 |
-| **X2** | 1.177 | **1.18** (BetMGM.us) | **%40.01** | 0.006 |
+| **1X** | 2.433 | **2.5** (bet365.us) | **%19.45** | 0.058 |
+| **12** | 1.187 | **1.19** (BetMGM.us) | **%39.86** | 0.006 |
+| **X2** | 1.163 | **1.17** (bet365.us) | **%40.69** | 0.012 |
 
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %7.6)
+### Market: `dnb` (Büro Sayısı: 3 | Marj: %7.33)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 3.683 | **3.75** (bet365.us) | **%25.23** | 0.076 |
-| **dnb_team2** | 1.243 | **1.25** (bet365.us) | **%74.77** | 0.012 |
+| **dnb_team1** | 3.943 | **4.33** (bet365.us) | **%23.63** | 0.339 |
+| **dnb_team2** | 1.22 | **1.23** (BetMGM.us) | **%76.37** | 0.017 |
 
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+1`)
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+1_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_+1` | team1_handicap | 1.89 | 1.95 (bet365.us) | %48.85 | 0.085 |
-| ⭐ `asian_handicap_+1` | team2_handicap | 1.805 | 1.85 (bet365.us) | %51.15 | 0.064 |
-| `asian_handicap_+1_25` | team1_handicap | 1.685 | 1.73 (bet365.us) | %54.77 | 0.064 |
-| `asian_handicap_+1_25` | team2_handicap | 2.04 | 2.08 (bet365.us) | %45.23 | 0.057 |
-| `asian_handicap_+0_75` | team1_handicap | 2.125 | 2.15 (bet365.us) | %43.41 | 0.035 |
-| `asian_handicap_+0_75` | team2_handicap | 1.63 | 1.68 (bet365.us) | %56.59 | 0.071 |
-| `asian_handicap_+1_5` | team1_handicap | 1.552 | 1.58 (bet365.us) | %59.58 | 0.031 |
-| `asian_handicap_+1_5` | team2_handicap | 2.288 | 2.35 (bet365.us) | %40.42 | 0.048 |
-| `asian_handicap_+0_5` | team1_handicap | 2.343 | 2.38 (bet365.us) | %39.3 | 0.04 |
-| `asian_handicap_+0_5` | team2_handicap | 1.517 | 1.55 (bet365.us) | %60.7 | 0.035 |
-| `asian_handicap_+1_75` | team1_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `asian_handicap_+1_75` | team2_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
-| `asian_handicap_+0_25` | team1_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_+0_25` | team2_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
+| ⭐ `asian_handicap_+1_25` | team1_handicap | 1.755 | 1.8 (bet365.us) | %52.95 | 0.064 |
+| ⭐ `asian_handicap_+1_25` | team2_handicap | 1.975 | 2.0 (bet365.us) | %47.05 | 0.035 |
+| `asian_handicap_+1` | team1_handicap | 2.0 | 2.05 (bet365.us) | %46.38 | 0.071 |
+| `asian_handicap_+1` | team2_handicap | 1.73 | 1.75 (bet365.us) | %53.62 | 0.028 |
+| `asian_handicap_+1_5` | team1_handicap | 1.598 | 1.65 (bet365.us) | %57.79 | 0.035 |
+| `asian_handicap_+1_5` | team2_handicap | 2.188 | 2.2 (bet365.us) | %42.21 | 0.025 |
+| `asian_handicap_+0_75` | team1_handicap | 2.225 | 2.3 (bet365.us) | %41.45 | 0.106 |
+| `asian_handicap_+0_75` | team2_handicap | 1.575 | 1.6 (bet365.us) | %58.55 | 0.035 |
+| `asian_handicap_+0_5` | team1_handicap | 2.45 | 2.5 (bet365.us) | %37.77 | 0.05 |
+| `asian_handicap_+0_5` | team2_handicap | 1.487 | 1.5 (bet365.us) | %62.23 | 0.023 |
+| `asian_handicap_+1_75` | team1_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
+| `asian_handicap_+1_75` | team2_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
+| `asian_handicap_+0_25` | team1_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
+| `asian_handicap_+0_25` | team2_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_5` | odds_over | 1.843 | 1.86 (DraftKings) | %49.69 | 0.015 |
-| ⭐ `over_under_3_5` | odds_under | 1.82 | 1.83 (bet365.us) | %50.31 | 0.014 |
-| `over_under_3_25` | odds_over | 1.695 | 1.73 (bet365.us) | %54.62 | 0.049 |
-| `over_under_3_25` | odds_under | 2.04 | 2.08 (bet365.us) | %45.38 | 0.057 |
-| `over_under_3_75` | odds_over | 2.1 | 2.15 (bet365.us) | %44.0 | 0.071 |
-| `over_under_3_75` | odds_under | 1.65 | 1.68 (bet365.us) | %56.0 | 0.042 |
-| `over_under_3` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `over_under_3` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
-| `over_under_4` | odds_over | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `over_under_4` | odds_under | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `over_under_2_75` | odds_over | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `over_under_2_75` | odds_under | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
-| `over_under_4_25` | odds_over | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
-| `over_under_4_25` | odds_under | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
+| ⭐ `over_under_3_5` | odds_over | 1.818 | 1.86 (DraftKings) | %50.75 | 0.06 |
+| ⭐ `over_under_3_5` | odds_under | 1.873 | 2.0 (bet365.us) | %49.25 | 0.085 |
+| `over_under_3_75` | odds_over | 2.015 | 2.05 (DraftKings) | %46.41 | 0.049 |
+| `over_under_3_75` | odds_under | 1.745 | 1.83 (bet365.us) | %53.59 | 0.12 |
+| `over_under_3_25` | odds_over | 1.63 | 1.66 (DraftKings) | %57.16 | 0.042 |
+| `over_under_3_25` | odds_under | 2.175 | 2.3 (bet365.us) | %42.84 | 0.177 |
+| `over_under_4` | odds_over | 2.25 | 2.25 (bet365.us) | %42.01 | 0.0 |
+| `over_under_4` | odds_under | 1.63 | 1.63 (bet365.us) | %57.99 | 0.0 |
+| `over_under_4_25` | odds_over | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
+| `over_under_4_25` | odds_under | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
+| `over_under_3` | odds_over | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
+| `over_under_3` | odds_under | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
+| `over_under_4_5` | odds_over | 2.875 | 2.95 (BetMGM.us) | %32.11 | 0.087 |
+| `over_under_4_5` | odds_under | 1.36 | 1.4 (bet365.us) | %67.89 | 0.029 |
 
 ---
 ## 🏀 AZ Alkmaar vs Twente (Başlangıç: `2026-10-25 19:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.18)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %5.93)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.188 | **2.25** (Fanatics) | **%43.05** | 0.048 |
-| **X** | 3.825 | **3.9** (bet365.us) | **%24.62** | 0.096 |
-| **2** | 2.913 | **3.0** (bet365.us) | **%32.33** | 0.063 |
+| **1** | 2.188 | **2.25** (Fanatics) | **%43.15** | 0.048 |
+| **X** | 3.862 | **3.9** (bet365.us) | **%24.44** | 0.048 |
+| **2** | 2.913 | **3.0** (bet365.us) | **%32.41** | 0.063 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.93)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %8.26)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.417 | **1.44** (bet365.us) | **%65.39** | 0.021 |
-| **btts_no** | 2.677 | **2.7** (BetMGM.us) | **%34.61** | 0.04 |
+| **btts_yes** | 1.42 | **1.44** (bet365.us) | **%65.05** | 0.017 |
+| **btts_no** | 2.643 | **2.7** (BetMGM.us) | **%34.95** | 0.051 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.66)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -544,38 +544,38 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.865 | 1.9 (bet365.us) | %49.8 | 0.049 |
-| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.85 | 1.9 (bet365.us) | %50.2 | 0.071 |
-| `asian_handicap_-0_5` | team1_handicap | 2.112 | 2.15 (bet365.us) | %43.75 | 0.048 |
-| `asian_handicap_-0_5` | team2_handicap | 1.643 | 1.68 (bet365.us) | %56.25 | 0.029 |
-| `asian_handicap_0` | team1_handicap | 1.605 | 1.63 (bet365.us) | %57.54 | 0.035 |
-| `asian_handicap_0` | team2_handicap | 2.175 | 2.25 (bet365.us) | %42.46 | 0.106 |
+| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
+| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
+| `asian_handicap_-0_5` | team1_handicap | 2.112 | 2.15 (bet365.us) | %43.89 | 0.048 |
+| `asian_handicap_-0_5` | team2_handicap | 1.652 | 1.68 (bet365.us) | %56.11 | 0.025 |
+| `asian_handicap_0` | team1_handicap | 1.615 | 1.63 (bet365.us) | %57.67 | 0.021 |
+| `asian_handicap_0` | team2_handicap | 2.2 | 2.25 (bet365.us) | %42.33 | 0.071 |
 | `asian_handicap_-0_75` | team1_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `asian_handicap_+0_25` | team1_handicap | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
 | `asian_handicap_+0_25` | team2_handicap | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.39 | 1.41 (Fanatics) | %66.16 | 0.026 |
-| `asian_handicap_+0_5` | team2_handicap | 2.717 | 2.85 (bet365.us) | %33.84 | 0.126 |
+| `asian_handicap_+0_5` | team1_handicap | 1.397 | 1.41 (Fanatics) | %66.17 | 0.015 |
+| `asian_handicap_+0_5` | team2_handicap | 2.733 | 2.85 (bet365.us) | %33.83 | 0.126 |
 | `asian_handicap_-1` | team1_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 | `asian_handicap_-1` | team2_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.92 | 1.98 (bet365.us) | %48.18 | 0.085 |
-| ⭐ `over_under_3_25` | odds_under | 1.785 | 1.83 (bet365.us) | %51.82 | 0.064 |
-| `over_under_3` | odds_over | 1.695 | 1.73 (bet365.us) | %54.62 | 0.049 |
-| `over_under_3` | odds_under | 2.04 | 2.08 (bet365.us) | %45.38 | 0.057 |
-| `over_under_3_5` | odds_over | 2.075 | 2.1 (bet365.us) | %44.33 | 0.029 |
-| `over_under_3_5` | odds_under | 1.652 | 1.67 (bet365.us) | %55.67 | 0.022 |
-| `over_under_3_75` | odds_over | 2.285 | 2.42 (bet365.us) | %40.26 | 0.191 |
-| `over_under_3_75` | odds_under | 1.54 | 1.55 (DraftKings) | %59.74 | 0.014 |
-| `over_under_2_75` | odds_over | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
-| `over_under_2_75` | odds_under | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `over_under_2_5` | odds_over | 1.445 | 1.48 (bet365.us) | %63.94 | 0.024 |
-| `over_under_2_5` | odds_under | 2.562 | 2.6 (bet365.us) | %36.06 | 0.048 |
-| `over_under_4` | odds_over | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
-| `over_under_4` | odds_under | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
+| ⭐ `over_under_3_25` | odds_over | 1.85 | 1.9 (bet365.us) | %50.4 | 0.071 |
+| ⭐ `over_under_3_25` | odds_under | 1.88 | 1.9 (bet365.us) | %49.6 | 0.028 |
+| `over_under_3_5` | odds_over | 2.062 | 2.1 (bet365.us) | %44.75 | 0.048 |
+| `over_under_3_5` | odds_under | 1.67 | 1.71 (DraftKings) | %55.25 | 0.029 |
+| `over_under_3` | odds_over | 1.64 | 1.68 (bet365.us) | %56.73 | 0.057 |
+| `over_under_3` | odds_under | 2.15 | 2.15 (bet365.us) | %43.27 | 0.0 |
+| `over_under_3_75` | odds_over | 2.265 | 2.38 (bet365.us) | %40.63 | 0.163 |
+| `over_under_3_75` | odds_under | 1.55 | 1.55 (bet365.us) | %59.37 | 0.0 |
+| `over_under_2_75` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
+| `over_under_2_75` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
+| `over_under_2_5` | odds_over | 1.425 | 1.44 (bet365.us) | %64.93 | 0.017 |
+| `over_under_2_5` | odds_under | 2.638 | 2.7 (bet365.us) | %35.07 | 0.075 |
+| `over_under_4` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
+| `over_under_4` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 
 ---
 ## 🏀 Feyenoord vs Sittard (Başlangıç: `2026-10-31 15:30:00 UTC`)
@@ -643,76 +643,76 @@
 
 ---
 ## 🏀 Bochum vs Wolfsburg (Başlangıç: `2026-10-23 16:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.22)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.0)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 3.112 | **3.2** (Fanatics) | **%30.25** | 0.063 |
-| **X** | 3.862 | **4.0** (Fanatics) | **%24.38** | 0.111 |
-| **2** | 2.075 | **2.1** (BetMGM.us) | **%45.37** | 0.029 |
+| **1** | 3.125 | **3.2** (Fanatics) | **%30.19** | 0.05 |
+| **X** | 3.875 | **4.0** (Fanatics) | **%24.35** | 0.104 |
+| **2** | 2.075 | **2.1** (BetMGM.us) | **%45.47** | 0.029 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.13)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %7.81)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.387 | **1.4** (bet365.us) | **%66.67** | 0.019 |
-| **btts_no** | 2.775 | **2.9** (DraftKings) | **%33.33** | 0.087 |
+| **btts_yes** | 1.39 | **1.4** (bet365.us) | **%66.73** | 0.014 |
+| **btts_no** | 2.788 | **2.95** (DraftKings) | **%33.27** | 0.111 |
 
-### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.32)
+### Market: `double_chance` (Büro Sayısı: 4 | Marj: %111.75)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.72 | **1.8** (bet365.us) | **%27.38** | 0.058 |
-| **12** | 1.25 | **1.25** (bet365.us) | **%37.68** | 0.0 |
-| **X2** | 1.348 | **1.36** (bet365.us) | **%34.94** | 0.013 |
+| **1X** | 1.725 | **1.8** (bet365.us) | **%27.38** | 0.052 |
+| **12** | 1.252 | **1.26** (DraftKings) | **%37.72** | 0.005 |
+| **X2** | 1.353 | **1.37** (DraftKings) | **%34.9** | 0.017 |
 
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.84)
+### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.54)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 2.308 | **2.38** (bet365.us) | **%40.18** | 0.054 |
-| **dnb_team2** | 1.55 | **1.57** (DraftKings) | **%59.82** | 0.016 |
+| **dnb_team1** | 2.32 | **2.38** (bet365.us) | **%40.08** | 0.057 |
+| **dnb_team2** | 1.552 | **1.58** (DraftKings) | **%59.92** | 0.021 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+0_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_+0_25` | team1_handicap | 1.95 | 2.0 (bet365.us) | %47.72 | 0.071 |
 | ⭐ `asian_handicap_+0_25` | team2_handicap | 1.78 | 1.8 (bet365.us) | %52.28 | 0.028 |
-| `asian_handicap_+0_5` | team1_handicap | 1.712 | 1.75 (bet365.us) | %54.04 | 0.029 |
-| `asian_handicap_+0_5` | team2_handicap | 2.013 | 2.05 (bet365.us) | %45.96 | 0.025 |
+| `asian_handicap_+0_5` | team1_handicap | 1.72 | 1.75 (bet365.us) | %53.92 | 0.02 |
+| `asian_handicap_+0_5` | team2_handicap | 2.013 | 2.05 (bet365.us) | %46.08 | 0.025 |
 | `asian_handicap_+0_75` | team1_handicap | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
 | `asian_handicap_+0_75` | team2_handicap | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `asian_handicap_0` | team1_handicap | 2.315 | 2.38 (bet365.us) | %40.03 | 0.092 |
-| `asian_handicap_0` | team2_handicap | 1.545 | 1.55 (bet365.us) | %59.97 | 0.007 |
+| `asian_handicap_0` | team1_handicap | 2.34 | 2.38 (bet365.us) | %39.85 | 0.057 |
+| `asian_handicap_0` | team2_handicap | 1.55 | 1.55 (bet365.us) | %60.15 | 0.0 |
 | `asian_handicap_-0_25` | team1_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `asian_handicap_-0_25` | team2_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `asian_handicap_+1` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 | `asian_handicap_+1` | team2_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-0_5` | team1_handicap | 2.967 | 3.1 (bet365.us) | %31.11 | 0.115 |
-| `asian_handicap_-0_5` | team2_handicap | 1.34 | 1.35 (bet365.us) | %68.89 | 0.01 |
+| `asian_handicap_-0_5` | team1_handicap | 2.983 | 3.1 (bet365.us) | %31.04 | 0.104 |
+| `asian_handicap_-0_5` | team2_handicap | 1.343 | 1.35 (bet365.us) | %68.96 | 0.012 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.825 | 1.85 (bet365.us) | %51.07 | 0.035 |
-| ⭐ `over_under_3_25` | odds_under | 1.905 | 1.95 (bet365.us) | %48.93 | 0.064 |
-| `over_under_3_5` | odds_over | 2.0 | 2.0 (bet365.us) | %46.12 | 0.0 |
-| `over_under_3_5` | odds_under | 1.712 | 1.73 (bet365.us) | %53.88 | 0.013 |
-| `over_under_3` | odds_over | 1.615 | 1.65 (bet365.us) | %57.39 | 0.049 |
-| `over_under_3` | odds_under | 2.175 | 2.2 (bet365.us) | %42.61 | 0.035 |
+| ⭐ `over_under_3_25` | odds_over | 1.825 | 1.85 (bet365.us) | %51.33 | 0.035 |
+| ⭐ `over_under_3_25` | odds_under | 1.925 | 1.95 (bet365.us) | %48.67 | 0.035 |
+| `over_under_3_5` | odds_over | 2.0 | 2.0 (bet365.us) | %46.24 | 0.0 |
+| `over_under_3_5` | odds_under | 1.72 | 1.74 (DraftKings) | %53.76 | 0.018 |
+| `over_under_3` | odds_over | 1.625 | 1.65 (bet365.us) | %57.52 | 0.035 |
+| `over_under_3` | odds_under | 2.2 | 2.2 (bet365.us) | %42.48 | 0.0 |
 | `over_under_2_75` | odds_over | 1.555 | 1.58 (DraftKings) | %59.24 | 0.035 |
 | `over_under_2_75` | odds_under | 2.26 | 2.42 (bet365.us) | %40.76 | 0.226 |
 | `over_under_3_75` | odds_over | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
 | `over_under_3_75` | odds_under | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
-| `over_under_2_5` | odds_over | 1.412 | 1.44 (bet365.us) | %65.56 | 0.019 |
-| `over_under_2_5` | odds_under | 2.688 | 2.75 (DraftKings) | %34.44 | 0.063 |
+| `over_under_2_5` | odds_over | 1.412 | 1.44 (bet365.us) | %65.66 | 0.019 |
+| `over_under_2_5` | odds_under | 2.7 | 2.8 (DraftKings) | %34.34 | 0.082 |
 | `over_under_4` | odds_over | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `over_under_4` | odds_under | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 
 ---
 ## 🏀 Darmstadt vs St. Pauli (Başlangıç: `2026-10-23 16:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.57)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.45)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 3.075 | **3.1** (BetMGM.us) | **%30.52** | 0.05 |
-| **X** | 3.562 | **3.7** (bet365.us) | **%26.34** | 0.111 |
-| **2** | 2.175 | **2.2** (DraftKings) | **%43.14** | 0.029 |
+| **1** | 3.087 | **3.15** (DraftKings) | **%30.43** | 0.063 |
+| **X** | 3.562 | **3.7** (bet365.us) | **%26.37** | 0.111 |
+| **2** | 2.175 | **2.2** (DraftKings) | **%43.19** | 0.029 |
 
 ### Market: `btts` (Büro Sayısı: 3 | Marj: %7.79)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -738,34 +738,34 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_+0_25` | team1_handicap | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
 | ⭐ `asian_handicap_+0_25` | team2_handicap | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
-| `asian_handicap_+0_5` | team1_handicap | 1.65 | 1.68 (bet365.us) | %56.0 | 0.026 |
-| `asian_handicap_+0_5` | team2_handicap | 2.1 | 2.15 (bet365.us) | %44.0 | 0.041 |
-| `asian_handicap_0` | team1_handicap | 2.225 | 2.25 (bet365.us) | %41.83 | 0.035 |
-| `asian_handicap_0` | team2_handicap | 1.6 | 1.63 (bet365.us) | %58.17 | 0.042 |
+| `asian_handicap_+0_5` | team1_handicap | 1.655 | 1.68 (bet365.us) | %55.93 | 0.019 |
+| `asian_handicap_+0_5` | team2_handicap | 2.1 | 2.15 (bet365.us) | %44.07 | 0.041 |
+| `asian_handicap_0` | team1_handicap | 2.225 | 2.25 (bet365.us) | %41.91 | 0.035 |
+| `asian_handicap_0` | team2_handicap | 1.605 | 1.63 (bet365.us) | %58.09 | 0.035 |
 | `asian_handicap_+0_75` | team1_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `asian_handicap_+0_75` | team2_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `asian_handicap_-0_25` | team1_handicap | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
 | `asian_handicap_-0_25` | team2_handicap | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
-| `asian_handicap_-0_5` | team1_handicap | 2.867 | 2.9 (DraftKings) | %32.22 | 0.029 |
-| `asian_handicap_-0_5` | team2_handicap | 1.363 | 1.4 (bet365.us) | %67.78 | 0.032 |
+| `asian_handicap_-0_5` | team1_handicap | 2.883 | 2.95 (DraftKings) | %32.16 | 0.058 |
+| `asian_handicap_-0_5` | team2_handicap | 1.367 | 1.4 (bet365.us) | %67.84 | 0.029 |
 | `asian_handicap_+1` | team1_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 | `asian_handicap_+1` | team2_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_75` | odds_over | 1.85 | 1.9 (bet365.us) | %50.2 | 0.071 |
-| ⭐ `over_under_2_75` | odds_under | 1.865 | 1.9 (bet365.us) | %49.8 | 0.049 |
-| `over_under_2_5` | odds_over | 1.67 | 1.7 (bet365.us) | %55.41 | 0.02 |
-| `over_under_2_5` | odds_under | 2.075 | 2.1 (bet365.us) | %44.59 | 0.029 |
-| `over_under_3` | odds_over | 2.125 | 2.2 (bet365.us) | %43.63 | 0.106 |
-| `over_under_3` | odds_under | 1.645 | 1.65 (bet365.us) | %56.37 | 0.007 |
+| ⭐ `over_under_2_75` | odds_over | 1.865 | 1.9 (bet365.us) | %50.2 | 0.049 |
+| ⭐ `over_under_2_75` | odds_under | 1.88 | 1.9 (bet365.us) | %49.8 | 0.028 |
+| `over_under_2_5` | odds_over | 1.675 | 1.7 (bet365.us) | %55.33 | 0.019 |
+| `over_under_2_5` | odds_under | 2.075 | 2.1 (bet365.us) | %44.67 | 0.029 |
+| `over_under_3` | odds_over | 2.15 | 2.2 (bet365.us) | %43.35 | 0.071 |
+| `over_under_3` | odds_under | 1.645 | 1.65 (bet365.us) | %56.65 | 0.007 |
 | `over_under_2_25` | odds_over | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `over_under_2_25` | odds_under | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `over_under_3_25` | odds_over | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `over_under_3_25` | odds_under | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `over_under_3_5` | odds_over | 2.65 | 2.75 (bet365.us) | %34.84 | 0.082 |
-| `over_under_3_5` | odds_under | 1.417 | 1.43 (DraftKings) | %65.16 | 0.015 |
+| `over_under_3_5` | odds_over | 2.663 | 2.75 (bet365.us) | %34.78 | 0.085 |
+| `over_under_3_5` | odds_under | 1.42 | 1.44 (DraftKings) | %65.22 | 0.018 |
 | `over_under_2` | odds_over | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
 | `over_under_2` | odds_under | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
 
@@ -864,20 +864,20 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_75`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_75` | team1_handicap | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
-| ⭐ `asian_handicap_-0_75` | team2_handicap | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
-| `asian_handicap_-0_5` | team1_handicap | 1.67 | 1.73 (bet365.us) | %55.35 | 0.041 |
-| `asian_handicap_-0_5` | team2_handicap | 2.07 | 2.1 (BetMGM.us) | %44.65 | 0.024 |
-| `asian_handicap_-1` | team1_handicap | 2.125 | 2.15 (bet365.us) | %43.71 | 0.035 |
-| `asian_handicap_-1` | team2_handicap | 1.65 | 1.68 (bet365.us) | %56.29 | 0.042 |
-| `asian_handicap_-1_25` | team1_handicap | 2.265 | 2.38 (bet365.us) | %40.86 | 0.163 |
-| `asian_handicap_-1_25` | team2_handicap | 1.565 | 1.58 (DraftKings) | %59.14 | 0.021 |
-| `asian_handicap_-0_25` | team1_handicap | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `asian_handicap_-0_25` | team2_handicap | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
-| `asian_handicap_-1_5` | team1_handicap | 2.61 | 2.68 (bet365.us) | %35.44 | 0.066 |
-| `asian_handicap_-1_5` | team2_handicap | 1.433 | 1.45 (bet365.us) | %64.56 | 0.015 |
-| `asian_handicap_0` | team1_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
-| `asian_handicap_0` | team2_handicap | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
+| ⭐ `asian_handicap_-0_75` | team1_handicap | 1.855 | 1.88 (bet365.us) | %50.33 | 0.035 |
+| ⭐ `asian_handicap_-0_75` | team2_handicap | 1.88 | 1.93 (bet365.us) | %49.67 | 0.071 |
+| `asian_handicap_-0_5` | team1_handicap | 1.662 | 1.7 (bet365.us) | %55.53 | 0.026 |
+| `asian_handicap_-0_5` | team2_handicap | 2.075 | 2.1 (bet365.us) | %44.47 | 0.029 |
+| `asian_handicap_-1` | team1_handicap | 2.1 | 2.1 (bet365.us) | %44.15 | 0.0 |
+| `asian_handicap_-1` | team2_handicap | 1.66 | 1.7 (bet365.us) | %55.85 | 0.057 |
+| `asian_handicap_-1_25` | team1_handicap | 2.25 | 2.35 (bet365.us) | %41.25 | 0.141 |
+| `asian_handicap_-1_25` | team2_handicap | 1.58 | 1.58 (bet365.us) | %58.75 | 0.0 |
+| `asian_handicap_-0_25` | team1_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
+| `asian_handicap_-0_25` | team2_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
+| `asian_handicap_-1_5` | team1_handicap | 2.583 | 2.6 (bet365.us) | %35.84 | 0.029 |
+| `asian_handicap_-1_5` | team2_handicap | 1.443 | 1.48 (bet365.us) | %64.16 | 0.032 |
+| `asian_handicap_-1_75` | team1_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
+| `asian_handicap_-1_75` | team2_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_75`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
@@ -956,8 +956,8 @@
 | `over_under_2_75` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_75` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_75` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `over_under_2_5` | odds_over | 1.417 | 1.44 (bet365.us) | %65.37 | 0.017 |
-| `over_under_2_5` | odds_under | 2.675 | 2.7 (bet365.us) | %34.63 | 0.029 |
+| `over_under_2_5` | odds_over | 1.42 | 1.44 (bet365.us) | %65.11 | 0.014 |
+| `over_under_2_5` | odds_under | 2.65 | 2.7 (bet365.us) | %34.89 | 0.041 |
 | `over_under_4` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
 | `over_under_4` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 
@@ -1010,14 +1010,14 @@
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3` | odds_over | 1.795 | 1.83 (bet365.us) | %51.94 | 0.049 |
-| ⭐ `over_under_3` | odds_under | 1.94 | 1.98 (bet365.us) | %48.06 | 0.057 |
-| `over_under_3_25` | odds_over | 2.025 | 2.05 (bet365.us) | %45.86 | 0.035 |
-| `over_under_3_25` | odds_under | 1.715 | 1.75 (bet365.us) | %54.14 | 0.049 |
-| `over_under_2_75` | odds_over | 1.625 | 1.65 (bet365.us) | %57.24 | 0.035 |
-| `over_under_2_75` | odds_under | 2.175 | 2.2 (bet365.us) | %42.76 | 0.035 |
-| `over_under_3_5` | odds_over | 2.237 | 2.25 (bet365.us) | %41.29 | 0.025 |
-| `over_under_3_5` | odds_under | 1.573 | 1.58 (BetMGM.us) | %58.71 | 0.005 |
+| ⭐ `over_under_3` | odds_over | 1.805 | 1.85 (bet365.us) | %51.61 | 0.064 |
+| ⭐ `over_under_3` | odds_under | 1.925 | 1.95 (bet365.us) | %48.39 | 0.035 |
+| `over_under_3_25` | odds_over | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
+| `over_under_3_25` | odds_under | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
+| `over_under_2_75` | odds_over | 1.64 | 1.68 (bet365.us) | %56.73 | 0.057 |
+| `over_under_2_75` | odds_under | 2.15 | 2.15 (bet365.us) | %43.27 | 0.0 |
+| `over_under_3_5` | odds_over | 2.225 | 2.25 (bet365.us) | %41.45 | 0.029 |
+| `over_under_3_5` | odds_under | 1.575 | 1.58 (BetMGM.us) | %58.55 | 0.006 |
 | `over_under_2_5` | odds_over | 1.508 | 1.53 (bet365.us) | %61.41 | 0.015 |
 | `over_under_2_5` | odds_under | 2.4 | 2.4 (bet365.us) | %38.59 | 0.0 |
 | `over_under_3_75` | odds_over | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
@@ -1184,38 +1184,481 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.905 | 1.95 (bet365.us) | %48.93 | 0.064 |
-| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.825 | 1.85 (bet365.us) | %51.07 | 0.035 |
-| `asian_handicap_0` | team1_handicap | 1.635 | 1.65 (bet365.us) | %56.8 | 0.021 |
-| `asian_handicap_0` | team2_handicap | 2.15 | 2.2 (bet365.us) | %43.2 | 0.071 |
+| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.92 | 1.98 (bet365.us) | %48.59 | 0.085 |
+| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.815 | 1.83 (bet365.us) | %51.41 | 0.021 |
+| `asian_handicap_0` | team1_handicap | 1.65 | 1.68 (bet365.us) | %56.29 | 0.042 |
+| `asian_handicap_0` | team2_handicap | 2.125 | 2.15 (bet365.us) | %43.71 | 0.035 |
 | `asian_handicap_-0_5` | team1_handicap | 2.15 | 2.2 (bet365.us) | %43.02 | 0.041 |
 | `asian_handicap_-0_5` | team2_handicap | 1.623 | 1.65 (bet365.us) | %56.98 | 0.021 |
-| `asian_handicap_-0_75` | team1_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `asian_handicap_+0_25` | team1_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `asian_handicap_+0_25` | team2_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.39 | 1.4 (bet365.us) | %66.56 | 0.017 |
-| `asian_handicap_+0_5` | team2_handicap | 2.767 | 2.85 (bet365.us) | %33.44 | 0.076 |
+| `asian_handicap_+0_25` | team1_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
+| `asian_handicap_+0_25` | team2_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
+| `asian_handicap_-0_75` | team1_handicap | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
+| `asian_handicap_-0_75` | team2_handicap | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
+| `asian_handicap_+0_5` | team1_handicap | 1.4 | 1.43 (bet365.us) | %66.13 | 0.03 |
+| `asian_handicap_+0_5` | team2_handicap | 2.733 | 2.75 (bet365.us) | %33.87 | 0.029 |
 | `asian_handicap_-1` | team1_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
 | `asian_handicap_-1` | team2_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3` | odds_over | 1.92 | 1.98 (bet365.us) | %48.32 | 0.085 |
-| ⭐ `over_under_3` | odds_under | 1.795 | 1.83 (bet365.us) | %51.68 | 0.049 |
+| ⭐ `over_under_3` | odds_over | 1.905 | 1.95 (bet365.us) | %48.65 | 0.064 |
+| ⭐ `over_under_3` | odds_under | 1.805 | 1.85 (bet365.us) | %51.35 | 0.064 |
 | `over_under_2_75` | odds_over | 1.66 | 1.66 (DraftKings) | %54.64 | 0.0 |
 | `over_under_2_75` | odds_under | 2.0 | 2.0 (DraftKings) | %45.36 | 0.0 |
-| `over_under_3_25` | odds_over | 2.15 | 2.2 (bet365.us) | %43.05 | 0.071 |
-| `over_under_3_25` | odds_under | 1.625 | 1.65 (bet365.us) | %56.95 | 0.035 |
-| `over_under_2_5` | odds_over | 1.555 | 1.6 (bet365.us) | %59.54 | 0.033 |
-| `over_under_2_5` | odds_under | 2.288 | 2.35 (Fanatics) | %40.46 | 0.048 |
-| `over_under_3_5` | odds_over | 2.388 | 2.5 (bet365.us) | %38.86 | 0.085 |
-| `over_under_3_5` | odds_under | 1.518 | 1.55 (Fanatics) | %61.14 | 0.022 |
+| `over_under_3_25` | odds_over | 2.125 | 2.15 (bet365.us) | %43.56 | 0.035 |
+| `over_under_3_25` | odds_under | 1.64 | 1.68 (bet365.us) | %56.44 | 0.057 |
+| `over_under_2_5` | odds_over | 1.548 | 1.57 (bet365.us) | %59.77 | 0.021 |
+| `over_under_2_5` | odds_under | 2.3 | 2.35 (bet365.us) | %40.23 | 0.058 |
+| `over_under_3_5` | odds_over | 2.357 | 2.4 (DraftKings) | %39.28 | 0.043 |
+| `over_under_3_5` | odds_under | 1.525 | 1.55 (Fanatics) | %60.72 | 0.019 |
 | `over_under_2_25` | odds_over | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `over_under_2_25` | odds_under | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `over_under_3_75` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
 | `over_under_3_75` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
+
+---
+## 🏀 RW Essen vs Regensburg (Başlangıç: `2026-10-23 17:00:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 2 | Marj: %7.21)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 1.6 | **1.62** (DraftKings) | **%58.3** | 0.028 |
+| **X** | 4.4 | **4.5** (DraftKings) | **%21.2** | 0.141 |
+| **2** | 4.55 | **4.6** (DraftKings) | **%20.5** | 0.071 |
+
+### Market: `btts` (Büro Sayısı: 2 | Marj: %8.9)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.46 | **1.48** (DraftKings) | **%62.9** | 0.028 |
+| **btts_no** | 2.475 | **2.55** (DraftKings) | **%37.1** | 0.106 |
+
+### Market: `double_chance` (Büro Sayısı: 2 | Marj: %111.81)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.19 | **1.2** (DraftKings) | **%39.67** | 0.014 |
+| **12** | 1.2 | **1.21** (DraftKings) | **%39.34** | 0.014 |
+| **X2** | 2.25 | **2.25** (DraftKings) | **%20.98** | 0.0 |
+
+### Market: `dnb` (Büro Sayısı: 2 | Marj: %8.25)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 1.255 | **1.28** (DraftKings) | **%73.61** | 0.035 |
+| **dnb_team2** | 3.5 | **3.6** (DraftKings) | **%26.39** | 0.141 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_75`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_-0_75` | team1_handicap | 1.74 | 1.74 (DraftKings) | %52.85 | 0.0 |
+| ⭐ `asian_handicap_-0_75` | team2_handicap | 1.95 | 1.95 (DraftKings) | %47.15 | 0.0 |
+| `asian_handicap_-1` | team1_handicap | 2.0 | 2.0 (DraftKings) | %46.09 | 0.0 |
+| `asian_handicap_-1` | team2_handicap | 1.71 | 1.71 (DraftKings) | %53.91 | 0.0 |
+| `asian_handicap_-0_5` | team1_handicap | 1.55 | 1.58 (DraftKings) | %58.94 | 0.042 |
+| `asian_handicap_-0_5` | team2_handicap | 2.225 | 2.25 (Fanatics) | %41.06 | 0.035 |
+| `asian_handicap_-1_5` | team1_handicap | 2.45 | 2.55 (DraftKings) | %37.34 | 0.141 |
+| `asian_handicap_-1_5` | team2_handicap | 1.46 | 1.47 (Fanatics) | %62.66 | 0.014 |
+| `asian_handicap_+0_5` | team1_handicap | 1.19 | 1.2 (DraftKings) | %77.29 | 0.014 |
+| `asian_handicap_+0_5` | team2_handicap | 4.05 | 4.1 (DraftKings) | %22.71 | 0.071 |
+| `asian_handicap_-2_5` | team1_handicap | 4.5 | 4.6 (DraftKings) | %20.35 | 0.141 |
+| `asian_handicap_-2_5` | team2_handicap | 1.15 | 1.15 (DraftKings) | %79.65 | 0.0 |
+| `asian_handicap_+1_5` | team1_handicap | 1.045 | 1.05 (Fanatics) | %88.76 | 0.007 |
+| `asian_handicap_+1_5` | team2_handicap | 8.25 | 8.5 (DraftKings) | %11.24 | 0.354 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_3_25` | odds_over | 1.9 | 1.9 (DraftKings) | %49.47 | 0.0 |
+| ⭐ `over_under_3_25` | odds_under | 1.86 | 1.86 (DraftKings) | %50.53 | 0.0 |
+| `over_under_3_5` | odds_over | 2.025 | 2.1 (DraftKings) | %45.34 | 0.106 |
+| `over_under_3_5` | odds_under | 1.68 | 1.68 (DraftKings) | %54.66 | 0.0 |
+| `over_under_2_5` | odds_over | 1.395 | 1.43 (DraftKings) | %65.51 | 0.049 |
+| `over_under_2_5` | odds_under | 2.65 | 2.7 (DraftKings) | %34.49 | 0.071 |
+| `over_under_4_5` | odds_over | 3.35 | 3.45 (DraftKings) | %27.49 | 0.141 |
+| `over_under_4_5` | odds_under | 1.27 | 1.28 (DraftKings) | %72.51 | 0.014 |
+| `over_under_1_5` | odds_over | 1.115 | 1.13 (DraftKings) | %82.82 | 0.021 |
+| `over_under_1_5` | odds_under | 5.375 | 5.5 (DraftKings) | %17.18 | 0.177 |
+| `over_under_5_5` | odds_over | 5.625 | 6.0 (DraftKings) | %16.36 | 0.53 |
+| `over_under_5_5` | odds_under | 1.1 | 1.1 (DraftKings) | %83.64 | 0.0 |
+| `over_under_6_5` | odds_over | 10.75 | 11.0 (DraftKings) | %8.7 | 0.354 |
+| `over_under_6_5` | odds_under | 1.025 | 1.03 (Fanatics) | %91.3 | 0.007 |
+
+---
+## 🏀 Amstetten vs SK Rapid II (Başlangıç: `2026-10-23 16:30:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.73)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 1.51 | **1.52** (DraftKings) | **%61.47** | 0.01 |
+| **X** | 4.567 | **4.8** (DraftKings) | **%20.33** | 0.208 |
+| **2** | 5.1 | **5.25** (DraftKings) | **%18.2** | 0.26 |
+
+### Market: `btts` (Büro Sayısı: 3 | Marj: %8.63)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.463 | **1.49** (BetMGM.us) | **%62.92** | 0.025 |
+| **btts_no** | 2.483 | **2.6** (DraftKings) | **%37.08** | 0.104 |
+
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %113.36)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.153 | **1.16** (BetMGM.us) | **%40.65** | 0.012 |
+| **12** | 1.177 | **1.19** (BetMGM.us) | **%39.82** | 0.023 |
+| **X2** | 2.4 | **2.4** (BetMGM.us) | **%19.53** | 0.0 |
+
+### Market: `dnb` (Büro Sayısı: 3 | Marj: %7.64)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 1.21 | **1.22** (BetMGM.us) | **%76.78** | 0.017 |
+| **dnb_team2** | 4.0 | **4.2** (DraftKings) | **%23.22** | 0.173 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `european_handicap_-3`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `european_handicap_-3` | team1_handicap | 7.0 | 7.0 (BetMGM.us) | %12.94 | 0.0 |
+| ⭐ `european_handicap_-3` | draw_handicap | 6.75 | 6.75 (BetMGM.us) | %13.42 | 0.0 |
+| ⭐ `european_handicap_-3` | team2_handicap | 1.23 | 1.23 (BetMGM.us) | %73.64 | 0.0 |
+| `european_handicap_-2` | team1_handicap | 3.8 | 3.8 (BetMGM.us) | %23.55 | 0.0 |
+| `european_handicap_-2` | draw_handicap | 4.6 | 4.6 (BetMGM.us) | %19.45 | 0.0 |
+| `european_handicap_-2` | team2_handicap | 1.57 | 1.57 (BetMGM.us) | %57.0 | 0.0 |
+| `european_handicap_-1` | team1_handicap | 2.25 | 2.25 (BetMGM.us) | %39.53 | 0.0 |
+| `european_handicap_-1` | draw_handicap | 3.8 | 3.8 (BetMGM.us) | %23.41 | 0.0 |
+| `european_handicap_-1` | team2_handicap | 2.4 | 2.4 (BetMGM.us) | %37.06 | 0.0 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_5`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_3_5` | odds_over | 1.927 | 1.95 (DraftKings) | %47.64 | 0.025 |
+| ⭐ `over_under_3_5` | odds_under | 1.753 | 1.8 (DraftKings) | %52.36 | 0.045 |
+| `over_under_3_25` | odds_over | 1.74 | 1.74 (DraftKings) | %54.09 | 0.0 |
+| `over_under_3_25` | odds_under | 2.05 | 2.05 (DraftKings) | %45.91 | 0.0 |
+| `over_under_3` | odds_over | 1.66 | 1.66 (DraftKings) | %55.85 | 0.0 |
+| `over_under_3` | odds_under | 2.1 | 2.1 (DraftKings) | %44.15 | 0.0 |
+| `over_under_2_5` | odds_over | 1.367 | 1.38 (BetMGM.us) | %67.45 | 0.012 |
+| `over_under_2_5` | odds_under | 2.833 | 3.0 (DraftKings) | %32.55 | 0.153 |
+| `over_under_4_5` | odds_over | 3.1 | 3.1 (BetMGM.us) | %29.75 | 0.0 |
+| `over_under_4_5` | odds_under | 1.313 | 1.34 (DraftKings) | %70.25 | 0.031 |
+| `over_under_5_5` | odds_over | 5.333 | 5.5 (BetMGM.us) | %17.36 | 0.144 |
+| `over_under_5_5` | odds_under | 1.12 | 1.13 (BetMGM.us) | %82.64 | 0.017 |
+| `over_under_1_5` | odds_over | 1.1 | 1.1 (BetMGM.us) | %84.13 | 0.0 |
+| `over_under_1_5` | odds_under | 5.833 | 6.25 (BetMGM.us) | %15.87 | 0.52 |
+
+---
+## 🏀 Hertha Wels vs ASK Voitsberg (Başlangıç: `2026-10-23 16:30:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.98)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 2.733 | **2.75** (DraftKings) | **%33.89** | 0.029 |
+| **X** | 3.583 | **3.75** (DraftKings) | **%25.85** | 0.144 |
+| **2** | 2.3 | **2.35** (DraftKings) | **%40.27** | 0.05 |
+
+### Market: `btts` (Büro Sayısı: 3 | Marj: %8.91)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.457 | **1.47** (BetMGM.us) | **%63.02** | 0.015 |
+| **btts_no** | 2.483 | **2.6** (DraftKings) | **%36.98** | 0.104 |
+
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %113.33)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.563 | **1.57** (BetMGM.us) | **%29.99** | 0.012 |
+| **12** | 1.267 | **1.27** (BetMGM.us) | **%37.0** | 0.006 |
+| **X2** | 1.42 | **1.44** (DraftKings) | **%33.01** | 0.02 |
+
+### Market: `dnb` (Büro Sayısı: 3 | Marj: %8.58)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 2.0 | **2.05** (DraftKings) | **%46.05** | 0.05 |
+| **dnb_team2** | 1.707 | **1.74** (DraftKings) | **%53.95** | 0.031 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+0_25`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_+0_25` | team1_handicap | 1.74 | 1.74 (DraftKings) | %53.48 | 0.0 |
+| ⭐ `asian_handicap_+0_25` | team2_handicap | 2.0 | 2.0 (DraftKings) | %46.52 | 0.0 |
+| `asian_handicap_0` | team1_handicap | 2.0 | 2.0 (DraftKings) | %46.09 | 0.0 |
+| `asian_handicap_0` | team2_handicap | 1.71 | 1.71 (DraftKings) | %53.91 | 0.0 |
+| `asian_handicap_+0_5` | team1_handicap | 1.565 | 1.58 (DraftKings) | %58.71 | 0.021 |
+| `asian_handicap_+0_5` | team2_handicap | 2.225 | 2.25 (DraftKings) | %41.29 | 0.035 |
+| `asian_handicap_-0_5` | team1_handicap | 2.575 | 2.6 (DraftKings) | %35.54 | 0.035 |
+| `asian_handicap_-0_5` | team2_handicap | 1.42 | 1.44 (DraftKings) | %64.46 | 0.028 |
+| `asian_handicap_+1_5` | team1_handicap | 1.19 | 1.19 (DraftKings) | %77.29 | 0.0 |
+| `asian_handicap_+1_5` | team2_handicap | 4.05 | 4.2 (DraftKings) | %22.71 | 0.212 |
+| `asian_handicap_-1_5` | team1_handicap | 5.0 | 5.25 (DraftKings) | %18.3 | 0.354 |
+| `asian_handicap_-1_5` | team2_handicap | 1.12 | 1.12 (DraftKings) | %81.7 | 0.0 |
+| `asian_handicap_+2_5` | team1_handicap | 1.045 | 1.05 (Fanatics) | %88.76 | 0.007 |
+| `asian_handicap_+2_5` | team2_handicap | 8.25 | 8.5 (DraftKings) | %11.24 | 0.354 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_3` | odds_over | 1.9 | 1.9 (DraftKings) | %49.47 | 0.0 |
+| ⭐ `over_under_3` | odds_under | 1.86 | 1.86 (DraftKings) | %50.53 | 0.0 |
+| `over_under_3_25` | odds_over | 2.1 | 2.1 (DraftKings) | %44.15 | 0.0 |
+| `over_under_3_25` | odds_under | 1.66 | 1.66 (DraftKings) | %55.85 | 0.0 |
+| `over_under_2_75` | odds_over | 1.68 | 1.68 (DraftKings) | %56.14 | 0.0 |
+| `over_under_2_75` | odds_under | 2.15 | 2.15 (DraftKings) | %43.86 | 0.0 |
+| `over_under_2_5` | odds_over | 1.533 | 1.55 (DraftKings) | %60.01 | 0.015 |
+| `over_under_2_5` | odds_under | 2.3 | 2.35 (DraftKings) | %39.99 | 0.05 |
+| `over_under_3_5` | odds_over | 2.333 | 2.4 (DraftKings) | %39.5 | 0.058 |
+| `over_under_3_5` | odds_under | 1.523 | 1.54 (DraftKings) | %60.5 | 0.021 |
+| `over_under_4_5` | odds_over | 4.0 | 4.1 (DraftKings) | %23.12 | 0.1 |
+| `over_under_4_5` | odds_under | 1.203 | 1.21 (BetMGM.us) | %76.88 | 0.012 |
+| `over_under_1_5` | odds_over | 1.16 | 1.17 (DraftKings) | %79.92 | 0.01 |
+| `over_under_1_5` | odds_under | 4.617 | 4.75 (BetMGM.us) | %20.08 | 0.189 |
+
+---
+## 🏀 Austria Vienna (Am) vs Sturm Graz II (Başlangıç: `2026-10-23 16:30:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %8.56)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 2.317 | **2.35** (DraftKings) | **%39.75** | 0.029 |
+| **X** | 3.583 | **3.75** (DraftKings) | **%25.71** | 0.144 |
+| **2** | 2.667 | **2.75** (DraftKings) | **%34.54** | 0.076 |
+
+### Market: `btts` (Büro Sayısı: 2 | Marj: %9.23)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.48 | **1.49** (BetMGM.us) | **%61.86** | 0.014 |
+| **btts_no** | 2.4 | **2.45** (BetMGM.us) | **%38.14** | 0.071 |
+
+### Market: `double_chance` (Büro Sayısı: 2 | Marj: %114.06)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.425 | **1.44** (BetMGM.us) | **%32.78** | 0.021 |
+| **12** | 1.26 | **1.27** (BetMGM.us) | **%37.08** | 0.014 |
+| **X2** | 1.55 | **1.55** (BetMGM.us) | **%30.14** | 0.0 |
+
+### Market: `dnb` (Büro Sayısı: 2 | Marj: %10.09)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 1.72 | **1.73** (BetMGM.us) | **%52.81** | 0.014 |
+| **dnb_team2** | 1.925 | **1.95** (BetMGM.us) | **%47.19** | 0.035 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.95 | 1.95 (DraftKings) | %47.15 | 0.0 |
+| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.74 | 1.74 (DraftKings) | %52.85 | 0.0 |
+| `asian_handicap_0` | team1_handicap | 1.71 | 1.71 (DraftKings) | %53.91 | 0.0 |
+| `asian_handicap_0` | team2_handicap | 2.0 | 2.0 (DraftKings) | %46.09 | 0.0 |
+| `asian_handicap_-0_5` | team1_handicap | 2.2 | 2.2 (DraftKings) | %41.57 | 0.0 |
+| `asian_handicap_-0_5` | team2_handicap | 1.565 | 1.58 (DraftKings) | %58.43 | 0.021 |
+| `asian_handicap_+0_5` | team1_handicap | 1.425 | 1.44 (DraftKings) | %64.15 | 0.021 |
+| `asian_handicap_+0_5` | team2_handicap | 2.55 | 2.6 (DraftKings) | %35.85 | 0.071 |
+| `asian_handicap_-1_5` | team1_handicap | 4.1 | 4.3 (DraftKings) | %22.42 | 0.283 |
+| `asian_handicap_-1_5` | team2_handicap | 1.185 | 1.19 (Fanatics) | %77.58 | 0.007 |
+| `asian_handicap_+1_5` | team1_handicap | 1.135 | 1.14 (Fanatics) | %80.71 | 0.007 |
+| `asian_handicap_+1_5` | team2_handicap | 4.75 | 5.0 (DraftKings) | %19.29 | 0.354 |
+| `asian_handicap_-2_5` | team1_handicap | 8.5 | 8.5 (DraftKings) | %10.95 | 0.0 |
+| `asian_handicap_-2_5` | team2_handicap | 1.045 | 1.05 (Fanatics) | %89.05 | 0.007 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_3` | odds_over | 1.9 | 1.9 (DraftKings) | %49.47 | 0.0 |
+| ⭐ `over_under_3` | odds_under | 1.86 | 1.86 (DraftKings) | %50.53 | 0.0 |
+| `over_under_2_75` | odds_over | 1.68 | 1.68 (DraftKings) | %56.14 | 0.0 |
+| `over_under_2_75` | odds_under | 2.15 | 2.15 (DraftKings) | %43.86 | 0.0 |
+| `over_under_2_5` | odds_over | 1.55 | 1.55 (BetMGM.us) | %59.56 | 0.0 |
+| `over_under_2_5` | odds_under | 2.283 | 2.35 (DraftKings) | %40.44 | 0.076 |
+| `over_under_3_5` | odds_over | 2.35 | 2.4 (DraftKings) | %39.28 | 0.05 |
+| `over_under_3_5` | odds_under | 1.52 | 1.54 (DraftKings) | %60.72 | 0.02 |
+| `over_under_4_5` | odds_over | 4.1 | 4.2 (BetMGM.us) | %22.6 | 0.1 |
+| `over_under_4_5` | odds_under | 1.197 | 1.21 (DraftKings) | %77.4 | 0.015 |
+| `over_under_1_5` | odds_over | 1.16 | 1.17 (DraftKings) | %79.51 | 0.01 |
+| `over_under_1_5` | odds_under | 4.5 | 4.7 (DraftKings) | %20.49 | 0.265 |
+| `over_under_5_5` | odds_over | 7.667 | 8.0 (BetMGM.us) | %12.22 | 0.289 |
+| `over_under_5_5` | odds_under | 1.067 | 1.07 (BetMGM.us) | %87.78 | 0.006 |
+
+---
+## 🏀 First Vienna vs Floridsdorfer AC (Başlangıç: `2026-10-23 16:30:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.95)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 1.68 | **1.7** (BetMGM.us) | **%55.14** | 0.02 |
+| **X** | 3.833 | **4.0** (DraftKings) | **%24.17** | 0.153 |
+| **2** | 4.477 | **4.6** (DraftKings) | **%20.69** | 0.137 |
+
+### Market: `btts` (Büro Sayısı: 3 | Marj: %8.92)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.797 | **1.83** (DraftKings) | **%51.09** | 0.049 |
+| **btts_no** | 1.877 | **1.9** (DraftKings) | **%48.91** | 0.021 |
+
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.8)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.183 | **1.2** (BetMGM.us) | **%39.72** | 0.029 |
+| **12** | 1.24 | **1.25** (BetMGM.us) | **%37.9** | 0.017 |
+| **X2** | 2.1 | **2.15** (Fanatics) | **%22.38** | 0.05 |
+
+### Market: `dnb` (Büro Sayısı: 3 | Marj: %8.76)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 1.293 | **1.34** (DraftKings) | **%71.11** | 0.045 |
+| **dnb_team2** | 3.183 | **3.3** (Fanatics) | **%28.89** | 0.161 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_75`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_-0_75` | team1_handicap | 1.83 | 1.83 (DraftKings) | %50.41 | 0.0 |
+| ⭐ `asian_handicap_-0_75` | team2_handicap | 1.86 | 1.86 (DraftKings) | %49.59 | 0.0 |
+| `asian_handicap_-0_5` | team1_handicap | 1.61 | 1.64 (DraftKings) | %56.89 | 0.042 |
+| `asian_handicap_-0_5` | team2_handicap | 2.125 | 2.15 (Fanatics) | %43.11 | 0.035 |
+| `asian_handicap_-1_5` | team1_handicap | 2.75 | 2.9 (DraftKings) | %33.09 | 0.212 |
+| `asian_handicap_-1_5` | team2_handicap | 1.36 | 1.36 (DraftKings) | %66.91 | 0.0 |
+| `asian_handicap_+0_5` | team1_handicap | 1.17 | 1.19 (DraftKings) | %78.01 | 0.028 |
+| `asian_handicap_+0_5` | team2_handicap | 4.15 | 4.2 (Fanatics) | %21.99 | 0.071 |
+| `asian_handicap_-2_5` | team1_handicap | 5.375 | 5.75 (DraftKings) | %17.05 | 0.53 |
+| `asian_handicap_-2_5` | team2_handicap | 1.105 | 1.11 (Fanatics) | %82.95 | 0.007 |
+| `asian_handicap_+1_5` | team1_handicap | 1.03 | 1.04 (Fanatics) | %90.22 | 0.014 |
+| `asian_handicap_+1_5` | team2_handicap | 9.5 | 9.5 (DraftKings) | %9.78 | 0.0 |
+| `asian_handicap_-3_5` | team1_handicap | 11.0 | 11.0 (Fanatics) | %8.49 | 0.0 |
+| `asian_handicap_-3_5` | team2_handicap | 1.02 | 1.02 (Fanatics) | %91.51 | 0.0 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_2_5` | odds_over | 1.817 | 1.86 (DraftKings) | %50.45 | 0.067 |
+| ⭐ `over_under_2_5` | odds_under | 1.85 | 1.86 (DraftKings) | %49.55 | 0.017 |
+| `over_under_2_75` | odds_over | 2.15 | 2.15 (DraftKings) | %43.86 | 0.0 |
+| `over_under_2_75` | odds_under | 1.68 | 1.68 (DraftKings) | %56.14 | 0.0 |
+| `over_under_2_25` | odds_over | 1.64 | 1.64 (DraftKings) | %56.15 | 0.0 |
+| `over_under_2_25` | odds_under | 2.1 | 2.1 (DraftKings) | %43.85 | 0.0 |
+| `over_under_3_5` | odds_over | 3.067 | 3.25 (DraftKings) | %30.09 | 0.202 |
+| `over_under_3_5` | odds_under | 1.32 | 1.33 (Fanatics) | %69.91 | 0.01 |
+| `over_under_1_5` | odds_over | 1.26 | 1.28 (DraftKings) | %73.34 | 0.026 |
+| `over_under_1_5` | odds_under | 3.467 | 3.5 (BetMGM.us) | %26.66 | 0.058 |
+| `over_under_4_5` | odds_over | 5.667 | 6.0 (BetMGM.us) | %16.38 | 0.577 |
+| `over_under_4_5` | odds_under | 1.11 | 1.11 (BetMGM.us) | %83.62 | 0.0 |
+| `over_under_0_5` | odds_over | 1.037 | 1.04 (BetMGM.us) | %90.74 | 0.006 |
+| `over_under_0_5` | odds_under | 10.167 | 10.5 (BetMGM.us) | %9.26 | 0.289 |
+
+---
+## 🏀 Kapfenberg vs St. Polten (Başlangıç: `2026-10-23 16:30:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 2 | Marj: %8.29)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 4.625 | **4.75** (Fanatics) | **%19.97** | 0.177 |
+| **X** | 4.315 | **4.33** (BetMGM.us) | **%21.4** | 0.021 |
+| **2** | 1.575 | **1.58** (Fanatics) | **%58.63** | 0.007 |
+
+### Market: `btts` (Büro Sayısı: 2 | Marj: %9.27)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.58 | **1.58** (BetMGM.us) | **%57.92** | 0.0 |
+| **btts_no** | 2.175 | **2.2** (BetMGM.us) | **%42.08** | 0.035 |
+
+### Market: `double_chance` (Büro Sayısı: 2 | Marj: %113.47)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 2.275 | **2.3** (BetMGM.us) | **%20.59** | 0.035 |
+| **12** | 1.195 | **1.2** (BetMGM.us) | **%39.2** | 0.007 |
+| **X2** | 1.165 | **1.18** (BetMGM.us) | **%40.21** | 0.021 |
+
+### Market: `dnb` (Büro Sayısı: 2 | Marj: %9.22)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 3.5 | **3.6** (BetMGM.us) | **%26.16** | 0.141 |
+| **dnb_team2** | 1.24 | **1.25** (BetMGM.us) | **%73.84** | 0.014 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+0_5`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_+0_5` | team1_handicap | 2.25 | 2.25 (Fanatics) | %40.32 | 0.0 |
+| ⭐ `asian_handicap_+0_5` | team2_handicap | 1.52 | 1.52 (Fanatics) | %59.68 | 0.0 |
+| `asian_handicap_+1_5` | team1_handicap | 1.52 | 1.52 (Fanatics) | %59.68 | 0.0 |
+| `asian_handicap_+1_5` | team2_handicap | 2.25 | 2.25 (Fanatics) | %40.32 | 0.0 |
+| `asian_handicap_+2_5` | team1_handicap | 1.21 | 1.21 (Fanatics) | %75.36 | 0.0 |
+| `asian_handicap_+2_5` | team2_handicap | 3.7 | 3.7 (Fanatics) | %24.64 | 0.0 |
+| `asian_handicap_-0_5` | team1_handicap | 4.2 | 4.2 (Fanatics) | %21.5 | 0.0 |
+| `asian_handicap_-0_5` | team2_handicap | 1.15 | 1.15 (Fanatics) | %78.5 | 0.0 |
+| `asian_handicap_+3_5` | team1_handicap | 1.07 | 1.07 (Fanatics) | %86.74 | 0.0 |
+| `asian_handicap_+3_5` | team2_handicap | 7.0 | 7.0 (Fanatics) | %13.26 | 0.0 |
+| `asian_handicap_-1_5` | team1_handicap | 8.0 | 8.0 (Fanatics) | %11.6 | 0.0 |
+| `asian_handicap_-1_5` | team2_handicap | 1.05 | 1.05 (Fanatics) | %88.4 | 0.0 |
+| `asian_handicap_+4_5` | team1_handicap | 1.02 | 1.02 (Fanatics) | %92.72 | 0.0 |
+| `asian_handicap_+4_5` | team2_handicap | 13.0 | 13.0 (Fanatics) | %7.28 | 0.0 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_5`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_3_5` | odds_over | 2.175 | 2.2 (BetMGM.us) | %42.0 | 0.035 |
+| ⭐ `over_under_3_5` | odds_under | 1.575 | 1.58 (Fanatics) | %58.0 | 0.007 |
+| `over_under_2_5` | odds_over | 1.465 | 1.49 (BetMGM.us) | %62.34 | 0.035 |
+| `over_under_2_5` | odds_under | 2.425 | 2.45 (BetMGM.us) | %37.66 | 0.035 |
+| `over_under_4_5` | odds_over | 3.7 | 3.8 (BetMGM.us) | %24.8 | 0.141 |
+| `over_under_4_5` | odds_under | 1.22 | 1.22 (BetMGM.us) | %75.2 | 0.0 |
+| `over_under_1_5` | odds_over | 1.13 | 1.14 (BetMGM.us) | %81.18 | 0.014 |
+| `over_under_1_5` | odds_under | 4.875 | 5.0 (BetMGM.us) | %18.82 | 0.177 |
+| `over_under_5_5` | odds_over | 6.5 | 7.0 (BetMGM.us) | %14.25 | 0.707 |
+| `over_under_5_5` | odds_under | 1.08 | 1.08 (BetMGM.us) | %85.75 | 0.0 |
+| `over_under_6_5` | odds_over | 13.0 | 14.0 (BetMGM.us) | %7.28 | 1.414 |
+| `over_under_6_5` | odds_under | 1.02 | 1.02 (BetMGM.us) | %92.72 | 0.0 |
+| `over_under_0_5` | odds_over | 1.015 | 1.02 (Fanatics) | %93.76 | 0.007 |
+| `over_under_0_5` | odds_under | 15.25 | 17.5 (BetMGM.us) | %6.24 | 3.182 |
+
+---
+## 🏀 Wil vs Rapperswil-Jona (Başlangıç: `2026-10-23 17:30:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 2 | Marj: %8.82)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 2.1 | **2.1** (DraftKings) | **%43.76** | 0.0 |
+| **X** | 3.875 | **4.0** (Fanatics) | **%23.71** | 0.177 |
+| **2** | 2.825 | **2.85** (Fanatics) | **%32.53** | 0.035 |
+
+### Market: `btts` (Büro Sayısı: 2 | Marj: %9.44)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.345 | **1.36** (Fanatics) | **%67.94** | 0.021 |
+| **btts_no** | 2.85 | **3.0** (DraftKings) | **%32.06** | 0.212 |
+
+### Market: `double_chance` (Büro Sayısı: 2 | Marj: %115.6)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.37 | **1.38** (DraftKings) | **%33.86** | 0.014 |
+| **12** | 1.225 | **1.23** (DraftKings) | **%37.86** | 0.007 |
+| **X2** | 1.64 | **1.66** (Fanatics) | **%28.28** | 0.028 |
+
+### Market: `dnb` (Büro Sayısı: 2 | Marj: %8.09)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 1.61 | **1.64** (DraftKings) | **%57.46** | 0.042 |
+| **dnb_team2** | 2.175 | **2.2** (DraftKings) | **%42.54** | 0.035 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.83 | 1.83 (DraftKings) | %50.0 | 0.0 |
+| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.83 | 1.83 (DraftKings) | %50.0 | 0.0 |
+| `asian_handicap_-0_5` | team1_handicap | 2.025 | 2.05 (DraftKings) | %44.9 | 0.035 |
+| `asian_handicap_-0_5` | team2_handicap | 1.65 | 1.66 (Fanatics) | %55.1 | 0.014 |
+| `asian_handicap_+0_5` | team1_handicap | 1.37 | 1.38 (DraftKings) | %65.71 | 0.014 |
+| `asian_handicap_+0_5` | team2_handicap | 2.625 | 2.65 (DraftKings) | %34.29 | 0.035 |
+| `asian_handicap_-1_5` | team1_handicap | 3.5 | 3.7 (DraftKings) | %26.0 | 0.283 |
+| `asian_handicap_-1_5` | team2_handicap | 1.23 | 1.25 (Fanatics) | %74.0 | 0.028 |
+| `asian_handicap_+1_5` | team1_handicap | 1.125 | 1.14 (Fanatics) | %80.85 | 0.021 |
+| `asian_handicap_+1_5` | team2_handicap | 4.75 | 5.0 (DraftKings) | %19.15 | 0.354 |
+| `asian_handicap_-2_5` | team1_handicap | 6.75 | 7.0 (DraftKings) | %13.57 | 0.354 |
+| `asian_handicap_-2_5` | team2_handicap | 1.06 | 1.07 (Fanatics) | %86.43 | 0.014 |
+| `asian_handicap_+2_5` | team1_handicap | 1.04 | 1.04 (Fanatics) | %90.13 | 0.0 |
+| `asian_handicap_+2_5` | team2_handicap | 9.5 | 9.5 (Fanatics) | %9.87 | 0.0 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_3_25` | odds_over | 1.74 | 1.74 (DraftKings) | %52.2 | 0.0 |
+| ⭐ `over_under_3_25` | odds_under | 1.9 | 1.9 (DraftKings) | %47.8 | 0.0 |
+| `over_under_3_5` | odds_over | 1.925 | 1.95 (DraftKings) | %47.04 | 0.035 |
+| `over_under_3_5` | odds_under | 1.71 | 1.71 (DraftKings) | %52.96 | 0.0 |
+| `over_under_2_5` | odds_over | 1.365 | 1.37 (DraftKings) | %66.42 | 0.007 |
+| `over_under_2_5` | odds_under | 2.7 | 2.8 (DraftKings) | %33.58 | 0.141 |
+| `over_under_4_5` | odds_over | 3.075 | 3.15 (DraftKings) | %29.55 | 0.106 |
+| `over_under_4_5` | odds_under | 1.29 | 1.3 (DraftKings) | %70.45 | 0.014 |
+| `over_under_5_5` | odds_over | 5.125 | 5.25 (DraftKings) | %17.8 | 0.177 |
+| `over_under_5_5` | odds_under | 1.11 | 1.11 (DraftKings) | %82.2 | 0.0 |
+| `over_under_1_5` | odds_over | 1.1 | 1.1 (DraftKings) | %83.01 | 0.0 |
+| `over_under_1_5` | odds_under | 5.375 | 5.5 (DraftKings) | %16.99 | 0.177 |
+| `over_under_6_5` | odds_over | 9.5 | 10.0 (Fanatics) | %9.78 | 0.707 |
+| `over_under_6_5` | odds_under | 1.03 | 1.04 (Fanatics) | %90.22 | 0.014 |
 
 ---
 ## 🏀 Bodo/Glimt vs Valerenga (Başlangıç: `2026-10-24 14:00:00 UTC`)
@@ -1266,18 +1709,18 @@
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_4_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_4_25` | odds_over | 1.85 | 1.9 (bet365.us) | %50.4 | 0.071 |
-| ⭐ `over_under_4_25` | odds_under | 1.88 | 1.9 (bet365.us) | %49.6 | 0.028 |
+| ⭐ `over_under_4_25` | odds_over | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
+| ⭐ `over_under_4_25` | odds_under | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
 | `over_under_4_5` | odds_over | 1.988 | 2.0 (bet365.us) | %46.17 | 0.025 |
 | `over_under_4_5` | odds_under | 1.705 | 1.73 (bet365.us) | %53.83 | 0.021 |
-| `over_under_4` | odds_over | 1.66 | 1.7 (bet365.us) | %55.85 | 0.057 |
-| `over_under_4` | odds_under | 2.1 | 2.1 (bet365.us) | %44.15 | 0.0 |
+| `over_under_4` | odds_over | 1.67 | 1.7 (bet365.us) | %55.41 | 0.042 |
+| `over_under_4` | odds_under | 2.075 | 2.1 (bet365.us) | %44.59 | 0.035 |
 | `over_under_4_75` | odds_over | 2.3 | 2.3 (bet365.us) | %41.03 | 0.0 |
 | `over_under_4_75` | odds_under | 1.6 | 1.6 (bet365.us) | %58.97 | 0.0 |
 | `over_under_3_75` | odds_over | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
 | `over_under_3_75` | odds_under | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `over_under_3_5` | odds_over | 1.44 | 1.46 (BetMGM.us) | %63.86 | 0.022 |
-| `over_under_3_5` | odds_under | 2.545 | 2.63 (bet365.us) | %36.14 | 0.061 |
+| `over_under_3_5` | odds_over | 1.442 | 1.46 (BetMGM.us) | %63.83 | 0.024 |
+| `over_under_3_5` | odds_under | 2.545 | 2.63 (bet365.us) | %36.17 | 0.061 |
 | `over_under_5` | odds_over | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `over_under_5` | odds_under | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
 
@@ -1290,11 +1733,11 @@
 | **X** | 4.1 | **4.2** (bet365.us) | **%22.78** | 0.115 |
 | **2** | 1.613 | **1.65** (BetMGM.us) | **%57.91** | 0.03 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.52)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %8.56)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.573 | **1.62** (bet365.us) | **%58.58** | 0.033 |
-| **btts_no** | 2.225 | **2.3** (DraftKings) | **%41.42** | 0.05 |
+| **btts_yes** | 1.578 | **1.62** (bet365.us) | **%58.38** | 0.03 |
+| **btts_no** | 2.213 | **2.25** (DraftKings) | **%41.62** | 0.025 |
 
 ### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.88)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1312,16 +1755,16 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+1`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_+1` | team1_handicap | 1.785 | 1.83 (bet365.us) | %52.08 | 0.064 |
-| ⭐ `asian_handicap_+1` | team2_handicap | 1.94 | 1.98 (bet365.us) | %47.92 | 0.057 |
+| ⭐ `asian_handicap_+1` | team1_handicap | 1.795 | 1.83 (bet365.us) | %51.94 | 0.049 |
+| ⭐ `asian_handicap_+1` | team2_handicap | 1.94 | 1.98 (bet365.us) | %48.06 | 0.057 |
 | `asian_handicap_+0_75` | team1_handicap | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
 | `asian_handicap_+0_75` | team2_handicap | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
 | `asian_handicap_+1_25` | team1_handicap | 1.6 | 1.63 (bet365.us) | %58.17 | 0.042 |
 | `asian_handicap_+1_25` | team2_handicap | 2.225 | 2.25 (bet365.us) | %41.83 | 0.035 |
 | `asian_handicap_+0_5` | team1_handicap | 2.237 | 2.35 (bet365.us) | %41.21 | 0.085 |
 | `asian_handicap_+0_5` | team2_handicap | 1.568 | 1.6 (BetMGM.us) | %58.79 | 0.028 |
-| `asian_handicap_+1_5` | team1_handicap | 1.463 | 1.53 (bet365.us) | %62.68 | 0.061 |
-| `asian_handicap_+1_5` | team2_handicap | 2.457 | 2.5 (Fanatics) | %37.32 | 0.04 |
+| `asian_handicap_+1_5` | team1_handicap | 1.467 | 1.53 (bet365.us) | %62.61 | 0.06 |
+| `asian_handicap_+1_5` | team2_handicap | 2.457 | 2.5 (Fanatics) | %37.39 | 0.04 |
 | `asian_handicap_+0_25` | team1_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `asian_handicap_+0_25` | team2_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `asian_handicap_+1_75` | team1_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
@@ -1334,12 +1777,12 @@
 | ⭐ `over_under_3` | odds_under | 1.895 | 1.93 (bet365.us) | %49.26 | 0.049 |
 | `over_under_3_25` | odds_over | 2.075 | 2.1 (bet365.us) | %44.74 | 0.035 |
 | `over_under_3_25` | odds_under | 1.68 | 1.7 (bet365.us) | %55.26 | 0.028 |
-| `over_under_2_75` | odds_over | 1.64 | 1.68 (bet365.us) | %56.44 | 0.057 |
-| `over_under_2_75` | odds_under | 2.125 | 2.15 (bet365.us) | %43.56 | 0.035 |
+| `over_under_2_75` | odds_over | 1.65 | 1.68 (bet365.us) | %56.29 | 0.042 |
+| `over_under_2_75` | odds_under | 2.125 | 2.15 (bet365.us) | %43.71 | 0.035 |
 | `over_under_3_5` | odds_over | 2.275 | 2.3 (BetMGM.us) | %40.4 | 0.029 |
 | `over_under_3_5` | odds_under | 1.542 | 1.57 (bet365.us) | %59.6 | 0.022 |
-| `over_under_2_5` | odds_over | 1.522 | 1.53 (bet365.us) | %60.56 | 0.01 |
-| `over_under_2_5` | odds_under | 2.337 | 2.4 (bet365.us) | %39.44 | 0.075 |
+| `over_under_2_5` | odds_over | 1.525 | 1.53 (bet365.us) | %60.39 | 0.006 |
+| `over_under_2_5` | odds_under | 2.325 | 2.4 (bet365.us) | %39.61 | 0.065 |
 | `over_under_3_75` | odds_over | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `over_under_3_75` | odds_under | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `over_under_2_25` | odds_over | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
@@ -1347,25 +1790,25 @@
 
 ---
 ## 🏀 Viking vs Tromso (Başlangıç: `2026-10-25 13:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.73)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.65)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.505 | **1.52** (Fanatics) | **%62.25** | 0.01 |
-| **X** | 4.612 | **4.75** (bet365.us) | **%20.31** | 0.103 |
-| **2** | 5.375 | **5.5** (BetMGM.us) | **%17.43** | 0.144 |
+| **1** | 1.512 | **1.53** (bet365.us) | **%62.02** | 0.015 |
+| **X** | 4.612 | **4.75** (bet365.us) | **%20.33** | 0.103 |
+| **2** | 5.312 | **5.5** (BetMGM.us) | **%17.65** | 0.239 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.63)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %9.01)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.583 | **1.62** (bet365.us) | **%58.15** | 0.035 |
-| **btts_no** | 2.2 | **2.2** (bet365.us) | **%41.85** | 0.0 |
+| **btts_yes** | 1.557 | **1.58** (BetMGM.us) | **%58.92** | 0.032 |
+| **btts_no** | 2.233 | **2.25** (bet365.us) | **%41.08** | 0.029 |
 
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.8)
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.46)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.153 | **1.17** (bet365.us) | **%40.95** | 0.015 |
-| **12** | 1.183 | **1.19** (BetMGM.us) | **%39.91** | 0.006 |
-| **X2** | 2.467 | **2.5** (bet365.us) | **%19.14** | 0.058 |
+| **1X** | 1.153 | **1.17** (bet365.us) | **%40.82** | 0.015 |
+| **12** | 1.183 | **1.19** (BetMGM.us) | **%39.79** | 0.006 |
+| **X2** | 2.427 | **2.5** (BetMGM.us) | **%19.39** | 0.064 |
 
 ### Market: `dnb` (Büro Sayısı: 3 | Marj: %8.13)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1376,16 +1819,16 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-1` | team1_handicap | 1.77 | 1.8 (bet365.us) | %52.42 | 0.042 |
-| ⭐ `asian_handicap_-1` | team2_handicap | 1.95 | 2.0 (bet365.us) | %47.58 | 0.071 |
-| `asian_handicap_-1_25` | team1_handicap | 2.025 | 2.05 (bet365.us) | %45.86 | 0.035 |
-| `asian_handicap_-1_25` | team2_handicap | 1.715 | 1.75 (bet365.us) | %54.14 | 0.049 |
-| `asian_handicap_-0_75` | team1_handicap | 1.6 | 1.63 (bet365.us) | %58.17 | 0.042 |
-| `asian_handicap_-0_75` | team2_handicap | 2.225 | 2.25 (bet365.us) | %41.83 | 0.035 |
-| `asian_handicap_-1_5` | team1_handicap | 2.237 | 2.3 (bet365.us) | %41.24 | 0.048 |
-| `asian_handicap_-1_5` | team2_handicap | 1.57 | 1.6 (bet365.us) | %58.76 | 0.024 |
-| `asian_handicap_-0_5` | team1_handicap | 1.467 | 1.5 (bet365.us) | %62.55 | 0.031 |
-| `asian_handicap_-0_5` | team2_handicap | 2.45 | 2.5 (bet365.us) | %37.45 | 0.05 |
+| ⭐ `asian_handicap_-1` | team1_handicap | 1.785 | 1.83 (bet365.us) | %52.08 | 0.064 |
+| ⭐ `asian_handicap_-1` | team2_handicap | 1.94 | 1.98 (bet365.us) | %47.92 | 0.057 |
+| `asian_handicap_-1_25` | team1_handicap | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
+| `asian_handicap_-1_25` | team2_handicap | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
+| `asian_handicap_-0_75` | team1_handicap | 1.61 | 1.65 (bet365.us) | %57.74 | 0.057 |
+| `asian_handicap_-0_75` | team2_handicap | 2.2 | 2.2 (bet365.us) | %42.26 | 0.0 |
+| `asian_handicap_-1_5` | team1_handicap | 2.25 | 2.35 (bet365.us) | %41.02 | 0.071 |
+| `asian_handicap_-1_5` | team2_handicap | 1.565 | 1.58 (bet365.us) | %58.98 | 0.017 |
+| `asian_handicap_-0_5` | team1_handicap | 1.477 | 1.53 (bet365.us) | %62.13 | 0.047 |
+| `asian_handicap_-0_5` | team2_handicap | 2.423 | 2.45 (DraftKings) | %37.87 | 0.025 |
 | `asian_handicap_-1_75` | team1_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `asian_handicap_-1_75` | team2_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
 | `asian_handicap_-0_25` | team1_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
@@ -1404,19 +1847,19 @@
 | `over_under_2_75` | odds_under | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
 | `over_under_3_75` | odds_over | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `over_under_3_75` | odds_under | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `over_under_2_5` | odds_over | 1.45 | 1.48 (bet365.us) | %63.64 | 0.02 |
-| `over_under_2_5` | odds_under | 2.538 | 2.6 (bet365.us) | %36.36 | 0.095 |
+| `over_under_2_5` | odds_over | 1.442 | 1.48 (bet365.us) | %63.99 | 0.029 |
+| `over_under_2_5` | odds_under | 2.562 | 2.6 (bet365.us) | %36.01 | 0.048 |
 | `over_under_4` | odds_over | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
 | `over_under_4` | odds_under | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
 
 ---
 ## 🏀 Sarpsborg 08 vs Aalesund (Başlangıç: `2026-10-25 16:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 3 | Marj: %8.11)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.88)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.837 | **1.85** (bet365.us) | **%50.35** | 0.012 |
-| **X** | 3.9 | **4.0** (bet365.us) | **%23.72** | 0.1 |
-| **2** | 3.567 | **3.6** (bet365.us) | **%25.93** | 0.058 |
+| **1** | 1.837 | **1.85** (bet365.us) | **%50.46** | 0.012 |
+| **X** | 3.917 | **4.0** (bet365.us) | **%23.67** | 0.104 |
+| **2** | 3.583 | **3.65** (DraftKings) | **%25.87** | 0.076 |
 
 ### Market: `btts` (Büro Sayısı: 3 | Marj: %9.46)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1424,12 +1867,12 @@
 | **btts_yes** | 1.36 | **1.4** (bet365.us) | **%67.17** | 0.036 |
 | **btts_no** | 2.783 | **2.85** (DraftKings) | **%32.83** | 0.058 |
 
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %114.71)
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %113.78)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.263 | **1.29** (bet365.us) | **%36.88** | 0.023 |
-| **12** | 1.22 | **1.22** (bet365.us) | **%38.18** | 0.0 |
-| **X2** | 1.867 | **1.91** (bet365.us) | **%24.95** | 0.04 |
+| **1X** | 1.27 | **1.29** (bet365.us) | **%36.83** | 0.02 |
+| **12** | 1.223 | **1.23** (DraftKings) | **%38.25** | 0.006 |
+| **X2** | 1.877 | **1.91** (bet365.us) | **%24.92** | 0.029 |
 
 ### Market: `dnb` (Büro Sayısı: 3 | Marj: %8.84)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1442,28 +1885,28 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_-0_5` | team1_handicap | 1.783 | 1.85 (bet365.us) | %51.46 | 0.059 |
 | ⭐ `asian_handicap_-0_5` | team2_handicap | 1.89 | 1.95 (bet365.us) | %48.54 | 0.052 |
-| `asian_handicap_-0_75` | team1_handicap | 2.015 | 2.08 (bet365.us) | %45.69 | 0.092 |
-| `asian_handicap_-0_75` | team2_handicap | 1.695 | 1.73 (bet365.us) | %54.31 | 0.049 |
-| `asian_handicap_-0_25` | team1_handicap | 1.61 | 1.65 (bet365.us) | %57.18 | 0.057 |
-| `asian_handicap_-0_25` | team2_handicap | 2.15 | 2.2 (bet365.us) | %42.82 | 0.071 |
+| `asian_handicap_-0_75` | team1_handicap | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
+| `asian_handicap_-0_75` | team2_handicap | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
+| `asian_handicap_-0_25` | team1_handicap | 1.615 | 1.65 (bet365.us) | %57.39 | 0.049 |
+| `asian_handicap_-0_25` | team2_handicap | 2.175 | 2.2 (bet365.us) | %42.61 | 0.035 |
 | `asian_handicap_-1` | team1_handicap | 2.265 | 2.38 (bet365.us) | %40.63 | 0.163 |
 | `asian_handicap_-1` | team2_handicap | 1.55 | 1.55 (bet365.us) | %59.37 | 0.0 |
 | `asian_handicap_-1_25` | team1_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `asian_handicap_-1_25` | team2_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `asian_handicap_0` | team1_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
-| `asian_handicap_0` | team2_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
-| `asian_handicap_-1_5` | team1_handicap | 2.933 | 3.0 (bet365.us) | %31.36 | 0.076 |
-| `asian_handicap_-1_5` | team2_handicap | 1.34 | 1.38 (bet365.us) | %68.64 | 0.036 |
+| `asian_handicap_0` | team1_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
+| `asian_handicap_0` | team2_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
+| `asian_handicap_-1_5` | team1_handicap | 2.95 | 3.0 (bet365.us) | %31.28 | 0.087 |
+| `asian_handicap_-1_5` | team2_handicap | 1.343 | 1.38 (bet365.us) | %68.72 | 0.032 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_5` | odds_over | 1.84 | 1.86 (DraftKings) | %49.41 | 0.017 |
-| ⭐ `over_under_3_5` | odds_under | 1.797 | 1.83 (bet365.us) | %50.59 | 0.035 |
-| `over_under_3_25` | odds_over | 1.695 | 1.73 (bet365.us) | %54.62 | 0.049 |
-| `over_under_3_25` | odds_under | 2.04 | 2.08 (bet365.us) | %45.38 | 0.057 |
-| `over_under_3_75` | odds_over | 2.1 | 2.15 (bet365.us) | %44.0 | 0.071 |
-| `over_under_3_75` | odds_under | 1.65 | 1.68 (bet365.us) | %56.0 | 0.042 |
+| ⭐ `over_under_3_5` | odds_over | 1.88 | 1.95 (bet365.us) | %48.95 | 0.062 |
+| ⭐ `over_under_3_5` | odds_under | 1.803 | 1.85 (bet365.us) | %51.05 | 0.045 |
+| `over_under_3_25` | odds_over | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
+| `over_under_3_25` | odds_under | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
+| `over_under_3_75` | odds_over | 2.1 | 2.15 (bet365.us) | %44.15 | 0.071 |
+| `over_under_3_75` | odds_under | 1.66 | 1.68 (bet365.us) | %55.85 | 0.028 |
 | `over_under_3` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
 | `over_under_3` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_4` | odds_over | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
@@ -1475,12 +1918,12 @@
 
 ---
 ## 🏀 Lillestrom vs Brann (Başlangıç: `2026-10-25 16:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.94)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.6)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.267 | **2.3** (Fanatics) | **%40.87** | 0.029 |
-| **X** | 3.7 | **3.75** (bet365.us) | **%25.04** | 0.087 |
-| **2** | 2.717 | **2.8** (bet365.us) | **%34.1** | 0.076 |
+| **1** | 2.267 | **2.3** (Fanatics) | **%40.99** | 0.029 |
+| **X** | 3.717 | **3.8** (DraftKings) | **%25.0** | 0.104 |
+| **2** | 2.733 | **2.8** (bet365.us) | **%34.0** | 0.076 |
 
 ### Market: `btts` (Büro Sayısı: 3 | Marj: %9.05)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1504,47 +1947,47 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.92 | 1.98 (bet365.us) | %48.18 | 0.085 |
-| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.785 | 1.83 (bet365.us) | %51.82 | 0.064 |
-| `asian_handicap_0` | team1_handicap | 1.67 | 1.7 (bet365.us) | %55.11 | 0.042 |
-| `asian_handicap_0` | team2_handicap | 2.05 | 2.1 (bet365.us) | %44.89 | 0.071 |
-| `asian_handicap_-0_5` | team1_handicap | 2.15 | 2.2 (Fanatics) | %42.05 | 0.071 |
-| `asian_handicap_-0_5` | team2_handicap | 1.56 | 1.57 (DraftKings) | %57.95 | 0.014 |
-| `asian_handicap_+0_25` | team1_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `asian_handicap_+0_25` | team2_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `asian_handicap_-0_75` | team1_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.413 | 1.43 (bet365.us) | %64.79 | 0.015 |
-| `asian_handicap_+0_5` | team2_handicap | 2.6 | 2.75 (bet365.us) | %35.21 | 0.132 |
+| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.95 | 2.0 (bet365.us) | %47.72 | 0.071 |
+| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.78 | 1.8 (bet365.us) | %52.28 | 0.028 |
+| `asian_handicap_0` | team1_handicap | 1.695 | 1.73 (bet365.us) | %54.92 | 0.049 |
+| `asian_handicap_0` | team2_handicap | 2.065 | 2.08 (bet365.us) | %45.08 | 0.021 |
+| `asian_handicap_-0_5` | team1_handicap | 2.175 | 2.2 (Fanatics) | %41.84 | 0.035 |
+| `asian_handicap_-0_5` | team2_handicap | 1.565 | 1.58 (DraftKings) | %58.16 | 0.021 |
+| `asian_handicap_+0_25` | team1_handicap | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
+| `asian_handicap_+0_25` | team2_handicap | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
+| `asian_handicap_-0_75` | team1_handicap | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
+| `asian_handicap_-0_75` | team2_handicap | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
+| `asian_handicap_+0_5` | team1_handicap | 1.427 | 1.45 (bet365.us) | %64.5 | 0.021 |
+| `asian_handicap_+0_5` | team2_handicap | 2.593 | 2.68 (bet365.us) | %35.5 | 0.09 |
 | `asian_handicap_-1` | team1_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
 | `asian_handicap_-1` | team2_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.83 | 1.9 (bet365.us) | %50.47 | 0.099 |
-| ⭐ `over_under_3_25` | odds_under | 1.865 | 1.9 (bet365.us) | %49.53 | 0.049 |
-| `over_under_3_5` | odds_over | 2.067 | 2.1 (bet365.us) | %44.5 | 0.058 |
-| `over_under_3_5` | odds_under | 1.657 | 1.68 (DraftKings) | %55.5 | 0.032 |
-| `over_under_3` | odds_over | 1.63 | 1.68 (bet365.us) | %56.59 | 0.071 |
-| `over_under_3` | odds_under | 2.125 | 2.15 (bet365.us) | %43.41 | 0.035 |
+| ⭐ `over_under_3_25` | odds_over | 1.85 | 1.9 (bet365.us) | %50.4 | 0.071 |
+| ⭐ `over_under_3_25` | odds_under | 1.88 | 1.9 (bet365.us) | %49.6 | 0.028 |
+| `over_under_3_5` | odds_over | 2.067 | 2.1 (bet365.us) | %44.64 | 0.058 |
+| `over_under_3_5` | odds_under | 1.667 | 1.71 (DraftKings) | %55.36 | 0.045 |
+| `over_under_3` | odds_over | 1.64 | 1.68 (bet365.us) | %56.73 | 0.057 |
+| `over_under_3` | odds_under | 2.15 | 2.15 (bet365.us) | %43.27 | 0.0 |
 | `over_under_2_75` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
 | `over_under_2_75` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_75` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_75` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `over_under_2_5` | odds_over | 1.417 | 1.44 (bet365.us) | %64.87 | 0.021 |
-| `over_under_2_5` | odds_under | 2.617 | 2.7 (bet365.us) | %35.13 | 0.104 |
+| `over_under_2_5` | odds_over | 1.417 | 1.44 (bet365.us) | %65.01 | 0.021 |
+| `over_under_2_5` | odds_under | 2.633 | 2.7 (bet365.us) | %34.99 | 0.115 |
 | `over_under_4` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
 | `over_under_4` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 
 ---
 ## 🏀 Kristiansund vs KFUM Oslo (Başlangıç: `2026-10-25 16:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.96)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.76)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.3 | **2.3** (bet365.us) | **%40.27** | 0.0 |
-| **X** | 3.45 | **3.6** (bet365.us) | **%26.85** | 0.132 |
-| **2** | 2.817 | **2.9** (DraftKings) | **%32.88** | 0.076 |
+| **1** | 2.3 | **2.3** (bet365.us) | **%40.35** | 0.0 |
+| **X** | 3.45 | **3.6** (bet365.us) | **%26.9** | 0.132 |
+| **2** | 2.833 | **2.95** (DraftKings) | **%32.76** | 0.104 |
 
 ### Market: `btts` (Büro Sayısı: 2 | Marj: %8.6)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1570,16 +2013,16 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_-0_25` | team1_handicap | 1.965 | 2.03 (bet365.us) | %47.25 | 0.092 |
 | ⭐ `asian_handicap_-0_25` | team2_handicap | 1.76 | 1.78 (bet365.us) | %52.75 | 0.028 |
-| `asian_handicap_0` | team1_handicap | 1.675 | 1.73 (bet365.us) | %55.21 | 0.078 |
-| `asian_handicap_0` | team2_handicap | 2.065 | 2.08 (bet365.us) | %44.79 | 0.021 |
-| `asian_handicap_-0_5` | team1_handicap | 2.217 | 2.3 (bet365.us) | %41.41 | 0.076 |
-| `asian_handicap_-0_5` | team2_handicap | 1.567 | 1.6 (bet365.us) | %58.59 | 0.029 |
+| `asian_handicap_0` | team1_handicap | 1.685 | 1.73 (bet365.us) | %55.07 | 0.064 |
+| `asian_handicap_0` | team2_handicap | 2.065 | 2.08 (bet365.us) | %44.93 | 0.021 |
+| `asian_handicap_-0_5` | team1_handicap | 2.233 | 2.3 (bet365.us) | %41.33 | 0.058 |
+| `asian_handicap_-0_5` | team2_handicap | 1.573 | 1.6 (bet365.us) | %58.67 | 0.025 |
 | `asian_handicap_+0_25` | team1_handicap | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
 | `asian_handicap_+0_25` | team2_handicap | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `asian_handicap_-0_75` | team1_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.4 | 1.43 (bet365.us) | %65.58 | 0.03 |
-| `asian_handicap_+0_5` | team2_handicap | 2.667 | 2.75 (bet365.us) | %34.42 | 0.104 |
+| `asian_handicap_+0_5` | team1_handicap | 1.403 | 1.43 (bet365.us) | %65.66 | 0.025 |
+| `asian_handicap_+0_5` | team2_handicap | 2.683 | 2.75 (bet365.us) | %34.34 | 0.115 |
 | `asian_handicap_+0_75` | team1_handicap | 1.3 | 1.3 (bet365.us) | %72.63 | 0.0 |
 | `asian_handicap_+0_75` | team2_handicap | 3.45 | 3.45 (bet365.us) | %27.37 | 0.0 |
 
@@ -1590,25 +2033,25 @@
 | ⭐ `over_under_2_75` | odds_under | 1.795 | 1.83 (bet365.us) | %51.68 | 0.049 |
 | `over_under_2_5` | odds_over | 1.713 | 1.75 (bet365.us) | %53.86 | 0.035 |
 | `over_under_2_5` | odds_under | 2.0 | 2.05 (bet365.us) | %46.14 | 0.05 |
-| `over_under_3` | odds_over | 2.225 | 2.3 (bet365.us) | %41.45 | 0.106 |
-| `over_under_3` | odds_under | 1.575 | 1.6 (bet365.us) | %58.55 | 0.035 |
+| `over_under_3` | odds_over | 2.25 | 2.3 (bet365.us) | %41.33 | 0.071 |
+| `over_under_3` | odds_under | 1.585 | 1.6 (bet365.us) | %58.67 | 0.021 |
 | `over_under_2_25` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
 | `over_under_2_25` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_25` | odds_over | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
 | `over_under_3_25` | odds_under | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
-| `over_under_3_5` | odds_over | 2.733 | 2.75 (bet365.us) | %33.5 | 0.029 |
-| `over_under_3_5` | odds_under | 1.377 | 1.4 (bet365.us) | %66.5 | 0.021 |
+| `over_under_3_5` | odds_over | 2.75 | 2.8 (DraftKings) | %33.46 | 0.05 |
+| `over_under_3_5` | odds_under | 1.383 | 1.4 (bet365.us) | %66.54 | 0.021 |
 | `over_under_2` | odds_over | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 | `over_under_2` | odds_under | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 
 ---
 ## 🏀 Start vs Sandefjord (Başlangıç: `2026-10-25 16:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.82)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.62)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.083 | **2.1** (bet365.us) | **%44.53** | 0.029 |
-| **X** | 3.7 | **3.8** (DraftKings) | **%25.07** | 0.1 |
-| **2** | 3.05 | **3.1** (bet365.us) | **%30.41** | 0.05 |
+| **1** | 2.1 | **2.1** (bet365.us) | **%44.25** | 0.0 |
+| **X** | 3.7 | **3.8** (DraftKings) | **%25.11** | 0.1 |
+| **2** | 3.033 | **3.1** (bet365.us) | **%30.64** | 0.058 |
 
 ### Market: `btts` (Büro Sayısı: 2 | Marj: %9.17)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1632,47 +2075,47 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.795 | 1.85 (bet365.us) | %51.49 | 0.078 |
-| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.905 | 1.95 (bet365.us) | %48.51 | 0.064 |
-| `asian_handicap_-0_5` | team1_handicap | 2.017 | 2.1 (bet365.us) | %45.44 | 0.076 |
-| `asian_handicap_-0_5` | team2_handicap | 1.68 | 1.7 (bet365.us) | %54.56 | 0.02 |
-| `asian_handicap_0` | team1_handicap | 1.56 | 1.6 (bet365.us) | %59.06 | 0.057 |
-| `asian_handicap_0` | team2_handicap | 2.25 | 2.3 (bet365.us) | %40.94 | 0.071 |
+| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.825 | 1.85 (bet365.us) | %51.07 | 0.035 |
+| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.905 | 1.95 (bet365.us) | %48.93 | 0.064 |
+| `asian_handicap_-0_5` | team1_handicap | 2.033 | 2.1 (bet365.us) | %45.14 | 0.058 |
+| `asian_handicap_-0_5` | team2_handicap | 1.673 | 1.7 (bet365.us) | %54.86 | 0.023 |
+| `asian_handicap_0` | team1_handicap | 1.585 | 1.6 (bet365.us) | %58.67 | 0.021 |
+| `asian_handicap_0` | team2_handicap | 2.25 | 2.3 (bet365.us) | %41.33 | 0.071 |
 | `asian_handicap_-0_75` | team1_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `asian_handicap_+0_25` | team1_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
 | `asian_handicap_+0_25` | team2_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.347 | 1.38 (bet365.us) | %67.91 | 0.029 |
-| `asian_handicap_+0_5` | team2_handicap | 2.85 | 3.0 (bet365.us) | %32.09 | 0.132 |
+| `asian_handicap_+0_5` | team1_handicap | 1.357 | 1.38 (bet365.us) | %67.74 | 0.025 |
+| `asian_handicap_+0_5` | team2_handicap | 2.85 | 3.0 (bet365.us) | %32.26 | 0.132 |
 | `asian_handicap_-1` | team1_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 | `asian_handicap_-1` | team2_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_75` | odds_over | 1.785 | 1.83 (bet365.us) | %51.82 | 0.064 |
-| ⭐ `over_under_2_75` | odds_under | 1.92 | 1.98 (bet365.us) | %48.18 | 0.085 |
+| ⭐ `over_under_2_75` | odds_over | 1.795 | 1.83 (bet365.us) | %51.94 | 0.049 |
+| ⭐ `over_under_2_75` | odds_under | 1.94 | 1.98 (bet365.us) | %48.06 | 0.057 |
 | `over_under_3` | odds_over | 2.0 | 2.0 (DraftKings) | %45.36 | 0.0 |
 | `over_under_3` | odds_under | 1.66 | 1.66 (DraftKings) | %54.64 | 0.0 |
-| `over_under_2_5` | odds_over | 1.617 | 1.67 (bet365.us) | %56.88 | 0.047 |
-| `over_under_2_5` | odds_under | 2.133 | 2.15 (bet365.us) | %43.12 | 0.029 |
+| `over_under_2_5` | odds_over | 1.623 | 1.67 (bet365.us) | %56.98 | 0.045 |
+| `over_under_2_5` | odds_under | 2.15 | 2.15 (bet365.us) | %43.02 | 0.0 |
 | `over_under_3_25` | odds_over | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
 | `over_under_3_25` | odds_under | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
 | `over_under_2_25` | odds_over | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
 | `over_under_2_25` | odds_under | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
-| `over_under_3_5` | odds_over | 2.56 | 2.63 (bet365.us) | %35.79 | 0.066 |
-| `over_under_3_5` | odds_under | 1.427 | 1.44 (bet365.us) | %64.21 | 0.015 |
+| `over_under_3_5` | odds_over | 2.56 | 2.63 (bet365.us) | %35.84 | 0.066 |
+| `over_under_3_5` | odds_under | 1.43 | 1.44 (bet365.us) | %64.16 | 0.017 |
 | `over_under_3_75` | odds_over | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 | `over_under_3_75` | odds_under | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 
 ---
 ## 🏀 Molde vs Fredrikstad (Başlangıç: `2026-10-25 18:15:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.7)
+### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.15)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.46 | **1.47** (Fanatics) | **%63.6** | 0.01 |
-| **X** | 4.533 | **4.6** (DraftKings) | **%20.48** | 0.058 |
-| **2** | 5.833 | **6.25** (bet365.us) | **%15.92** | 0.382 |
+| **1** | 1.463 | **1.47** (DraftKings) | **%63.79** | 0.012 |
+| **X** | 4.567 | **4.7** (DraftKings) | **%20.44** | 0.115 |
+| **2** | 5.917 | **6.25** (bet365.us) | **%15.77** | 0.289 |
 
 ### Market: `btts` (Büro Sayısı: 2 | Marj: %9.1)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1696,678 +2139,102 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-1_25` | team1_handicap | 1.925 | 1.95 (bet365.us) | %48.04 | 0.035 |
-| ⭐ `asian_handicap_-1_25` | team2_handicap | 1.78 | 1.85 (bet365.us) | %51.96 | 0.099 |
-| `asian_handicap_-1` | team1_handicap | 1.69 | 1.7 (bet365.us) | %54.51 | 0.014 |
-| `asian_handicap_-1` | team2_handicap | 2.025 | 2.1 (bet365.us) | %45.49 | 0.106 |
-| `asian_handicap_-1_5` | team1_handicap | 2.15 | 2.15 (bet365.us) | %42.71 | 0.0 |
-| `asian_handicap_-1_5` | team2_handicap | 1.603 | 1.68 (bet365.us) | %57.29 | 0.068 |
+| ⭐ `asian_handicap_-1_25` | team1_handicap | 1.95 | 1.95 (bet365.us) | %47.72 | 0.0 |
+| ⭐ `asian_handicap_-1_25` | team2_handicap | 1.78 | 1.85 (bet365.us) | %52.28 | 0.099 |
+| `asian_handicap_-1` | team1_handicap | 1.705 | 1.71 (DraftKings) | %54.59 | 0.007 |
+| `asian_handicap_-1` | team2_handicap | 2.05 | 2.1 (bet365.us) | %45.41 | 0.071 |
+| `asian_handicap_-1_5` | team1_handicap | 2.167 | 2.2 (DraftKings) | %42.63 | 0.029 |
+| `asian_handicap_-1_5` | team2_handicap | 1.61 | 1.68 (bet365.us) | %57.37 | 0.061 |
 | `asian_handicap_-0_75` | team1_handicap | 1.55 | 1.55 (bet365.us) | %59.64 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 2.29 | 2.38 (bet365.us) | %40.36 | 0.127 |
 | `asian_handicap_-1_75` | team1_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
 | `asian_handicap_-1_75` | team2_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `asian_handicap_-0_5` | team1_handicap | 1.423 | 1.45 (bet365.us) | %64.42 | 0.025 |
-| `asian_handicap_-0_5` | team2_handicap | 2.577 | 2.68 (bet365.us) | %35.57 | 0.093 |
+| `asian_handicap_-0_5` | team1_handicap | 1.427 | 1.45 (bet365.us) | %64.5 | 0.025 |
+| `asian_handicap_-0_5` | team2_handicap | 2.593 | 2.68 (bet365.us) | %35.5 | 0.075 |
 | `asian_handicap_-2` | team1_handicap | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
 | `asian_handicap_-2` | team2_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.85 | 1.9 (bet365.us) | %50.0 | 0.071 |
-| ⭐ `over_under_3_25` | odds_under | 1.85 | 1.9 (bet365.us) | %50.0 | 0.071 |
-| `over_under_3_5` | odds_over | 2.067 | 2.1 (bet365.us) | %44.5 | 0.029 |
-| `over_under_3_5` | odds_under | 1.657 | 1.67 (bet365.us) | %55.5 | 0.015 |
+| ⭐ `over_under_3_25` | odds_over | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
+| ⭐ `over_under_3_25` | odds_under | 1.865 | 1.9 (bet365.us) | %50.0 | 0.049 |
+| `over_under_3_5` | odds_over | 2.067 | 2.1 (bet365.us) | %44.58 | 0.029 |
+| `over_under_3_5` | odds_under | 1.663 | 1.68 (DraftKings) | %55.42 | 0.021 |
 | `over_under_3` | odds_over | 1.64 | 1.68 (bet365.us) | %56.44 | 0.057 |
 | `over_under_3` | odds_under | 2.125 | 2.15 (bet365.us) | %43.56 | 0.035 |
 | `over_under_3_75` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_75` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
 | `over_under_2_75` | odds_over | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
 | `over_under_2_75` | odds_under | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `over_under_2_5` | odds_over | 1.413 | 1.44 (bet365.us) | %65.08 | 0.023 |
-| `over_under_2_5` | odds_under | 2.633 | 2.7 (bet365.us) | %34.92 | 0.076 |
+| `over_under_2_5` | odds_over | 1.413 | 1.44 (bet365.us) | %65.22 | 0.023 |
+| `over_under_2_5` | odds_under | 2.65 | 2.7 (bet365.us) | %34.78 | 0.087 |
 | `over_under_4` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
 | `over_under_4` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 
 ---
-## 🏀 Huddersfield vs Wigan (Başlangıç: `2026-10-24 11:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %7.79)
+## 🏀 Oddevold vs Sundsvall (Başlangıç: `2026-10-23 17:00:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %8.56)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.343 | **1.37** (BetMGM.us) | **%69.08** | 0.022 |
-| **X** | 5.0 | **5.25** (DraftKings) | **%18.55** | 0.204 |
-| **2** | 7.5 | **8.0** (DraftKings) | **%12.37** | 0.408 |
+| **1** | 1.363 | **1.37** (DraftKings) | **%67.58** | 0.005 |
+| **X** | 4.812 | **5.25** (DraftKings) | **%19.14** | 0.448 |
+| **2** | 6.938 | **7.5** (DraftKings) | **%13.28** | 0.427 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.81)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %8.97)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.812 | **1.83** (DraftKings) | **%50.72** | 0.015 |
-| **btts_no** | 1.865 | **1.95** (bet365.us) | **%49.28** | 0.062 |
+| **btts_yes** | 1.758 | **1.78** (BetMGM.us) | **%52.2** | 0.017 |
+| **btts_no** | 1.92 | **2.0** (bet365.us) | **%47.8** | 0.073 |
 
-### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.22)
+### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.89)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.085 | **1.1** (bet365.us) | **%43.43** | 0.013 |
-| **12** | 1.155 | **1.18** (bet365.us) | **%40.8** | 0.021 |
-| **X2** | 2.987 | **3.05** (DraftKings) | **%15.78** | 0.063 |
+| **1X** | 1.09 | **1.1** (BetMGM.us) | **%43.09** | 0.008 |
+| **12** | 1.162 | **1.2** (bet365.us) | **%40.42** | 0.026 |
+| **X2** | 2.85 | **2.95** (BetMGM.us) | **%16.48** | 0.082 |
 
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %7.17)
+### Market: `dnb` (Büro Sayısı: 3 | Marj: %7.23)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.117 | **1.13** (bet365.us) | **%83.53** | 0.015 |
-| **dnb_team2** | 5.667 | **6.0** (bet365.us) | **%16.47** | 0.382 |
+| **dnb_team1** | 1.123 | **1.13** (bet365.us) | **%83.04** | 0.012 |
+| **dnb_team2** | 5.5 | **6.0** (bet365.us) | **%16.96** | 0.5 |
 
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1_5`)
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-1_5` | team1_handicap | 1.97 | 2.03 (bet365.us) | %47.04 | 0.057 |
-| ⭐ `asian_handicap_-1_5` | team2_handicap | 1.75 | 1.83 (bet365.us) | %52.96 | 0.07 |
-| `asian_handicap_-1_25` | team1_handicap | 1.73 | 1.78 (bet365.us) | %53.81 | 0.071 |
-| `asian_handicap_-1_25` | team2_handicap | 2.015 | 2.03 (bet365.us) | %46.19 | 0.021 |
-| `asian_handicap_-1_75` | team1_handicap | 2.2 | 2.25 (bet365.us) | %42.18 | 0.071 |
-| `asian_handicap_-1_75` | team2_handicap | 1.605 | 1.63 (bet365.us) | %57.82 | 0.035 |
-| `asian_handicap_-1` | team1_handicap | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `asian_handicap_-1` | team2_handicap | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
-| `asian_handicap_-2` | team1_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
-| `asian_handicap_-2` | team2_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `asian_handicap_-0_75` | team1_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
-| `asian_handicap_-2_25` | team1_handicap | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
-| `asian_handicap_-2_25` | team2_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
+| ⭐ `asian_handicap_-1_25` | team1_handicap | 1.77 | 1.8 (bet365.us) | %52.74 | 0.042 |
+| ⭐ `asian_handicap_-1_25` | team2_handicap | 1.975 | 2.0 (bet365.us) | %47.26 | 0.035 |
+| `asian_handicap_-1_5` | team1_handicap | 1.96 | 2.03 (bet365.us) | %47.07 | 0.066 |
+| `asian_handicap_-1_5` | team2_handicap | 1.743 | 1.78 (bet365.us) | %52.93 | 0.035 |
+| `asian_handicap_-1_75` | team1_handicap | 2.3 | 2.3 (bet365.us) | %41.03 | 0.0 |
+| `asian_handicap_-1_75` | team2_handicap | 1.6 | 1.6 (bet365.us) | %58.97 | 0.0 |
+| `asian_handicap_-1` | team1_handicap | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
+| `asian_handicap_-1` | team2_handicap | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
+| `asian_handicap_-0_75` | team1_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
+| `asian_handicap_-0_75` | team2_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
+| `asian_handicap_-2` | team1_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
+| `asian_handicap_-2` | team2_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
+| `asian_handicap_-0_5` | team1_handicap | 1.35 | 1.38 (bet365.us) | %68.6 | 0.026 |
+| `asian_handicap_-0_5` | team2_handicap | 2.95 | 3.0 (bet365.us) | %31.4 | 0.087 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3` | odds_over | 1.88 | 1.93 (bet365.us) | %50.0 | 0.071 |
-| ⭐ `over_under_3` | odds_under | 1.88 | 1.93 (bet365.us) | %50.0 | 0.071 |
-| `over_under_2_75` | odds_over | 1.67 | 1.7 (bet365.us) | %55.41 | 0.042 |
-| `over_under_2_75` | odds_under | 2.075 | 2.1 (bet365.us) | %44.59 | 0.035 |
-| `over_under_3_25` | odds_over | 2.1 | 2.1 (bet365.us) | %44.15 | 0.0 |
-| `over_under_3_25` | odds_under | 1.66 | 1.7 (bet365.us) | %55.85 | 0.057 |
-| `over_under_2_5` | odds_over | 1.548 | 1.57 (bet365.us) | %59.65 | 0.021 |
-| `over_under_2_5` | odds_under | 2.288 | 2.35 (bet365.us) | %40.35 | 0.075 |
-| `over_under_3_5` | odds_over | 2.37 | 2.4 (Fanatics) | %38.79 | 0.024 |
-| `over_under_3_5` | odds_under | 1.502 | 1.53 (bet365.us) | %61.21 | 0.042 |
-| `over_under_3_75` | odds_over | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
-| `over_under_3_75` | odds_under | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
-| `over_under_2_25` | odds_over | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `over_under_2_25` | odds_under | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-
----
-## 🏀 Luton vs Leicester (Başlangıç: `2026-10-24 11:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %8.1)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.175 | **2.2** (BetMGM.us) | **%42.53** | 0.029 |
-| **X** | 3.725 | **4.0** (DraftKings) | **%24.83** | 0.189 |
-| **2** | 2.835 | **2.87** (bet365.us) | **%32.63** | 0.057 |
-
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.61)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.427 | **1.46** (BetMGM.us) | **%64.52** | 0.028 |
-| **btts_no** | 2.595 | **2.75** (DraftKings) | **%35.48** | 0.12 |
-
-### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.6)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.39 | **1.41** (DraftKings) | **%33.84** | 0.022 |
-| **12** | 1.258 | **1.29** (bet365.us) | **%37.39** | 0.025 |
-| **X2** | 1.635 | **1.67** (bet365.us) | **%28.77** | 0.024 |
-
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %8.15)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.637 | **1.68** (DraftKings) | **%56.49** | 0.029 |
-| **dnb_team2** | 2.125 | **2.2** (bet365.us) | **%43.51** | 0.05 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.92 | 1.98 (bet365.us) | %48.94 | 0.085 |
-| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.84 | 1.88 (bet365.us) | %51.06 | 0.057 |
-| `asian_handicap_0` | team1_handicap | 1.645 | 1.65 (bet365.us) | %56.37 | 0.007 |
-| `asian_handicap_0` | team2_handicap | 2.125 | 2.2 (bet365.us) | %43.63 | 0.106 |
-| `asian_handicap_-0_5` | team1_handicap | 2.1 | 2.1 (BetMGM.us) | %43.59 | 0.0 |
-| `asian_handicap_-0_5` | team2_handicap | 1.623 | 1.63 (BetMGM.us) | %56.41 | 0.006 |
-| `asian_handicap_-0_75` | team1_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `asian_handicap_+0_25` | team1_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `asian_handicap_+0_25` | team2_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.39 | 1.41 (DraftKings) | %65.87 | 0.026 |
-| `asian_handicap_+0_5` | team2_handicap | 2.683 | 2.85 (bet365.us) | %34.13 | 0.144 |
-| `asian_handicap_-1` | team1_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
-| `asian_handicap_-1` | team2_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.965 | 2.03 (bet365.us) | %47.39 | 0.092 |
-| ⭐ `over_under_3_25` | odds_under | 1.77 | 1.78 (bet365.us) | %52.61 | 0.014 |
-| `over_under_3` | odds_over | 1.74 | 1.8 (bet365.us) | %53.78 | 0.085 |
-| `over_under_3` | odds_under | 2.025 | 2.05 (bet365.us) | %46.22 | 0.035 |
-| `over_under_3_5` | odds_over | 2.188 | 2.2 (bet365.us) | %42.13 | 0.025 |
-| `over_under_3_5` | odds_under | 1.593 | 1.62 (bet365.us) | %57.87 | 0.034 |
-| `over_under_2_75` | odds_over | 1.63 | 1.63 (bet365.us) | %57.99 | 0.0 |
-| `over_under_2_75` | odds_under | 2.25 | 2.25 (bet365.us) | %42.01 | 0.0 |
-| `over_under_2_5` | odds_over | 1.478 | 1.5 (bet365.us) | %62.37 | 0.029 |
-| `over_under_2_5` | odds_under | 2.45 | 2.55 (DraftKings) | %37.63 | 0.091 |
-| `over_under_3_75` | odds_over | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
-| `over_under_3_75` | odds_under | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
-| `over_under_2_25` | odds_over | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `over_under_2_25` | odds_under | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-
----
-## 🏀 AFC Wimbledon vs Wycombe (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %7.8)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 3.862 | **3.95** (DraftKings) | **%24.02** | 0.075 |
-| **X** | 3.688 | **3.75** (bet365.us) | **%25.15** | 0.063 |
-| **2** | 1.825 | **1.83** (BetMGM.us) | **%50.83** | 0.01 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.62)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.66 | **1.7** (bet365.us) | **%55.46** | 0.04 |
-| **btts_no** | 2.067 | **2.1** (Fanatics) | **%44.54** | 0.029 |
-
-### Market: `double_chance` (Büro Sayısı: 2 | Marj: %114.02)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.885 | **1.91** (bet365.us) | **%24.79** | 0.035 |
-| **12** | 1.25 | **1.25** (bet365.us) | **%37.38** | 0.0 |
-| **X2** | 1.235 | **1.25** (bet365.us) | **%37.83** | 0.021 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %9.09)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 2.783 | **2.85** (BetMGM.us) | **%32.94** | 0.058 |
-| **dnb_team2** | 1.367 | **1.4** (bet365.us) | **%67.06** | 0.035 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+0_5`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_+0_5` | team1_handicap | 1.915 | 2.0 (bet365.us) | %48.2 | 0.06 |
-| ⭐ `asian_handicap_+0_5` | team2_handicap | 1.782 | 1.85 (bet365.us) | %51.8 | 0.048 |
-| `asian_handicap_+0_75` | team1_handicap | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
-| `asian_handicap_+0_75` | team2_handicap | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
-| `asian_handicap_+0_25` | team1_handicap | 2.25 | 2.3 (bet365.us) | %41.33 | 0.071 |
-| `asian_handicap_+0_25` | team2_handicap | 1.585 | 1.6 (bet365.us) | %58.67 | 0.021 |
-| `asian_handicap_+1` | team1_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `asian_handicap_+1` | team2_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `asian_handicap_+1_25` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_+1_25` | team2_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_0` | team1_handicap | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
-| `asian_handicap_0` | team2_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
-| `asian_handicap_+1_5` | team1_handicap | 1.307 | 1.35 (bet365.us) | %70.23 | 0.038 |
-| `asian_handicap_+1_5` | team2_handicap | 3.083 | 3.15 (DraftKings) | %29.77 | 0.076 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_75` | odds_over | 1.92 | 1.98 (bet365.us) | %48.66 | 0.085 |
-| ⭐ `over_under_2_75` | odds_under | 1.82 | 1.88 (bet365.us) | %51.34 | 0.085 |
-| `over_under_2_5` | odds_over | 1.71 | 1.73 (bet365.us) | %53.93 | 0.022 |
-| `over_under_2_5` | odds_under | 2.002 | 2.08 (bet365.us) | %46.07 | 0.056 |
-| `over_under_3` | odds_over | 2.225 | 2.25 (bet365.us) | %41.83 | 0.035 |
-| `over_under_3` | odds_under | 1.6 | 1.63 (bet365.us) | %58.17 | 0.042 |
-| `over_under_2_25` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `over_under_2_25` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
-| `over_under_3_25` | odds_over | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `over_under_3_25` | odds_under | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `over_under_3_5` | odds_over | 2.763 | 2.8 (BetMGM.us) | %33.31 | 0.048 |
-| `over_under_3_5` | odds_under | 1.38 | 1.4 (bet365.us) | %66.69 | 0.016 |
-| `over_under_2` | odds_over | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `over_under_2` | odds_under | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-
----
-## 🏀 Reading vs Barnsley (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 3 | Marj: %7.86)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.57 | **1.6** (BetMGM.us) | **%59.05** | 0.036 |
-| **X** | 4.3 | **4.4** (BetMGM.us) | **%21.56** | 0.1 |
-| **2** | 4.783 | **5.0** (bet365.us) | **%19.38** | 0.202 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.66)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.49 | **1.5** (bet365.us) | **%61.77** | 0.017 |
-| **btts_no** | 2.407 | **2.5** (bet365.us) | **%38.23** | 0.081 |
-
-### Market: `double_chance` (Büro Sayısı: 2 | Marj: %113.15)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.16 | **1.17** (bet365.us) | **%40.44** | 0.014 |
-| **12** | 1.205 | **1.22** (bet365.us) | **%38.93** | 0.021 |
-| **X2** | 2.275 | **2.3** (bet365.us) | **%20.62** | 0.035 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %8.36)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.247 | **1.26** (BetMGM.us) | **%74.0** | 0.015 |
-| **dnb_team2** | 3.55 | **3.75** (bet365.us) | **%26.0** | 0.18 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-1` | team1_handicap | 1.98 | 1.98 (bet365.us) | %48.7 | 0.0 |
-| ⭐ `asian_handicap_-1` | team2_handicap | 1.88 | 1.88 (bet365.us) | %51.3 | 0.0 |
-| `asian_handicap_-0_75` | team1_handicap | 1.73 | 1.73 (bet365.us) | %54.59 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 2.08 | 2.08 (bet365.us) | %45.41 | 0.0 |
-| `asian_handicap_-0_5` | team1_handicap | 1.55 | 1.58 (bet365.us) | %59.56 | 0.03 |
-| `asian_handicap_-0_5` | team2_handicap | 2.283 | 2.35 (bet365.us) | %40.44 | 0.058 |
-| `asian_handicap_-1_5` | team1_handicap | 2.39 | 2.4 (Fanatics) | %38.48 | 0.014 |
-| `asian_handicap_-1_5` | team2_handicap | 1.495 | 1.55 (bet365.us) | %61.52 | 0.078 |
-| `asian_handicap_-1_75` | team1_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-1_75` | team2_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_-0_25` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_-0_25` | team2_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-2` | team1_handicap | 3.55 | 3.55 (bet365.us) | %26.35 | 0.0 |
-| `asian_handicap_-2` | team2_handicap | 1.27 | 1.27 (bet365.us) | %73.65 | 0.0 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.93 | 1.93 (bet365.us) | %50.0 | 0.0 |
-| ⭐ `over_under_3_25` | odds_under | 1.93 | 1.93 (bet365.us) | %50.0 | 0.0 |
-| `over_under_3_5` | odds_over | 2.083 | 2.1 (bet365.us) | %44.2 | 0.029 |
-| `over_under_3_5` | odds_under | 1.65 | 1.67 (bet365.us) | %55.8 | 0.026 |
-| `over_under_3` | odds_over | 1.68 | 1.68 (bet365.us) | %56.14 | 0.0 |
-| `over_under_3` | odds_under | 2.15 | 2.15 (bet365.us) | %43.86 | 0.0 |
-| `over_under_2_75` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `over_under_2_75` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
-| `over_under_3_75` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
-| `over_under_3_75` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `over_under_2_5` | odds_over | 1.423 | 1.44 (bet365.us) | %64.63 | 0.015 |
-| `over_under_2_5` | odds_under | 2.6 | 2.7 (bet365.us) | %35.37 | 0.1 |
-| `over_under_4` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `over_under_4` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-
----
-## 🏀 Blackpool vs Mansfield (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %8.27)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.6 | **2.65** (BetMGM.us) | **%35.52** | 0.071 |
-| **X** | 3.525 | **3.6** (BetMGM.us) | **%26.2** | 0.096 |
-| **2** | 2.413 | **2.45** (bet365.us) | **%38.28** | 0.025 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.96)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.55 | **1.57** (bet365.us) | **%59.21** | 0.02 |
-| **btts_no** | 2.25 | **2.3** (BetMGM.us) | **%40.79** | 0.05 |
-
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %113.64)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.51 | **1.53** (BetMGM.us) | **%31.0** | 0.017 |
-| **12** | 1.277 | **1.3** (bet365.us) | **%36.65** | 0.021 |
-| **X2** | 1.447 | **1.46** (BetMGM.us) | **%32.35** | 0.012 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %9.35)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.9 | **1.93** (BetMGM.us) | **%48.13** | 0.036 |
-| **dnb_team2** | 1.763 | **1.8** (bet365.us) | **%51.87** | 0.032 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 1.965 | 2.03 (bet365.us) | %47.6 | 0.092 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.785 | 1.83 (bet365.us) | %52.4 | 0.064 |
-| `asian_handicap_+0_25` | team1_handicap | 1.69 | 1.7 (bet365.us) | %54.81 | 0.014 |
-| `asian_handicap_+0_25` | team2_handicap | 2.05 | 2.1 (bet365.us) | %45.19 | 0.071 |
-| `asian_handicap_-0_25` | team1_handicap | 2.275 | 2.35 (bet365.us) | %40.76 | 0.106 |
-| `asian_handicap_-0_25` | team2_handicap | 1.565 | 1.58 (bet365.us) | %59.24 | 0.021 |
-| `asian_handicap_+0_5` | team1_handicap | 1.525 | 1.54 (DraftKings) | %60.31 | 0.017 |
-| `asian_handicap_+0_5` | team2_handicap | 2.317 | 2.42 (bet365.us) | %39.69 | 0.072 |
-| `asian_handicap_-0_5` | team1_handicap | 2.495 | 2.68 (bet365.us) | %36.88 | 0.132 |
-| `asian_handicap_-0_5` | team2_handicap | 1.458 | 1.5 (BetMGM.us) | %63.12 | 0.029 |
-| `asian_handicap_+0_75` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-0_75` | team1_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_75` | odds_over | 1.84 | 1.88 (bet365.us) | %51.06 | 0.057 |
-| ⭐ `over_under_2_75` | odds_under | 1.92 | 1.98 (bet365.us) | %48.94 | 0.085 |
-| `over_under_3` | odds_over | 2.075 | 2.1 (bet365.us) | %44.59 | 0.035 |
-| `over_under_3` | odds_under | 1.67 | 1.7 (bet365.us) | %55.41 | 0.042 |
-| `over_under_2_5` | odds_over | 1.652 | 1.7 (bet365.us) | %55.82 | 0.032 |
-| `over_under_2_5` | odds_under | 2.087 | 2.1 (bet365.us) | %44.18 | 0.025 |
-| `over_under_3_25` | odds_over | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `over_under_3_25` | odds_under | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
-| `over_under_2_25` | odds_over | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `over_under_2_25` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `over_under_3_5` | odds_over | 2.595 | 2.63 (bet365.us) | %35.32 | 0.033 |
-| `over_under_3_5` | odds_under | 1.417 | 1.44 (bet365.us) | %64.68 | 0.039 |
-| `over_under_3_75` | odds_over | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-| `over_under_3_75` | odds_under | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-
----
-## 🏀 Oxford Utd vs Bradford City (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %8.2)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.638 | **2.65** (bet365.us) | **%35.03** | 0.025 |
-| **X** | 3.237 | **3.3** (BetMGM.us) | **%28.55** | 0.048 |
-| **2** | 2.538 | **2.6** (DraftKings) | **%36.41** | 0.048 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.94)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.753 | **1.8** (bet365.us) | **%52.36** | 0.045 |
-| **btts_no** | 1.927 | **1.95** (bet365.us) | **%47.64** | 0.025 |
-
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.74)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.48 | **1.5** (bet365.us) | **%31.76** | 0.017 |
-| **12** | 1.323 | **1.36** (bet365.us) | **%35.53** | 0.032 |
-| **X2** | 1.437 | **1.46** (BetMGM.us) | **%32.71** | 0.025 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %9.78)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.837 | **1.85** (BetMGM.us) | **%49.59** | 0.012 |
-| **dnb_team2** | 1.807 | **1.83** (bet365.us) | **%50.41** | 0.04 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 1.92 | 1.98 (bet365.us) | %48.94 | 0.085 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.84 | 1.88 (bet365.us) | %51.06 | 0.057 |
-| `asian_handicap_+0_25` | team1_handicap | 1.6 | 1.6 (DraftKings) | %56.76 | 0.0 |
-| `asian_handicap_+0_25` | team2_handicap | 2.1 | 2.1 (DraftKings) | %43.24 | 0.0 |
-| `asian_handicap_-0_25` | team1_handicap | 2.25 | 2.3 (bet365.us) | %41.33 | 0.071 |
-| `asian_handicap_-0_25` | team2_handicap | 1.585 | 1.6 (bet365.us) | %58.67 | 0.021 |
-| `asian_handicap_+0_5` | team1_handicap | 1.472 | 1.48 (bet365.us) | %62.47 | 0.005 |
-| `asian_handicap_+0_5` | team2_handicap | 2.45 | 2.6 (bet365.us) | %37.53 | 0.108 |
-| `asian_handicap_-0_5` | team1_handicap | 2.56 | 2.68 (bet365.us) | %35.89 | 0.104 |
-| `asian_handicap_-0_5` | team2_handicap | 1.433 | 1.45 (bet365.us) | %64.11 | 0.021 |
-| `asian_handicap_+0_75` | team1_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-| `asian_handicap_-0_75` | team1_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_25`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_25` | odds_over | 1.77 | 1.8 (bet365.us) | %52.74 | 0.042 |
-| ⭐ `over_under_2_25` | odds_under | 1.975 | 2.05 (bet365.us) | %47.26 | 0.106 |
-| `over_under_2_5` | odds_over | 1.987 | 2.05 (bet365.us) | %46.51 | 0.063 |
-| `over_under_2_5` | odds_under | 1.728 | 1.75 (bet365.us) | %53.49 | 0.021 |
-| `over_under_2_75` | odds_over | 2.3 | 2.35 (bet365.us) | %40.41 | 0.071 |
-| `over_under_2_75` | odds_under | 1.56 | 1.58 (bet365.us) | %59.59 | 0.028 |
-| `over_under_2` | odds_over | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `over_under_2` | odds_under | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `over_under_1_75` | odds_over | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `over_under_1_75` | odds_under | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `over_under_3` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `over_under_3` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `over_under_3_25` | odds_over | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-| `over_under_3_25` | odds_under | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-
----
-## 🏀 Bromley vs Peterborough (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %7.97)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 3.0 | **3.1** (bet365.us) | **%30.87** | 0.071 |
-| **X** | 3.825 | **3.95** (DraftKings) | **%24.21** | 0.087 |
-| **2** | 2.062 | **2.1** (BetMGM.us) | **%44.92** | 0.048 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %9.34)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.413 | **1.44** (bet365.us) | **%64.73** | 0.046 |
-| **btts_no** | 2.593 | **2.63** (bet365.us) | **%35.27** | 0.04 |
-
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.54)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.703 | **1.73** (bet365.us) | **%27.63** | 0.025 |
-| **12** | 1.243 | **1.25** (bet365.us) | **%37.85** | 0.012 |
-| **X2** | 1.363 | **1.37** (BetMGM.us) | **%34.52** | 0.006 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %8.76)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 2.26 | **2.38** (bet365.us) | **%40.68** | 0.104 |
-| **dnb_team2** | 1.55 | **1.57** (BetMGM.us) | **%59.32** | 0.02 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+0_25`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_+0_25` | team1_handicap | 1.945 | 2.03 (bet365.us) | %47.99 | 0.12 |
-| ⭐ `asian_handicap_+0_25` | team2_handicap | 1.795 | 1.83 (bet365.us) | %52.01 | 0.049 |
-| `asian_handicap_+0_5` | team1_handicap | 1.702 | 1.75 (bet365.us) | %54.02 | 0.033 |
-| `asian_handicap_+0_5` | team2_handicap | 2.0 | 2.05 (bet365.us) | %45.98 | 0.041 |
-| `asian_handicap_0` | team1_handicap | 2.29 | 2.38 (bet365.us) | %40.52 | 0.127 |
-| `asian_handicap_0` | team2_handicap | 1.56 | 1.57 (DraftKings) | %59.48 | 0.014 |
-| `asian_handicap_+0_75` | team1_handicap | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `asian_handicap_-0_25` | team1_handicap | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
-| `asian_handicap_-0_25` | team2_handicap | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
-| `asian_handicap_+1` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_+1` | team2_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-0_5` | team1_handicap | 2.85 | 3.1 (bet365.us) | %32.3 | 0.218 |
-| `asian_handicap_-0_5` | team2_handicap | 1.36 | 1.37 (DraftKings) | %67.7 | 0.01 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.93 | 2.0 (bet365.us) | %48.6 | 0.099 |
-| ⭐ `over_under_3_25` | odds_under | 1.825 | 1.85 (bet365.us) | %51.4 | 0.035 |
-| `over_under_3` | odds_over | 1.695 | 1.73 (bet365.us) | %54.92 | 0.049 |
-| `over_under_3` | odds_under | 2.065 | 2.08 (bet365.us) | %45.08 | 0.021 |
-| `over_under_3_5` | odds_over | 2.1 | 2.1 (bet365.us) | %43.85 | 0.0 |
-| `over_under_3_5` | odds_under | 1.64 | 1.67 (bet365.us) | %56.15 | 0.022 |
-| `over_under_2_75` | odds_over | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
-| `over_under_2_75` | odds_under | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `over_under_3_75` | odds_over | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `over_under_3_75` | odds_under | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `over_under_2_5` | odds_over | 1.448 | 1.48 (bet365.us) | %63.78 | 0.03 |
-| `over_under_2_5` | odds_under | 2.55 | 2.6 (bet365.us) | %36.22 | 0.058 |
-| `over_under_4` | odds_over | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
-| `over_under_4` | odds_under | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
-
----
-## 🏀 Burton vs Leyton Orient (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 3 | Marj: %8.61)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.5 | **2.55** (BetMGM.us) | **%36.83** | 0.05 |
-| **X** | 3.317 | **3.4** (BetMGM.us) | **%27.76** | 0.076 |
-| **2** | 2.6 | **2.65** (bet365.us) | **%35.41** | 0.05 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.51)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.697 | **1.75** (bet365.us) | **%54.31** | 0.055 |
-| **btts_no** | 2.017 | **2.05** (Fanatics) | **%45.69** | 0.029 |
-
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %113.74)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.45 | **1.47** (BetMGM.us) | **%32.27** | 0.017 |
-| **12** | 1.303 | **1.33** (bet365.us) | **%35.91** | 0.025 |
-| **X2** | 1.47 | **1.5** (bet365.us) | **%31.83** | 0.03 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %9.22)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.81 | **1.83** (BetMGM.us) | **%50.59** | 0.017 |
-| **dnb_team2** | 1.853 | **1.91** (bet365.us) | **%49.41** | 0.055 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 1.9 | 1.9 (bet365.us) | %50.65 | 0.0 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.95 | 1.95 (bet365.us) | %49.35 | 0.0 |
-| `asian_handicap_-0_25` | team1_handicap | 2.25 | 2.25 (bet365.us) | %42.01 | 0.0 |
-| `asian_handicap_-0_25` | team2_handicap | 1.63 | 1.63 (bet365.us) | %57.99 | 0.0 |
-| `asian_handicap_+0_25` | team1_handicap | 1.63 | 1.63 (bet365.us) | %57.99 | 0.0 |
-| `asian_handicap_+0_25` | team2_handicap | 2.25 | 2.25 (bet365.us) | %42.01 | 0.0 |
-| `asian_handicap_-0_5` | team1_handicap | 2.483 | 2.6 (bet365.us) | %37.08 | 0.104 |
-| `asian_handicap_-0_5` | team2_handicap | 1.463 | 1.48 (bet365.us) | %62.92 | 0.021 |
-| `asian_handicap_+0_5` | team1_handicap | 1.46 | 1.48 (bet365.us) | %63.13 | 0.028 |
-| `asian_handicap_+0_5` | team2_handicap | 2.5 | 2.6 (bet365.us) | %36.87 | 0.141 |
-| `asian_handicap_-0_75` | team1_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `asian_handicap_+0_75` | team1_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_5` | odds_over | 1.887 | 1.95 (bet365.us) | %48.86 | 0.06 |
-| ⭐ `over_under_2_5` | odds_under | 1.803 | 1.85 (bet365.us) | %51.14 | 0.045 |
-| `over_under_2_25` | odds_over | 1.7 | 1.7 (bet365.us) | %55.26 | 0.0 |
-| `over_under_2_25` | odds_under | 2.1 | 2.1 (bet365.us) | %44.74 | 0.0 |
-| `over_under_2_75` | odds_over | 2.2 | 2.2 (bet365.us) | %42.86 | 0.0 |
-| `over_under_2_75` | odds_under | 1.65 | 1.65 (bet365.us) | %57.14 | 0.0 |
-| `over_under_3` | odds_over | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
-| `over_under_3` | odds_under | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
-| `over_under_2` | odds_over | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `over_under_2` | odds_under | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
-| `over_under_3_25` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `over_under_3_25` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `over_under_1_75` | odds_over | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `over_under_1_75` | odds_under | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-
----
-## 🏀 Cambridge Utd vs Plymouth (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %8.01)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.375 | **2.45** (bet365.us) | **%38.98** | 0.065 |
-| **X** | 3.55 | **3.6** (BetMGM.us) | **%26.08** | 0.058 |
-| **2** | 2.65 | **2.7** (BetMGM.us) | **%34.94** | 0.071 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %9.05)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.54 | **1.57** (bet365.us) | **%59.55** | 0.036 |
-| **btts_no** | 2.267 | **2.3** (Fanatics) | **%40.45** | 0.029 |
-
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.75)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.45 | **1.5** (bet365.us) | **%32.42** | 0.046 |
-| **12** | 1.273 | **1.29** (bet365.us) | **%36.92** | 0.015 |
-| **X2** | 1.533 | **1.55** (BetMGM.us) | **%30.66** | 0.029 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %8.93)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.737 | **1.8** (bet365.us) | **%52.85** | 0.06 |
-| **dnb_team2** | 1.947 | **1.98** (BetMGM.us) | **%47.15** | 0.035 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 1.785 | 1.83 (bet365.us) | %52.72 | 0.064 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.99 | 2.03 (bet365.us) | %47.28 | 0.057 |
-| `asian_handicap_-0_25` | team1_handicap | 2.05 | 2.1 (bet365.us) | %45.19 | 0.071 |
-| `asian_handicap_-0_25` | team2_handicap | 1.69 | 1.7 (bet365.us) | %54.81 | 0.014 |
-| `asian_handicap_-0_5` | team1_handicap | 2.27 | 2.38 (bet365.us) | %40.54 | 0.077 |
-| `asian_handicap_-0_5` | team2_handicap | 1.548 | 1.55 (bet365.us) | %59.46 | 0.005 |
-| `asian_handicap_+0_25` | team1_handicap | 1.56 | 1.58 (bet365.us) | %59.59 | 0.028 |
-| `asian_handicap_+0_25` | team2_handicap | 2.3 | 2.35 (bet365.us) | %40.41 | 0.071 |
-| `asian_handicap_+0_5` | team1_handicap | 1.43 | 1.45 (bet365.us) | %64.31 | 0.02 |
-| `asian_handicap_+0_5` | team2_handicap | 2.577 | 2.68 (bet365.us) | %35.69 | 0.093 |
-| `asian_handicap_-0_75` | team1_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_+0_75` | team1_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_75` | odds_over | 1.84 | 1.88 (bet365.us) | %50.87 | 0.057 |
-| ⭐ `over_under_2_75` | odds_under | 1.905 | 1.98 (bet365.us) | %49.13 | 0.106 |
-| `over_under_3` | odds_over | 2.1 | 2.1 (bet365.us) | %44.15 | 0.0 |
-| `over_under_3` | odds_under | 1.66 | 1.7 (bet365.us) | %55.85 | 0.057 |
-| `over_under_2_5` | odds_over | 1.645 | 1.67 (bet365.us) | %56.22 | 0.024 |
-| `over_under_2_5` | odds_under | 2.112 | 2.15 (bet365.us) | %43.78 | 0.025 |
-| `over_under_3_25` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
-| `over_under_3_25` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
-| `over_under_2_25` | odds_over | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
-| `over_under_2_25` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `over_under_3_5` | odds_over | 2.583 | 2.65 (DraftKings) | %35.59 | 0.07 |
-| `over_under_3_5` | odds_under | 1.427 | 1.44 (bet365.us) | %64.41 | 0.015 |
-| `over_under_3_75` | odds_over | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-| `over_under_3_75` | odds_under | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-
----
-## 🏀 Doncaster vs Sheffield Wed (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %8.1)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.65 | **2.7** (BetMGM.us) | **%34.91** | 0.058 |
-| **X** | 3.5 | **3.6** (DraftKings) | **%26.43** | 0.082 |
-| **2** | 2.393 | **2.45** (bet365.us) | **%38.66** | 0.043 |
-
-### Market: `btts` (Büro Sayısı: 3 | Marj: %9.03)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.533 | **1.57** (bet365.us) | **%59.83** | 0.035 |
-| **btts_no** | 2.283 | **2.3** (BetMGM.us) | **%40.17** | 0.029 |
-
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %113.71)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.523 | **1.55** (BetMGM.us) | **%30.72** | 0.025 |
-| **12** | 1.28 | **1.3** (bet365.us) | **%36.56** | 0.02 |
-| **X2** | 1.43 | **1.44** (bet365.us) | **%32.72** | 0.017 |
-
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %9.32)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.95 | **2.0** (bet365.us) | **%46.91** | 0.05 |
-| **dnb_team2** | 1.723 | **1.73** (bet365.us) | **%53.09** | 0.012 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 2.0 | 2.05 (bet365.us) | %46.95 | 0.071 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.77 | 1.8 (bet365.us) | %53.05 | 0.042 |
-| `asian_handicap_+0_25` | team1_handicap | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
-| `asian_handicap_+0_25` | team2_handicap | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
-| `asian_handicap_-0_25` | team1_handicap | 2.3 | 2.35 (bet365.us) | %40.49 | 0.071 |
-| `asian_handicap_-0_25` | team2_handicap | 1.565 | 1.58 (bet365.us) | %59.51 | 0.021 |
-| `asian_handicap_+0_5` | team1_handicap | 1.54 | 1.55 (bet365.us) | %59.84 | 0.014 |
-| `asian_handicap_+0_5` | team2_handicap | 2.295 | 2.38 (bet365.us) | %40.16 | 0.061 |
-| `asian_handicap_-0_5` | team1_handicap | 2.56 | 2.68 (bet365.us) | %35.89 | 0.104 |
-| `asian_handicap_-0_5` | team2_handicap | 1.433 | 1.45 (bet365.us) | %64.11 | 0.021 |
-| `asian_handicap_+0_75` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-0_75` | team1_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_75` | odds_over | 1.805 | 1.85 (bet365.us) | %51.93 | 0.064 |
-| ⭐ `over_under_2_75` | odds_under | 1.95 | 2.0 (bet365.us) | %48.07 | 0.071 |
-| `over_under_3` | odds_over | 2.04 | 2.08 (bet365.us) | %45.38 | 0.057 |
-| `over_under_3` | odds_under | 1.695 | 1.73 (bet365.us) | %54.62 | 0.049 |
-| `over_under_2_5` | odds_over | 1.625 | 1.67 (bet365.us) | %56.82 | 0.037 |
-| `over_under_2_5` | odds_under | 2.138 | 2.15 (bet365.us) | %43.18 | 0.025 |
-| `over_under_3_25` | odds_over | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `over_under_3_25` | odds_under | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
-| `over_under_2_25` | odds_over | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
-| `over_under_2_25` | odds_under | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
-| `over_under_3_5` | odds_over | 2.57 | 2.63 (bet365.us) | %35.78 | 0.057 |
-| `over_under_3_5` | odds_under | 1.432 | 1.44 (bet365.us) | %64.22 | 0.015 |
-| `over_under_3_75` | odds_over | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-| `over_under_3_75` | odds_under | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
+| ⭐ `over_under_3` | odds_over | 1.855 | 1.86 (DraftKings) | %50.93 | 0.007 |
+| ⭐ `over_under_3` | odds_under | 1.925 | 1.95 (bet365.us) | %49.07 | 0.035 |
+| `over_under_3_25` | odds_over | 2.09 | 2.1 (DraftKings) | %45.14 | 0.014 |
+| `over_under_3_25` | odds_under | 1.72 | 1.73 (bet365.us) | %54.86 | 0.014 |
+| `over_under_2_75` | odds_over | 1.68 | 1.68 (bet365.us) | %55.56 | 0.0 |
+| `over_under_2_75` | odds_under | 2.1 | 2.15 (bet365.us) | %44.44 | 0.071 |
+| `over_under_3_5` | odds_over | 2.3 | 2.35 (DraftKings) | %40.07 | 0.041 |
+| `over_under_3_5` | odds_under | 1.538 | 1.57 (bet365.us) | %59.93 | 0.03 |
+| `over_under_2_5` | odds_over | 1.51 | 1.53 (bet365.us) | %61.13 | 0.027 |
+| `over_under_2_5` | odds_under | 2.375 | 2.4 (bet365.us) | %38.87 | 0.029 |
+| `over_under_3_75` | odds_over | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
+| `over_under_3_75` | odds_under | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
+| `over_under_2_25` | odds_over | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
+| `over_under_2_25` | odds_under | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
 
 ---
 ## 🏀 Bristol Rovers vs Swindon (Başlangıç: `2026-10-24 11:30:00 UTC`)
@@ -2594,36 +2461,36 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_0` | team1_handicap | 1.82 | 1.88 (bet365.us) | %51.6 | 0.085 |
 | ⭐ `asian_handicap_0` | team2_handicap | 1.94 | 1.98 (bet365.us) | %48.4 | 0.057 |
-| `asian_handicap_-0_25` | team1_handicap | 2.1 | 2.15 (bet365.us) | %44.15 | 0.071 |
-| `asian_handicap_-0_25` | team2_handicap | 1.66 | 1.68 (bet365.us) | %55.85 | 0.028 |
-| `asian_handicap_+0_25` | team1_handicap | 1.6 | 1.63 (bet365.us) | %58.17 | 0.042 |
-| `asian_handicap_+0_25` | team2_handicap | 2.225 | 2.25 (bet365.us) | %41.83 | 0.035 |
-| `asian_handicap_-0_5` | team1_handicap | 2.355 | 2.42 (bet365.us) | %39.07 | 0.049 |
-| `asian_handicap_-0_5` | team2_handicap | 1.51 | 1.53 (bet365.us) | %60.93 | 0.014 |
+| `asian_handicap_-0_25` | team1_handicap | 2.125 | 2.2 (bet365.us) | %43.63 | 0.106 |
+| `asian_handicap_-0_25` | team2_handicap | 1.645 | 1.65 (bet365.us) | %56.37 | 0.007 |
+| `asian_handicap_+0_25` | team1_handicap | 1.585 | 1.6 (bet365.us) | %58.67 | 0.021 |
+| `asian_handicap_+0_25` | team2_handicap | 2.25 | 2.3 (bet365.us) | %41.33 | 0.071 |
+| `asian_handicap_-0_5` | team1_handicap | 2.375 | 2.5 (bet365.us) | %38.74 | 0.087 |
+| `asian_handicap_-0_5` | team2_handicap | 1.502 | 1.51 (BetMGM.us) | %61.26 | 0.005 |
 | `asian_handicap_+0_5` | team1_handicap | 1.443 | 1.48 (bet365.us) | %63.71 | 0.035 |
 | `asian_handicap_+0_5` | team2_handicap | 2.533 | 2.6 (bet365.us) | %36.29 | 0.058 |
 | `asian_handicap_-0_75` | team1_handicap | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
-| `asian_handicap_+0_75` | team1_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
+| `asian_handicap_+0_75` | team1_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
+| `asian_handicap_+0_75` | team2_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_5` | odds_over | 1.902 | 2.0 (bet365.us) | %48.65 | 0.071 |
-| ⭐ `over_under_2_5` | odds_under | 1.802 | 1.85 (bet365.us) | %51.35 | 0.037 |
-| `over_under_2_25` | odds_over | 1.705 | 1.73 (bet365.us) | %54.47 | 0.035 |
-| `over_under_2_25` | odds_under | 2.04 | 2.08 (bet365.us) | %45.53 | 0.057 |
-| `over_under_2_75` | odds_over | 2.2 | 2.25 (bet365.us) | %42.18 | 0.071 |
-| `over_under_2_75` | odds_under | 1.605 | 1.63 (bet365.us) | %57.82 | 0.035 |
-| `over_under_2` | odds_over | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
-| `over_under_2` | odds_under | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
-| `over_under_3` | odds_over | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
-| `over_under_3` | odds_under | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `over_under_1_75` | odds_over | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
-| `over_under_1_75` | odds_under | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
+| ⭐ `over_under_2_5` | odds_over | 1.89 | 1.95 (bet365.us) | %48.81 | 0.05 |
+| ⭐ `over_under_2_5` | odds_under | 1.802 | 1.85 (bet365.us) | %51.19 | 0.037 |
+| `over_under_2_25` | odds_over | 1.69 | 1.7 (bet365.us) | %54.81 | 0.014 |
+| `over_under_2_25` | odds_under | 2.05 | 2.1 (bet365.us) | %45.19 | 0.071 |
+| `over_under_2_75` | odds_over | 2.175 | 2.2 (bet365.us) | %42.61 | 0.035 |
+| `over_under_2_75` | odds_under | 1.615 | 1.65 (bet365.us) | %57.39 | 0.049 |
+| `over_under_3` | odds_over | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
+| `over_under_3` | odds_under | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
+| `over_under_2` | odds_over | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
+| `over_under_2` | odds_under | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `over_under_3_25` | odds_over | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
 | `over_under_3_25` | odds_under | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
+| `over_under_1_75` | odds_over | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
+| `over_under_1_75` | odds_under | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 
 ---
 ## 🏀 Barnet vs Oldham (Başlangıç: `2026-10-24 14:00:00 UTC`)
@@ -2634,11 +2501,11 @@
 | **X** | 3.775 | **3.9** (DraftKings) | **%24.34** | 0.126 |
 | **2** | 4.157 | **4.33** (bet365.us) | **%22.1** | 0.2 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.65)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %8.7)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.6 | **1.62** (bet365.us) | **%57.53** | 0.02 |
-| **btts_no** | 2.167 | **2.2** (bet365.us) | **%42.47** | 0.029 |
+| **btts_yes** | 1.59 | **1.62** (bet365.us) | **%57.86** | 0.036 |
+| **btts_no** | 2.183 | **2.2** (bet365.us) | **%42.14** | 0.029 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.67)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -2819,59 +2686,59 @@
 
 ---
 ## 🏀 Exeter vs Fleetwood (Başlangıç: `2026-10-24 14:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %9.53)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %9.22)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.492 | **2.55** (bet365.us) | **%36.64** | 0.085 |
-| **X** | 3.175 | **3.3** (DraftKings) | **%28.76** | 0.096 |
-| **2** | 2.638 | **2.7** (DraftKings) | **%34.61** | 0.048 |
+| **1** | 2.455 | **2.5** (bet365.us) | **%37.29** | 0.061 |
+| **X** | 3.163 | **3.25** (DraftKings) | **%28.95** | 0.075 |
+| **2** | 2.712 | **2.75** (bet365.us) | **%33.76** | 0.075 |
 
 ### Market: `btts` (Büro Sayısı: 3 | Marj: %9.32)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.747 | **1.8** (bet365.us) | **%52.36** | 0.047 |
-| **btts_no** | 1.92 | **1.95** (BetMGM.us) | **%47.64** | 0.026 |
+| **btts_yes** | 1.723 | **1.73** (bet365.us) | **%53.09** | 0.012 |
+| **btts_no** | 1.95 | **2.0** (bet365.us) | **%46.91** | 0.05 |
 
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.71)
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %113.55)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.433 | **1.44** (bet365.us) | **%32.81** | 0.012 |
-| **12** | 1.327 | **1.36** (bet365.us) | **%35.43** | 0.031 |
-| **X2** | 1.48 | **1.5** (bet365.us) | **%31.77** | 0.035 |
+| **1X** | 1.407 | **1.42** (BetMGM.us) | **%33.28** | 0.012 |
+| **12** | 1.327 | **1.36** (bet365.us) | **%35.29** | 0.031 |
+| **X2** | 1.49 | **1.5** (bet365.us) | **%31.43** | 0.017 |
 
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %9.74)
+### Market: `dnb` (Büro Sayısı: 3 | Marj: %9.32)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.793 | **1.83** (bet365.us) | **%50.82** | 0.04 |
-| **dnb_team2** | 1.853 | **1.93** (BetMGM.us) | **%49.18** | 0.068 |
+| **dnb_team1** | 1.753 | **1.8** (bet365.us) | **%52.18** | 0.045 |
+| **dnb_team2** | 1.913 | **1.93** (BetMGM.us) | **%47.82** | 0.015 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 1.84 | 1.88 (bet365.us) | %51.06 | 0.057 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.92 | 1.98 (bet365.us) | %48.94 | 0.085 |
-| `asian_handicap_-0_25` | team1_handicap | 2.175 | 2.25 (bet365.us) | %42.76 | 0.106 |
-| `asian_handicap_-0_25` | team2_handicap | 1.625 | 1.63 (bet365.us) | %57.24 | 0.007 |
-| `asian_handicap_+0_25` | team1_handicap | 1.585 | 1.6 (bet365.us) | %58.67 | 0.021 |
-| `asian_handicap_+0_25` | team2_handicap | 2.25 | 2.3 (bet365.us) | %41.33 | 0.071 |
-| `asian_handicap_-0_5` | team1_handicap | 2.442 | 2.6 (bet365.us) | %37.61 | 0.106 |
-| `asian_handicap_-0_5` | team2_handicap | 1.472 | 1.5 (BetMGM.us) | %62.39 | 0.025 |
-| `asian_handicap_+0_5` | team1_handicap | 1.448 | 1.47 (BetMGM.us) | %63.51 | 0.017 |
-| `asian_handicap_+0_5` | team2_handicap | 2.52 | 2.68 (bet365.us) | %36.49 | 0.124 |
+| ⭐ `asian_handicap_0` | team1_handicap | 1.77 | 1.83 (bet365.us) | %52.93 | 0.085 |
+| ⭐ `asian_handicap_0` | team2_handicap | 1.99 | 2.03 (bet365.us) | %47.07 | 0.057 |
+| `asian_handicap_-0_25` | team1_handicap | 2.1 | 2.15 (bet365.us) | %44.3 | 0.071 |
+| `asian_handicap_-0_25` | team2_handicap | 1.67 | 1.68 (bet365.us) | %55.7 | 0.014 |
+| `asian_handicap_+0_25` | team1_handicap | 1.535 | 1.55 (bet365.us) | %60.39 | 0.021 |
+| `asian_handicap_+0_25` | team2_handicap | 2.34 | 2.38 (bet365.us) | %39.61 | 0.057 |
+| `asian_handicap_-0_5` | team1_handicap | 2.393 | 2.5 (bet365.us) | %38.4 | 0.072 |
+| `asian_handicap_-0_5` | team2_handicap | 1.492 | 1.5 (bet365.us) | %61.6 | 0.015 |
+| `asian_handicap_+0_5` | team1_handicap | 1.427 | 1.47 (BetMGM.us) | %64.45 | 0.031 |
+| `asian_handicap_+0_5` | team2_handicap | 2.587 | 2.75 (bet365.us) | %35.55 | 0.125 |
 | `asian_handicap_-0_75` | team1_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `asian_handicap_+0_75` | team1_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
-| `asian_handicap_+0_75` | team2_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
+| `asian_handicap_+0_75` | team1_handicap | 1.3 | 1.3 (bet365.us) | %72.63 | 0.0 |
+| `asian_handicap_+0_75` | team2_handicap | 3.45 | 3.45 (bet365.us) | %27.37 | 0.0 |
 
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_25`)
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_25` | odds_over | 1.745 | 1.75 (bet365.us) | %53.09 | 0.007 |
-| ⭐ `over_under_2_25` | odds_under | 1.975 | 2.05 (bet365.us) | %46.91 | 0.106 |
-| `over_under_2_5` | odds_over | 1.987 | 2.05 (bet365.us) | %46.66 | 0.048 |
-| `over_under_2_5` | odds_under | 1.738 | 1.8 (bet365.us) | %53.34 | 0.049 |
-| `over_under_2_75` | odds_over | 2.275 | 2.3 (bet365.us) | %40.83 | 0.035 |
-| `over_under_2_75` | odds_under | 1.57 | 1.6 (bet365.us) | %59.17 | 0.042 |
+| ⭐ `over_under_2_5` | odds_over | 1.975 | 2.05 (bet365.us) | %46.81 | 0.05 |
+| ⭐ `over_under_2_5` | odds_under | 1.738 | 1.8 (bet365.us) | %53.19 | 0.049 |
+| `over_under_2_25` | odds_over | 1.73 | 1.75 (bet365.us) | %53.62 | 0.028 |
+| `over_under_2_25` | odds_under | 2.0 | 2.05 (bet365.us) | %46.38 | 0.071 |
+| `over_under_2_75` | odds_over | 2.275 | 2.3 (bet365.us) | %40.91 | 0.035 |
+| `over_under_2_75` | odds_under | 1.575 | 1.6 (bet365.us) | %59.09 | 0.035 |
 | `over_under_2` | odds_over | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
 | `over_under_2` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
 | `over_under_3` | odds_over | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
@@ -3011,55 +2878,55 @@
 
 ---
 ## 🏀 Brisbane Roar vs Perth Glory (Başlangıç: `2026-10-23 09:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.56)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.61)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.112 | **2.15** (DraftKings) | **%44.43** | 0.025 |
-| **X** | 3.487 | **3.5** (bet365.us) | **%26.91** | 0.025 |
-| **2** | 3.275 | **3.3** (bet365.us) | **%28.65** | 0.05 |
+| **1** | 2.163 | **2.2** (DraftKings) | **%43.36** | 0.025 |
+| **X** | 3.462 | **3.5** (bet365.us) | **%27.09** | 0.048 |
+| **2** | 3.175 | **3.2** (bet365.us) | **%29.54** | 0.05 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %7.85)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %7.77)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.645 | **1.67** (bet365.us) | **%56.37** | 0.024 |
-| **btts_no** | 2.125 | **2.15** (DraftKings) | **%43.63** | 0.029 |
+| **btts_yes** | 1.655 | **1.67** (bet365.us) | **%56.07** | 0.013 |
+| **btts_no** | 2.112 | **2.15** (DraftKings) | **%43.93** | 0.025 |
 
-### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.46)
+### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.47)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.325 | **1.33** (bet365.us) | **%35.52** | 0.006 |
-| **12** | 1.288 | **1.3** (DraftKings) | **%36.54** | 0.01 |
-| **X2** | 1.685 | **1.71** (Fanatics) | **%27.93** | 0.017 |
+| **1X** | 1.345 | **1.36** (bet365.us) | **%34.99** | 0.013 |
+| **12** | 1.29 | **1.3** (DraftKings) | **%36.48** | 0.008 |
+| **X2** | 1.65 | **1.67** (bet365.us) | **%28.52** | 0.014 |
 
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.92)
+### Market: `dnb` (Büro Sayısı: 4 | Marj: %7.85)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.532 | **1.55** (DraftKings) | **%60.48** | 0.013 |
-| **dnb_team2** | 2.345 | **2.38** (bet365.us) | **%39.52** | 0.033 |
+| **dnb_team1** | 1.565 | **1.57** (bet365.us) | **%59.24** | 0.01 |
+| **dnb_team2** | 2.275 | **2.35** (DraftKings) | **%40.76** | 0.05 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.815 | 1.83 (bet365.us) | %51.66 | 0.021 |
-| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.94 | 1.98 (bet365.us) | %48.34 | 0.057 |
-| `asian_handicap_-0_5` | team1_handicap | 2.038 | 2.1 (bet365.us) | %45.36 | 0.048 |
-| `asian_handicap_-0_5` | team2_handicap | 1.692 | 1.71 (Fanatics) | %54.64 | 0.015 |
-| `asian_handicap_0` | team1_handicap | 1.545 | 1.55 (bet365.us) | %60.23 | 0.007 |
-| `asian_handicap_0` | team2_handicap | 2.34 | 2.38 (bet365.us) | %39.77 | 0.057 |
-| `asian_handicap_-0_75` | team1_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `asian_handicap_-0_75` | team2_handicap | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `asian_handicap_+0_25` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
-| `asian_handicap_+0_25` | team2_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `asian_handicap_-1` | team1_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
-| `asian_handicap_-1` | team2_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.327 | 1.33 (bet365.us) | %70.14 | 0.006 |
-| `asian_handicap_+0_5` | team2_handicap | 3.117 | 3.3 (bet365.us) | %29.86 | 0.161 |
+| ⭐ `asian_handicap_-0_25` | team1_handicap | 1.865 | 1.9 (bet365.us) | %50.2 | 0.049 |
+| ⭐ `asian_handicap_-0_25` | team2_handicap | 1.88 | 1.9 (bet365.us) | %49.8 | 0.028 |
+| `asian_handicap_-0_5` | team1_handicap | 2.112 | 2.15 (bet365.us) | %43.96 | 0.025 |
+| `asian_handicap_-0_5` | team2_handicap | 1.657 | 1.68 (bet365.us) | %56.04 | 0.017 |
+| `asian_handicap_0` | team1_handicap | 1.585 | 1.6 (bet365.us) | %58.94 | 0.021 |
+| `asian_handicap_0` | team2_handicap | 2.275 | 2.3 (bet365.us) | %41.06 | 0.035 |
+| `asian_handicap_-0_75` | team1_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
+| `asian_handicap_-0_75` | team2_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
+| `asian_handicap_+0_25` | team1_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
+| `asian_handicap_+0_25` | team2_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
+| `asian_handicap_+0_5` | team1_handicap | 1.34 | 1.35 (bet365.us) | %69.12 | 0.01 |
+| `asian_handicap_+0_5` | team2_handicap | 3.0 | 3.1 (bet365.us) | %30.88 | 0.1 |
+| `asian_handicap_-1` | team1_handicap | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
+| `asian_handicap_-1` | team2_handicap | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
 
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_5` | odds_over | 1.78 | 1.83 (DraftKings) | %52.12 | 0.042 |
-| ⭐ `over_under_2_5` | odds_under | 1.938 | 1.95 (bet365.us) | %47.88 | 0.025 |
+| ⭐ `over_under_2_5` | odds_over | 1.788 | 1.83 (DraftKings) | %51.84 | 0.038 |
+| ⭐ `over_under_2_5` | odds_under | 1.925 | 1.95 (bet365.us) | %48.16 | 0.029 |
 | `over_under_2_75` | odds_over | 2.025 | 2.05 (bet365.us) | %46.07 | 0.035 |
 | `over_under_2_75` | odds_under | 1.73 | 1.75 (bet365.us) | %53.93 | 0.028 |
 | `over_under_2_25` | odds_over | 1.6 | 1.6 (bet365.us) | %58.44 | 0.0 |
@@ -3070,8 +2937,8 @@
 | `over_under_3_25` | odds_under | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
 | `over_under_2` | odds_over | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 | `over_under_2` | odds_under | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
-| `over_under_3_5` | odds_over | 2.913 | 3.05 (DraftKings) | %31.83 | 0.138 |
-| `over_under_3_5` | odds_under | 1.36 | 1.37 (Fanatics) | %68.17 | 0.008 |
+| `over_under_3_5` | odds_over | 2.962 | 3.05 (DraftKings) | %31.31 | 0.085 |
+| `over_under_3_5` | odds_under | 1.35 | 1.36 (bet365.us) | %68.69 | 0.008 |
 
 ---
 ## 🏀 Newcastle Jets vs Macarthur FC (Başlangıç: `2026-10-24 04:00:00 UTC`)
@@ -3082,11 +2949,11 @@
 | **X** | 3.875 | **4.0** (Fanatics) | **%24.15** | 0.096 |
 | **2** | 3.1 | **3.1** (bet365.us) | **%30.19** | 0.0 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.34)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %8.22)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.407 | **1.44** (bet365.us) | **%65.6** | 0.029 |
-| **btts_no** | 2.683 | **2.85** (DraftKings) | **%34.4** | 0.114 |
+| **btts_yes** | 1.395 | **1.41** (BetMGM.us) | **%66.24** | 0.017 |
+| **btts_no** | 2.737 | **2.85** (DraftKings) | **%33.76** | 0.085 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %112.82)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3122,82 +2989,82 @@
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_25`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_25` | odds_over | 1.905 | 1.95 (bet365.us) | %48.93 | 0.064 |
-| ⭐ `over_under_3_25` | odds_under | 1.825 | 1.85 (bet365.us) | %51.07 | 0.035 |
+| ⭐ `over_under_3_25` | odds_over | 1.895 | 1.93 (bet365.us) | %49.26 | 0.049 |
+| ⭐ `over_under_3_25` | odds_under | 1.84 | 1.88 (bet365.us) | %50.74 | 0.057 |
 | `over_under_3` | odds_over | 1.67 | 1.7 (bet365.us) | %55.41 | 0.042 |
 | `over_under_3` | odds_under | 2.075 | 2.1 (bet365.us) | %44.59 | 0.035 |
-| `over_under_3_5` | odds_over | 2.1 | 2.1 (bet365.us) | %44.0 | 0.0 |
-| `over_under_3_5` | odds_under | 1.65 | 1.67 (bet365.us) | %56.0 | 0.014 |
-| `over_under_2_75` | odds_over | 1.58 | 1.58 (bet365.us) | %59.8 | 0.0 |
-| `over_under_2_75` | odds_under | 2.35 | 2.35 (bet365.us) | %40.2 | 0.0 |
-| `over_under_3_75` | odds_over | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
-| `over_under_3_75` | odds_under | 1.53 | 1.53 (bet365.us) | %61.27 | 0.0 |
-| `over_under_2_5` | odds_over | 1.432 | 1.44 (bet365.us) | %64.44 | 0.005 |
-| `over_under_2_5` | odds_under | 2.595 | 2.63 (bet365.us) | %35.56 | 0.033 |
-| `over_under_4` | odds_over | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
-| `over_under_4` | odds_under | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
+| `over_under_3_5` | odds_over | 2.075 | 2.1 (BetMGM.us) | %44.47 | 0.029 |
+| `over_under_3_5` | odds_under | 1.662 | 1.7 (bet365.us) | %55.53 | 0.026 |
+| `over_under_2_75` | odds_over | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
+| `over_under_2_75` | odds_under | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
+| `over_under_3_75` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
+| `over_under_3_75` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
+| `over_under_2_5` | odds_over | 1.427 | 1.44 (bet365.us) | %64.63 | 0.013 |
+| `over_under_2_5` | odds_under | 2.607 | 2.63 (bet365.us) | %35.37 | 0.015 |
+| `over_under_4` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
+| `over_under_4` | odds_under | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 
 ---
 ## 🏀 WS Wanderers vs Auckland FC (Başlangıç: `2026-10-24 06:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %6.98)
+### Market: `1x2` (Büro Sayısı: 4 | Marj: %7.02)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.5 | **2.6** (Fanatics) | **%37.39** | 0.108 |
-| **X** | 3.462 | **3.5** (bet365.us) | **%27.0** | 0.048 |
-| **2** | 2.625 | **2.75** (bet365.us) | **%35.61** | 0.087 |
+| **1** | 2.475 | **2.6** (Fanatics) | **%37.75** | 0.104 |
+| **X** | 3.462 | **3.5** (bet365.us) | **%26.99** | 0.048 |
+| **2** | 2.65 | **2.75** (bet365.us) | **%35.26** | 0.071 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %8.09)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %8.15)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.61 | **1.62** (bet365.us) | **%57.46** | 0.012 |
-| **btts_no** | 2.175 | **2.2** (bet365.us) | **%42.54** | 0.029 |
+| **btts_yes** | 1.615 | **1.64** (Fanatics) | **%57.25** | 0.019 |
+| **btts_no** | 2.163 | **2.2** (bet365.us) | **%42.75** | 0.048 |
 
-### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.89)
+### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.92)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.458 | **1.5** (Fanatics) | **%32.22** | 0.042 |
-| **12** | 1.288 | **1.29** (bet365.us) | **%36.47** | 0.005 |
-| **X2** | 1.5 | **1.53** (bet365.us) | **%31.31** | 0.024 |
+| **1X** | 1.45 | **1.5** (Fanatics) | **%32.39** | 0.042 |
+| **12** | 1.288 | **1.29** (bet365.us) | **%36.46** | 0.005 |
+| **X2** | 1.508 | **1.53** (bet365.us) | **%31.14** | 0.015 |
 
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %8.19)
+### Market: `dnb` (Büro Sayısı: 4 | Marj: %8.09)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.798 | **1.83** (DraftKings) | **%51.41** | 0.047 |
-| **dnb_team2** | 1.902 | **2.0** (bet365.us) | **%48.59** | 0.071 |
+| **dnb_team1** | 1.79 | **1.83** (Fanatics) | **%51.69** | 0.042 |
+| **dnb_team2** | 1.915 | **2.0** (bet365.us) | **%48.31** | 0.075 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_0`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_0` | team1_handicap | 1.775 | 1.8 (DraftKings) | %52.41 | 0.035 |
-| ⭐ `asian_handicap_0` | team2_handicap | 1.955 | 2.05 (bet365.us) | %47.59 | 0.134 |
-| `asian_handicap_-0_25` | team1_handicap | 2.09 | 2.1 (DraftKings) | %44.49 | 0.014 |
-| `asian_handicap_-0_25` | team2_handicap | 1.675 | 1.73 (bet365.us) | %55.51 | 0.078 |
-| `asian_handicap_+0_25` | team1_handicap | 1.565 | 1.58 (DraftKings) | %59.14 | 0.021 |
-| `asian_handicap_+0_25` | team2_handicap | 2.265 | 2.38 (bet365.us) | %40.86 | 0.163 |
-| `asian_handicap_-0_5` | team1_handicap | 2.375 | 2.4 (BetMGM.us) | %38.95 | 0.029 |
-| `asian_handicap_-0_5` | team2_handicap | 1.515 | 1.58 (bet365.us) | %61.05 | 0.044 |
-| `asian_handicap_+0_5` | team1_handicap | 1.47 | 1.5 (Fanatics) | %62.97 | 0.032 |
-| `asian_handicap_+0_5` | team2_handicap | 2.5 | 2.75 (bet365.us) | %37.03 | 0.168 |
+| ⭐ `asian_handicap_0` | team1_handicap | 1.795 | 1.83 (bet365.us) | %51.94 | 0.049 |
+| ⭐ `asian_handicap_0` | team2_handicap | 1.94 | 1.98 (bet365.us) | %48.06 | 0.057 |
+| `asian_handicap_-0_25` | team1_handicap | 2.065 | 2.08 (bet365.us) | %44.93 | 0.021 |
+| `asian_handicap_-0_25` | team2_handicap | 1.685 | 1.73 (bet365.us) | %55.07 | 0.064 |
+| `asian_handicap_+0_25` | team1_handicap | 1.56 | 1.57 (DraftKings) | %59.48 | 0.014 |
+| `asian_handicap_+0_25` | team2_handicap | 2.29 | 2.38 (bet365.us) | %40.52 | 0.127 |
+| `asian_handicap_-0_5` | team1_handicap | 2.375 | 2.4 (BetMGM.us) | %39.06 | 0.029 |
+| `asian_handicap_-0_5` | team2_handicap | 1.522 | 1.58 (bet365.us) | %60.94 | 0.039 |
+| `asian_handicap_+0_5` | team1_handicap | 1.468 | 1.5 (Fanatics) | %63.12 | 0.033 |
+| `asian_handicap_+0_5` | team2_handicap | 2.513 | 2.75 (bet365.us) | %36.88 | 0.165 |
 | `asian_handicap_-0_75` | team1_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
 | `asian_handicap_-0_75` | team2_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 | `asian_handicap_+0_75` | team1_handicap | 1.3 | 1.3 (bet365.us) | %72.63 | 0.0 |
 | `asian_handicap_+0_75` | team2_handicap | 3.45 | 3.45 (bet365.us) | %27.37 | 0.0 |
 
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_75` | odds_over | 1.975 | 2.0 (bet365.us) | %47.26 | 0.035 |
-| ⭐ `over_under_2_75` | odds_under | 1.77 | 1.8 (bet365.us) | %52.74 | 0.042 |
-| `over_under_2_5` | odds_over | 1.75 | 1.76 (DraftKings) | %52.86 | 0.008 |
-| `over_under_2_5` | odds_under | 1.962 | 2.0 (bet365.us) | %47.14 | 0.025 |
+| ⭐ `over_under_2_5` | odds_over | 1.755 | 1.76 (DraftKings) | %52.63 | 0.006 |
+| ⭐ `over_under_2_5` | odds_under | 1.95 | 2.0 (bet365.us) | %47.37 | 0.041 |
+| `over_under_2_75` | odds_over | 1.975 | 2.0 (bet365.us) | %47.26 | 0.035 |
+| `over_under_2_75` | odds_under | 1.77 | 1.8 (bet365.us) | %52.74 | 0.042 |
 | `over_under_3` | odds_over | 2.3 | 2.3 (bet365.us) | %41.03 | 0.0 |
 | `over_under_3` | odds_under | 1.6 | 1.6 (bet365.us) | %58.97 | 0.0 |
 | `over_under_2_25` | odds_over | 1.565 | 1.58 (bet365.us) | %59.51 | 0.021 |
 | `over_under_2_25` | odds_under | 2.3 | 2.35 (bet365.us) | %40.49 | 0.071 |
 | `over_under_3_25` | odds_over | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
 | `over_under_3_25` | odds_under | 1.48 | 1.48 (bet365.us) | %63.73 | 0.0 |
-| `over_under_3_5` | odds_over | 2.843 | 2.9 (DraftKings) | %32.52 | 0.065 |
-| `over_under_3_5` | odds_under | 1.37 | 1.4 (bet365.us) | %67.48 | 0.022 |
+| `over_under_3_5` | odds_over | 2.83 | 2.87 (BetMGM.us) | %32.62 | 0.054 |
+| `over_under_3_5` | odds_under | 1.37 | 1.4 (bet365.us) | %67.38 | 0.022 |
 | `over_under_2` | odds_over | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 | `over_under_2` | odds_under | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 
@@ -3247,21 +3114,21 @@
 | `asian_handicap_+0_75` | team1_handicap | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 | `asian_handicap_+0_75` | team2_handicap | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_5` | odds_over | 1.745 | 1.8 (bet365.us) | %53.18 | 0.044 |
-| ⭐ `over_under_2_5` | odds_under | 1.982 | 2.0 (bet365.us) | %46.82 | 0.024 |
-| `over_under_2_75` | odds_over | 1.99 | 2.03 (bet365.us) | %46.72 | 0.057 |
-| `over_under_2_75` | odds_under | 1.745 | 1.78 (bet365.us) | %53.28 | 0.049 |
-| `over_under_2_25` | odds_over | 1.585 | 1.6 (bet365.us) | %58.67 | 0.021 |
-| `over_under_2_25` | odds_under | 2.25 | 2.3 (bet365.us) | %41.33 | 0.071 |
+| ⭐ `over_under_2_75` | odds_over | 1.965 | 2.03 (bet365.us) | %47.25 | 0.092 |
+| ⭐ `over_under_2_75` | odds_under | 1.76 | 1.78 (bet365.us) | %52.75 | 0.028 |
+| `over_under_2_5` | odds_over | 1.74 | 1.8 (bet365.us) | %53.1 | 0.042 |
+| `over_under_2_5` | odds_under | 1.97 | 2.0 (Fanatics) | %46.9 | 0.024 |
+| `over_under_2_25` | odds_over | 1.57 | 1.6 (bet365.us) | %59.17 | 0.042 |
+| `over_under_2_25` | odds_under | 2.275 | 2.3 (bet365.us) | %40.83 | 0.035 |
 | `over_under_3` | odds_over | 2.275 | 2.35 (bet365.us) | %40.52 | 0.106 |
 | `over_under_3` | odds_under | 1.55 | 1.58 (bet365.us) | %59.48 | 0.042 |
 | `over_under_3_25` | odds_over | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `over_under_3_25` | odds_under | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `over_under_3_5` | odds_over | 2.875 | 3.0 (bet365.us) | %32.19 | 0.119 |
-| `over_under_3_5` | odds_under | 1.365 | 1.38 (BetMGM.us) | %67.81 | 0.013 |
+| `over_under_3_5` | odds_over | 2.85 | 3.0 (bet365.us) | %32.46 | 0.108 |
+| `over_under_3_5` | odds_under | 1.37 | 1.38 (BetMGM.us) | %67.54 | 0.008 |
 | `over_under_2` | odds_over | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
 | `over_under_2` | odds_under | 3.0 | 3.0 (bet365.us) | %31.51 | 0.0 |
 
@@ -3274,11 +3141,11 @@
 | **X** | 3.763 | **3.8** (Fanatics) | **%24.83** | 0.025 |
 | **2** | 3.9 | **4.0** (Fanatics) | **%23.96** | 0.082 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %8.14)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %8.31)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.613 | **1.62** (bet365.us) | **%57.33** | 0.012 |
-| **btts_no** | 2.167 | **2.2** (bet365.us) | **%42.67** | 0.029 |
+| **btts_yes** | 1.6 | **1.62** (bet365.us) | **%57.71** | 0.02 |
+| **btts_no** | 2.183 | **2.2** (bet365.us) | **%42.29** | 0.029 |
 
 ### Market: `double_chance` (Büro Sayısı: 2 | Marj: %112.82)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3318,14 +3185,14 @@
 | ⭐ `over_under_2_75` | odds_under | 1.905 | 1.95 (bet365.us) | %48.93 | 0.064 |
 | `over_under_3` | odds_over | 2.075 | 2.1 (bet365.us) | %44.59 | 0.035 |
 | `over_under_3` | odds_under | 1.67 | 1.7 (bet365.us) | %55.41 | 0.042 |
-| `over_under_2_5` | odds_over | 1.645 | 1.67 (bet365.us) | %56.07 | 0.017 |
-| `over_under_2_5` | odds_under | 2.1 | 2.1 (bet365.us) | %43.93 | 0.0 |
+| `over_under_2_5` | odds_over | 1.64 | 1.67 (bet365.us) | %56.29 | 0.022 |
+| `over_under_2_5` | odds_under | 2.112 | 2.15 (Fanatics) | %43.71 | 0.025 |
 | `over_under_3_25` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_25` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
 | `over_under_2_25` | odds_over | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
 | `over_under_2_25` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `over_under_3_5` | odds_over | 2.57 | 2.63 (bet365.us) | %35.91 | 0.057 |
-| `over_under_3_5` | odds_under | 1.44 | 1.45 (Fanatics) | %64.09 | 0.008 |
+| `over_under_3_5` | odds_over | 2.583 | 2.65 (DraftKings) | %35.79 | 0.07 |
+| `over_under_3_5` | odds_under | 1.44 | 1.45 (Fanatics) | %64.21 | 0.008 |
 | `over_under_3_75` | odds_over | 3.1 | 3.1 (bet365.us) | %30.34 | 0.0 |
 | `over_under_3_75` | odds_under | 1.35 | 1.35 (bet365.us) | %69.66 | 0.0 |
 
@@ -3364,8 +3231,8 @@
 | ⭐ `asian_handicap_-0_25` | team2_handicap | 1.815 | 1.83 (bet365.us) | %51.41 | 0.021 |
 | `asian_handicap_-0_5` | team1_handicap | 2.125 | 2.25 (bet365.us) | %43.41 | 0.087 |
 | `asian_handicap_-0_5` | team2_handicap | 1.63 | 1.66 (Fanatics) | %56.59 | 0.024 |
-| `asian_handicap_0` | team1_handicap | 1.625 | 1.65 (bet365.us) | %57.24 | 0.035 |
-| `asian_handicap_0` | team2_handicap | 2.175 | 2.2 (bet365.us) | %42.76 | 0.035 |
+| `asian_handicap_0` | team1_handicap | 1.625 | 1.65 (bet365.us) | %56.95 | 0.035 |
+| `asian_handicap_0` | team2_handicap | 2.15 | 2.2 (bet365.us) | %43.05 | 0.071 |
 | `asian_handicap_+0_25` | team1_handicap | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
 | `asian_handicap_+0_25` | team2_handicap | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
 | `asian_handicap_-0_75` | team1_handicap | 2.6 | 2.6 (bet365.us) | %36.27 | 0.0 |
@@ -3380,16 +3247,16 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `over_under_2_75` | odds_over | 1.84 | 1.88 (bet365.us) | %50.74 | 0.057 |
 | ⭐ `over_under_2_75` | odds_under | 1.895 | 1.93 (bet365.us) | %49.26 | 0.049 |
-| `over_under_2_5` | odds_over | 1.67 | 1.7 (bet365.us) | %55.25 | 0.02 |
-| `over_under_2_5` | odds_under | 2.062 | 2.1 (DraftKings) | %44.75 | 0.025 |
+| `over_under_2_5` | odds_over | 1.665 | 1.7 (bet365.us) | %55.48 | 0.025 |
+| `over_under_2_5` | odds_under | 2.075 | 2.1 (DraftKings) | %44.52 | 0.029 |
 | `over_under_3` | odds_over | 2.1 | 2.15 (bet365.us) | %44.15 | 0.071 |
 | `over_under_3` | odds_under | 1.66 | 1.68 (bet365.us) | %55.85 | 0.028 |
 | `over_under_3_25` | odds_over | 2.38 | 2.38 (bet365.us) | %39.44 | 0.0 |
 | `over_under_3_25` | odds_under | 1.55 | 1.55 (bet365.us) | %60.56 | 0.0 |
 | `over_under_2_25` | odds_over | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
 | `over_under_2_25` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
-| `over_under_3_5` | odds_over | 2.657 | 2.7 (Fanatics) | %34.83 | 0.03 |
-| `over_under_3_5` | odds_under | 1.42 | 1.44 (bet365.us) | %65.17 | 0.016 |
+| `over_under_3_5` | odds_over | 2.632 | 2.65 (BetMGM.us) | %35.12 | 0.024 |
+| `over_under_3_5` | odds_under | 1.425 | 1.44 (bet365.us) | %64.88 | 0.013 |
 | `over_under_3_75` | odds_over | 3.3 | 3.3 (bet365.us) | %28.73 | 0.0 |
 | `over_under_3_75` | odds_under | 1.33 | 1.33 (bet365.us) | %71.27 | 0.0 |
 
@@ -3570,8 +3437,8 @@
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_5` | odds_over | 1.9 | 1.9 (bet365.us) | %50.0 | 0.0 |
-| ⭐ `over_under_2_5` | odds_under | 1.9 | 1.9 (bet365.us) | %50.0 | 0.0 |
+| ⭐ `over_under_2_5` | odds_over | 1.91 | 1.91 (bet365.us) | %50.0 | 0.0 |
+| ⭐ `over_under_2_5` | odds_under | 1.91 | 1.91 (bet365.us) | %50.0 | 0.0 |
 | `over_under_2_75` | odds_over | 2.1 | 2.1 (bet365.us) | %44.74 | 0.0 |
 | `over_under_2_75` | odds_under | 1.7 | 1.7 (bet365.us) | %55.26 | 0.0 |
 | `over_under_2_25` | odds_over | 1.65 | 1.65 (bet365.us) | %57.14 | 0.0 |
@@ -3658,11 +3525,11 @@
 | **X** | 4.12 | **4.2** (DraftKings) | **%22.81** | 0.084 |
 | **2** | 1.61 | **1.62** (bet365.us) | **%58.36** | 0.014 |
 
-### Market: `btts` (Büro Sayısı: 4 | Marj: %7.28)
+### Market: `btts` (Büro Sayısı: 4 | Marj: %7.57)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.598 | **1.62** (bet365.us) | **%58.33** | 0.021 |
-| **btts_no** | 2.237 | **2.35** (Fanatics) | **%41.67** | 0.085 |
+| **btts_yes** | 1.61 | **1.62** (bet365.us) | **%57.74** | 0.012 |
+| **btts_no** | 2.2 | **2.25** (DraftKings) | **%42.26** | 0.041 |
 
 ### Market: `double_chance` (Büro Sayısı: 4 | Marj: %112.5)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3704,10 +3571,10 @@
 | `over_under_2_75` | odds_under | 2.065 | 2.08 (bet365.us) | %45.23 | 0.021 |
 | `over_under_3_25` | odds_over | 2.15 | 2.15 (bet365.us) | %43.42 | 0.0 |
 | `over_under_3_25` | odds_under | 1.65 | 1.68 (bet365.us) | %56.58 | 0.042 |
-| `over_under_2_5` | odds_over | 1.575 | 1.6 (bet365.us) | %59.62 | 0.021 |
-| `over_under_2_5` | odds_under | 2.325 | 2.35 (DraftKings) | %40.38 | 0.029 |
-| `over_under_3_5` | odds_over | 2.395 | 2.45 (DraftKings) | %39.06 | 0.042 |
-| `over_under_3_5` | odds_under | 1.535 | 1.55 (Fanatics) | %60.94 | 0.013 |
+| `over_under_2_5` | odds_over | 1.578 | 1.6 (bet365.us) | %59.43 | 0.021 |
+| `over_under_2_5` | odds_under | 2.312 | 2.35 (DraftKings) | %40.57 | 0.025 |
+| `over_under_3_5` | odds_over | 2.408 | 2.45 (DraftKings) | %38.82 | 0.051 |
+| `over_under_3_5` | odds_under | 1.528 | 1.54 (DraftKings) | %61.18 | 0.01 |
 | `over_under_2_25` | odds_over | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
 | `over_under_2_25` | odds_under | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `over_under_3_75` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
@@ -3715,18 +3582,18 @@
 
 ---
 ## 🏀 Columbus Crew vs Toronto FC (Başlangıç: `2026-10-24 19:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 5 | Marj: %7.09)
+### Market: `1x2` (Büro Sayısı: 5 | Marj: %6.84)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.552 | **1.58** (BetMGM.us) | **%60.17** | 0.033 |
-| **X** | 4.446 | **4.5** (bet365.us) | **%21.0** | 0.078 |
-| **2** | 4.96 | **5.25** (bet365.us) | **%18.83** | 0.233 |
+| **1** | 1.558 | **1.58** (BetMGM.us) | **%60.08** | 0.022 |
+| **X** | 4.446 | **4.5** (bet365.us) | **%21.05** | 0.078 |
+| **2** | 4.96 | **5.25** (bet365.us) | **%18.87** | 0.233 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.45)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %7.59)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.527 | **1.55** (Fanatics) | **%60.95** | 0.025 |
-| **btts_no** | 2.383 | **2.4** (Fanatics) | **%39.05** | 0.015 |
+| **btts_yes** | 1.517 | **1.53** (bet365.us) | **%61.27** | 0.015 |
+| **btts_no** | 2.4 | **2.45** (Fanatics) | **%38.73** | 0.044 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %110.98)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3744,16 +3611,16 @@
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-1` | team1_handicap | 1.915 | 1.93 (bet365.us) | %49.41 | 0.021 |
-| ⭐ `asian_handicap_-1` | team2_handicap | 1.87 | 1.88 (bet365.us) | %50.59 | 0.014 |
+| ⭐ `asian_handicap_-1` | team1_handicap | 1.915 | 1.93 (bet365.us) | %49.67 | 0.021 |
+| ⭐ `asian_handicap_-1` | team2_handicap | 1.89 | 1.9 (DraftKings) | %50.33 | 0.014 |
 | `asian_handicap_-0_75` | team1_handicap | 1.705 | 1.71 (DraftKings) | %55.48 | 0.007 |
 | `asian_handicap_-0_75` | team2_handicap | 2.125 | 2.15 (DraftKings) | %44.52 | 0.035 |
 | `asian_handicap_-1_25` | team1_handicap | 2.2 | 2.2 (DraftKings) | %43.3 | 0.0 |
 | `asian_handicap_-1_25` | team2_handicap | 1.68 | 1.68 (DraftKings) | %56.7 | 0.0 |
 | `asian_handicap_-0_5` | team1_handicap | 1.555 | 1.58 (bet365.us) | %60.05 | 0.026 |
 | `asian_handicap_-0_5` | team2_handicap | 2.337 | 2.35 (bet365.us) | %39.95 | 0.025 |
-| `asian_handicap_-1_5` | team1_handicap | 2.41 | 2.45 (Fanatics) | %38.79 | 0.036 |
-| `asian_handicap_-1_5` | team2_handicap | 1.527 | 1.55 (bet365.us) | %61.21 | 0.021 |
+| `asian_handicap_-1_5` | team1_handicap | 2.427 | 2.5 (Fanatics) | %38.51 | 0.064 |
+| `asian_handicap_-1_5` | team2_handicap | 1.52 | 1.55 (bet365.us) | %61.49 | 0.026 |
 | `asian_handicap_-1_75` | team1_handicap | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
 | `asian_handicap_-1_75` | team2_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
 | `asian_handicap_-0_25` | team1_handicap | 1.4 | 1.4 (bet365.us) | %67.06 | 0.0 |
@@ -3786,11 +3653,11 @@
 | **X** | 4.326 | **4.5** (Fanatics) | **%21.67** | 0.13 |
 | **2** | 1.85 | **1.88** (BetMGM.us) | **%50.67** | 0.021 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.15)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %7.07)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.277 | **1.29** (bet365.us) | **%73.08** | 0.015 |
-| **btts_no** | 3.467 | **3.6** (Fanatics) | **%26.92** | 0.153 |
+| **btts_yes** | 1.283 | **1.29** (bet365.us) | **%72.79** | 0.006 |
+| **btts_no** | 3.433 | **3.5** (bet365.us) | **%27.21** | 0.115 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.43)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3826,16 +3693,16 @@
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_75`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_75` | odds_over | 1.77 | 1.8 (bet365.us) | %52.74 | 0.042 |
-| ⭐ `over_under_3_75` | odds_under | 1.975 | 2.0 (bet365.us) | %47.26 | 0.035 |
+| ⭐ `over_under_3_75` | odds_over | 1.78 | 1.8 (bet365.us) | %52.6 | 0.028 |
+| ⭐ `over_under_3_75` | odds_under | 1.975 | 2.0 (bet365.us) | %47.4 | 0.035 |
 | `over_under_4` | odds_over | 1.99 | 2.03 (bet365.us) | %47.07 | 0.057 |
 | `over_under_4` | odds_under | 1.77 | 1.78 (bet365.us) | %52.93 | 0.014 |
-| `over_under_3_5` | odds_over | 1.625 | 1.64 (DraftKings) | %57.38 | 0.01 |
-| `over_under_3_5` | odds_under | 2.188 | 2.2 (bet365.us) | %42.62 | 0.025 |
+| `over_under_3_5` | odds_over | 1.64 | 1.66 (DraftKings) | %57.01 | 0.023 |
+| `over_under_3_5` | odds_under | 2.175 | 2.2 (bet365.us) | %42.99 | 0.029 |
 | `over_under_4_25` | odds_over | 2.2 | 2.25 (bet365.us) | %42.48 | 0.071 |
 | `over_under_4_25` | odds_under | 1.625 | 1.63 (bet365.us) | %57.52 | 0.007 |
-| `over_under_4_5` | odds_over | 2.45 | 2.5 (bet365.us) | %38.16 | 0.058 |
-| `over_under_4_5` | odds_under | 1.512 | 1.55 (DraftKings) | %61.84 | 0.025 |
+| `over_under_4_5` | odds_over | 2.462 | 2.5 (bet365.us) | %38.02 | 0.048 |
+| `over_under_4_5` | odds_under | 1.51 | 1.54 (DraftKings) | %61.98 | 0.02 |
 | `over_under_3_25` | odds_over | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
 | `over_under_3_25` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
 | `over_under_4_75` | odds_over | 2.85 | 2.85 (bet365.us) | %32.94 | 0.0 |
@@ -3850,11 +3717,11 @@
 | **X** | 3.82 | **3.9** (bet365.us) | **%24.47** | 0.084 |
 | **2** | 2.37 | **2.4** (DraftKings) | **%39.44** | 0.027 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.72)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %7.5)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.397 | **1.41** (Fanatics) | **%66.45** | 0.015 |
-| **btts_no** | 2.767 | **2.8** (BetMGM.us) | **%33.55** | 0.029 |
+| **btts_yes** | 1.393 | **1.4** (bet365.us) | **%66.78** | 0.012 |
+| **btts_no** | 2.8 | **2.85** (Fanatics) | **%33.22** | 0.05 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.44)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3914,11 +3781,11 @@
 | **X** | 3.95 | **4.1** (Fanduel) | **%23.72** | 0.1 |
 | **2** | 2.22 | **2.25** (BetMGM.us) | **%42.21** | 0.027 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.27)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %7.06)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.363 | **1.38** (Fanatics) | **%68.4** | 0.015 |
-| **btts_no** | 2.95 | **3.0** (bet365.us) | **%31.6** | 0.05 |
+| **btts_yes** | 1.353 | **1.36** (bet365.us) | **%69.04** | 0.006 |
+| **btts_no** | 3.017 | **3.1** (Fanatics) | **%30.96** | 0.076 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.43)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3954,8 +3821,8 @@
 ### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_3_5`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_3_5` | odds_over | 1.937 | 2.0 (Fanatics) | %47.89 | 0.055 |
-| ⭐ `over_under_3_5` | odds_under | 1.78 | 1.8 (bet365.us) | %52.11 | 0.02 |
+| ⭐ `over_under_3_5` | odds_over | 1.943 | 1.98 (bet365.us) | %48.13 | 0.04 |
+| ⭐ `over_under_3_5` | odds_under | 1.803 | 1.83 (bet365.us) | %51.87 | 0.025 |
 | `over_under_3_25` | odds_over | 1.75 | 1.75 (bet365.us) | %53.95 | 0.0 |
 | `over_under_3_25` | odds_under | 2.05 | 2.05 (bet365.us) | %46.05 | 0.0 |
 | `over_under_3_75` | odds_over | 2.2 | 2.2 (bet365.us) | %42.86 | 0.0 |
@@ -3971,12 +3838,12 @@
 
 ---
 ## 🏀 Philadelphia Union vs New England Revolution (Başlangıç: `2026-10-24 23:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 5 | Marj: %6.45)
+### Market: `1x2` (Büro Sayısı: 5 | Marj: %6.23)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.522 | **1.55** (Fanatics) | **%61.72** | 0.026 |
-| **X** | 4.68 | **4.8** (Fanduel) | **%20.07** | 0.125 |
-| **2** | 5.16 | **5.3** (Fanduel) | **%18.21** | 0.147 |
+| **1** | 1.516 | **1.53** (bet365.us) | **%62.09** | 0.021 |
+| **X** | 4.68 | **4.8** (Fanduel) | **%20.11** | 0.125 |
+| **2** | 5.29 | **5.7** (Fanduel) | **%17.79** | 0.309 |
 
 ### Market: `btts` (Büro Sayısı: 3 | Marj: %7.28)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3984,18 +3851,18 @@
 | **btts_yes** | 1.527 | **1.55** (Fanatics) | **%61.05** | 0.025 |
 | **btts_no** | 2.393 | **2.4** (BetMGM.us) | **%38.95** | 0.012 |
 
-### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.06)
+### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.3)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.16 | **1.17** (BetMGM.us) | **%40.85** | 0.017 |
-| **12** | 1.19 | **1.2** (Fanatics) | **%39.82** | 0.01 |
-| **X2** | 2.45 | **2.5** (bet365.us) | **%19.34** | 0.05 |
+| **1X** | 1.153 | **1.17** (BetMGM.us) | **%41.05** | 0.015 |
+| **12** | 1.19 | **1.2** (Fanatics) | **%39.77** | 0.01 |
+| **X2** | 2.467 | **2.5** (bet365.us) | **%19.18** | 0.058 |
 
-### Market: `dnb` (Büro Sayısı: 3 | Marj: %6.93)
+### Market: `dnb` (Büro Sayısı: 3 | Marj: %6.97)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.227 | **1.23** (BetMGM.us) | **%76.22** | 0.006 |
-| **dnb_team2** | 3.933 | **4.0** (bet365.us) | **%23.78** | 0.115 |
+| **dnb_team1** | 1.223 | **1.23** (BetMGM.us) | **%76.44** | 0.006 |
+| **dnb_team2** | 3.967 | **4.1** (Fanatics) | **%23.56** | 0.153 |
 
 ### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1`)
 | Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
@@ -4006,10 +3873,10 @@
 | `asian_handicap_-1_25` | team2_handicap | 1.745 | 1.75 (bet365.us) | %54.32 | 0.007 |
 | `asian_handicap_-0_75` | team1_handicap | 1.635 | 1.64 (DraftKings) | %58.18 | 0.007 |
 | `asian_handicap_-0_75` | team2_handicap | 2.275 | 2.3 (DraftKings) | %41.82 | 0.035 |
-| `asian_handicap_-1_5` | team1_handicap | 2.288 | 2.35 (Fanatics) | %40.74 | 0.048 |
-| `asian_handicap_-1_5` | team2_handicap | 1.573 | 1.6 (bet365.us) | %59.26 | 0.021 |
-| `asian_handicap_-0_5` | team1_handicap | 1.5 | 1.52 (Fanatics) | %62.19 | 0.02 |
-| `asian_handicap_-0_5` | team2_handicap | 2.467 | 2.5 (bet365.us) | %37.81 | 0.029 |
+| `asian_handicap_-1_5` | team1_handicap | 2.263 | 2.3 (bet365.us) | %41.11 | 0.025 |
+| `asian_handicap_-1_5` | team2_handicap | 1.58 | 1.6 (bet365.us) | %58.89 | 0.024 |
+| `asian_handicap_-0_5` | team1_handicap | 1.493 | 1.5 (bet365.us) | %62.45 | 0.012 |
+| `asian_handicap_-0_5` | team2_handicap | 2.483 | 2.5 (bet365.us) | %37.55 | 0.029 |
 | `asian_handicap_-1_75` | team1_handicap | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `asian_handicap_-1_75` | team2_handicap | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
 | `asian_handicap_-0_25` | team1_handicap | 1.38 | 1.38 (bet365.us) | %68.49 | 0.0 |
@@ -4030,8 +3897,8 @@
 | `over_under_2_75` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
 | `over_under_4` | odds_over | 2.68 | 2.68 (bet365.us) | %35.11 | 0.0 |
 | `over_under_4` | odds_under | 1.45 | 1.45 (bet365.us) | %64.89 | 0.0 |
-| `over_under_2_5` | odds_over | 1.407 | 1.44 (Fanatics) | %66.52 | 0.022 |
-| `over_under_2_5` | odds_under | 2.795 | 2.9 (DraftKings) | %33.48 | 0.117 |
+| `over_under_2_5` | odds_over | 1.4 | 1.41 (Fanatics) | %66.82 | 0.008 |
+| `over_under_2_5` | odds_under | 2.82 | 2.9 (DraftKings) | %33.18 | 0.081 |
 
 ---
 ## 🏀 Orlando City vs New York City (Başlangıç: `2026-10-24 23:30:00 UTC`)
@@ -4042,11 +3909,11 @@
 | **X** | 3.88 | **4.0** (Fanatics) | **%24.17** | 0.084 |
 | **2** | 2.746 | **2.88** (bet365.us) | **%34.15** | 0.086 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.76)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %7.81)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.38 | **1.4** (bet365.us) | **%67.24** | 0.02 |
-| **btts_no** | 2.833 | **3.0** (Fanatics) | **%32.76** | 0.144 |
+| **btts_yes** | 1.387 | **1.4** (bet365.us) | **%66.87** | 0.012 |
+| **btts_no** | 2.8 | **2.9** (Fanatics) | **%33.13** | 0.087 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %111.43)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -4084,18 +3951,18 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `over_under_3_25` | odds_over | 1.815 | 1.83 (bet365.us) | %51.66 | 0.021 |
 | ⭐ `over_under_3_25` | odds_under | 1.94 | 1.98 (bet365.us) | %48.34 | 0.057 |
-| `over_under_3_5` | odds_over | 2.007 | 2.05 (DraftKings) | %46.44 | 0.03 |
-| `over_under_3_5` | odds_under | 1.74 | 1.76 (DraftKings) | %53.56 | 0.024 |
-| `over_under_3` | odds_over | 1.605 | 1.63 (bet365.us) | %58.09 | 0.035 |
-| `over_under_3` | odds_under | 2.225 | 2.25 (bet365.us) | %41.91 | 0.035 |
-| `over_under_3_75` | odds_over | 2.275 | 2.3 (bet365.us) | %41.06 | 0.035 |
-| `over_under_3_75` | odds_under | 1.585 | 1.6 (bet365.us) | %58.94 | 0.021 |
+| `over_under_3_5` | odds_over | 2.02 | 2.05 (DraftKings) | %46.1 | 0.036 |
+| `over_under_3_5` | odds_under | 1.728 | 1.76 (DraftKings) | %53.9 | 0.024 |
+| `over_under_3` | odds_over | 1.605 | 1.63 (bet365.us) | %58.37 | 0.035 |
+| `over_under_3` | odds_under | 2.25 | 2.25 (bet365.us) | %41.63 | 0.0 |
+| `over_under_3_75` | odds_over | 2.275 | 2.3 (bet365.us) | %41.14 | 0.035 |
+| `over_under_3_75` | odds_under | 1.59 | 1.6 (bet365.us) | %58.86 | 0.014 |
 | `over_under_2_75` | odds_over | 1.5 | 1.5 (bet365.us) | %62.5 | 0.0 |
 | `over_under_2_75` | odds_under | 2.5 | 2.5 (bet365.us) | %37.5 | 0.0 |
 | `over_under_4` | odds_over | 2.75 | 2.75 (bet365.us) | %34.21 | 0.0 |
 | `over_under_4` | odds_under | 1.43 | 1.43 (bet365.us) | %65.79 | 0.0 |
-| `over_under_2_5` | odds_over | 1.402 | 1.41 (DraftKings) | %66.79 | 0.005 |
-| `over_under_2_5` | odds_under | 2.82 | 2.88 (bet365.us) | %33.21 | 0.081 |
+| `over_under_2_5` | odds_over | 1.402 | 1.41 (Fanatics) | %66.7 | 0.005 |
+| `over_under_2_5` | odds_under | 2.808 | 2.9 (DraftKings) | %33.3 | 0.098 |
 
 ---
 ## 🏀 Sporting Kansas City vs Austin FC (Başlangıç: `2026-10-25 00:30:00 UTC`)
@@ -4194,8 +4061,8 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | ⭐ `asian_handicap_-0_75` | team1_handicap | 1.9 | 1.9 (bet365.us) | %50.0 | 0.0 |
 | ⭐ `asian_handicap_-0_75` | team2_handicap | 1.9 | 1.9 (bet365.us) | %50.0 | 0.0 |
-| `asian_handicap_-0_5` | team1_handicap | 1.692 | 1.71 (Fanatics) | %54.93 | 0.015 |
-| `asian_handicap_-0_5` | team2_handicap | 2.062 | 2.1 (bet365.us) | %45.07 | 0.025 |
+| `asian_handicap_-0_5` | team1_handicap | 1.688 | 1.71 (Fanatics) | %54.99 | 0.022 |
+| `asian_handicap_-0_5` | team2_handicap | 2.062 | 2.1 (bet365.us) | %45.01 | 0.025 |
 | `asian_handicap_-1` | team1_handicap | 2.225 | 2.25 (DraftKings) | %42.51 | 0.035 |
 | `asian_handicap_-1` | team2_handicap | 1.645 | 1.65 (bet365.us) | %57.49 | 0.007 |
 | `asian_handicap_-1_25` | team1_handicap | 2.42 | 2.42 (bet365.us) | %38.73 | 0.0 |
@@ -4234,11 +4101,11 @@
 | **X** | 3.62 | **3.7** (Fanduel) | **%25.8** | 0.045 |
 | **2** | 3.21 | **3.3** (bet365.us) | **%29.09** | 0.089 |
 
-### Market: `btts` (Büro Sayısı: 3 | Marj: %7.93)
+### Market: `btts` (Büro Sayısı: 3 | Marj: %7.78)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.567 | **1.58** (Fanatics) | **%59.13** | 0.015 |
-| **btts_no** | 2.267 | **2.3** (Fanatics) | **%40.87** | 0.029 |
+| **btts_yes** | 1.563 | **1.57** (bet365.us) | **%59.36** | 0.012 |
+| **btts_no** | 2.283 | **2.35** (Fanatics) | **%40.64** | 0.058 |
 
 ### Market: `double_chance` (Büro Sayısı: 3 | Marj: %110.96)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
