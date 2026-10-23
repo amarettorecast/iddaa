@@ -1,0 +1,163 @@
+name: Football Low-Scoring Leagues Odds Harvester & AI Optimizer
+
+on:
+  schedule:
+    # Her gün 08:00 UTC (Türkiye saatiyle 11:00)
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      hours_window:
+        description: 'Kaç saat içindeki futbol maçları çekilsin?'
+        required: false
+        default: '24'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-optimize-football:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      OH_PROXY_URL: ${{ secrets.PROXY_URL }}
+      OH_PROXY_USER: ${{ secrets.PROXY_USER }}
+      OH_PROXY_PASS: ${{ secrets.PROXY_PASS }}
+
+    steps:
+      - name: Depoyu Klonla (Checkout)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Python 3.12 Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: OddsHarvester ve Playwright Tarayıcısını Kur
+        run: |
+          pip install --upgrade pip
+          pip install oddsharvester
+          playwright install --with-deps chromium
+
+      - name: Tarih ve Klasör Yapısını Hazırla
+        id: date_setup
+        run: |
+          TODAY=$(date -u +"%Y-%m-%d")
+          OUTPUT_DIR="data/football_lowgoal/${TODAY}"
+          mkdir -p "${OUTPUT_DIR}"
+          echo "today=${TODAY}" >> $GITHUB_OUTPUT
+          echo "output_dir=${OUTPUT_DIR}" >> $GITHUB_OUTPUT
+
+      - name: Düşük Gol Ortalamalı Liglerin Oranlarını Çek
+        run: |
+          HOURS="${{ github.event.inputs.hours_window || '24' }}"
+          RAW_FILE="${{ steps.date_setup.outputs.output_dir }}/football_raw_odds.json"
+
+          PROXY_ARGS=()
+          if [ -n "$OH_PROXY_URL" ]; then
+            PROXY_ARGS+=(--proxy-url "$OH_PROXY_URL")
+          fi
+          if [ -n "$OH_PROXY_USER" ]; then
+            PROXY_ARGS+=(--proxy-user "$OH_PROXY_USER")
+          fi
+          if [ -n "$OH_PROXY_PASS" ]; then
+            PROXY_ARGS+=(--proxy-pass "$OH_PROXY_PASS")
+          fi
+
+          LEAGUES=(
+            # En düşükler (~2.0-2.3)
+            "egypt-premier-league"
+            "algeria-ligue-1"
+            "morocco-botola-pro"
+            "tunisia-ligue-professionnelle-1"
+            "argentina-liga-profesional"
+            "argentina-primera-nacional"
+            "greece-super-league"
+            "greece-super-league-2"
+            "brazil-serie-a"
+            "brazil-serie-b"
+            "brazil-serie-c"
+            # Düşük-orta (~2.3-2.5)
+            "colombia-primera-a"
+            "colombia-primera-b"
+            "uruguay-liga"
+            "paraguay-copa-de-primera"
+            "venezuela-primera-division"
+            "italy-serie-b"
+            "spain-laliga2"
+            "france-ligue-2"
+            "france-national"
+            "japan-j2-league"
+            "israel-ligat-ha-al"
+            "england-premier-league"
+          )
+
+          LEAGUE_LIST=$(IFS=, ; echo "${LEAGUES[*]}")
+
+          MARKETS=(
+            "1x2"
+            "btts"
+            "double_chance"
+            "dnb"
+            "over_under"
+            "asian_handicap"
+            "european_handicap_-4"
+            "european_handicap_-3"
+            "european_handicap_-2"
+            "european_handicap_-1"
+            "european_handicap_+1"
+            "european_handicap_+2"
+            "european_handicap_+3"
+            "european_handicap_+4"
+          )
+
+          MARKET_LIST=$(IFS=, ; echo "${MARKETS[*]}")
+
+          oddsharvester upcoming \
+            -s football \
+            -l "${LEAGUE_LIST}" \
+            -m "${MARKET_LIST}" \
+            --kickoff-within-hours "${HOURS}" \
+            --timezone UTC \
+            -c 3 \
+            -f json \
+            -o "${RAW_FILE}" \
+            --headless \
+            "${PROXY_ARGS[@]}" || echo "Uyarı: Belirtilen zaman diliminde maç bulunamadı veya kısmi çıkış yapıldı."
+
+      - name: Verileri Yapay Zeka (LLM) Analizi İçin Optimize Et
+        run: |
+          OUT_DIR="${{ steps.date_setup.outputs.output_dir }}"
+          TODAY="${{ steps.date_setup.outputs.today }}"
+
+          if [ -f "${OUT_DIR}/football_raw_odds.json" ]; then
+            python scripts/optimize_for_ai.py \
+              "${OUT_DIR}/football_raw_odds.json" \
+              "${OUT_DIR}/football_ai_optimized.json" \
+              "${OUT_DIR}/football_ai_prompt_ready.md" \
+              "${TODAY}"
+          else
+            echo "Ham veri dosyası (${OUT_DIR}/football_raw_odds.json) bulunamadı, optimizasyon adımı atlanıyor."
+          fi
+
+          if [ -f "${OUT_DIR}/football_ai_optimized.json" ]; then
+            mkdir -p data/football_lowgoal/latest
+            cp "${OUT_DIR}/football_ai_optimized.json" data/football_lowgoal/latest/football_ai_optimized.json
+            cp "${OUT_DIR}/football_ai_prompt_ready.md" data/football_lowgoal/latest/football_ai_prompt_ready.md
+          fi
+
+      - name: Verileri GitHub Deposuna Commit ve Push Et
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/football_lowgoal/
+
+          if git diff --staged --quiet; then
+            echo "Commit edilecek yeni veri yok (Bugün seçili liglerde maç bulunmuyor olabilir)."
+          else
+            git commit -m "data(football): ${{ steps.date_setup.outputs.today }} düşük gollü lig oranları [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
