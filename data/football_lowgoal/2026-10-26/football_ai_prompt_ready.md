@@ -3,12 +3,12 @@
 > **AI Analiz Yönergesi:** Aşağıdaki veriler tüm bahis bürolarının oran ortalamalarını (`avg_odd`), piyasadaki en yüksek oranı (`max_odd`), büro kar marjından arındırılmış gerçek kazanma olasılığını (`fair_prob_pct`) ve bürolar arası standart sapmayı (`std_dev`) içerir. `std_dev` yüksekse bürolar arasında görüş ayrılığı vardır; `max_odd` ile `avg_odd` arasındaki fark açıksa 'Value Bet' (Değerli Oran) fırsatı mevcuttur.
 
 ## 🏀 Union de Santa Fe vs Estudiantes L.P. (Başlangıç: `2026-10-26 22:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 8 | Marj: %7.46)
+### Market: `1x2` (Büro Sayısı: 8 | Marj: %7.61)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.625 | **2.7** (bet-at-home.de) | **%35.45** | 0.085 |
-| **X** | 3.119 | **3.25** (Betano.de) | **%29.84** | 0.088 |
-| **2** | 2.681 | **2.75** (bet-at-home.de) | **%34.71** | 0.088 |
+| **1** | 2.64 | **2.72** (Betano.de) | **%35.2** | 0.082 |
+| **X** | 3.087 | **3.15** (bet-at-home.de) | **%30.1** | 0.064 |
+| **2** | 2.678 | **2.75** (bet-at-home.de) | **%34.7** | 0.086 |
 
 ### Market: `btts` (Büro Sayısı: 7 | Marj: %8.11)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -67,12 +67,12 @@
 
 ---
 ## 🏀 Instituto vs Dep. Riestra (Başlangıç: `2026-10-27 00:15:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 8 | Marj: %7.51)
+### Market: `1x2` (Büro Sayısı: 8 | Marj: %7.46)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.804 | **1.85** (Betano.de) | **%51.56** | 0.034 |
-| **X** | 3.156 | **3.25** (bet365) | **%29.47** | 0.094 |
-| **2** | 4.904 | **5.25** (bet365) | **%18.97** | 0.316 |
+| **1** | 1.804 | **1.85** (Betano.de) | **%51.58** | 0.034 |
+| **X** | 3.156 | **3.25** (bet365) | **%29.49** | 0.094 |
+| **2** | 4.916 | **5.25** (bet365) | **%18.93** | 0.322 |
 
 ### Market: `btts` (Büro Sayısı: 7 | Marj: %8.97)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -451,12 +451,12 @@
 
 ---
 ## 🏀 Panathinaikos vs AEK Athens (Başlangıç: `2026-11-01 17:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 7 | Marj: %8.26)
+### Market: `1x2` (Büro Sayısı: 7 | Marj: %7.72)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.214 | **2.3** (Interwetten) | **%41.72** | 0.069 |
-| **X** | 3.3 | **3.4** (Betano.de) | **%27.99** | 0.091 |
-| **2** | 3.05 | **3.25** (Betano.de) | **%30.29** | 0.129 |
+| **1** | 2.221 | **2.3** (Betano.de) | **%41.8** | 0.076 |
+| **X** | 3.379 | **3.45** (Betano.de) | **%27.47** | 0.076 |
+| **2** | 3.021 | **3.15** (Interwetten) | **%30.73** | 0.095 |
 
 ### Market: `btts` (Büro Sayısı: 6 | Marj: %8.34)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -515,12 +515,12 @@
 
 ---
 ## 🏀 PAOK vs Asteras Tripolis (Başlangıç: `2026-11-01 17:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 7 | Marj: %8.71)
+### Market: `1x2` (Büro Sayısı: 7 | Marj: %8.64)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.274 | **1.31** (Betano.de) | **%72.2** | 0.031 |
-| **X** | 5.221 | **5.75** (Interwetten) | **%17.62** | 0.283 |
-| **2** | 9.036 | **10.0** (Interwetten) | **%10.18** | 0.742 |
+| **1** | 1.273 | **1.31** (Betano.de) | **%72.3** | 0.027 |
+| **X** | 5.257 | **5.75** (Interwetten) | **%17.51** | 0.265 |
+| **2** | 9.036 | **10.0** (Interwetten) | **%10.19** | 0.742 |
 
 ### Market: `btts` (Büro Sayısı: 6 | Marj: %8.1)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -896,71 +896,6 @@
 | `over_under_3_75` | odds_under | 1.465 | 1.48 (bet365) | %63.96 | 0.021 |
 | `over_under_2_25` | odds_over | 1.335 | 1.35 (bet365) | %69.9 | 0.021 |
 | `over_under_2_25` | odds_under | 3.1 | 3.1 (bet365) | %30.1 | 0.0 |
-
----
-## 🏀 Zakynthos vs Pyrgos (Başlangıç: `2026-10-26 12:45:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 6 | Marj: %12.13)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1** | 1.947 | **2.0** (Betano.de) | **%45.8** | 0.052 |
-| **X** | 3.258 | **3.4** (Winamax.de) | **%27.37** | 0.143 |
-| **2** | 3.325 | **3.4** (bet-at-home.de) | **%26.82** | 0.16 |
-
-### Market: `btts` (Büro Sayısı: 5 | Marj: %10.49)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **btts_yes** | 1.686 | **1.75** (bet-at-home.de) | **%53.68** | 0.043 |
-| **btts_no** | 1.954 | **2.05** (Interwetten) | **%46.32** | 0.098 |
-
-### Market: `double_chance` (Büro Sayısı: 5 | Marj: %118.85)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1X** | 1.246 | **1.27** (Betano.de) | **%36.67** | 0.029 |
-| **12** | 1.244 | **1.27** (Betano.de) | **%36.73** | 0.029 |
-| **X2** | 1.718 | **1.78** (Betano.de) | **%26.6** | 0.047 |
-
-### Market: `dnb` (Büro Sayısı: 4 | Marj: %10.16)
-| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
-| :--- | :---: | :---: | :---: | :---: |
-| **dnb_team1** | 1.442 | **1.47** (Betano.de) | **%62.95** | 0.03 |
-| **dnb_team2** | 2.45 | **2.45** (bet-at-home.de) | **%37.05** | 0.0 |
-
-### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-0_5`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `asian_handicap_-0_5` | team1_handicap | 1.933 | 1.95 (bet-at-home.de) | %46.94 | 0.029 |
-| ⭐ `asian_handicap_-0_5` | team2_handicap | 1.71 | 1.73 (bet-at-home.de) | %53.06 | 0.017 |
-| `asian_handicap_-1` | team1_handicap | 2.75 | 2.75 (Neobet) | %32.43 | 0.0 |
-| `asian_handicap_-1` | team2_handicap | 1.32 | 1.32 (Neobet) | %67.57 | 0.0 |
-| `asian_handicap_+0_5` | team1_handicap | 1.26 | 1.28 (bet-at-home.de) | %72.52 | 0.028 |
-| `asian_handicap_+0_5` | team2_handicap | 3.325 | 3.35 (bet-at-home.de) | %27.48 | 0.035 |
-| `asian_handicap_-1_5` | team1_handicap | 3.6 | 3.7 (bet-at-home.de) | %24.84 | 0.141 |
-| `asian_handicap_-1_5` | team2_handicap | 1.19 | 1.2 (Neobet) | %75.16 | 0.014 |
-| `asian_handicap_+1_5` | team1_handicap | 1.04 | 1.04 (bet-at-home.de) | %86.65 | 0.0 |
-| `asian_handicap_+1_5` | team2_handicap | 6.75 | 6.75 (bet-at-home.de) | %13.35 | 0.0 |
-| `asian_handicap_-2_5` | team1_handicap | 7.5 | 7.5 (bet-at-home.de) | %11.97 | 0.0 |
-| `asian_handicap_-2_5` | team2_handicap | 1.02 | 1.02 (bet-at-home.de) | %88.03 | 0.0 |
-| `european_handicap_-1` | team1_handicap | 3.533 | 3.65 (Betano.de) | %25.09 | 0.104 |
-| `european_handicap_-1` | draw_handicap | 3.683 | 3.8 (Interwetten) | %24.06 | 0.104 |
-| `european_handicap_-1` | team2_handicap | 1.743 | 1.78 (Betano.de) | %50.85 | 0.04 |
-
-### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
-| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| ⭐ `over_under_2_5` | odds_over | 1.83 | 1.9 (Winamax.de) | %49.68 | 0.051 |
-| ⭐ `over_under_2_5` | odds_under | 1.807 | 1.87 (Betano.de) | %50.32 | 0.067 |
-| `over_under_2` | odds_over | 1.45 | 1.45 (Winamax.de) | %64.2 | 0.0 |
-| `over_under_2` | odds_under | 2.6 | 2.6 (Winamax.de) | %35.8 | 0.0 |
-| `over_under_3` | odds_over | 2.6 | 2.6 (Winamax.de) | %35.64 | 0.0 |
-| `over_under_3` | odds_under | 1.44 | 1.44 (Winamax.de) | %64.36 | 0.0 |
-| `over_under_3_5` | odds_over | 3.054 | 3.25 (Winamax.de) | %29.73 | 0.164 |
-| `over_under_3_5` | odds_under | 1.292 | 1.35 (Betano.de) | %70.27 | 0.051 |
-| `over_under_1_5` | odds_over | 1.26 | 1.28 (Winamax.de) | %72.06 | 0.014 |
-| `over_under_1_5` | odds_under | 3.25 | 3.4 (Interwetten) | %27.94 | 0.173 |
-| `over_under_4` | odds_over | 5.6 | 5.6 (Winamax.de) | %16.67 | 0.0 |
-| `over_under_4` | odds_under | 1.12 | 1.12 (Winamax.de) | %83.33 | 0.0 |
-| `over_under_4_5` | odds_over | 5.633 | 6.25 (Winamax.de) | %16.3 | 0.683 |
-| `over_under_4_5` | odds_under | 1.097 | 1.13 (Betano.de) | %83.7 | 0.031 |
 
 ---
 ## 🏀 Coritiba vs Gremio (Başlangıç: `2026-10-26 22:30:00 UTC`)
@@ -1732,12 +1667,12 @@
 
 ---
 ## 🏀 Padova vs Sudtirol (Başlangıç: `2026-10-27 19:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 8 | Marj: %8.91)
+### Market: `1x2` (Büro Sayısı: 8 | Marj: %8.86)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.336 | **2.45** (Betano.de) | **%39.31** | 0.073 |
-| **X** | 3.112 | **3.25** (Betano.de) | **%29.5** | 0.099 |
-| **2** | 2.944 | **3.0** (bet-at-home.de) | **%31.19** | 0.094 |
+| **1** | 2.342 | **2.45** (Betano.de) | **%39.22** | 0.077 |
+| **X** | 3.106 | **3.25** (Betano.de) | **%29.57** | 0.098 |
+| **2** | 2.944 | **3.0** (bet-at-home.de) | **%31.2** | 0.094 |
 
 ### Market: `btts` (Büro Sayısı: 7 | Marj: %8.59)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -1988,12 +1923,12 @@
 
 ---
 ## 🏀 Andorra vs Burgos CF (Başlangıç: `2026-10-26 19:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 8 | Marj: %8.55)
+### Market: `1x2` (Büro Sayısı: 8 | Marj: %8.96)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.072 | **2.18** (Betano.de) | **%44.46** | 0.06 |
-| **X** | 3.25 | **3.4** (bet365) | **%28.35** | 0.144 |
-| **2** | 3.388 | **3.45** (bet-at-home.de) | **%27.19** | 0.064 |
+| **1** | 2.036 | **2.15** (Interwetten) | **%45.08** | 0.067 |
+| **X** | 3.263 | **3.45** (Betano.de) | **%28.13** | 0.158 |
+| **2** | 3.425 | **3.55** (bet-at-home.de) | **%26.8** | 0.085 |
 
 ### Market: `btts` (Büro Sayısı: 7 | Marj: %9.62)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -2052,12 +1987,12 @@
 
 ---
 ## 🏀 Real Sociedad B vs Girona (Başlangıç: `2026-10-31 13:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 5 | Marj: %8.97)
+### Market: `1x2` (Büro Sayısı: 8 | Marj: %9.66)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 3.14 | **3.3** (Betano.de) | **%29.23** | 0.129 |
-| **X** | 3.66 | **3.8** (Betano.de) | **%25.07** | 0.096 |
-| **2** | 2.008 | **2.1** (Interwetten) | **%45.7** | 0.077 |
+| **1** | 3.237 | **3.4** (bet365) | **%28.17** | 0.166 |
+| **X** | 3.538 | **3.7** (Neobet) | **%25.77** | 0.146 |
+| **2** | 1.98 | **2.07** (Betano.de) | **%46.06** | 0.055 |
 
 ### Market: `btts` (Büro Sayısı: 6 | Marj: %8.53)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -2756,12 +2691,12 @@
 
 ---
 ## 🏀 Laval vs Boulogne (Başlangıç: `2026-10-30 19:00:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 4 | Marj: %8.82)
+### Market: `1x2` (Büro Sayısı: 8 | Marj: %9.76)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.2 | **2.25** (bet-at-home.de) | **%41.77** | 0.058 |
-| **X** | 3.163 | **3.2** (bet-at-home.de) | **%29.05** | 0.048 |
-| **2** | 3.15 | **3.2** (bet-at-home.de) | **%29.17** | 0.1 |
+| **1** | 2.446 | **2.57** (Betano.de) | **%37.25** | 0.067 |
+| **X** | 3.05 | **3.15** (bet-at-home.de) | **%29.87** | 0.076 |
+| **2** | 2.771 | **2.92** (Betano.de) | **%32.88** | 0.1 |
 
 ### Market: `btts` (Büro Sayısı: 7 | Marj: %9.99)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
@@ -3073,6 +3008,134 @@
 | `over_under_3_5` | odds_under | 1.417 | 1.45 (Betano.de) | %64.99 | 0.03 |
 | `over_under_2` | odds_over | 1.31 | 1.33 (bet365) | %71.48 | 0.017 |
 | `over_under_2` | odds_under | 3.283 | 3.3 (bet365) | %28.52 | 0.029 |
+
+---
+## 🏀 Annecy vs Montpellier (Başlangıç: `2026-10-31 13:00:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 7 | Marj: %9.01)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 3.136 | **3.3** (Betano.de) | **%29.25** | 0.094 |
+| **X** | 3.293 | **3.4** (bet-at-home.de) | **%27.86** | 0.093 |
+| **2** | 2.139 | **2.22** (Betano.de) | **%42.89** | 0.06 |
+
+### Market: `btts` (Büro Sayısı: 6 | Marj: %8.39)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.72 | **1.75** (Interwetten) | **%53.64** | 0.022 |
+| **btts_no** | 1.99 | **2.02** (Betano.de) | **%46.36** | 0.025 |
+
+### Market: `double_chance` (Büro Sayısı: 6 | Marj: %113.37)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.632 | **1.67** (Betano.de) | **%28.72** | 0.032 |
+| **12** | 1.307 | **1.33** (bet365) | **%35.86** | 0.023 |
+| **X2** | 1.323 | **1.36** (Betano.de) | **%35.42** | 0.023 |
+
+### Market: `dnb` (Büro Sayısı: 6 | Marj: %8.14)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 2.31 | **2.38** (bet365) | **%40.03** | 0.059 |
+| **dnb_team2** | 1.542 | **1.57** (Betano.de) | **%59.97** | 0.024 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_+0_25`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_+0_25` | team1_handicap | 1.92 | 1.95 (bet365) | %48.66 | 0.042 |
+| ⭐ `asian_handicap_+0_25` | team2_handicap | 1.82 | 1.85 (bet365) | %51.34 | 0.042 |
+| `asian_handicap_+0_5` | team1_handicap | 1.654 | 1.7 (bet365) | %55.94 | 0.032 |
+| `asian_handicap_+0_5` | team2_handicap | 2.1 | 2.1 (bet-at-home.de) | %44.06 | 0.0 |
+| `asian_handicap_0` | team1_handicap | 2.353 | 2.38 (bet365) | %39.56 | 0.046 |
+| `asian_handicap_0` | team2_handicap | 1.54 | 1.55 (bet365) | %60.44 | 0.017 |
+| `asian_handicap_+0_75` | team1_handicap | 1.485 | 1.5 (bet365) | %62.74 | 0.021 |
+| `asian_handicap_+0_75` | team2_handicap | 2.5 | 2.5 (bet365) | %37.26 | 0.0 |
+| `asian_handicap_-0_25` | team1_handicap | 2.75 | 2.75 (bet365) | %33.97 | 0.0 |
+| `asian_handicap_-0_25` | team2_handicap | 1.415 | 1.43 (bet365) | %66.03 | 0.021 |
+| `asian_handicap_-0_5` | team1_handicap | 3.138 | 3.3 (bet365) | %29.61 | 0.189 |
+| `asian_handicap_-0_5` | team2_handicap | 1.32 | 1.33 (bet-at-home.de) | %70.39 | 0.014 |
+| `asian_handicap_+1` | team1_handicap | 1.3 | 1.33 (bet365) | %71.74 | 0.03 |
+| `asian_handicap_+1` | team2_handicap | 3.3 | 3.3 (bet365) | %28.26 | 0.0 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_5`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_2_5` | odds_over | 1.903 | 1.95 (Betano.de) | %48.9 | 0.029 |
+| ⭐ `over_under_2_5` | odds_under | 1.821 | 1.88 (bet365) | %51.1 | 0.029 |
+| `over_under_2_25` | odds_over | 1.665 | 1.68 (bet365) | %56.36 | 0.021 |
+| `over_under_2_25` | odds_under | 2.15 | 2.15 (bet365) | %43.64 | 0.0 |
+| `over_under_2_75` | odds_over | 2.15 | 2.15 (bet365) | %43.64 | 0.0 |
+| `over_under_2_75` | odds_under | 1.665 | 1.68 (bet365) | %56.36 | 0.021 |
+| `over_under_3` | odds_over | 2.6 | 2.6 (bet365) | %35.91 | 0.0 |
+| `over_under_3` | odds_under | 1.457 | 1.48 (bet365) | %64.09 | 0.021 |
+| `over_under_2` | odds_over | 1.44 | 1.45 (bet365) | %64.82 | 0.017 |
+| `over_under_2` | odds_under | 2.653 | 2.68 (bet365) | %35.18 | 0.046 |
+| `over_under_3_25` | odds_over | 2.85 | 2.85 (bet365) | %32.7 | 0.0 |
+| `over_under_3_25` | odds_under | 1.385 | 1.4 (bet365) | %67.3 | 0.021 |
+| `over_under_1_75` | odds_over | 1.335 | 1.35 (bet365) | %69.9 | 0.021 |
+| `over_under_1_75` | odds_under | 3.1 | 3.1 (bet365) | %30.1 | 0.0 |
+
+---
+## 🏀 Reims vs Sochaux (Başlangıç: `2026-10-31 13:00:00 UTC`)
+### Market: `1x2` (Büro Sayısı: 7 | Marj: %8.95)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1** | 1.573 | **1.63** (bet-at-home.de) | **%58.35** | 0.045 |
+| **X** | 3.829 | **4.05** (Betano.de) | **%23.97** | 0.173 |
+| **2** | 5.193 | **5.5** (Betano.de) | **%17.68** | 0.226 |
+
+### Market: `btts` (Büro Sayısı: 6 | Marj: %8.93)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **btts_yes** | 1.765 | **1.8** (bet365) | **%52.01** | 0.031 |
+| **btts_no** | 1.913 | **1.95** (bet-at-home.de) | **%47.99** | 0.031 |
+
+### Market: `double_chance` (Büro Sayısı: 6 | Marj: %113.36)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1X** | 1.133 | **1.17** (Betano.de) | **%41.37** | 0.024 |
+| **12** | 1.23 | **1.25** (bet365) | **%38.1** | 0.019 |
+| **X2** | 2.283 | **2.35** (bet-at-home.de) | **%20.53** | 0.061 |
+
+### Market: `dnb` (Büro Sayısı: 6 | Marj: %8.28)
+| Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
+| :--- | :---: | :---: | :---: | :---: |
+| **dnb_team1** | 1.215 | **1.24** (Betano.de) | **%76.01** | 0.021 |
+| **dnb_team2** | 3.85 | **4.0** (bet365) | **%23.99** | 0.122 |
+
+### Handikap (Spread) Ana ve Kritik Baremler (Ana Barem: `asian_handicap_-1`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `asian_handicap_-1` | team1_handicap | 1.952 | 2.0 (bet365) | %47.24 | 0.034 |
+| ⭐ `asian_handicap_-1` | team2_handicap | 1.748 | 1.8 (bet365) | %52.76 | 0.041 |
+| `asian_handicap_-0_75` | team1_handicap | 1.715 | 1.73 (bet365) | %54.63 | 0.021 |
+| `asian_handicap_-0_75` | team2_handicap | 2.065 | 2.08 (bet365) | %45.37 | 0.021 |
+| `asian_handicap_-1_25` | team1_handicap | 2.3 | 2.3 (bet365) | %40.8 | 0.0 |
+| `asian_handicap_-1_25` | team2_handicap | 1.585 | 1.6 (bet365) | %59.2 | 0.021 |
+| `asian_handicap_-0_5` | team1_handicap | 1.55 | 1.58 (bet365) | %59.53 | 0.021 |
+| `asian_handicap_-0_5` | team2_handicap | 2.28 | 2.35 (bet365) | %40.47 | 0.076 |
+| `asian_handicap_-1_5` | team1_handicap | 2.525 | 2.55 (bet-at-home.de) | %36.56 | 0.029 |
+| `asian_handicap_-1_5` | team2_handicap | 1.455 | 1.5 (bet365) | %63.44 | 0.037 |
+| `asian_handicap_-0_25` | team1_handicap | 1.385 | 1.4 (bet365) | %67.3 | 0.021 |
+| `asian_handicap_-0_25` | team2_handicap | 2.85 | 2.85 (bet365) | %32.7 | 0.0 |
+| `asian_handicap_-1_75` | team1_handicap | 3.1 | 3.1 (bet365) | %30.1 | 0.0 |
+| `asian_handicap_-1_75` | team2_handicap | 1.335 | 1.35 (bet365) | %69.9 | 0.021 |
+
+### Toplam Sayı (Over/Under) Ana ve Kritik Baremler (Ana Barem: `over_under_2_75`)
+| Barem | Seçenek | Ort. Oran | En Yüksek Oran | Gerçek Olasılık | Sapma |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| ⭐ `over_under_2_75` | odds_over | 1.95 | 1.98 (bet365) | %48.0 | 0.042 |
+| ⭐ `over_under_2_75` | odds_under | 1.8 | 1.83 (bet365) | %52.0 | 0.042 |
+| `over_under_2_5` | odds_over | 1.724 | 1.75 (bet365) | %53.92 | 0.021 |
+| `over_under_2_5` | odds_under | 2.017 | 2.05 (bet365) | %46.08 | 0.037 |
+| `over_under_3` | odds_over | 2.267 | 2.3 (bet365) | %41.22 | 0.058 |
+| `over_under_3` | odds_under | 1.59 | 1.6 (bet365) | %58.78 | 0.017 |
+| `over_under_2_25` | odds_over | 1.535 | 1.55 (bet365) | %60.79 | 0.021 |
+| `over_under_2_25` | odds_under | 2.38 | 2.38 (bet365) | %39.21 | 0.0 |
+| `over_under_3_25` | odds_over | 2.5 | 2.5 (bet365) | %37.26 | 0.0 |
+| `over_under_3_25` | odds_under | 1.485 | 1.5 (bet365) | %62.74 | 0.021 |
+| `over_under_3_5` | odds_over | 2.753 | 2.82 (Betano.de) | %33.66 | 0.059 |
+| `over_under_3_5` | odds_under | 1.397 | 1.42 (Betano.de) | %66.34 | 0.016 |
+| `over_under_2` | odds_over | 1.333 | 1.35 (bet365) | %69.81 | 0.015 |
+| `over_under_2` | odds_under | 3.083 | 3.1 (bet365) | %30.19 | 0.029 |
 
 ---
 ## 🏀 Guingamp vs St Etienne (Başlangıç: `2026-10-31 19:00:00 UTC`)
@@ -3716,12 +3779,12 @@
 
 ---
 ## 🏀 Liverpool vs Arsenal (Başlangıç: `2026-11-01 16:30:00 UTC`)
-### Market: `1x2` (Büro Sayısı: 8 | Marj: %6.58)
+### Market: `1x2` (Büro Sayısı: 8 | Marj: %6.55)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
 | :--- | :---: | :---: | :---: | :---: |
-| **1** | 2.987 | **3.05** (Betano.de) | **%31.41** | 0.052 |
-| **X** | 3.475 | **3.6** (Neobet) | **%27.0** | 0.071 |
-| **2** | 2.256 | **2.3** (Betano.de) | **%41.59** | 0.032 |
+| **1** | 2.981 | **3.05** (Interwetten) | **%31.48** | 0.046 |
+| **X** | 3.487 | **3.6** (Neobet) | **%26.92** | 0.079 |
+| **2** | 2.256 | **2.3** (Betano.de) | **%41.6** | 0.032 |
 
 ### Market: `btts` (Büro Sayısı: 7 | Marj: %8.32)
 | Seçenek | Ort. Oran | En Yüksek Oran (Büro) | Gerçek Olasılık (No-Vig) | Sapma (Std) |
